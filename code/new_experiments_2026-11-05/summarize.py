@@ -6,8 +6,9 @@ from collections import defaultdict
 
 import numpy as np
 
-RES = "/home/user/workspace/默认项目/新增实验_2026-11-05/results"
-OUT = "/home/user/workspace/默认项目/新增实验_2026-11-05/summary.md"
+_HERE = os.path.dirname(os.path.abspath(__file__))
+RES = os.environ.get("CCMS_OUT", os.path.join(_HERE, "results"))
+OUT = os.environ.get("CCMS_SUMMARY", os.path.join(_HERE, "summary.md"))
 HEAD = ("S0", "S1_30_101", "S2_1101", "S3_2101")
 SPLITS = (11, 22, 33, 44, 55)
 
@@ -16,6 +17,11 @@ def load():
     recs = []
     for p in glob.glob(os.path.join(RES, "*.json")):
         recs.append(json.load(open(p)))
+    if not recs:
+        raise SystemExit(
+            "No JSON records found in %s. Run run_new_experiments.py first, or point "
+            "CCMS_OUT at the directory that holds its output." % RES
+        )
     return recs
 
 

@@ -4,6 +4,11 @@ reproducible audit conclusion from the packaged artifacts alone.
 The check recomputes the Table-3 fixed-alpha mean AP values and the Table-4
 C-B point differences directly from the saved per-row predictions, without
 retraining, and compares them with the saved summary JSON.
+
+SUPERSEDED. This file resolves the archive by its 2026-11-01 directory name and therefore fails
+when the package is unpacked under any other name. For the same check, run
+10_repro_check_2026-11-05/reproduce_tables.py, which resolves paths from the package root.
+The file is kept unchanged for provenance.
 """
 import hashlib
 import json

@@ -40,12 +40,29 @@ Linux machine with two cores and 4 GB of memory.
 ```
 python>=3.10
 numpy
-scipy
 scikit-learn
 matplotlib
 ```
 
 No model checkpoints are distributed. Nothing here retrains a model unless the command says so.
+
+### 2.1 Environment variables
+
+Two scripts of the Appendix B batch need files that are not part of this repository: the archive tree and
+the APS training CSV. They read both from the environment and stop with a message naming the missing
+variable instead of writing to a guessed location.
+
+| Variable | Used by | Meaning |
+|---|---|---|
+| `CCMS_ARCHIVE` | `code/new_experiments_2026-11-05/run_new_experiments.py` | directory containing the archive's `src/` and `scripts/` subdirectories |
+| `CCMS_APS_CSV` | same | path to `aps_failure_training_set.csv` |
+| `CCMS_OUT` | same, and `summarize.py` | output directory; default `results/` next to the script |
+| `CCMS_SUMMARY` | `summarize.py` | output markdown file; default `summary.md` next to the script |
+
+```
+export CCMS_ARCHIVE=/path/to/CCMS_archive
+export CCMS_APS_CSV=/path/to/aps_failure_training_set.csv
+```
 
 ## 3. Data
 
@@ -55,8 +72,8 @@ Both datasets are public and are not redistributed here.
   (training file `aps_failure_training_set.csv`, 60,000 rows, 170 features, `neg`/`pos` labels).
 - SECOM: UCI Machine Learning Repository, https://doi.org/10.24432/C54305
 
-Place the APS training file where the scripts expect it (see Section 4) or edit the `DATA` constants at
-the top of the scripts that read it.
+The scripts that need the CSV take its location from an environment variable (Section 2.1); no path is
+hard-coded in this repository.
 
 ## 4. Archive layout and directory names
 
@@ -73,7 +90,8 @@ the table gives the English meaning of each so that a reader can rebuild it eith
 | `revision/analysis` | revision analyses | outputs are written here |
 
 The archived package `ESM_2.zip` (Online Resource 2) already has this layout. If you unpack it, the
-scripts run in place without editing any path.
+scripts run in place without editing any path; the two Appendix B scripts are the exception, because they
+need the archive root and the CSV as environment variables (Section 2.1).
 
 ## 5. How to reproduce each exhibit
 
@@ -93,7 +111,7 @@ Run from the package root unless stated otherwise. Commands that do not refit a 
 | Table 9 (continuous simulation) | `python3 08_repro_bundle/revision/analysis/run_r6_sim.py` | `simulation_continuous.json` | no |
 | Table 10 (recall at fixed budget) | `python3 08_repro_bundle/revision/analysis/run_r15_decision.py` | `aps_seed*.npz` | no |
 | Figures 1 to 4 | `python3 08_repro_bundle/revision/build/make_figures.py` | the JSON files above | no |
-| Tables B1 and B2 | `python3 new_experiments_2026-11-05/run_new_experiments.py` then `python3 new_experiments_2026-11-05/summarize.py` | APS CSV | yes (140 fits) |
+| Tables B1 and B2 | `CCMS_ARCHIVE=… CCMS_APS_CSV=… python3 new_experiments_2026-11-05/run_new_experiments.py`, then `python3 new_experiments_2026-11-05/summarize.py` | archive `src/`, APS CSV | yes (140 fits) |
 | ExtraTrees / LightGBM check | `python3 03_ExtraTrees_LightGBM/scripts/run_robustness.py` | APS CSV | yes |
 | Early-stopping sensitivity | `python3 04_early_stopping/scripts/run_supplement.py` | APS CSV | yes |
 

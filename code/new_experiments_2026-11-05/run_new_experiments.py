@@ -13,8 +13,15 @@ import time
 import numpy as np
 from sklearn.ensemble import ExtraTreesClassifier
 
-SRC = "/home/user/workspace/默认项目/CCMS核查_2026-10-31/src"
-SCR = "/home/user/workspace/默认项目/CCMS核查_2026-10-31/scripts"
+ARCHIVE = os.environ.get("CCMS_ARCHIVE", "")
+if not ARCHIVE or not os.path.isdir(os.path.join(ARCHIVE, "src")):
+    raise SystemExit(
+        "Set CCMS_ARCHIVE to the directory that contains the archive's src/ and scripts/ "
+        "subdirectories (README, Section 4); for example\n"
+        "  export CCMS_ARCHIVE=/path/to/CCMS_archive"
+    )
+SRC = os.path.join(ARCHIVE, "src")
+SCR = os.path.join(ARCHIVE, "scripts")
 sys.path.insert(0, SRC)
 sys.path.insert(0, SCR)
 
@@ -24,8 +31,15 @@ from ccms import (class_blind_rates, estimate_class_rates,  # noqa: E402
 from pipeline import MedianImputer, _make_model  # noqa: E402
 from run_cb_firstlook import build_eval_inputs, bootstrap_delta  # noqa: E402
 
-DATA = "/home/user/workspace/默认项目/aps_failure_training_set.csv"
-OUTDIR = "/home/user/workspace/默认项目/新增实验_2026-11-05/results"
+DATA = os.environ.get("CCMS_APS_CSV", "")
+if not DATA or not os.path.isfile(DATA):
+    raise SystemExit(
+        "Set CCMS_APS_CSV to the path of aps_failure_training_set.csv "
+        "(UCI Machine Learning Repository, https://doi.org/10.24432/C51S51)."
+    )
+OUTDIR = os.environ.get(
+    "CCMS_OUT", os.path.join(os.path.dirname(os.path.abspath(__file__)), "results")
+)
 ALPHA = 0.25
 MASK_SEEDS = (9107, 9108, 9109)
 HEAD = ("S0", "S1_30_101", "S2_1101", "S3_2101")

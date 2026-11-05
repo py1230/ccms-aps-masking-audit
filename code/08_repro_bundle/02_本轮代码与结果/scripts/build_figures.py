@@ -1,5 +1,3 @@
-import sys
-sys.path.insert(0,'/private/tmp/ccms_revision_plot_dependencies')
 from pathlib import Path
 import json
 import numpy as np
