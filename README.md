@@ -74,8 +74,7 @@ Both datasets are public and are not redistributed here.
   (training file `aps_failure_training_set.csv`, 60,000 rows, 170 features, `neg`/`pos` labels).
 - SECOM: UCI Machine Learning Repository, https://doi.org/10.24432/C54305
 
-The scripts that need the CSV take its location from an environment variable (Section 2.1); no path is
-hard-coded in this repository.
+The Appendix B runner accepts the CSV location through an environment variable (Section 2.1). Other historical scripts may contain paths specific to the original working environment.
 
 ## 4. Archive layout and directory names
 
@@ -91,14 +90,13 @@ the table gives the English meaning of each so that a reader can rebuild it eith
 | `CCMS论文修订完整资料包_2026-11-01_192149` | the 2026-11-01 package root | the four directories above |
 | `revision/analysis` | revision analyses | outputs are written here |
 
-The archived package `ESM_2.zip` (Online Resource 2) already has this layout. If you unpack it, the
-scripts run in place without editing any path; the two Appendix B scripts are the exception, because they
-need the archive root and the CSV as environment variables (Section 2.1).
+The revised `ESM_2.zip` (Online Resource 2) contains the saved arrays and archived scripts. Unpack it with UTF-8 filename support. The Table 4 command below was checked on the revised archive. Other historical scripts may depend on the original folder layout or additional data and have not all been verified in a clean environment.
 
-## 5. How to reproduce each exhibit
+## 5. Exhibit mapping and reproduction status
 
-Run from the package root unless stated otherwise. Commands that do not refit a model are marked
-**(no refit)**; the others train models and take minutes.
+Only the Table 4 recomputation has been tested in a clean extracted copy of the revised Online Resource 2. The other commands below are historical references and may require path changes, additional inputs, or refitting; they are not verified instructions. The repository alone does not contain the prediction arrays or the original project archive.
+
+The historical commands below were written for the package root. Their inputs, paths, runtime and whether they refit must be verified before use; only the Table 4 command has been tested in this revision.
 
 | Exhibit | Command | Needs | Refit? |
 |---|---|---|---|
@@ -123,7 +121,7 @@ generates them, and none is claimed to.
 
 ## 6. What this repository does not establish
 
-The archived arrays let a reader recompute every reported point estimate, interval and count. They do
+The archive contains arrays and records supporting further checks of point estimates, intervals and counts; those checks have not all been independently rerun in this revision. They do
 not show that the historical training runs happened exactly as described: there are no training logs, no
 model files and no checkpoints, and the package does not re-run the original jobs. A matching SHA-256
 shows that a file is the one distributed here, not that a run occurred.
@@ -142,3 +140,4 @@ were left unchanged so that the scripts keep pointing at the same files.
 
 If you use this material, please cite the manuscript. Correspondence: Yuchen Yang,
 Beijing Institute of Petrochemical Technology, bgatechen@gmail.com.
+
