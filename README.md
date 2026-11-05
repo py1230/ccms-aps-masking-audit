@@ -20,9 +20,11 @@ code/
                                            multiplicity, deletion diagnostics, A3/A4 arms, decision layer,
                                            simulation uncertainty, row-weight sensitivity)
     revision/build/make_figures.py         figure generation
-  05_figures/build/make_figures.py         figure generation (earlier path)
+  05_figures/build/make_figures.py         figure generation (earlier path; byte-identical to
+                                           08_repro_bundle/revision/build/make_figures.py)
   03_ExtraTrees_LightGBM/scripts/          robustness runs with other model families
-  04_early_stopping/scripts/               early-stopping sensitivity
+  04_early_stopping/scripts/               early-stopping sensitivity (byte-identical copies of
+                                           early_stopping.py and run_supplement.py above)
   new_experiments_2026-11-05/              Appendix B runs (native-NaN backbone, mask-only, seeds)
   10_repro_check_2026-11-05/               path-independent recomputation of Table 4
 ```
