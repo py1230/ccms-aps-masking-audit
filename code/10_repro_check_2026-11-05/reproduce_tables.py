@@ -40,8 +40,11 @@ def ap(y, s):
     order = np.argsort(-s, kind="mergesort")
     y = y[order]
     tp = np.cumsum(y)
-    prec = tp / np.arange(1, len(y) + 1)
-    return float((prec * y).sum() / y.sum())
+    # Treat tied scores as a single threshold, as average precision requires.
+    scores = s[order]
+    idx = np.r_[np.flatnonzero(np.diff(scores)), len(scores) - 1]
+    hits = tp[idx]
+    return float(np.sum((hits - np.r_[0, hits[:-1]]) * hits / (idx + 1)) / y.sum())
 
 
 def main():
@@ -73,7 +76,7 @@ def main():
         "target": "Table 4 (mean AP on APS at fixed alpha = 0.25), 24 cells",
         "n_cells": len(cells),
         "max_abs_diff": worst,
-        "agrees_at_printed_precision": bool(worst < 1e-4),
+        "agrees_at_printed_precision": all(round(c["recomputed"], 4) == c["manuscript"] for c in cells),
         "cells": cells,
     }
     out = os.path.join(HERE, "table4_recomputed.json")
@@ -81,7 +84,7 @@ def main():
         json.dump(res, fh, indent=1)
     print(json.dumps({k: res[k] for k in ("n_cells", "max_abs_diff", "agrees_at_printed_precision")}, indent=1))
     print("written:", out)
-    return 0 if worst < 1e-4 else 2
+    return 0 if res["agrees_at_printed_precision"] else 2
 
 
 if __name__ == "__main__":
