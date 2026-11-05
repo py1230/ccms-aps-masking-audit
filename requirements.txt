@@ -1,0 +1,4 @@
+# Python 3.10 or newer
+numpy>=2.0
+scikit-learn>=1.5
+matplotlib>=3.8
