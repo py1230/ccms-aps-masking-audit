@@ -1,0 +1,128 @@
+{
+  "aps": [
+    {
+      "file": "aps_failure_test_set.csv",
+      "sha256": "2cdf6f7661c7b4c63333c93cdec36a3a82350176b604a2312cf82799fb2712f3",
+      "matched": true
+    },
+    {
+      "file": "aps_failure_training_set.csv",
+      "sha256": "bb484302e3a3a1c8ef5e1f0129c4dc7cbd58f350867f95b575461ca21ab6b9da",
+      "matched": true
+    }
+  ],
+  "secom": [
+    {
+      "file": "secom.data",
+      "sha256": "20f0e7ee434f7dcbae0eea9ffff009a2b57f42d6b0dc9a5bd4f00782c0a3374c",
+      "matched": true
+    },
+    {
+      "file": "secom_labels.data",
+      "sha256": "126884cf453705c9e61a903fe906f0665a3b45ce3639e621edc5c93c89627e03",
+      "matched": true
+    }
+  ],
+  "hydraulic": [
+    {
+      "file": "CE.txt",
+      "sha256": "2adc6e258be8e3b7a303b7962f485a7984099cea21248c3bf9f18c7d87283c09",
+      "matched": true
+    },
+    {
+      "file": "CP.txt",
+      "sha256": "63f60132cb5a30879c6f5c73640a39c69e416013195fe62dafe5133b0747baf4",
+      "matched": true
+    },
+    {
+      "file": "description.txt",
+      "sha256": "a115e362976a4532bc7d28c471caa257514584bb3f4f6f06f760ca1236761a63",
+      "matched": true
+    },
+    {
+      "file": "EPS1.txt",
+      "sha256": "2a8d13ca793bb36c0ec4afd27b0103b97b3c1b5a176677be5e7a2ae98c277ab9",
+      "matched": true
+    },
+    {
+      "file": "FS1.txt",
+      "sha256": "7ff09b17047f776befc136b7902bc7bd4419f96dc107a7ae94d8c412effe0375",
+      "matched": true
+    },
+    {
+      "file": "FS2.txt",
+      "sha256": "5ee983f88e15ee054846b183224ebcab568b07e3bbe70a4f7f838e603cf1177f",
+      "matched": true
+    },
+    {
+      "file": "profile.txt",
+      "sha256": "867987ca884b2f0fd607ad3918329eba887d095af2befa21122cea518eaa584a",
+      "matched": true
+    },
+    {
+      "file": "PS1.txt",
+      "sha256": "168e2e663bb511043a15a9c978b93a6e0280b27b113133d0a26f738170af39c0",
+      "matched": true
+    },
+    {
+      "file": "PS2.txt",
+      "sha256": "2c283dac9a874828ac98badd172a136d52b1de580afb05311c47dc02e5e420c5",
+      "matched": true
+    },
+    {
+      "file": "PS3.txt",
+      "sha256": "e671e83d99f37bcfe001fed22cb429002a9da8cad026f8abe4c1b7b284c8637f",
+      "matched": true
+    },
+    {
+      "file": "PS4.txt",
+      "sha256": "fb58417e4a2c4f11d5614b31813b6942eb97f50690688d045090e3e4db2b252f",
+      "matched": true
+    },
+    {
+      "file": "PS5.txt",
+      "sha256": "42b08cddc1fda06ae0b1c665e208680deb7ad1fff9b9cd9b9879a5820fdf4eca",
+      "matched": true
+    },
+    {
+      "file": "PS6.txt",
+      "sha256": "9588d363210ab250cf179d930b6b8831643b55bfd8460e54374df18f37456573",
+      "matched": true
+    },
+    {
+      "file": "SE.txt",
+      "sha256": "4c04994cb28b82c001b4931acecf8099e9fe5c864f361c0a7435fbf8745361a1",
+      "matched": true
+    },
+    {
+      "file": "TS1.txt",
+      "sha256": "49cae5e9013d8e230698d95f53a98bb77fedfe3c86985b812cf701dcc9ef06d8",
+      "matched": true
+    },
+    {
+      "file": "TS2.txt",
+      "sha256": "34115a5b86886d83c0592c1ed259605634a8c83d3a051e97bf3e5790f1db58fa",
+      "matched": true
+    },
+    {
+      "file": "TS3.txt",
+      "sha256": "cc271852b4caad39a3b8f5c36d948b57f6cab761dad8b4c7bdd7cb7e99c0b980",
+      "matched": true
+    },
+    {
+      "file": "TS4.txt",
+      "sha256": "548b903f7cd4ea7f2497c0063bdda4bdf8793d55ff43a7d694b8cb835eaf2f55",
+      "matched": true
+    },
+    {
+      "file": "VS1.txt",
+      "sha256": "a6227d9bcb807ee9835c32e73834d3eb9262f0f5cad1b176ca10c473ced25e99",
+      "matched": true
+    },
+    {
+      "file": "documentation.txt",
+      "sha256": "9fe5ce23d5b850df9bf38335588aa98601475b42b7551d10e84b1d075f7b62b4",
+      "matched": true
+    }
+  ]
+}

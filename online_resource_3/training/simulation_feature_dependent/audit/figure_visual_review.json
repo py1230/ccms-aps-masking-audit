@@ -1,0 +1,11 @@
+{
+  "status": "passed",
+  "file": "/Users/bgc/Documents/ChatGPT/论文2.0/experiments/simulation_sensitivity_20261109/figures/simulation_second_mechanism_curve.png",
+  "sha256": "47c78269b35656e87423d1eae447df8abfba559f51f1cbdf7f1e6a0d9e17a0fa",
+  "dimensions": [
+    3000,
+    1620
+  ],
+  "review": "Both panels viewed at rendered image size; axis labels, nine means and pointwise intervals, legend/title/footer visible without clipping or overlap. Values consistent with statistical_summary.json.",
+  "reviewed_at_utc": "2026-11-09T04:38:05.041587+00:00"
+}

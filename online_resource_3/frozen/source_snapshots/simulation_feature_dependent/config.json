@@ -1,0 +1,133 @@
+{
+  "data_seeds": [
+    701,
+    702,
+    703,
+    704,
+    705,
+    706,
+    707,
+    708,
+    709,
+    710,
+    711,
+    712,
+    713,
+    714,
+    715,
+    716,
+    717,
+    718,
+    719,
+    720,
+    721,
+    722,
+    723,
+    724,
+    725,
+    726,
+    727,
+    728,
+    729,
+    730
+  ],
+  "smoke_seed": 99002,
+  "n": 8000,
+  "p": 20,
+  "target_gap_multipliers": [
+    1,
+    0.75,
+    0.5,
+    0.25,
+    0,
+    -0.25,
+    -0.5,
+    -0.75,
+    -1
+  ],
+  "alphas": [
+    0,
+    0.25,
+    0.5,
+    1.0
+  ],
+  "mask_seeds": [
+    9107,
+    9108,
+    9109
+  ],
+  "stress_seeds": [
+    101,
+    202,
+    303
+  ],
+  "model_seed": 2026,
+  "model_params": {
+    "categorical_features": "from_dtype",
+    "class_weight": null,
+    "early_stopping": "auto",
+    "interaction_cst": null,
+    "l2_regularization": 0.0,
+    "learning_rate": 0.1,
+    "loss": "log_loss",
+    "max_bins": 255,
+    "max_depth": null,
+    "max_features": 1.0,
+    "max_iter": 100,
+    "max_leaf_nodes": 31,
+    "min_samples_leaf": 20,
+    "monotonic_cst": null,
+    "n_iter_no_change": 10,
+    "random_state": 2026,
+    "scoring": "loss",
+    "tol": 1e-07,
+    "validation_fraction": 0.1,
+    "verbose": 0,
+    "warm_start": false
+  },
+  "threads": 2,
+  "workers": 1,
+  "expected_models_per_seed": 20,
+  "expected_models": 600,
+  "selection_s0_tolerance": 0.01,
+  "selection_conditions": [
+    "S0",
+    "S1_10_101",
+    "S1_10_202",
+    "S1_10_303"
+  ],
+  "input_environment": {
+    "python": "3.12.15",
+    "numpy": "2.5.4",
+    "sklearn": "1.9.1",
+    "scipy": "1.18.1",
+    "joblib": "1.6.0"
+  },
+  "precision_target_halfwidth": 0.005,
+  "bootstrap_resamples": 20000,
+  "bootstrap_seed": 20261109,
+  "primary_estimand": "Mean across independent data seeds of equal-weight mean of 9 paired AP(C025)-AP(B025) contrasts",
+  "secondary_family": "18 two-sided paired t tests (9 fixed C025-B025 and 9 selected C-B), pooled Holm",
+  "stopping_rule": "fixed 30 seeds; no sequential extension; report missed precision target",
+  "fit_after_selection": false,
+  "target_used_for_selection": false,
+  "historical_seeds_pooled": false,
+  "mechanism": {
+    "name": "label_and_observed_covariate_calibrated_logit",
+    "auxiliary_index": 19,
+    "slope": 1.0,
+    "aux_clip": [
+      -4,
+      4
+    ],
+    "intercept_bisection_steps": 80,
+    "intercept_bracket": [
+      -45.0,
+      45.0
+    ],
+    "class_mean_tolerance": 1e-12,
+    "auxiliary_always_observed": true,
+    "preserve_class_mean_probability": true,
+    "old_new_mechanism_contrast_identified": false
+  }
+}

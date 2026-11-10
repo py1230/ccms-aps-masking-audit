@@ -1,0 +1,13 @@
+{
+  "unit": "anchor",
+  "seed": null,
+  "rng_states": {},
+  "unique_rows": 42000,
+  "duplicate_occurrences": 0,
+  "class_counts": [
+    41300,
+    700
+  ],
+  "rows_sha256": "886e652adaa3c9aa592f15dbc71514fc9f72e962bc5feb0bf0ca5e423864b520",
+  "multiplicity_sha256": "1e9897e93813947dbb2b7d83f08b017d3742ce5e61ef0db215d3ce0d0f093a84"
+}

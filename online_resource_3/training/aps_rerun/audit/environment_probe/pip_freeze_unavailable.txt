@@ -1,0 +1,1 @@
+/Users/bgc/Documents/ChatGPT/research/AI论文研究资料包_2026-10-28/ccms_execution/.venv/bin/python: No module named pip

@@ -1,0 +1,15 @@
+{
+  "command": [
+    "cc",
+    "-O3",
+    "-shared",
+    "-fPIC",
+    "/Users/bgc/Documents/ChatGPT/论文2.0/submission_ready_20261110/reproducibility/acceptance/aps_a5/aps_a5/source/switch.c",
+    "-o",
+    "/Users/bgc/Documents/ChatGPT/论文2.0/submission_ready_20261110/reproducibility/acceptance/aps_a5/aps_a5/source/switch.dylib"
+  ],
+  "version": "Apple clang version 21.0.0 (clang-2100.1.1.101)\nTarget: arm64-apple-darwin27.2.0\nThread model: posix\nInstalledDir: /Library/Developer/CommandLineTools/usr/bin\n",
+  "library_sha256": "465508a75cccc35277a0b38262479c214c5ec1779dbaa6b541377dc66a0d9636",
+  "source_sha256": "5989b33d2fc975151f7c42444275adcf926b72dd458c42cd5b3cce38c42f1d46",
+  "timestamp": "2026-11-10T04:33:31.314037+00:00"
+}

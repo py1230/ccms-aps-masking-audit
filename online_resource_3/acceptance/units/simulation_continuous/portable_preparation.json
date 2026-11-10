@@ -1,0 +1,9 @@
+{
+  "family": "simulation_continuous",
+  "unit_mode": true,
+  "changes": {
+    "execution_schedule": "one prespecified original unit; no observations or model iterations reduced"
+  },
+  "source_template": "training/simulation_continuous",
+  "original_config_sha256": "fae76cf18e8eb9dc2eabb1c2d276029ea9c43d7ae3557a29bddb9f4ddc27d49b"
+}

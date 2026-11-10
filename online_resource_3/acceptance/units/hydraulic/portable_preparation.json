@@ -1,0 +1,10 @@
+{
+  "family": "hydraulic",
+  "unit_mode": true,
+  "changes": {
+    "execution_schedule": "one prespecified original unit; no observations or model iterations reduced"
+  },
+  "source_template": "training/hydraulic",
+  "aps_environment": null,
+  "original_config_sha256": null
+}

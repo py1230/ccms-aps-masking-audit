@@ -1,0 +1,12 @@
+{
+  "family": "aps_rerun",
+  "unit_mode": true,
+  "changes": {
+    "train_csv": "relocated verified raw input",
+    "test_csv": "relocated verified raw input",
+    "execution_schedule": "one prespecified original unit; no observations or model iterations reduced"
+  },
+  "source_template": "training/aps_rerun_matched",
+  "aps_environment": "matched",
+  "original_config_sha256": "3ce9deefe3f81ac2bb91ae26d04dff76c012d683247e8f9d9154498c6f6555d9"
+}

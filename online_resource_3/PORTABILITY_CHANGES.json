@@ -1,0 +1,64 @@
+[
+  {
+    "file": "aps_rerun/run_aps.py",
+    "before_sha256": "2078fe12d270ed90026ad50d8f3c9ba186e1071cc1dc1e1257a7740bf94d2b3a",
+    "after_sha256": "a1538136e39ec74ad6d56dcf52a1dab87cc89f4f98a8b2fb93812c8414f9194b",
+    "old": "assert fit_total==125",
+    "new": "assert fit_total==cfg['expected_models']",
+    "purpose": "Schedule only. Per-model input, iteration count, masks, predictions and selection logic unchanged."
+  },
+  {
+    "file": "aps_a5_sensitivity/run_sensitivity.py",
+    "before_sha256": "a9a3ecc94591d337a0e6134c68212a5f80fe8fd38f6728feceeba6722350d624",
+    "after_sha256": "5894204ca98ffc08baabcda3e71b80f6994dfc98a679dfb303d10fe80d73a9ae",
+    "old": "assert fits==270",
+    "new": "assert fits==c['expected_fits']",
+    "purpose": "Schedule only. Per-model input, iteration count, masks, predictions and selection logic unchanged."
+  },
+  {
+    "file": "aps_a5_sensitivity/run_sensitivity.py",
+    "before_sha256": "5894204ca98ffc08baabcda3e71b80f6994dfc98a679dfb303d10fe80d73a9ae",
+    "after_sha256": "0b03f8215d923f2d14d67a355a7684707f7dc33fd76b10c387b37ffe461e597d",
+    "old": "{'status':'complete','chains':90,'initial_D_chains':15,'masks':270,",
+    "new": "{'status':'complete','chains':len(c['splits'])*len(c['references'])*len(c['initials'])*len(c['repeats']),'initial_D_chains':len(c['splits'])*len(c['references']),'masks':c['expected_fits'],",
+    "purpose": "Schedule only. Per-model input, iteration count, masks, predictions and selection logic unchanged."
+  },
+  {
+    "file": "secom_temporal/run_temporal.py",
+    "before_sha256": "4908424eb9adc9495596a923873e37dcd3382b2d5e14fbd9d0c6079c8b381175",
+    "after_sha256": "f687279aef2cb7482b7632e1ace30f00bed6d9b0f800d7bacfcc63c2c7de7a6a",
+    "old": " for w in [1,2,3]:\n  wr=",
+    "new": " for w in cfg.get('execution_windows',[1,2,3]):\n  wr=",
+    "purpose": "Schedule only. Per-model input, iteration count, masks, predictions and selection logic unchanged."
+  },
+  {
+    "file": "secom_temporal/run_temporal.py",
+    "before_sha256": "f687279aef2cb7482b7632e1ace30f00bed6d9b0f800d7bacfcc63c2c7de7a6a",
+    "after_sha256": "2c33661ca8091d80be9e2365e8340d7c7d4a16ffc00dc94aa6c71aca24a837ee",
+    "old": "assert fit_total==114,fit_total",
+    "new": "assert fit_total==38*len(cfg.get('execution_windows',[1,2,3])),fit_total",
+    "purpose": "Schedule only. Per-model input, iteration count, masks, predictions and selection logic unchanged."
+  },
+  {
+    "file": "hydraulic/run.py",
+    "before_sha256": "904a06f4f0af9b9a7e6f08e44aebbd1b5cc50310c154ed08ba34ea52c8f1bd65",
+    "after_sha256": "5ecf21302f0d90795746a1e17fc35c780c8f19f09996fc8f815a5d31162a3b91",
+    "old": "for fold in range(1,6):",
+    "new": "for fold in json.loads((HERE/'execution_schedule.json').read_text())['folds']:",
+    "purpose": "Schedule only. Per-model input, iteration count, masks, predictions and selection logic unchanged."
+  },
+  {
+    "file": "hydraulic/run.py",
+    "before_sha256": "5ecf21302f0d90795746a1e17fc35c780c8f19f09996fc8f815a5d31162a3b91",
+    "after_sha256": "10cb75e799adf9abf1095a649ad40336119713c8511aee746a33068a0fee76bc",
+    "purpose": "Freeze selected fold schedule and report its actual fit count. Model and data logic unchanged."
+  },
+  {
+    "file": "aps_rerun_matched/run_aps.py",
+    "before_sha256": "2078fe12d270ed90026ad50d8f3c9ba186e1071cc1dc1e1257a7740bf94d2b3a",
+    "after_sha256": "a1538136e39ec74ad6d56dcf52a1dab87cc89f4f98a8b2fb93812c8414f9194b",
+    "old": "assert fit_total==125",
+    "new": "assert fit_total==cfg['expected_models']",
+    "purpose": "Expected count follows the explicit execution schedule. Per-model settings and all scientific operations are unchanged."
+  }
+]

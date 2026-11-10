@@ -1,0 +1,398 @@
+{
+  "timestamp_utc": "2026-11-10T04:23:59.061109+00:00",
+  "files": {
+    "PROTOCOL.md": {
+      "path": "/Users/bgc/Documents/ChatGPT/论文2.0/submission_ready_20261110/reproducibility/acceptance/aps_rerun/aps_rerun/PROTOCOL.md",
+      "sha256": "665f7a4249ad050e2193ae989965405dd81fd9204e80d08a45a0472db51ab314"
+    },
+    "README.md": {
+      "path": "/Users/bgc/Documents/ChatGPT/论文2.0/submission_ready_20261110/reproducibility/acceptance/aps_rerun/aps_rerun/README.md",
+      "sha256": "781e84b43fbc2a26f01e7ab4ea377053b3e7b8c08f382cea80fe6e08f73d4b4a"
+    },
+    "audit/active_project_source_search.json": {
+      "path": "/Users/bgc/Documents/ChatGPT/论文2.0/submission_ready_20261110/reproducibility/acceptance/aps_rerun/aps_rerun/audit/active_project_source_search.json",
+      "sha256": "31fde0e534f3740eddb4b1327c4266a65323e056bc730607505d36c87c17adad"
+    },
+    "audit/active_project_source_search.md": {
+      "path": "/Users/bgc/Documents/ChatGPT/论文2.0/submission_ready_20261110/reproducibility/acceptance/aps_rerun/aps_rerun/audit/active_project_source_search.md",
+      "sha256": "20b36439445bf9d27408b026705d02ef52e08cb901ca2c584698146f90199d0d"
+    },
+    "audit/c_failure_source_search.json": {
+      "path": "/Users/bgc/Documents/ChatGPT/论文2.0/submission_ready_20261110/reproducibility/acceptance/aps_rerun/aps_rerun/audit/c_failure_source_search.json",
+      "sha256": "8be1054ce43a747dc9ede91f0c092f778924a44143f97ba805bdedaa5117ad38"
+    },
+    "audit/environment_probe/PROTOCOL.md": {
+      "path": "/Users/bgc/Documents/ChatGPT/论文2.0/submission_ready_20261110/reproducibility/acceptance/aps_rerun/aps_rerun/audit/environment_probe/PROTOCOL.md",
+      "sha256": "7d1396fe831a68f86a5e5a191d2bb0a77bf02de501f4c19fd010b61b091efa5a"
+    },
+    "audit/environment_probe/config.json": {
+      "path": "/Users/bgc/Documents/ChatGPT/论文2.0/submission_ready_20261110/reproducibility/acceptance/aps_rerun/aps_rerun/audit/environment_probe/config.json",
+      "sha256": "0a1b6d6bbbbb962075491c72f460622ffb4973a3ba417d8985e229f827f8c103"
+    },
+    "audit/environment_probe/environment_and_defaults.json": {
+      "path": "/Users/bgc/Documents/ChatGPT/论文2.0/submission_ready_20261110/reproducibility/acceptance/aps_rerun/aps_rerun/audit/environment_probe/environment_and_defaults.json",
+      "sha256": "4c1b8fd859072bda487c6800d3d7a1e9b772dc1f298a09891db4a5a3da3dd4dc"
+    },
+    "audit/environment_probe/environment_packages.txt": {
+      "path": "/Users/bgc/Documents/ChatGPT/论文2.0/submission_ready_20261110/reproducibility/acceptance/aps_rerun/aps_rerun/audit/environment_probe/environment_packages.txt",
+      "sha256": "e3ce9281f2331094f84df9a06a7daad12ad2916ec70adebdc56aea57c785a7f3"
+    },
+    "audit/environment_probe/manifest.json": {
+      "path": "/Users/bgc/Documents/ChatGPT/论文2.0/submission_ready_20261110/reproducibility/acceptance/aps_rerun/aps_rerun/audit/environment_probe/manifest.json",
+      "sha256": "01f83422aa141021916f3c2fcaedda45395956e5348ea59b8c4310fca9a7df99"
+    },
+    "audit/environment_probe/pip_freeze_unavailable.txt": {
+      "path": "/Users/bgc/Documents/ChatGPT/论文2.0/submission_ready_20261110/reproducibility/acceptance/aps_rerun/aps_rerun/audit/environment_probe/pip_freeze_unavailable.txt",
+      "sha256": "0f7e8391b2c5fd8def41b99864c7584662fd5932d69638560679101d98b004f4"
+    },
+    "audit/environment_probe/results/comparison.csv": {
+      "path": "/Users/bgc/Documents/ChatGPT/论文2.0/submission_ready_20261110/reproducibility/acceptance/aps_rerun/aps_rerun/audit/environment_probe/results/comparison.csv",
+      "sha256": "2dbd5840a511070f56017b2e1bf8ef2b08e91360646c562f41f19e23df1e812f"
+    },
+    "audit/environment_probe/results/ensemble_predictions.npz": {
+      "path": "/Users/bgc/Documents/ChatGPT/论文2.0/submission_ready_20261110/reproducibility/acceptance/aps_rerun/aps_rerun/audit/environment_probe/results/ensemble_predictions.npz",
+      "sha256": "5975f028388e2dd1e309eb9549445e83e347526b6ddd38e52b4fdb7ea345aa38"
+    },
+    "audit/environment_probe/results/environment.json": {
+      "path": "/Users/bgc/Documents/ChatGPT/论文2.0/submission_ready_20261110/reproducibility/acceptance/aps_rerun/aps_rerun/audit/environment_probe/results/environment.json",
+      "sha256": "7143c66528518f8a28fb721da3e84bb9bbff46d58a2f1fbd905a6bee541d63d8"
+    },
+    "audit/environment_probe/results/evaluation_masks.npz": {
+      "path": "/Users/bgc/Documents/ChatGPT/论文2.0/submission_ready_20261110/reproducibility/acceptance/aps_rerun/aps_rerun/audit/environment_probe/results/evaluation_masks.npz",
+      "sha256": "4143a8df4b875fa00fde6c23d2df2dd055671fb12a26618aa5a9a5c3bed479f8"
+    },
+    "audit/environment_probe/results/events.jsonl": {
+      "path": "/Users/bgc/Documents/ChatGPT/论文2.0/submission_ready_20261110/reproducibility/acceptance/aps_rerun/aps_rerun/audit/environment_probe/results/events.jsonl",
+      "sha256": "2d643a6dd336d7aa328477274370dd17db9e3cad7a3bcb27370aa2712e7095c4"
+    },
+    "audit/environment_probe/results/masks/C025_seed9107.npz": {
+      "path": "/Users/bgc/Documents/ChatGPT/论文2.0/submission_ready_20261110/reproducibility/acceptance/aps_rerun/aps_rerun/audit/environment_probe/results/masks/C025_seed9107.npz",
+      "sha256": "df89195305ef8fa6010c761fd951d385dca733957008246c7ebaceaa464dd459"
+    },
+    "audit/environment_probe/results/masks/C025_seed9108.npz": {
+      "path": "/Users/bgc/Documents/ChatGPT/论文2.0/submission_ready_20261110/reproducibility/acceptance/aps_rerun/aps_rerun/audit/environment_probe/results/masks/C025_seed9108.npz",
+      "sha256": "74267699a9da748c90a67c64da5103ecb36120fc10a9dd0b94de74b15e8e4b0b"
+    },
+    "audit/environment_probe/results/masks/C025_seed9109.npz": {
+      "path": "/Users/bgc/Documents/ChatGPT/论文2.0/submission_ready_20261110/reproducibility/acceptance/aps_rerun/aps_rerun/audit/environment_probe/results/masks/C025_seed9109.npz",
+      "sha256": "550bc6ba71bd9b48c4e3d9da6c2856823da59e820ffe18f601b2967907693b2a"
+    },
+    "audit/environment_probe/results/masks/M3.npz": {
+      "path": "/Users/bgc/Documents/ChatGPT/论文2.0/submission_ready_20261110/reproducibility/acceptance/aps_rerun/aps_rerun/audit/environment_probe/results/masks/M3.npz",
+      "sha256": "77119ad44ee766dae044c6ecfe01dd82a2a5c10b43794300a7609d75eaf80c8e"
+    },
+    "audit/environment_probe/results/models/C025_seed9107.joblib": {
+      "path": "/Users/bgc/Documents/ChatGPT/论文2.0/submission_ready_20261110/reproducibility/acceptance/aps_rerun/aps_rerun/audit/environment_probe/results/models/C025_seed9107.joblib",
+      "sha256": "b65e1a3f34e696f3f96d625e56df0f7c6e0bf8134ce5d00b8caef6f189a9ec45"
+    },
+    "audit/environment_probe/results/models/C025_seed9108.joblib": {
+      "path": "/Users/bgc/Documents/ChatGPT/论文2.0/submission_ready_20261110/reproducibility/acceptance/aps_rerun/aps_rerun/audit/environment_probe/results/models/C025_seed9108.joblib",
+      "sha256": "504d1c37a50654d99325eaf4afdf8b6764cbbc51923944d1b7ba812cadc41009"
+    },
+    "audit/environment_probe/results/models/C025_seed9109.joblib": {
+      "path": "/Users/bgc/Documents/ChatGPT/论文2.0/submission_ready_20261110/reproducibility/acceptance/aps_rerun/aps_rerun/audit/environment_probe/results/models/C025_seed9109.joblib",
+      "sha256": "dd696ef5c3e7fa5b97e3f76f9609e061f76f0eda8e9e3bb5500c47688dd7bc50"
+    },
+    "audit/environment_probe/results/models/M3.joblib": {
+      "path": "/Users/bgc/Documents/ChatGPT/论文2.0/submission_ready_20261110/reproducibility/acceptance/aps_rerun/aps_rerun/audit/environment_probe/results/models/M3.joblib",
+      "sha256": "d716391439725cca0f062635fa8955fe88b489c795684b83b80efc3b1789e99f"
+    },
+    "audit/environment_probe/results/predictions/C025_seed9107.npz": {
+      "path": "/Users/bgc/Documents/ChatGPT/论文2.0/submission_ready_20261110/reproducibility/acceptance/aps_rerun/aps_rerun/audit/environment_probe/results/predictions/C025_seed9107.npz",
+      "sha256": "6cc58263be0069156447da0bea50be00dcab5b4b53391e34dc9fe41b31d71f6f"
+    },
+    "audit/environment_probe/results/predictions/C025_seed9108.npz": {
+      "path": "/Users/bgc/Documents/ChatGPT/论文2.0/submission_ready_20261110/reproducibility/acceptance/aps_rerun/aps_rerun/audit/environment_probe/results/predictions/C025_seed9108.npz",
+      "sha256": "004951cd8ab7ad8e4dadc0bd57536d1a2facceedadcb3a5d5c9da5ce32117918"
+    },
+    "audit/environment_probe/results/predictions/C025_seed9109.npz": {
+      "path": "/Users/bgc/Documents/ChatGPT/论文2.0/submission_ready_20261110/reproducibility/acceptance/aps_rerun/aps_rerun/audit/environment_probe/results/predictions/C025_seed9109.npz",
+      "sha256": "ae9f4ba15ae863a79e45cecfb68c2ca6beec84d91bd3272c0e1c9191ee70c3cb"
+    },
+    "audit/environment_probe/results/predictions/M3.npz": {
+      "path": "/Users/bgc/Documents/ChatGPT/论文2.0/submission_ready_20261110/reproducibility/acceptance/aps_rerun/aps_rerun/audit/environment_probe/results/predictions/M3.npz",
+      "sha256": "ffe9095f644d26b3a6eb20d8e0692f3ac417736a066d0eecf522b549f1319d5a"
+    },
+    "audit/environment_probe/results/preprocessing.npz": {
+      "path": "/Users/bgc/Documents/ChatGPT/论文2.0/submission_ready_20261110/reproducibility/acceptance/aps_rerun/aps_rerun/audit/environment_probe/results/preprocessing.npz",
+      "sha256": "d1fc70f6697651da0090dcdeaa24375bada429f1b908e9ec4408b48203462608"
+    },
+    "audit/environment_probe/results/summary.json": {
+      "path": "/Users/bgc/Documents/ChatGPT/论文2.0/submission_ready_20261110/reproducibility/acceptance/aps_rerun/aps_rerun/audit/environment_probe/results/summary.json",
+      "sha256": "d684d35dcf59145b42a087e9ea7e5d949bce8358fb67a673878306721aede244"
+    },
+    "audit/environment_probe/run.log": {
+      "path": "/Users/bgc/Documents/ChatGPT/论文2.0/submission_ready_20261110/reproducibility/acceptance/aps_rerun/aps_rerun/audit/environment_probe/run.log",
+      "sha256": "2d643a6dd336d7aa328477274370dd17db9e3cad7a3bcb27370aa2712e7095c4"
+    },
+    "audit/environment_probe/run_probe.py": {
+      "path": "/Users/bgc/Documents/ChatGPT/论文2.0/submission_ready_20261110/reproducibility/acceptance/aps_rerun/aps_rerun/audit/environment_probe/run_probe.py",
+      "sha256": "5c416672b2af661e63ab1a688cf61057f98c5135db6e968a320e8ee2b4bb89e7"
+    },
+    "audit/final_report_review.md": {
+      "path": "/Users/bgc/Documents/ChatGPT/论文2.0/submission_ready_20261110/reproducibility/acceptance/aps_rerun/aps_rerun/audit/final_report_review.md",
+      "sha256": "48554ac540d6f630cdaf7c43111816c6147fc19ebf56527b562444dfe59fa0e3"
+    },
+    "audit/historical_ap_crosscheck.json": {
+      "path": "/Users/bgc/Documents/ChatGPT/论文2.0/submission_ready_20261110/reproducibility/acceptance/aps_rerun/aps_rerun/audit/historical_ap_crosscheck.json",
+      "sha256": "8e5765e7b2c873f6850097db9fa4ded8df39d2b0f7059301aea90573c54def9f"
+    },
+    "audit/historical_code_audit.md": {
+      "path": "/Users/bgc/Documents/ChatGPT/论文2.0/submission_ready_20261110/reproducibility/acceptance/aps_rerun/aps_rerun/audit/historical_code_audit.md",
+      "sha256": "0e477d4fa5f15e45b3af391502f4d048d669ef3bfe11cc6e9097478ba0c89967"
+    },
+    "audit/historical_index_check.json": {
+      "path": "/Users/bgc/Documents/ChatGPT/论文2.0/submission_ready_20261110/reproducibility/acceptance/aps_rerun/aps_rerun/audit/historical_index_check.json",
+      "sha256": "5b85c5bc262d680ef396095cb40c4b453722580528ac0443ddf4f3eeaf4de0bd"
+    },
+    "audit/historical_mask_count_check.json": {
+      "path": "/Users/bgc/Documents/ChatGPT/论文2.0/submission_ready_20261110/reproducibility/acceptance/aps_rerun/aps_rerun/audit/historical_mask_count_check.json",
+      "sha256": "2bf0c193d1a1c651d67413b1f9d987aca7e06b06c92bf457994d0bade95b63d2"
+    },
+    "audit/historical_runtime_current_state.json": {
+      "path": "/Users/bgc/Documents/ChatGPT/论文2.0/submission_ready_20261110/reproducibility/acceptance/aps_rerun/aps_rerun/audit/historical_runtime_current_state.json",
+      "sha256": "898e14c92f8b9134a902df285f35939e59890f3e12c1644642291cb252c244b3"
+    },
+    "audit/historical_source_supplement.md": {
+      "path": "/Users/bgc/Documents/ChatGPT/论文2.0/submission_ready_20261110/reproducibility/acceptance/aps_rerun/aps_rerun/audit/historical_source_supplement.md",
+      "sha256": "90ad38d0d1e962ae33436130d0f16155d8c4dcc108f0e3948be5d757ae700c09"
+    },
+    "audit/original_documents_hashes.json": {
+      "path": "/Users/bgc/Documents/ChatGPT/论文2.0/submission_ready_20261110/reproducibility/acceptance/aps_rerun/aps_rerun/audit/original_documents_hashes.json",
+      "sha256": "f6e4123a3162071417412b7c833d8d5f00a4ed6116437de9d8baf5a102403314"
+    },
+    "audit/original_documents_preserved.json": {
+      "path": "/Users/bgc/Documents/ChatGPT/论文2.0/submission_ready_20261110/reproducibility/acceptance/aps_rerun/aps_rerun/audit/original_documents_preserved.json",
+      "sha256": "9d8e31fab036d7f1963044811ffc7be6034f3dbea8e306fe2bc733a4cd9edb33"
+    },
+    "audit/package_rebuild_note.json": {
+      "path": "/Users/bgc/Documents/ChatGPT/论文2.0/submission_ready_20261110/reproducibility/acceptance/aps_rerun/aps_rerun/audit/package_rebuild_note.json",
+      "sha256": "82704322ee533895b2345fef7f8501172587c7563e521c857a445f96e70dc76e"
+    },
+    "audit/raw_matrix_fingerprint_initial.json": {
+      "path": "/Users/bgc/Documents/ChatGPT/论文2.0/submission_ready_20261110/reproducibility/acceptance/aps_rerun/aps_rerun/audit/raw_matrix_fingerprint_initial.json",
+      "sha256": "bdf787b48639667d2bc34a52a00d0a662fd71b276719d900f47231082ed273fb"
+    },
+    "audit/raw_matrix_fingerprint_matched.json": {
+      "path": "/Users/bgc/Documents/ChatGPT/论文2.0/submission_ready_20261110/reproducibility/acceptance/aps_rerun/aps_rerun/audit/raw_matrix_fingerprint_matched.json",
+      "sha256": "ab2de74ddd3fdd5cf840982e20d5eb549a31ec29c7cae40ecf7326460a973b99"
+    },
+    "audit/runner_code_review.md": {
+      "path": "/Users/bgc/Documents/ChatGPT/论文2.0/submission_ready_20261110/reproducibility/acceptance/aps_rerun/aps_rerun/audit/runner_code_review.md",
+      "sha256": "3e32814ddda09a079a329221a8259378bc9c8e4945015b152b31543cba6d58c7"
+    },
+    "build_delivery_report.py": {
+      "path": "/Users/bgc/Documents/ChatGPT/论文2.0/submission_ready_20261110/reproducibility/acceptance/aps_rerun/aps_rerun/build_delivery_report.py",
+      "sha256": "2b2f5551a02182069ea8d5a7d18f77b0f089109fdd809df1c97066b375659f55"
+    },
+    "build_final_report.py": {
+      "path": "/Users/bgc/Documents/ChatGPT/论文2.0/submission_ready_20261110/reproducibility/acceptance/aps_rerun/aps_rerun/build_final_report.py",
+      "sha256": "73809fc321b321d36178d9fd7e4fe7641f9b4c0476e669eead95511844c56eb6"
+    },
+    "build_package.py": {
+      "path": "/Users/bgc/Documents/ChatGPT/论文2.0/submission_ready_20261110/reproducibility/acceptance/aps_rerun/aps_rerun/build_package.py",
+      "sha256": "63d815e9a1814e0aca5f217562f9f1a62a0d38eb9c47da3c8edc72065c13c230"
+    },
+    "compare_historical.py": {
+      "path": "/Users/bgc/Documents/ChatGPT/论文2.0/submission_ready_20261110/reproducibility/acceptance/aps_rerun/aps_rerun/compare_historical.py",
+      "sha256": "432e7ffe1fc6e25cabd4b737f2e941ef3558698378cd0a074741567c4e509f77"
+    },
+    "comparison_notes.md": {
+      "path": "/Users/bgc/Documents/ChatGPT/论文2.0/submission_ready_20261110/reproducibility/acceptance/aps_rerun/aps_rerun/comparison_notes.md",
+      "sha256": "0c15486f9e0d26d639e3de3a0deb0caca13bfb5e8ae1a1f09c06c8af7a70ad8d"
+    },
+    "comparison_summary.json": {
+      "path": "/Users/bgc/Documents/ChatGPT/论文2.0/submission_ready_20261110/reproducibility/acceptance/aps_rerun/aps_rerun/comparison_summary.json",
+      "sha256": "001d9df5a4ad201af18de8575d319bbbb347de928b07dc44ba95eacca117fc93"
+    },
+    "config.json": {
+      "path": "/Users/bgc/Documents/ChatGPT/论文2.0/submission_ready_20261110/reproducibility/acceptance/aps_rerun/aps_rerun/config.json",
+      "sha256": "2d68b7ba8978088c1481e202024d551607662bb99e7352fb496002d249e20af5"
+    },
+    "cross_runtime_compare.py": {
+      "path": "/Users/bgc/Documents/ChatGPT/论文2.0/submission_ready_20261110/reproducibility/acceptance/aps_rerun/aps_rerun/cross_runtime_compare.py",
+      "sha256": "fe359d9590dcb71b82572c135f259e20a7e79c6be0dc84be001f9337d23c30f8"
+    },
+    "cross_runtime_comparison.json": {
+      "path": "/Users/bgc/Documents/ChatGPT/论文2.0/submission_ready_20261110/reproducibility/acceptance/aps_rerun/aps_rerun/cross_runtime_comparison.json",
+      "sha256": "dd0eaa2cd8b49f4fc299c63483a291fa48807d77e810e4229c1ea039c7612dda"
+    },
+    "environment_packages.txt": {
+      "path": "/Users/bgc/Documents/ChatGPT/论文2.0/submission_ready_20261110/reproducibility/acceptance/aps_rerun/aps_rerun/environment_packages.txt",
+      "sha256": "7a372e178e733149c1a7c0769a779ff65f1030ab85686cc04bf8b897e9cd1f87"
+    },
+    "historical/aps_formal_20261031T142351.json": {
+      "path": "/Users/bgc/Documents/ChatGPT/论文2.0/submission_ready_20261110/reproducibility/acceptance/aps_rerun/aps_rerun/historical/aps_formal_20261031T142351.json",
+      "sha256": "d9343936a322c4a5f364d06f15730ed5c06b69757ef911328d29fb6eb791a444"
+    },
+    "historical/aps_reconstruction.json": {
+      "path": "/Users/bgc/Documents/ChatGPT/论文2.0/submission_ready_20261110/reproducibility/acceptance/aps_rerun/aps_rerun/historical/aps_reconstruction.json",
+      "sha256": "447101b96aee8aa52214cb5a9b8358c395fd51f9fbb74a815cf6de70de13ac4e"
+    },
+    "historical/aps_seed11.npz": {
+      "path": "/Users/bgc/Documents/ChatGPT/论文2.0/submission_ready_20261110/reproducibility/acceptance/aps_rerun/aps_rerun/historical/aps_seed11.npz",
+      "sha256": "11d0f6446e7a9e65dd19804c429d86d02d0c921b077bf52736c65fbba6645465"
+    },
+    "historical/aps_seed22.npz": {
+      "path": "/Users/bgc/Documents/ChatGPT/论文2.0/submission_ready_20261110/reproducibility/acceptance/aps_rerun/aps_rerun/historical/aps_seed22.npz",
+      "sha256": "e8ddeb526bea496b540f37c1035fdef89f955d340c0bb80c5740df06bf80ee74"
+    },
+    "historical/aps_seed33.npz": {
+      "path": "/Users/bgc/Documents/ChatGPT/论文2.0/submission_ready_20261110/reproducibility/acceptance/aps_rerun/aps_rerun/historical/aps_seed33.npz",
+      "sha256": "a1d8dde8e54ddcc13af93ae0751b647c6853f0557a7cd0ed654811d34a224953"
+    },
+    "historical/aps_seed44.npz": {
+      "path": "/Users/bgc/Documents/ChatGPT/论文2.0/submission_ready_20261110/reproducibility/acceptance/aps_rerun/aps_rerun/historical/aps_seed44.npz",
+      "sha256": "03651380961284ae611102df512db518929fb4d85124c172575c2dcfa3c73e1f"
+    },
+    "historical/aps_seed55.npz": {
+      "path": "/Users/bgc/Documents/ChatGPT/论文2.0/submission_ready_20261110/reproducibility/acceptance/aps_rerun/aps_rerun/historical/aps_seed55.npz",
+      "sha256": "6d75d6e7133b0ae381a4c02f1a8cbb0b77f150bd980a0880fccd5c4d4ba12d7b"
+    },
+    "historical/aps_testset_20261031T145423.json": {
+      "path": "/Users/bgc/Documents/ChatGPT/论文2.0/submission_ready_20261110/reproducibility/acceptance/aps_rerun/aps_rerun/historical/aps_testset_20261031T145423.json",
+      "sha256": "645066547bc751deeeb2ce4e342f6deddaed5308a5ae4784c6f989c915cf403c"
+    },
+    "historical/arm3_seed11.npz": {
+      "path": "/Users/bgc/Documents/ChatGPT/论文2.0/submission_ready_20261110/reproducibility/acceptance/aps_rerun/aps_rerun/historical/arm3_seed11.npz",
+      "sha256": "e807d4a919956716b52428e404ecce0660f03083d0c5fbd9b67f01b801151223"
+    },
+    "historical/arm3_seed22.npz": {
+      "path": "/Users/bgc/Documents/ChatGPT/论文2.0/submission_ready_20261110/reproducibility/acceptance/aps_rerun/aps_rerun/historical/arm3_seed22.npz",
+      "sha256": "ba22fc092024328016fa42105fcfa919da3d5eb2773e1ea9e6283c5a7f4e73a0"
+    },
+    "historical/arm3_seed33.npz": {
+      "path": "/Users/bgc/Documents/ChatGPT/论文2.0/submission_ready_20261110/reproducibility/acceptance/aps_rerun/aps_rerun/historical/arm3_seed33.npz",
+      "sha256": "ee0b30e9587f67dfb436272ac580ef4b70dc155a9dff4cefcbb2ea1e517735cf"
+    },
+    "historical/arm3_seed44.npz": {
+      "path": "/Users/bgc/Documents/ChatGPT/论文2.0/submission_ready_20261110/reproducibility/acceptance/aps_rerun/aps_rerun/historical/arm3_seed44.npz",
+      "sha256": "e977bd784c064a8237a29dfeb896062f65d1144b9fc36a4fc86bc38ae44d4406"
+    },
+    "historical/arm3_seed55.npz": {
+      "path": "/Users/bgc/Documents/ChatGPT/论文2.0/submission_ready_20261110/reproducibility/acceptance/aps_rerun/aps_rerun/historical/arm3_seed55.npz",
+      "sha256": "bec0b04656b8ffe8a40ba787562e758938e024d565ea068e5121d9b9922ddae0"
+    },
+    "historical/arm4_seed11.npz": {
+      "path": "/Users/bgc/Documents/ChatGPT/论文2.0/submission_ready_20261110/reproducibility/acceptance/aps_rerun/aps_rerun/historical/arm4_seed11.npz",
+      "sha256": "4ad5fa360d1a863c65e6504c0e30ab241cc5fc849db47adfc6d9d29ebc0af00e"
+    },
+    "historical/arm4_seed22.npz": {
+      "path": "/Users/bgc/Documents/ChatGPT/论文2.0/submission_ready_20261110/reproducibility/acceptance/aps_rerun/aps_rerun/historical/arm4_seed22.npz",
+      "sha256": "1e82ad064cb9e5e6309445ac46d87ceb4203a7a62797f6a8e7220038bb12f03d"
+    },
+    "historical/arm4_seed33.npz": {
+      "path": "/Users/bgc/Documents/ChatGPT/论文2.0/submission_ready_20261110/reproducibility/acceptance/aps_rerun/aps_rerun/historical/arm4_seed33.npz",
+      "sha256": "e8c19191b30c10221fef56502c831d8ccbf4aac2cc7439dfa6d716f0c30fe3f3"
+    },
+    "historical/arm4_seed44.npz": {
+      "path": "/Users/bgc/Documents/ChatGPT/论文2.0/submission_ready_20261110/reproducibility/acceptance/aps_rerun/aps_rerun/historical/arm4_seed44.npz",
+      "sha256": "61ef095890e912aab431b49a118182a05c781c0da51abaf6eb32bbed559ea82e"
+    },
+    "historical/arm4_seed55.npz": {
+      "path": "/Users/bgc/Documents/ChatGPT/论文2.0/submission_ready_20261110/reproducibility/acceptance/aps_rerun/aps_rerun/historical/arm4_seed55.npz",
+      "sha256": "4427c1081d5c68eb7c689d0eaca4228fcb0d03f747c36c9d55f4612598b08395"
+    },
+    "historical/r9_arm3_fidelity.json": {
+      "path": "/Users/bgc/Documents/ChatGPT/论文2.0/submission_ready_20261110/reproducibility/acceptance/aps_rerun/aps_rerun/historical/r9_arm3_fidelity.json",
+      "sha256": "8265f510f65e9f3a7144f73043058cc35c18be00326a88027c0554d37f17dd88"
+    },
+    "historical/r9_arm3_train_report.json": {
+      "path": "/Users/bgc/Documents/ChatGPT/论文2.0/submission_ready_20261110/reproducibility/acceptance/aps_rerun/aps_rerun/historical/r9_arm3_train_report.json",
+      "sha256": "9188b674bc6d782be1019ecff1c29a1193d5138970d266410a787f08f29b4629"
+    },
+    "historical/run_aps_formal.py": {
+      "path": "/Users/bgc/Documents/ChatGPT/论文2.0/submission_ready_20261110/reproducibility/acceptance/aps_rerun/aps_rerun/historical/run_aps_formal.py",
+      "sha256": "a2f9eee5046d8e806cfbd7a24db0b6038bff2c728ef6c39553970ab1937325c0"
+    },
+    "historical/run_aps_testset.py": {
+      "path": "/Users/bgc/Documents/ChatGPT/论文2.0/submission_ready_20261110/reproducibility/acceptance/aps_rerun/aps_rerun/historical/run_aps_testset.py",
+      "sha256": "ccd134addedbde6864eefcf3bcb475f86c52efe2150bba928f9c6a4716724793"
+    },
+    "historical/run_arm3_countmatched.py": {
+      "path": "/Users/bgc/Documents/ChatGPT/论文2.0/submission_ready_20261110/reproducibility/acceptance/aps_rerun/aps_rerun/historical/run_arm3_countmatched.py",
+      "sha256": "6a3146bae0200331bc05260a891385ca406d17fe959e8dabd4e004a86a367455"
+    },
+    "historical/run_cb_firstlook.py": {
+      "path": "/Users/bgc/Documents/ChatGPT/论文2.0/submission_ready_20261110/reproducibility/acceptance/aps_rerun/aps_rerun/historical/run_cb_firstlook.py",
+      "sha256": "682912992b664996431c9b54c545002e793694680a99fcbf2f12a44c87152809"
+    },
+    "historical/run_supplement.py": {
+      "path": "/Users/bgc/Documents/ChatGPT/论文2.0/submission_ready_20261110/reproducibility/acceptance/aps_rerun/aps_rerun/historical/run_supplement.py",
+      "sha256": "e68bb0f7a05a55d129c66048414b6c4b4aed8d52f98a4a2b5ebfa27fa9fb104a"
+    },
+    "historical_sources.json": {
+      "path": "/Users/bgc/Documents/ChatGPT/论文2.0/submission_ready_20261110/reproducibility/acceptance/aps_rerun/aps_rerun/historical_sources.json",
+      "sha256": "45e5c76c21bce2e6bd8d746af0caa0243749e58e5b9b0d2c0a116569f4d5aa0a"
+    },
+    "make_repeat.py": {
+      "path": "/Users/bgc/Documents/ChatGPT/论文2.0/submission_ready_20261110/reproducibility/acceptance/aps_rerun/aps_rerun/make_repeat.py",
+      "sha256": "577f28c006b6787e6380c11495575f202c0f20471debf3936bf7b7c8c4acf6aa"
+    },
+    "package_verification.json": {
+      "path": "/Users/bgc/Documents/ChatGPT/论文2.0/submission_ready_20261110/reproducibility/acceptance/aps_rerun/aps_rerun/package_verification.json",
+      "sha256": "c0b0091e769eb5a0834abeea9a9d6c5b4f83ce1c194ddd83481031e8c8c3529e"
+    },
+    "portable_preparation.json": {
+      "path": "/Users/bgc/Documents/ChatGPT/论文2.0/submission_ready_20261110/reproducibility/acceptance/aps_rerun/aps_rerun/portable_preparation.json",
+      "sha256": "c9365ab770334684f2a2c0672e8c9831c1b1f49b7a7667b97e109c131adc51fb"
+    },
+    "provenance/original_freeze.json": {
+      "path": "/Users/bgc/Documents/ChatGPT/论文2.0/submission_ready_20261110/reproducibility/acceptance/aps_rerun/aps_rerun/provenance/original_freeze.json",
+      "sha256": "8a170e7b8a19fffd14e5d77ae543db1497db6ac161febdcd98e34c15716c351d"
+    },
+    "raw_data/aps_failure_test_set.csv": {
+      "path": "/Users/bgc/Documents/ChatGPT/论文2.0/submission_ready_20261110/reproducibility/acceptance/aps_rerun/aps_rerun/raw_data/aps_failure_test_set.csv",
+      "sha256": "2cdf6f7661c7b4c63333c93cdec36a3a82350176b604a2312cf82799fb2712f3"
+    },
+    "raw_data/aps_failure_training_set.csv": {
+      "path": "/Users/bgc/Documents/ChatGPT/论文2.0/submission_ready_20261110/reproducibility/acceptance/aps_rerun/aps_rerun/raw_data/aps_failure_training_set.csv",
+      "sha256": "bb484302e3a3a1c8ef5e1f0129c4dc7cbd58f350867f95b575461ca21ab6b9da"
+    },
+    "run_aps.py": {
+      "path": "/Users/bgc/Documents/ChatGPT/论文2.0/submission_ready_20261110/reproducibility/acceptance/aps_rerun/aps_rerun/run_aps.py",
+      "sha256": "a1538136e39ec74ad6d56dcf52a1dab87cc89f4f98a8b2fb93812c8414f9194b"
+    },
+    "selection_comparison.json": {
+      "path": "/Users/bgc/Documents/ChatGPT/论文2.0/submission_ready_20261110/reproducibility/acceptance/aps_rerun/aps_rerun/selection_comparison.json",
+      "sha256": "e43f314e1906198135f4cbd31ad7e4901748abe79f9cd1cb000a40dd1e8713d6"
+    },
+    "source/aps_io.py": {
+      "path": "/Users/bgc/Documents/ChatGPT/论文2.0/submission_ready_20261110/reproducibility/acceptance/aps_rerun/aps_rerun/source/aps_io.py",
+      "sha256": "787558c6badffb88d3badefc87b454bafd443bdf411714eeecabc325e8bb3f6f"
+    },
+    "source/audit_metrics.py": {
+      "path": "/Users/bgc/Documents/ChatGPT/论文2.0/submission_ready_20261110/reproducibility/acceptance/aps_rerun/aps_rerun/source/audit_metrics.py",
+      "sha256": "9d66c8c09af59ccd15ec5f98b1320ed44fbd90299f8ed8f7e37dffdf66266f0c"
+    },
+    "source/ccms.py": {
+      "path": "/Users/bgc/Documents/ChatGPT/论文2.0/submission_ready_20261110/reproducibility/acceptance/aps_rerun/aps_rerun/source/ccms.py",
+      "sha256": "2aa211e6ac688c7b1687a1946c30b780a94a3d856a9d0cb59504c0e2554511c2"
+    },
+    "source/pipeline.py": {
+      "path": "/Users/bgc/Documents/ChatGPT/论文2.0/submission_ready_20261110/reproducibility/acceptance/aps_rerun/aps_rerun/source/pipeline.py",
+      "sha256": "45cb6f629e0126f3afd8b1bec4b4b4fb290d0a6888c0c1957cd2202cc0a3a26a"
+    },
+    "split_indices.npz": {
+      "path": "/Users/bgc/Documents/ChatGPT/论文2.0/submission_ready_20261110/reproducibility/acceptance/aps_rerun/aps_rerun/split_indices.npz",
+      "sha256": "8659dfa51d496382637b55b4ef8b99abe284b5d0c4dd218d3c4ffa98ad91473f"
+    },
+    "verify_results.py": {
+      "path": "/Users/bgc/Documents/ChatGPT/论文2.0/submission_ready_20261110/reproducibility/acceptance/aps_rerun/aps_rerun/verify_results.py",
+      "sha256": "8de43811aaa07d3bc8b532949c8b5d4a2ff09aa8bc8492b71b51130a6ab4c449"
+    },
+    "执行记录.md": {
+      "path": "/Users/bgc/Documents/ChatGPT/论文2.0/submission_ready_20261110/reproducibility/acceptance/aps_rerun/aps_rerun/执行记录.md",
+      "sha256": "930e7a1c8a58519028cf20185aa395f8d9a5a03e55e9b56e7dcd7581dddf884d"
+    },
+    "新旧差异与论文更新建议.md": {
+      "path": "/Users/bgc/Documents/ChatGPT/论文2.0/submission_ready_20261110/reproducibility/acceptance/aps_rerun/aps_rerun/新旧差异与论文更新建议.md",
+      "sha256": "520bb3ad471bc5c94ce84e6e581a3dccccef356328900af32b48ab968b1861f8"
+    },
+    "首次环境运行_结果与差异.md": {
+      "path": "/Users/bgc/Documents/ChatGPT/论文2.0/submission_ready_20261110/reproducibility/acceptance/aps_rerun/aps_rerun/首次环境运行_结果与差异.md",
+      "sha256": "26591b6a7c163abb8b5baea5b745d240dcf45f81e0073d90e4d2dab528247119"
+    }
+  },
+  "scope": "Fresh portable execution inputs before fitting. Historical research and results were already known. This receipt is not historical provenance."
+}

@@ -1,0 +1,828 @@
+{
+  "experiments/aps_rerun_20261108/config.json": {
+    "design": "new retrospective APS rerun using archived split indices; not proof of historical training",
+    "split_seeds": [
+      11,
+      22,
+      33,
+      44,
+      55
+    ],
+    "train_mask_seeds": [
+      9107,
+      9108,
+      9109
+    ],
+    "alphas": [
+      0,
+      0.25,
+      0.5,
+      1.0
+    ],
+    "train_csv": "/Users/bgc/Documents/ChatGPT/论文2.0/data/raw/aps/aps_failure_training_set.csv",
+    "test_csv": "/Users/bgc/Documents/ChatGPT/论文2.0/data/raw/aps/aps_failure_test_set.csv",
+    "model_params": {
+      "categorical_features": "from_dtype",
+      "class_weight": null,
+      "early_stopping": "auto",
+      "interaction_cst": null,
+      "l2_regularization": 0.0,
+      "learning_rate": 0.1,
+      "loss": "log_loss",
+      "max_bins": 255,
+      "max_depth": null,
+      "max_features": 1.0,
+      "max_iter": 100,
+      "max_leaf_nodes": 31,
+      "min_samples_leaf": 20,
+      "monotonic_cst": null,
+      "n_iter_no_change": 10,
+      "random_state": 2026,
+      "scoring": "loss",
+      "tol": 1e-07,
+      "validation_fraction": 0.1,
+      "verbose": 0,
+      "warm_start": false
+    },
+    "tolerances": {
+      "prediction_atol": 1e-12,
+      "ap_atol": 1e-12,
+      "selection_tie_atol": 0.0,
+      "budget_atol": 1e-08
+    },
+    "s0_tolerance": 0.01,
+    "selection_conditions": [
+      "S0",
+      "S1_10_101",
+      "S1_10_202",
+      "S1_10_303"
+    ],
+    "historical_ap_comparison_tolerance": 1e-12,
+    "expected_models": 125,
+    "reserve_usage": "unused in this rerun; historical usage unconfirmed",
+    "a3_seed_formula": "mask_seed*1000+7",
+    "a4_seed_formula": "mask_seed*1000+11",
+    "fit_after_selection": false,
+    "diagnostic_expected_col_definition": "unconditional C/B expected column deletion budget for all nonzero arms; A3/A4 condition on paired realized counts, stored as reference_col_counts",
+    "threads": 2
+  },
+  "experiments/aps_rerun_20261108/environment_matched_run/config.json": {
+    "design": "Full APS repetition in runtime versions matching historical records; scientific configuration identical to first 1.7.2 rerun",
+    "split_seeds": [
+      11,
+      22,
+      33,
+      44,
+      55
+    ],
+    "train_mask_seeds": [
+      9107,
+      9108,
+      9109
+    ],
+    "alphas": [
+      0,
+      0.25,
+      0.5,
+      1.0
+    ],
+    "train_csv": "/Users/bgc/Documents/ChatGPT/论文2.0/data/raw/aps/aps_failure_training_set.csv",
+    "test_csv": "/Users/bgc/Documents/ChatGPT/论文2.0/data/raw/aps/aps_failure_test_set.csv",
+    "model_params": {
+      "categorical_features": "from_dtype",
+      "class_weight": null,
+      "early_stopping": "auto",
+      "interaction_cst": null,
+      "l2_regularization": 0.0,
+      "learning_rate": 0.1,
+      "loss": "log_loss",
+      "max_bins": 255,
+      "max_depth": null,
+      "max_features": 1.0,
+      "max_iter": 100,
+      "max_leaf_nodes": 31,
+      "min_samples_leaf": 20,
+      "monotonic_cst": null,
+      "n_iter_no_change": 10,
+      "random_state": 2026,
+      "scoring": "loss",
+      "tol": 1e-07,
+      "validation_fraction": 0.1,
+      "verbose": 0,
+      "warm_start": false
+    },
+    "tolerances": {
+      "prediction_atol": 1e-12,
+      "ap_atol": 1e-12,
+      "selection_tie_atol": 0.0,
+      "budget_atol": 1e-08
+    },
+    "s0_tolerance": 0.01,
+    "selection_conditions": [
+      "S0",
+      "S1_10_101",
+      "S1_10_202",
+      "S1_10_303"
+    ],
+    "historical_ap_comparison_tolerance": 1e-12,
+    "expected_models": 125,
+    "reserve_usage": "unused in this rerun; historical usage unconfirmed",
+    "a3_seed_formula": "mask_seed*1000+7",
+    "a4_seed_formula": "mask_seed*1000+11",
+    "fit_after_selection": false,
+    "diagnostic_expected_col_definition": "unconditional C/B expected column deletion budget for all nonzero arms; A3/A4 condition on paired realized counts, stored as reference_col_counts",
+    "threads": 2
+  },
+  "experiments/aps_channels_repeats_20261108/config.json": {
+    "design": "Paired APS information-channel experiment with complete conditional training-randomness repetition, fixed rows and evaluation masks",
+    "split_seeds": [
+      11,
+      22,
+      33,
+      44,
+      55
+    ],
+    "alphas": [
+      0,
+      0.25,
+      0.5,
+      1.0
+    ],
+    "train_csv": "/Users/bgc/Documents/ChatGPT/论文2.0/data/raw/aps/aps_failure_training_set.csv",
+    "test_csv": "/Users/bgc/Documents/ChatGPT/论文2.0/data/raw/aps/aps_failure_test_set.csv",
+    "model_params": {
+      "categorical_features": "from_dtype",
+      "class_weight": null,
+      "early_stopping": "auto",
+      "interaction_cst": null,
+      "l2_regularization": 0.0,
+      "learning_rate": 0.1,
+      "loss": "log_loss",
+      "max_bins": 255,
+      "max_depth": null,
+      "max_features": 1.0,
+      "max_iter": 100,
+      "max_leaf_nodes": 31,
+      "min_samples_leaf": 20,
+      "monotonic_cst": null,
+      "n_iter_no_change": 10,
+      "random_state": 2026,
+      "scoring": "loss",
+      "tol": 1e-07,
+      "validation_fraction": 0.1,
+      "verbose": 0,
+      "warm_start": false
+    },
+    "tolerances": {
+      "prediction_atol": 1e-12,
+      "ap_atol": 1e-12,
+      "selection_tie_atol": 0.0,
+      "budget_atol": 1e-08
+    },
+    "s0_tolerance": 0.01,
+    "selection_conditions": [
+      "S0",
+      "S1_10_101",
+      "S1_10_202",
+      "S1_10_303"
+    ],
+    "expected_models": 855,
+    "reserve_usage": "unused in this rerun; historical usage unconfirmed",
+    "fit_after_selection": false,
+    "threads": 2,
+    "channels": [
+      "M2",
+      "M3",
+      "MO"
+    ],
+    "repeats": [
+      {
+        "id": 1,
+        "model_seed": 2026,
+        "mask_seeds": [
+          19107,
+          19108,
+          19109
+        ]
+      },
+      {
+        "id": 2,
+        "model_seed": 2027,
+        "mask_seeds": [
+          29107,
+          29108,
+          29109
+        ]
+      },
+      {
+        "id": 3,
+        "model_seed": 2028,
+        "mask_seeds": [
+          39107,
+          39108,
+          39109
+        ]
+      }
+    ],
+    "expected_models_per_channel": 285,
+    "expected_models_per_cell": 19,
+    "statistics": "descriptive means/ranges over paired repeats, not population confidence intervals",
+    "fixed_data_indices": true,
+    "fixed_evaluation_masks": true,
+    "baseline_tag": "BASE",
+    "channel_definitions": {
+      "M2": "170 median-imputed values, no explicit flags",
+      "M3": "170 median-imputed values plus 170 flags from current masked values",
+      "MO": "170 current missingness flags only"
+    },
+    "input_environment": {
+      "python": "3.12.15",
+      "numpy": "2.5.4",
+      "sklearn": "1.9.1"
+    },
+    "model_params_source": "previous matching-runtime APS rerun; random_state replaced with each repeat model_seed",
+    "preprocessing": "median fitted on unmasked 42000 train rows per split, all columns retained, all-empty columns zero; same median across arms/channels",
+    "split_source_sha256": "8659dfa51d496382637b55b4ef8b99abe284b5d0c4dd218d3c4ffa98ad91473f"
+  },
+  "experiments/aps_a5_20261108/config.json": {
+    "design": "finite-step double-margin matched A5; descriptive conditional randomization",
+    "split_seeds": [
+      11,
+      22,
+      33,
+      44,
+      55
+    ],
+    "reference_mask_seeds": [
+      19107,
+      19108,
+      19109
+    ],
+    "randomization_repeats": [
+      1,
+      2,
+      3,
+      4,
+      5
+    ],
+    "model_params": {
+      "categorical_features": "from_dtype",
+      "class_weight": null,
+      "early_stopping": "auto",
+      "interaction_cst": null,
+      "l2_regularization": 0.0,
+      "learning_rate": 0.1,
+      "loss": "log_loss",
+      "max_bins": 255,
+      "max_depth": null,
+      "max_features": 1.0,
+      "max_iter": 100,
+      "max_leaf_nodes": 31,
+      "min_samples_leaf": 20,
+      "monotonic_cst": null,
+      "n_iter_no_change": 10,
+      "random_state": 2026,
+      "scoring": "loss",
+      "tol": 1e-07,
+      "validation_fraction": 0.1,
+      "verbose": 0,
+      "warm_start": false
+    },
+    "input_environment": {
+      "python": "3.12.15",
+      "numpy": "2.5.4",
+      "sklearn": "1.9.1"
+    },
+    "channel": "M3",
+    "reference_repeat": 1,
+    "alpha": 0.25,
+    "attempts_per_edge": 20,
+    "checkpoints_per_edge": [
+      0,
+      1,
+      2,
+      5,
+      10,
+      20
+    ],
+    "batch_size": 200000,
+    "randomization_seed_formula": "810000000 + split*100000 + reference_seed*10 + repeat",
+    "primary_contrast": "C025 minus A5, test S1_30; mean pressure AP then mean 5 splits",
+    "other_comparisons": "C025-A5, A5-B025, A5-BASE in five groups; descriptive only",
+    "statistics": "mean and min/max over five independent randomization repetitions; no CI or p values",
+    "expected_fits": 75,
+    "threads": 2,
+    "max_run_seconds": 7200,
+    "feasibility_gate": {
+      "minimum_reference_edge_relocated_fraction": 0.5,
+      "all_pairwise_hamming_positive": true,
+      "minimum_disjoint_switch_certificates": 100
+    },
+    "dtype_array_hash": "SHA256(dtype.str UTF8 + compact JSON list(shape) UTF8 + C order bytes)",
+    "rng_calls_per_batch": "rng.integers(0,E,n,dtype=uint32) for a; same for b; rng.integers(0,2,n,dtype=uint8) for lazy",
+    "source": "APS channels M3 rep1 matched environment; old performance previously available; no results used for A5 design"
+  },
+  "experiments/aps_a5_sensitivity_20261109/config.json": {
+    "splits": [
+      11,
+      22,
+      33,
+      44,
+      55
+    ],
+    "references": [
+      19107,
+      19108,
+      19109
+    ],
+    "initials": [
+      "C",
+      "D"
+    ],
+    "repeats": [
+      1,
+      2,
+      3
+    ],
+    "steps": [
+      5,
+      20,
+      50
+    ],
+    "dispersion_steps": 100,
+    "batch_size": 200000,
+    "expected_fits": 270,
+    "max_run_seconds": 14400,
+    "threads": 2,
+    "model_params": {
+      "categorical_features": "from_dtype",
+      "class_weight": null,
+      "early_stopping": "auto",
+      "interaction_cst": null,
+      "l2_regularization": 0.0,
+      "learning_rate": 0.1,
+      "loss": "log_loss",
+      "max_bins": 255,
+      "max_depth": null,
+      "max_features": 1.0,
+      "max_iter": 100,
+      "max_leaf_nodes": 31,
+      "min_samples_leaf": 20,
+      "monotonic_cst": null,
+      "n_iter_no_change": 10,
+      "random_state": 2026,
+      "scoring": "loss",
+      "tol": 1e-07,
+      "validation_fraction": 0.1,
+      "verbose": 0,
+      "warm_start": false
+    },
+    "input_environment": {
+      "python": "3.12.15",
+      "numpy": "2.5.4",
+      "sklearn": "1.9.1"
+    },
+    "design": "fixed finite-step initial-state sensitivity; no performance-based selection; no CI"
+  },
+  "experiments/aps_training_resample_20261109/config.json": {
+    "design": "stratified original-training-ID bootstrap, fixed validation/test, no internal early stopping",
+    "split": 11,
+    "bootstrap_seeds": [
+      90101,
+      90102,
+      90103,
+      90104,
+      90105,
+      90106,
+      90107,
+      90108,
+      90109,
+      90110,
+      90111,
+      90112,
+      90113,
+      90114,
+      90115,
+      90116,
+      90117,
+      90118,
+      90119,
+      90120
+    ],
+    "alphas": [
+      0,
+      0.25,
+      0.5,
+      1.0
+    ],
+    "mask_seeds": [
+      19107,
+      19108,
+      19109
+    ],
+    "model_params": {
+      "categorical_features": "from_dtype",
+      "class_weight": null,
+      "early_stopping": false,
+      "interaction_cst": null,
+      "l2_regularization": 0.0,
+      "learning_rate": 0.1,
+      "loss": "log_loss",
+      "max_bins": 255,
+      "max_depth": null,
+      "max_features": 1.0,
+      "max_iter": 100,
+      "max_leaf_nodes": 31,
+      "min_samples_leaf": 20,
+      "monotonic_cst": null,
+      "n_iter_no_change": 10,
+      "random_state": 2026,
+      "scoring": "loss",
+      "tol": 1e-07,
+      "validation_fraction": 0.1,
+      "verbose": 0,
+      "warm_start": false
+    },
+    "input_environment": {
+      "python": "3.12.15",
+      "numpy": "2.5.4",
+      "sklearn": "1.9.1"
+    },
+    "threads": 2,
+    "max_unit_seconds": 7200,
+    "expected_fits": 399,
+    "fits_per_unit": 19,
+    "bootstrap_repeats": 20,
+    "anchor_separate": true,
+    "s0_tolerance": 0.01,
+    "train_class_counts": [
+      41300,
+      700
+    ],
+    "val_class_counts": [
+      8850,
+      150
+    ],
+    "test_class_counts": [
+      15625,
+      375
+    ],
+    "bootstrap_algorithm": "rng.default_rng(seed); choice(train_rows[y==0],41300,replace=True); choice(train_rows[y==1],700,replace=True); concatenate in class order; rng.permutation(concatenation)",
+    "primary": "selected_C minus selected_B, official test S1_30; descriptive bootstrap mean/SD/min/max",
+    "key_secondary": "fixed C025 minus B025, test S1_30",
+    "statistics": "20 empirical training-bootstrap repeats only; descriptive mean/sampleSD/min/max, no p/CI; anchor excluded from repeats",
+    "scope": "fixed empirical split11, class counts, external validation/test, model/mask seeds; no population, cluster, test-sample or deployment inference",
+    "refit_after_selection": false,
+    "selection_conditions": [
+      "S0",
+      "S1_10_101",
+      "S1_10_202",
+      "S1_10_303"
+    ],
+    "test_conditions": [
+      "S0",
+      "S1_10_101",
+      "S1_10_202",
+      "S1_10_303",
+      "S1_30_101",
+      "S1_30_202",
+      "S1_30_303",
+      "S2_1101",
+      "S2_1202",
+      "S2_1303",
+      "S3_2101",
+      "S3_2202",
+      "S3_2303"
+    ],
+    "array_hash": "SHA256(dtype.str UTF8 + compact JSON list(shape) UTF8 + C order bytes)",
+    "scientific_stop": "all 399 formal fits and independent verification; no effect-adaptive expansion"
+  },
+  "experiments/simulation_expansion_20261108/config.json": {
+    "data_seeds": [
+      601,
+      602,
+      603,
+      604,
+      605,
+      606,
+      607,
+      608,
+      609,
+      610,
+      611,
+      612,
+      613,
+      614,
+      615,
+      616,
+      617,
+      618,
+      619,
+      620,
+      621,
+      622,
+      623,
+      624,
+      625,
+      626,
+      627,
+      628,
+      629,
+      630
+    ],
+    "smoke_seed": 99001,
+    "n": 8000,
+    "p": 20,
+    "target_gap_multipliers": [
+      1,
+      0.75,
+      0.5,
+      0.25,
+      0,
+      -0.25,
+      -0.5,
+      -0.75,
+      -1
+    ],
+    "alphas": [
+      0,
+      0.25,
+      0.5,
+      1.0
+    ],
+    "mask_seeds": [
+      9107,
+      9108,
+      9109
+    ],
+    "stress_seeds": [
+      101,
+      202,
+      303
+    ],
+    "model_seed": 2026,
+    "model_params": {
+      "categorical_features": "from_dtype",
+      "class_weight": null,
+      "early_stopping": "auto",
+      "interaction_cst": null,
+      "l2_regularization": 0.0,
+      "learning_rate": 0.1,
+      "loss": "log_loss",
+      "max_bins": 255,
+      "max_depth": null,
+      "max_features": 1.0,
+      "max_iter": 100,
+      "max_leaf_nodes": 31,
+      "min_samples_leaf": 20,
+      "monotonic_cst": null,
+      "n_iter_no_change": 10,
+      "random_state": 2026,
+      "scoring": "loss",
+      "tol": 1e-07,
+      "validation_fraction": 0.1,
+      "verbose": 0,
+      "warm_start": false
+    },
+    "threads": 2,
+    "workers": 3,
+    "expected_models_per_seed": 20,
+    "expected_models": 600,
+    "selection_s0_tolerance": 0.01,
+    "selection_conditions": [
+      "S0",
+      "S1_10_101",
+      "S1_10_202",
+      "S1_10_303"
+    ],
+    "input_environment": {
+      "python": "3.12.15",
+      "numpy": "2.5.4",
+      "sklearn": "1.9.1",
+      "scipy": "1.18.1",
+      "joblib": "1.6.0"
+    },
+    "precision_target_halfwidth": 0.005,
+    "bootstrap_resamples": 20000,
+    "bootstrap_seed": 20261108,
+    "primary_estimand": "Mean across independent data seeds of equal-weight mean of 9 paired AP(C025)-AP(B025) contrasts",
+    "secondary_family": "18 two-sided paired t tests (9 fixed C025-B025 and 9 selected C-B), pooled Holm",
+    "stopping_rule": "fixed 30 seeds; no sequential extension; report missed precision target",
+    "fit_after_selection": false,
+    "target_used_for_selection": false,
+    "historical_seeds_pooled": false
+  },
+  "experiments/simulation_sensitivity_20261109/config.json": {
+    "data_seeds": [
+      701,
+      702,
+      703,
+      704,
+      705,
+      706,
+      707,
+      708,
+      709,
+      710,
+      711,
+      712,
+      713,
+      714,
+      715,
+      716,
+      717,
+      718,
+      719,
+      720,
+      721,
+      722,
+      723,
+      724,
+      725,
+      726,
+      727,
+      728,
+      729,
+      730
+    ],
+    "smoke_seed": 99002,
+    "n": 8000,
+    "p": 20,
+    "target_gap_multipliers": [
+      1,
+      0.75,
+      0.5,
+      0.25,
+      0,
+      -0.25,
+      -0.5,
+      -0.75,
+      -1
+    ],
+    "alphas": [
+      0,
+      0.25,
+      0.5,
+      1.0
+    ],
+    "mask_seeds": [
+      9107,
+      9108,
+      9109
+    ],
+    "stress_seeds": [
+      101,
+      202,
+      303
+    ],
+    "model_seed": 2026,
+    "model_params": {
+      "categorical_features": "from_dtype",
+      "class_weight": null,
+      "early_stopping": "auto",
+      "interaction_cst": null,
+      "l2_regularization": 0.0,
+      "learning_rate": 0.1,
+      "loss": "log_loss",
+      "max_bins": 255,
+      "max_depth": null,
+      "max_features": 1.0,
+      "max_iter": 100,
+      "max_leaf_nodes": 31,
+      "min_samples_leaf": 20,
+      "monotonic_cst": null,
+      "n_iter_no_change": 10,
+      "random_state": 2026,
+      "scoring": "loss",
+      "tol": 1e-07,
+      "validation_fraction": 0.1,
+      "verbose": 0,
+      "warm_start": false
+    },
+    "threads": 2,
+    "workers": 1,
+    "expected_models_per_seed": 20,
+    "expected_models": 600,
+    "selection_s0_tolerance": 0.01,
+    "selection_conditions": [
+      "S0",
+      "S1_10_101",
+      "S1_10_202",
+      "S1_10_303"
+    ],
+    "input_environment": {
+      "python": "3.12.15",
+      "numpy": "2.5.4",
+      "sklearn": "1.9.1",
+      "scipy": "1.18.1",
+      "joblib": "1.6.0"
+    },
+    "precision_target_halfwidth": 0.005,
+    "bootstrap_resamples": 20000,
+    "bootstrap_seed": 20261109,
+    "primary_estimand": "Mean across independent data seeds of equal-weight mean of 9 paired AP(C025)-AP(B025) contrasts",
+    "secondary_family": "18 two-sided paired t tests (9 fixed C025-B025 and 9 selected C-B), pooled Holm",
+    "stopping_rule": "fixed 30 seeds; no sequential extension; report missed precision target",
+    "fit_after_selection": false,
+    "target_used_for_selection": false,
+    "historical_seeds_pooled": false,
+    "mechanism": {
+      "name": "label_and_observed_covariate_calibrated_logit",
+      "auxiliary_index": 19,
+      "slope": 1.0,
+      "aux_clip": [
+        -4,
+        4
+      ],
+      "intercept_bisection_steps": 80,
+      "intercept_bracket": [
+        -45.0,
+        45.0
+      ],
+      "class_mean_tolerance": 1e-12,
+      "auxiliary_always_observed": true,
+      "preserve_class_mean_probability": true,
+      "old_new_mechanism_contrast_identified": false
+    }
+  },
+  "revision_v2.4_20261108/experiments/secom_temporal_20261108/config.json": {
+    "design_date": "2026-11-08",
+    "status": "new_exploratory_design_not_recovered_historical_protocol",
+    "data_path": "/Users/bgc/Documents/ChatGPT/论文2.0/data/raw/secom/secom.data",
+    "label_path": "/Users/bgc/Documents/ChatGPT/论文2.0/data/raw/secom/secom_labels.data",
+    "alphas": [
+      0,
+      0.25,
+      0.5,
+      1.0
+    ],
+    "train_mask_seeds": [
+      9107,
+      9108,
+      9109
+    ],
+    "eval_mask_seeds": [
+      101,
+      202,
+      303
+    ],
+    "s0_tolerance": 0.01,
+    "model_params": {
+      "max_iter": 100,
+      "learning_rate": 0.1,
+      "max_leaf_nodes": 31,
+      "min_samples_leaf": 20,
+      "l2_regularization": 0.0,
+      "max_bins": 255,
+      "early_stopping": false,
+      "random_state": 2026
+    },
+    "threads": 2,
+    "selection_rule": "max(min(AP_S0,AP_S1_10_101,AP_S1_10_202,AP_S1_10_303)) among S0>=baseline_S0-.01; exact ties lower alpha",
+    "preprocessing": "all 590 columns retained; train-only median, all-missing median zero; append all 590 postmask flags",
+    "refit": "after selection, refit preprocessing and all 19 candidate member models on complete outer-past data",
+    "aggregation": "mean 3 model probabilities, compute AP independently for each pressure input then mean AP; equal-window means descriptive only",
+    "n_fits": 114
+  },
+  "experiments/hydraulic_external_20261109/run.py constants and selection": {
+    "HGB": {
+      "max_iter": 100,
+      "learning_rate": 0.1,
+      "max_leaf_nodes": 31,
+      "min_samples_leaf": 20,
+      "max_bins": 255,
+      "l2_regularization": 0,
+      "random_state": 2026,
+      "early_stopping": false
+    },
+    "C_B_alphas": [
+      0,
+      0.25,
+      0.5,
+      1
+    ],
+    "mask_seeds": [
+      19107,
+      19108,
+      19109
+    ],
+    "MA_penalty": [
+      0,
+      0.001,
+      0.01,
+      0.1,
+      1,
+      10
+    ],
+    "MA_depth": [
+      3,
+      5,
+      7
+    ],
+    "MA_criterion": "gini",
+    "MA_seed": 2026,
+    "S0_tolerance": 0.01,
+    "MA_tradeoff_AUROC_fraction": 0.95,
+    "expected_fits": 195
+  }
+}

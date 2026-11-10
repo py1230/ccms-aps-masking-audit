@@ -1,0 +1,14 @@
+{
+  "base_directory": "/Users/bgc/Documents/ChatGPT/\u8bba\u65872.0/experiments/simulation_expansion_20261108",
+  "base_sha256": {
+    "run_simulation.py": "e3128ad91bf991aada6aedc72c2b65bd87a54e0b8e6054d4d9158e7508cbc53b",
+    "launch_simulation.py": "76ab13f45f58da2cfb9a06869cade817cebbe4ab268563c88e3befd369494982",
+    "analyze_results.py": "8e6b364c4c48b415a28ef8cc002f28a81b900ba2205ae42a29b24f209fee5ba3",
+    "verify_results.py": "abdd63dbb155a87e9c551991b026d14ac0a8a11c20f44038d1f53336db6c6aec",
+    "source/sim_nuisance.py": "de9345f5ff238c0de63794fce2e8f31c8129756595498dd06213e42d9179f6cb",
+    "source/ccms.py": "2aa211e6ac688c7b1687a1946c30b780a94a3d856a9d0cb59504c0e2554511c2",
+    "source/pipeline.py": "45cb6f629e0126f3afd8b1bec4b4b4fb290d0a6888c0c1957cd2202cc0a3a26a",
+    "source/audit_metrics.py": "9d66c8c09af59ccd15ec5f98b1320ed44fbd90299f8ed8f7e37dffdf66266f0c"
+  },
+  "copied_not_modified_in_place": true
+}

@@ -1,0 +1,14 @@
+{
+  "raw_data/aps_failure_training_set.csv": {
+    "source": "/Users/bgc/Documents/ChatGPT/论文2.0/data/raw/aps/aps_failure_training_set.csv",
+    "sha256": "bb484302e3a3a1c8ef5e1f0129c4dc7cbd58f350867f95b575461ca21ab6b9da"
+  },
+  "raw_data/aps_failure_test_set.csv": {
+    "source": "/Users/bgc/Documents/ChatGPT/论文2.0/data/raw/aps/aps_failure_test_set.csv",
+    "sha256": "2cdf6f7661c7b4c63333c93cdec36a3a82350176b604a2312cf82799fb2712f3"
+  },
+  "split_indices.npz": {
+    "source": "/Users/bgc/Documents/ChatGPT/论文2.0/experiments/aps_channels_repeats_20261108/split_indices.npz",
+    "sha256": "8659dfa51d496382637b55b4ef8b99abe284b5d0c4dd218d3c4ffa98ad91473f"
+  }
+}

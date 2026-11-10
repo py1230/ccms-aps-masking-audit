@@ -1,0 +1,64 @@
+{
+  "source": "/Users/bgc/Documents/ChatGPT/论文2.0/paa_revision_20261109/stage4_v1.0/D_论文英文实质性修改稿.md",
+  "source_sha256": "7940964e9d8b2a42e86c2ac9498acd6f01c7d72121205fe0bdafb38bde8879dc",
+  "checks": [
+    {
+      "table": "7",
+      "row": "S0",
+      "rounding_pass": true
+    },
+    {
+      "table": "7",
+      "row": "S1 10%",
+      "rounding_pass": true
+    },
+    {
+      "table": "7",
+      "row": "S1 30%",
+      "rounding_pass": true
+    },
+    {
+      "table": "7",
+      "row": "S2",
+      "rounding_pass": true
+    },
+    {
+      "table": "7",
+      "row": "S3",
+      "rounding_pass": true
+    },
+    {
+      "table": "8",
+      "row": "C 5E",
+      "rounding_pass": true
+    },
+    {
+      "table": "8",
+      "row": "C 20E",
+      "rounding_pass": true
+    },
+    {
+      "table": "8",
+      "row": "C 50E",
+      "rounding_pass": true
+    },
+    {
+      "table": "8",
+      "row": "D 5E",
+      "rounding_pass": true
+    },
+    {
+      "table": "8",
+      "row": "D 20E",
+      "rounding_pass": true
+    },
+    {
+      "table": "8",
+      "row": "D 50E",
+      "rounding_pass": true
+    }
+  ],
+  "all_pass": true,
+  "table7_numeric_values": 30,
+  "table8_numeric_values": 30
+}

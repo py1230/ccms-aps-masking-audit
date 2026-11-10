@@ -1,0 +1,245 @@
+{
+  "scope": "Counts only; historical masks themselves not saved, so this does not assert cellwise identity",
+  "checks": [
+    {
+      "split_seed": 11,
+      "arm": "C",
+      "mask_seed": 9107,
+      "total": 219403,
+      "per_column_equal": true,
+      "per_class_column_equal": true
+    },
+    {
+      "split_seed": 11,
+      "arm": "C",
+      "mask_seed": 9108,
+      "total": 218986,
+      "per_column_equal": true,
+      "per_class_column_equal": true
+    },
+    {
+      "split_seed": 11,
+      "arm": "C",
+      "mask_seed": 9109,
+      "total": 218769,
+      "per_column_equal": true,
+      "per_class_column_equal": true
+    },
+    {
+      "split_seed": 11,
+      "arm": "B",
+      "mask_seed": 9107,
+      "total": 219371,
+      "per_column_equal": true,
+      "per_class_column_equal": true
+    },
+    {
+      "split_seed": 11,
+      "arm": "B",
+      "mask_seed": 9108,
+      "total": 219018,
+      "per_column_equal": true,
+      "per_class_column_equal": true
+    },
+    {
+      "split_seed": 11,
+      "arm": "B",
+      "mask_seed": 9109,
+      "total": 218789,
+      "per_column_equal": true,
+      "per_class_column_equal": true
+    },
+    {
+      "split_seed": 22,
+      "arm": "C",
+      "mask_seed": 9107,
+      "total": 221577,
+      "per_column_equal": true,
+      "per_class_column_equal": true
+    },
+    {
+      "split_seed": 22,
+      "arm": "C",
+      "mask_seed": 9108,
+      "total": 221263,
+      "per_column_equal": true,
+      "per_class_column_equal": true
+    },
+    {
+      "split_seed": 22,
+      "arm": "C",
+      "mask_seed": 9109,
+      "total": 221158,
+      "per_column_equal": true,
+      "per_class_column_equal": true
+    },
+    {
+      "split_seed": 22,
+      "arm": "B",
+      "mask_seed": 9107,
+      "total": 221652,
+      "per_column_equal": true,
+      "per_class_column_equal": true
+    },
+    {
+      "split_seed": 22,
+      "arm": "B",
+      "mask_seed": 9108,
+      "total": 221238,
+      "per_column_equal": true,
+      "per_class_column_equal": true
+    },
+    {
+      "split_seed": 22,
+      "arm": "B",
+      "mask_seed": 9109,
+      "total": 221281,
+      "per_column_equal": true,
+      "per_class_column_equal": true
+    },
+    {
+      "split_seed": 33,
+      "arm": "C",
+      "mask_seed": 9107,
+      "total": 220354,
+      "per_column_equal": true,
+      "per_class_column_equal": true
+    },
+    {
+      "split_seed": 33,
+      "arm": "C",
+      "mask_seed": 9108,
+      "total": 219728,
+      "per_column_equal": true,
+      "per_class_column_equal": true
+    },
+    {
+      "split_seed": 33,
+      "arm": "C",
+      "mask_seed": 9109,
+      "total": 219405,
+      "per_column_equal": true,
+      "per_class_column_equal": true
+    },
+    {
+      "split_seed": 33,
+      "arm": "B",
+      "mask_seed": 9107,
+      "total": 220417,
+      "per_column_equal": true,
+      "per_class_column_equal": true
+    },
+    {
+      "split_seed": 33,
+      "arm": "B",
+      "mask_seed": 9108,
+      "total": 219815,
+      "per_column_equal": true,
+      "per_class_column_equal": true
+    },
+    {
+      "split_seed": 33,
+      "arm": "B",
+      "mask_seed": 9109,
+      "total": 219367,
+      "per_column_equal": true,
+      "per_class_column_equal": true
+    },
+    {
+      "split_seed": 44,
+      "arm": "C",
+      "mask_seed": 9107,
+      "total": 212369,
+      "per_column_equal": true,
+      "per_class_column_equal": true
+    },
+    {
+      "split_seed": 44,
+      "arm": "C",
+      "mask_seed": 9108,
+      "total": 211142,
+      "per_column_equal": true,
+      "per_class_column_equal": true
+    },
+    {
+      "split_seed": 44,
+      "arm": "C",
+      "mask_seed": 9109,
+      "total": 211538,
+      "per_column_equal": true,
+      "per_class_column_equal": true
+    },
+    {
+      "split_seed": 44,
+      "arm": "B",
+      "mask_seed": 9107,
+      "total": 212338,
+      "per_column_equal": true,
+      "per_class_column_equal": true
+    },
+    {
+      "split_seed": 44,
+      "arm": "B",
+      "mask_seed": 9108,
+      "total": 211010,
+      "per_column_equal": true,
+      "per_class_column_equal": true
+    },
+    {
+      "split_seed": 44,
+      "arm": "B",
+      "mask_seed": 9109,
+      "total": 211619,
+      "per_column_equal": true,
+      "per_class_column_equal": true
+    },
+    {
+      "split_seed": 55,
+      "arm": "C",
+      "mask_seed": 9107,
+      "total": 213573,
+      "per_column_equal": true,
+      "per_class_column_equal": true
+    },
+    {
+      "split_seed": 55,
+      "arm": "C",
+      "mask_seed": 9108,
+      "total": 213037,
+      "per_column_equal": true,
+      "per_class_column_equal": true
+    },
+    {
+      "split_seed": 55,
+      "arm": "C",
+      "mask_seed": 9109,
+      "total": 213332,
+      "per_column_equal": true,
+      "per_class_column_equal": true
+    },
+    {
+      "split_seed": 55,
+      "arm": "B",
+      "mask_seed": 9107,
+      "total": 213752,
+      "per_column_equal": true,
+      "per_class_column_equal": true
+    },
+    {
+      "split_seed": 55,
+      "arm": "B",
+      "mask_seed": 9108,
+      "total": 213006,
+      "per_column_equal": true,
+      "per_class_column_equal": true
+    },
+    {
+      "split_seed": 55,
+      "arm": "B",
+      "mask_seed": 9109,
+      "total": 213310,
+      "per_column_equal": true,
+      "per_class_column_equal": true
+    }
+  ]
+}

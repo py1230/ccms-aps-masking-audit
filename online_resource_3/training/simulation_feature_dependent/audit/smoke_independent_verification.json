@@ -1,0 +1,25 @@
+{
+  "status": "passed",
+  "scope": "interface smoke",
+  "counts": {
+    "seeds": 1,
+    "models_reloaded": 20,
+    "single_prediction_arrays": 260,
+    "ensemble_prediction_arrays": 130,
+    "ap_values": 130,
+    "selections": 2,
+    "training_masks": 20,
+    "file_hashes": 90
+  },
+  "errors": {
+    "prediction_max_abs": 0.0,
+    "ensemble_max_abs": 0.0,
+    "ap_max_abs": 1.6653345369377348e-16
+  },
+  "statistics": {
+    "status": "not_requested"
+  },
+  "verifier_sha256": "3858ada933ac4204538f6524f9e3da7e9542f922d110766ba4ee620df6c720c5",
+  "timestamp_utc": "2026-11-09T04:28:41.612037+00:00",
+  "limit": "Separate numerical implementation adapted and executed in the same session; verifier does not import runner or analysis; not an independent team replication or historical provenance proof"
+}

@@ -1,0 +1,10 @@
+{
+  "family": "aps_a5",
+  "unit_mode": true,
+  "changes": {
+    "execution_schedule": "one prespecified original unit; no observations or model iterations reduced"
+  },
+  "source_template": "training/aps_a5",
+  "aps_environment": null,
+  "original_config_sha256": "6ce3b1080f98102fbed5ed196005f2f6984f4af4b40aae1f1955fce12ebdd4e5"
+}

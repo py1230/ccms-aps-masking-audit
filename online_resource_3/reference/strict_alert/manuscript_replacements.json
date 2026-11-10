@@ -1,0 +1,79 @@
+{
+  "E5_table": [
+    [
+      "条件",
+      "ρ = 2% 时召回率（M3 / C(0.25) / B(0.25)）",
+      "C − B（95% 区间）",
+      "ρ = 1% 时 C − B",
+      "ρ = 5% 时 C − B"
+    ],
+    [
+      "验证 S0",
+      "0.8387 / 0.8373 / 0.8467",
+      "−0.0093 [−0.0286, +0.0048]",
+      "+0.0013",
+      "−0.0093"
+    ],
+    [
+      "验证 S1 30%",
+      "0.6324 / 0.5716 / 0.6791",
+      "−0.1076 [−0.1284, −0.0872]",
+      "−0.0778",
+      "−0.0289"
+    ],
+    [
+      "验证 S2",
+      "0.6200 / 0.6200 / 0.6307",
+      "−0.0107 [−0.0275, +0.0046]",
+      "−0.0351",
+      "−0.0031"
+    ],
+    [
+      "验证 S3",
+      "0.6956 / 0.6400 / 0.7244",
+      "−0.0844 [−0.1015, −0.0614]",
+      "−0.0342",
+      "+0.0018"
+    ],
+    [
+      "官方测试 S0",
+      "0.7499 / 0.7552 / 0.7563",
+      "−0.0011 [−0.0139, +0.0096]",
+      "−0.0016",
+      "−0.0107"
+    ],
+    [
+      "官方测试 S1 30%",
+      "0.6027 / 0.5349 / 0.6348",
+      "−0.0999 [−0.1173, −0.0876]",
+      "−0.0549",
+      "−0.0302"
+    ],
+    [
+      "官方测试 S2",
+      "0.5808 / 0.5833 / 0.6076",
+      "−0.0244 [−0.0379, −0.0107]",
+      "−0.0242",
+      "+0.0076"
+    ],
+    [
+      "官方测试 S3",
+      "0.6327 / 0.5938 / 0.6597",
+      "−0.0660 [−0.0775, −0.0514]",
+      "−0.0217",
+      "+0.0068"
+    ]
+  ],
+  "paragraph_patches": {
+    "MAIN-108": "Historical saved predictions additionally support paired, class-stratified bootstrap reanalysis and recall at fixed alert fractions. These intervals condition on fitted models, masks, and selection; they omit retraining uncertainty and are not transferred to descriptive ranges from new runs. Supplementary Sections D.3 and E.3 specify row weights and alert rules. The Table E5 intervals have been recomputed using exactly K = ceil(ρN*) alert occurrences in each resample, with ties resolved by the original stored row order and the same paired weights for C, B, and BASE. This corrects the historical inclusion of all copies of the boundary row. Independent occurrence-level verification confirmed the corrected counts; point estimates and AP results are unchanged. The largest absolute change in an E5 interval endpoint was 0.000667, with no change in whether an interval included zero.",
+    "SUPP-000": "训练时类别条件遮蔽审计的补充材料 第四阶段审计副本",
+    "SUPP-002": "对应英文稿题名：Auditing train-time class-conditional masking under missingness shift: budget-matched evidence from industrial fault classification。本阶段审计副本先列D方法及E匹配对照与告警结果，再列A历史明细、B历史辅助结果、C来源限制、F归档索引及参考文献。保留原表图编号便于追溯。中文署名事实已确认；正式英文姓名和单位拼写待作者核准。全文英文SI与投稿PDF包装由第五阶段整合。补表E5已按严格告警容量正式重算并通过独立出现位置核验，旧区间与差异另存第四阶段审计档案。",
+    "SUPP-100": "告警点估计按预测得分降序选取前⌈ρN⌉行，同分时保持保存评价行的原始顺序；ρ为1%、2%和5%，表E5仅对2%预算列配对条件区间。每次Bootstrap使用重抽后样本量N*，严格选择前K=⌈ρN*⌉个出现位置；若边界原行有多个重抽副本，仅纳入剩余容量所需的副本。C、B及BASE共用同一次唯一原行分层重抽权重；验证集重叠原行跨划分共享权重。第四阶段已用独立的显式出现位置展开算法逐分量核验告警计数、正类命中数和正类分母。修正仅针对区间计算，历史原始文件、保存预测、点估计及AP均未改动。",
+    "SUPP-123": "历史固定告警比例的点估计及严格容量重算区间见表E5。该辅助尺度仍受相同历史来源和固定模型条件限制。原算法整纳边界原行的重抽副本，第四阶段改为严格前K个出现位置；8个C−B区间的最大端点绝对变化为0.000666703，是否跨零的判断不变。旧新结果、共享权重矩阵、逐划分抽样差值及独立核验记录保存在第四阶段审计档案中。",
+    "SUPP-124": "表E5 历史保存预测在严格告警容量下的召回率",
+    "SUPP-126": "注　ρ表示对得分最高的⌈ρN⌉行发出告警的比例；同分沿用保存评价行的稳定原顺序。召回率为被告警正类数占全部正类数的比例。C−B为正表示C召回率较高。表内95%条件百分位区间使用1,000次配对分层重抽，种子20261101，每次仅纳入严格前⌈ρN*⌉个出现位置，边界副本按剩余容量截断。相同共享权重用于C、B及BASE；各压力重复先分别计算召回差，再平均压力重复及五个划分。ρ=1%及5%仅列点估计。区间条件于保存预测与既定选择，不含训练、掩码或选择不确定性，也不认证历史训练来源。相同ρ表示相同告警行数比例，N不同时绝对告警数可不同；真实工作量仍需业务评价。",
+    "SUPP-098_suffix": "A3/A4路径分解采用归档1,000次重采样；决策层严格容量区间同为1,000次，其第四阶段正式修订与独立核验见表E5及审计档案。"
+  },
+  "n_verified_components": 600000,
+  "basis": "strict_alert_bootstrap_results.json"
+}

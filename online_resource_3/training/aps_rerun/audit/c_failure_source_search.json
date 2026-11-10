@@ -1,0 +1,257 @@
+{
+  "scope": [
+    "/Users/bgc/Documents/ChatGPT/research/rr/02_原完整复现包/CCMS论文修订完整资料包_2026-11-01_192149",
+    "/Users/bgc/Documents/ChatGPT/论文2.0",
+    "/Users/bgc/Desktop/CCMS_复现修正_2026-11-05/投稿包_修订/04_Online_Resources/ESM_2.zip"
+  ],
+  "excluded_current_run": "experiments/aps_rerun_20261108",
+  "counts": {
+    "filesystem_text_files": 267,
+    "zip_text_entries": 380,
+    "json_files_parsed": 386
+  },
+  "text_matches": [
+    {
+      "source": "/Users/bgc/Documents/ChatGPT/论文2.0/revision_v2.4_20261108/CCMS_论文实质性修订工作稿_v2.3_依据清单修订版.txt",
+      "line": 346,
+      "text": "P291: 历史 α 网格的归档结果显示，C 的平均 S0 AP 在 α = 0、0.25、0.5、1 时依次为 0.8617、0.8650、0.7912、0.1187；四个选择输入的最差 AP 依次为 0.7869、0.6448、0.4236、0.1183，α = 0.5 和 1 在五次划分均不满足选择约束。B 的 S0 AP 依次为 0.8617、0.8744、0.8708、0.8649，最差 AP 依次为 0.7869、0.8088、0.8141、0.8045，四个强度均可行。该结果仅覆盖粗网格；网格之间的强度未运行，且独立复现尝试未能复现 C 臂，因此不据此插值或推断连续强度响应。"
+    },
+    {
+      "source": "/Users/bgc/Documents/ChatGPT/论文2.0/revision_v2.4_20261108/draft_v2.4.txt",
+      "line": 538,
+      "text": "历史 α 网格的归档结果显示，C 的平均 S0 AP 在 α = 0、0.25、0.5、1 时依次为 0.8617、0.8650、0.7912、0.1187；四个选择输入的最差 AP 依次为 0.7869、0.6448、0.4236、0.1183，α = 0.5 和 1 在五次划分均不满足选择约束。B 的 S0 AP 依次为 0.8617、0.8744、0.8708、0.8649，最差 AP 依次为 0.7869、0.8088、0.8141、0.8045，四个强度均可行。该结果仅覆盖粗网格；网格之间的强度未运行，且独立复现尝试未能复现 C 臂，因此不据此插值或推断连续强度响应。"
+    },
+    {
+      "source": "/Users/bgc/Documents/ChatGPT/论文2.0/revision_v2.4_20261108/CCMS_论文实质性修订工作稿_v2.2_归档复核版.txt",
+      "line": 347,
+      "text": "P292: 历史 α 网格的归档结果显示，C 的平均 S0 AP 在 α = 0、0.25、0.5、1 时依次为 0.8617、0.8650、0.7912、0.1187；四个选择输入的最差 AP 依次为 0.7869、0.6448、0.4236、0.1183，α = 0.5 和 1 在五次划分均不满足选择约束。B 的 S0 AP 依次为 0.8617、0.8744、0.8708、0.8649，最差 AP 依次为 0.7869、0.8088、0.8141、0.8045，四个强度均可行。该结果仅覆盖粗网格；网格之间的强度未运行，且独立复现尝试未能复现 C 臂，因此不据此插值或推断连续强度响应。"
+    },
+    {
+      "source": "/Users/bgc/Desktop/CCMS_复现修正_2026-11-05/投稿包_修订/04_Online_Resources/ESM_2.zip::ESM_2/08_repro_bundle/revision/analysis/run_arm3_countmatched.py",
+      "line": 782,
+      "text": "        print('[sum] REFERENCE REPRODUCTION CHECK FAILED', file=sys.stderr, flush=True)"
+    }
+  ],
+  "failure_field_matches": [
+    {
+      "source": "/Users/bgc/Documents/ChatGPT/research/rr/02_原完整复现包/CCMS论文修订完整资料包_2026-11-01_192149/02_本轮代码与结果/results/final_delivery_verification.json",
+      "field": "data_sha256.aps_failure_test_set.csv",
+      "value": "2cdf6f7661c7b4c63333c93cdec36a3a82350176b604a2312cf82799fb2712f3",
+      "classification": "APS dataset filename contains failure; not a failure status"
+    },
+    {
+      "source": "/Users/bgc/Documents/ChatGPT/research/rr/02_原完整复现包/CCMS论文修订完整资料包_2026-11-01_192149/02_本轮代码与结果/results/final_delivery_verification.json",
+      "field": "data_sha256.aps_failure_training_set.csv",
+      "value": "bb484302e3a3a1c8ef5e1f0129c4dc7cbd58f350867f95b575461ca21ab6b9da",
+      "classification": "APS dataset filename contains failure; not a failure status"
+    },
+    {
+      "source": "/Users/bgc/Documents/ChatGPT/research/rr/02_原完整复现包/CCMS论文修订完整资料包_2026-11-01_192149/03_原始项目归档/CCMS核查_2026-10-31/records/protocol_v2_freeze_20261031T141021.json",
+      "field": "data./home/user/workspace/默认项目/aps_failure_training_set.csv",
+      "value": {
+        "sha256": "bb484302e3a3a1c8ef5e1f0129c4dc7cbd58f350867f95b575461ca21ab6b9da",
+        "bytes": 44669194
+      },
+      "classification": "APS dataset filename contains failure; not a failure status"
+    },
+    {
+      "source": "/Users/bgc/Documents/ChatGPT/research/rr/02_原完整复现包/CCMS论文修订完整资料包_2026-11-01_192149/03_原始项目归档/CCMS核查_2026-10-31/records/mutation_check.json",
+      "field": "results.0.failed_tests",
+      "value": [
+        "test_q_full_class_skipped",
+        "test_budget_equal_unbalanced_mc",
+        "test_expected_deletion_budget_equal",
+        "test_shrinkage_expectation",
+        "test_alpha_one_reaches_qmax_in_expectation",
+        "test_q_full_class_skipped,"
+      ],
+      "classification": "intentional mutation-test failure, not a training/reproduction failure"
+    },
+    {
+      "source": "/Users/bgc/Documents/ChatGPT/research/rr/02_原完整复现包/CCMS论文修订完整资料包_2026-11-01_192149/03_原始项目归档/CCMS核查_2026-10-31/records/mutation_check.json",
+      "field": "results.1.failed_tests",
+      "value": [
+        "test_gold_b_uses_class_proportions",
+        "test_budget_equal_unbalanced_mc",
+        "test_gold_b_uses_class_proportions,"
+      ],
+      "classification": "intentional mutation-test failure, not a training/reproduction failure"
+    },
+    {
+      "source": "/Users/bgc/Documents/ChatGPT/research/rr/02_原完整复现包/CCMS论文修订完整资料包_2026-11-01_192149/03_原始项目归档/CCMS核查_2026-10-31/records/mutation_check.json",
+      "field": "results.2.failed_tests",
+      "value": [
+        "test_gold_deletion_exact",
+        "test_budget_equal_unbalanced_mc",
+        "test_expected_deletion_budget_equal",
+        "test_shrinkage_expectation",
+        "test_alpha_one_reaches_qmax_in_expectation",
+        "test_gold_deletion_exact,"
+      ],
+      "classification": "intentional mutation-test failure, not a training/reproduction failure"
+    },
+    {
+      "source": "/Users/bgc/Documents/ChatGPT/research/rr/02_原完整复现包/CCMS论文修订完整资料包_2026-11-01_192149/03_原始项目归档/CCMS核查_2026-10-31/records/mutation_check.json",
+      "field": "results.3.failed_tests",
+      "value": [
+        "test_gold_b_value",
+        "test_gold_b_uses_class_proportions",
+        "test_budget_equal_unbalanced_mc",
+        "test_expected_deletion_budget_equal",
+        "test_gold_b_value,"
+      ],
+      "classification": "intentional mutation-test failure, not a training/reproduction failure"
+    },
+    {
+      "source": "/Users/bgc/Documents/ChatGPT/research/rr/02_原完整复现包/CCMS论文修订完整资料包_2026-11-01_192149/03_原始项目归档/CCMS核查_2026-10-31/records/mutation_check.json",
+      "field": "results.4.failed_tests",
+      "value": [
+        "test_gold_deletion_exact",
+        "test_shape_and_dtype",
+        "test_deletion_within_bounds",
+        "test_budget_equal_unbalanced_mc",
+        "test_column_permutation_metamorphic",
+        "test_row_permutation_metamorphic",
+        "test_expected_deletion_budget_equal",
+        "test_shrinkage_expectation",
+        "test_alpha_one_reaches_qmax_in_expectation",
+        "test_gold_deletion_exact,"
+      ],
+      "classification": "intentional mutation-test failure, not a training/reproduction failure"
+    },
+    {
+      "source": "/Users/bgc/Documents/ChatGPT/research/rr/02_原完整复现包/CCMS论文修订完整资料包_2026-11-01_192149/03_原始项目归档/CCMS核查_2026-10-31/records/mutation_check.json",
+      "field": "results.5.failed_tests",
+      "value": [
+        "test_q_full_class_skipped",
+        "test_all_missing_column",
+        "test_q_full_class_skipped,"
+      ],
+      "classification": "intentional mutation-test failure, not a training/reproduction failure"
+    },
+    {
+      "source": "/Users/bgc/Documents/ChatGPT/论文2.0/data/复制核验清单.json",
+      "field": "verified_shapes_and_labels.aps_failure_test_set.csv",
+      "value": {
+        "rows": 16000,
+        "feature_columns": 170,
+        "class_counts": {
+          "neg": 15625,
+          "pos": 375
+        }
+      },
+      "classification": "APS dataset filename contains failure; not a failure status"
+    },
+    {
+      "source": "/Users/bgc/Documents/ChatGPT/论文2.0/data/复制核验清单.json",
+      "field": "verified_shapes_and_labels.aps_failure_training_set.csv",
+      "value": {
+        "rows": 60000,
+        "feature_columns": 170,
+        "class_counts": {
+          "neg": 59000,
+          "pos": 1000
+        }
+      },
+      "classification": "APS dataset filename contains failure; not a failure status"
+    },
+    {
+      "source": "/Users/bgc/Desktop/CCMS_复现修正_2026-11-05/投稿包_修订/04_Online_Resources/ESM_2.zip::ESM_2/08_repro_bundle/02_本轮代码与结果/results/final_delivery_verification.json",
+      "field": "data_sha256.aps_failure_test_set.csv",
+      "value": "2cdf6f7661c7b4c63333c93cdec36a3a82350176b604a2312cf82799fb2712f3",
+      "classification": "APS dataset filename contains failure; not a failure status"
+    },
+    {
+      "source": "/Users/bgc/Desktop/CCMS_复现修正_2026-11-05/投稿包_修订/04_Online_Resources/ESM_2.zip::ESM_2/08_repro_bundle/02_本轮代码与结果/results/final_delivery_verification.json",
+      "field": "data_sha256.aps_failure_training_set.csv",
+      "value": "bb484302e3a3a1c8ef5e1f0129c4dc7cbd58f350867f95b575461ca21ab6b9da",
+      "classification": "APS dataset filename contains failure; not a failure status"
+    },
+    {
+      "source": "/Users/bgc/Desktop/CCMS_复现修正_2026-11-05/投稿包_修订/04_Online_Resources/ESM_2.zip::ESM_2/08_repro_bundle/03_原始项目归档/CCMS核查_2026-10-31/records/mutation_check.json",
+      "field": "results.0.failed_tests",
+      "value": [
+        "test_q_full_class_skipped",
+        "test_budget_equal_unbalanced_mc",
+        "test_expected_deletion_budget_equal",
+        "test_shrinkage_expectation",
+        "test_alpha_one_reaches_qmax_in_expectation",
+        "test_q_full_class_skipped,"
+      ],
+      "classification": "intentional mutation-test failure, not a training/reproduction failure"
+    },
+    {
+      "source": "/Users/bgc/Desktop/CCMS_复现修正_2026-11-05/投稿包_修订/04_Online_Resources/ESM_2.zip::ESM_2/08_repro_bundle/03_原始项目归档/CCMS核查_2026-10-31/records/mutation_check.json",
+      "field": "results.1.failed_tests",
+      "value": [
+        "test_gold_b_uses_class_proportions",
+        "test_budget_equal_unbalanced_mc",
+        "test_gold_b_uses_class_proportions,"
+      ],
+      "classification": "intentional mutation-test failure, not a training/reproduction failure"
+    },
+    {
+      "source": "/Users/bgc/Desktop/CCMS_复现修正_2026-11-05/投稿包_修订/04_Online_Resources/ESM_2.zip::ESM_2/08_repro_bundle/03_原始项目归档/CCMS核查_2026-10-31/records/mutation_check.json",
+      "field": "results.2.failed_tests",
+      "value": [
+        "test_gold_deletion_exact",
+        "test_budget_equal_unbalanced_mc",
+        "test_expected_deletion_budget_equal",
+        "test_shrinkage_expectation",
+        "test_alpha_one_reaches_qmax_in_expectation",
+        "test_gold_deletion_exact,"
+      ],
+      "classification": "intentional mutation-test failure, not a training/reproduction failure"
+    },
+    {
+      "source": "/Users/bgc/Desktop/CCMS_复现修正_2026-11-05/投稿包_修订/04_Online_Resources/ESM_2.zip::ESM_2/08_repro_bundle/03_原始项目归档/CCMS核查_2026-10-31/records/mutation_check.json",
+      "field": "results.3.failed_tests",
+      "value": [
+        "test_gold_b_value",
+        "test_gold_b_uses_class_proportions",
+        "test_budget_equal_unbalanced_mc",
+        "test_expected_deletion_budget_equal",
+        "test_gold_b_value,"
+      ],
+      "classification": "intentional mutation-test failure, not a training/reproduction failure"
+    },
+    {
+      "source": "/Users/bgc/Desktop/CCMS_复现修正_2026-11-05/投稿包_修订/04_Online_Resources/ESM_2.zip::ESM_2/08_repro_bundle/03_原始项目归档/CCMS核查_2026-10-31/records/mutation_check.json",
+      "field": "results.4.failed_tests",
+      "value": [
+        "test_gold_deletion_exact",
+        "test_shape_and_dtype",
+        "test_deletion_within_bounds",
+        "test_budget_equal_unbalanced_mc",
+        "test_column_permutation_metamorphic",
+        "test_row_permutation_metamorphic",
+        "test_expected_deletion_budget_equal",
+        "test_shrinkage_expectation",
+        "test_alpha_one_reaches_qmax_in_expectation",
+        "test_gold_deletion_exact,"
+      ],
+      "classification": "intentional mutation-test failure, not a training/reproduction failure"
+    },
+    {
+      "source": "/Users/bgc/Desktop/CCMS_复现修正_2026-11-05/投稿包_修订/04_Online_Resources/ESM_2.zip::ESM_2/08_repro_bundle/03_原始项目归档/CCMS核查_2026-10-31/records/mutation_check.json",
+      "field": "results.5.failed_tests",
+      "value": [
+        "test_q_full_class_skipped",
+        "test_all_missing_column",
+        "test_q_full_class_skipped,"
+      ],
+      "classification": "intentional mutation-test failure, not a training/reproduction failure"
+    },
+    {
+      "source": "/Users/bgc/Desktop/CCMS_复现修正_2026-11-05/投稿包_修订/04_Online_Resources/ESM_2.zip::ESM_2/08_repro_bundle/03_原始项目归档/CCMS核查_2026-10-31/records/protocol_v2_freeze_20261031T141021.json",
+      "field": "data./home/user/workspace/默认项目/aps_failure_training_set.csv",
+      "value": {
+        "sha256": "bb484302e3a3a1c8ef5e1f0129c4dc7cbd58f350867f95b575461ca21ab6b9da",
+        "bytes": 44669194
+      },
+      "classification": "APS dataset filename contains failure; not a failure status"
+    }
+  ],
+  "conclusion": "No corresponding C-arm reproduction-failure run record identified in these scoped sources; manuscript assertion traced back to local v2.2.",
+  "actual_failure_records_identified": 0
+}

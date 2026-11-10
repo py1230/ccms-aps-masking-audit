@@ -1,0 +1,1077 @@
+[
+  {
+    "id": "MAIN-013",
+    "kind": "table",
+    "label": "表1 研究问题与证据范围",
+    "sources": [
+      {
+        "path": "/Users/bgc/Documents/ChatGPT/论文2.0/paa_revision_20261109/stage3_v1.0/D_论文英文实质性修改稿.md",
+        "exists": true,
+        "sha256": "6226c1c5b57e4bff953ae8400f81bae5901d70c9fafef63633660727bd8ea3e8"
+      }
+    ],
+    "source_locator": "RQ1–RQ4 and corresponding Results subsections",
+    "evidence_level": "protocol/text mapping",
+    "scope_limit": "No quantitative data in this conceptual table."
+  },
+  {
+    "id": "MAIN-045",
+    "kind": "table",
+    "label": "表2 遮蔽策略与匹配对照的解释范围",
+    "sources": [
+      {
+        "path": "/Users/bgc/Documents/ChatGPT/论文2.0/paa_revision_20261109/stage2_v1.0/agents/methods_review.md",
+        "exists": true,
+        "sha256": "e304bf6aac471483a82baec81766f6f0ed49bd1568c985ef8e9554a2079eb830"
+      }
+    ],
+    "source_locator": "C/B/A3/A4/A5 definitions",
+    "evidence_level": "method audit",
+    "scope_limit": "Actual mask reconstruction handled separately by methods_audit."
+  },
+  {
+    "id": "MAIN-047",
+    "kind": "figure",
+    "label": "图1 预算匹配审计的研究流程。训练侧估计预算并生成C/B及匹配对照；固定强度比较与完整候选选择分别报告。验证侧决定α，评价侧只用于计算结果。SECOM按独立时间协议在选择后重拟合，其他主要流程不重拟合。",
+    "sources": [
+      {
+        "path": "/Users/bgc/Documents/ChatGPT/论文2.0/paa_revision_20261109/stage3_v1.0/assets/draw_figure1.py",
+        "exists": true,
+        "sha256": "ddd7df8fb5e39d6642477bb03ab4d08cf8abdc7161c3616d3b34eed7eb1cba53"
+      },
+      {
+        "path": "/Users/bgc/Documents/ChatGPT/论文2.0/paa_revision_20261109/stage3_v1.0/assets/Figure1_fidelity.md",
+        "exists": true,
+        "sha256": "319b023deb459c168a7a853f490ae5f29dde2a751b8ed202136904c8059dfa77"
+      }
+    ],
+    "source_locator": "workflow diagram and retained reference image",
+    "evidence_level": "conceptual figure source",
+    "scope_limit": "No numeric point data."
+  },
+  {
+    "id": "MAIN-104",
+    "kind": "table",
+    "label": "表3 SECOM各时间窗的样本量",
+    "sources": [
+      {
+        "path": "/Users/bgc/Documents/ChatGPT/论文2.0/revision_v2.4_20261108/experiments/secom_temporal_20261108/run_results/summary.json",
+        "exists": true,
+        "sha256": "2833b6786533c3871bb475690fa8493203e62e6eb01b7b0ddd5650b85fd572b7"
+      }
+    ],
+    "source_locator": "windows[].sample_counts",
+    "evidence_level": "row-specific numeric check",
+    "scope_limit": "No historical training-provenance certification."
+  },
+  {
+    "id": "MAIN-116",
+    "kind": "table",
+    "label": "表4 液压数据按工况组合隔离的五折划分",
+    "sources": [
+      {
+        "path": "/Users/bgc/Documents/ChatGPT/论文2.0/experiments/hydraulic_external_20261109/prepared/data_summary.json",
+        "exists": true,
+        "sha256": "3ba9dd99535fb008d6d06ba19a28104e60c1331ab4b62ca053335ad749e841fc"
+      }
+    ],
+    "source_locator": "folds[].{train,val,test}_{n,positive,groups}",
+    "evidence_level": "row-specific numeric check",
+    "scope_limit": "No historical training-provenance certification."
+  },
+  {
+    "id": "MAIN-125",
+    "kind": "table",
+    "label": "表5 两种环境下固定强度的 S1 30% 平均 AP 差",
+    "sources": [
+      {
+        "path": "/Users/bgc/Documents/ChatGPT/论文2.0/paa_revision_20261109/stage2_v1.0/agents/statistics_recompute.json",
+        "exists": true,
+        "sha256": "9e7b73780363da63239d5d0299cc70cbba8ca6057ea74b4bebe9cb911ecd2671"
+      }
+    ],
+    "source_locator": "aps_matched / aps_first rows[].val30, ap S1_30",
+    "evidence_level": "Stage2 prediction audit reused after all 285 input hashes verified; table cells checked",
+    "scope_limit": "No historical training-provenance certification."
+  },
+  {
+    "id": "MAIN-132",
+    "kind": "table",
+    "label": "表6 三渠道官方测试 C−B 的三组均值与范围",
+    "sources": [
+      {
+        "path": "/Users/bgc/Documents/ChatGPT/论文2.0/experiments/aps_channels_repeats_20261108/descriptive_summary.json",
+        "exists": true,
+        "sha256": "af85ea49a3b7afa049dc3a0d7a4372ad0458699c81bf4e974a0177c2738ee0f6"
+      }
+    ],
+    "source_locator": "summary channel × test × fixed/selected × S0/S1_30",
+    "evidence_level": "row-specific numeric check plus Stage2 prediction evidence",
+    "scope_limit": "No historical training-provenance certification."
+  },
+  {
+    "id": "MAIN-136",
+    "kind": "figure",
+    "label": "图2 官方测试S1 30%下固定α=0.25（左）与完整选择程序（右）的三渠道C−B差异。每个点对应一组流程随机性重复内的五划分均值，横线为三组最小—最大范围。均先形成ens3概率再计算AP；范围不是置信区间，三组共享原始数据。",
+    "sources": [
+      {
+        "path": "/Users/bgc/Documents/ChatGPT/论文2.0/revision_v3.1_20261109/audit/channel_plot_data.csv",
+        "exists": true,
+        "sha256": "8117ddb9d15ce15b2be49a8e1345b4697c363da3e6e4567451cc7733ae36b1fa"
+      },
+      {
+        "path": "/Users/bgc/Documents/ChatGPT/论文2.0/revision_v3.1_20261109/audit/evidence_diagnostics.py",
+        "exists": true,
+        "sha256": "a43e209c956e2747ddfffa19b07a6d1ca7e8ebf175017dd952995a7312825caa"
+      },
+      {
+        "path": "/Users/bgc/Documents/ChatGPT/论文2.0/experiments/aps_channels_repeats_20261108/contrasts_by_repeat.csv",
+        "exists": true,
+        "sha256": "6ee2699701b0a5ae1e0e10efc1ad6d160c636374f6a2820cc2b7c5d597025037"
+      }
+    ],
+    "source_locator": "fixed/selected test S1_30 repeat means for M2/M3/MO",
+    "evidence_level": "CSV source mapping + Stage2 predictions",
+    "scope_limit": "Min/max descriptive, no CI."
+  },
+  {
+    "id": "MAIN-142",
+    "kind": "figure",
+    "label": "图3 170列类别条件缺失率与逐行新增删除负担。采用版本匹配主APS运行的五划分、三个训练掩码（种子9107–9109），在α=0.25下按类别汇总原始及干预后掩码。图中经验分布是训练侧描述性诊断；C缩小缺失率差距不等于提高AP，亦不识别唯一性能机制。",
+    "sources": [
+      {
+        "path": "/Users/bgc/Documents/ChatGPT/论文2.0/revision_v3.1_20261109/audit/class_feature_missingness_plot_data.csv",
+        "exists": true,
+        "sha256": "157b5d3f55e047a9b075c52efd2613534ef36bf8d3efedd7a60ac2bc36bf76ba"
+      },
+      {
+        "path": "/Users/bgc/Documents/ChatGPT/论文2.0/revision_v3.1_20261109/audit/row_deletion_ecdf_plot_data.csv",
+        "exists": true,
+        "sha256": "c14a0369d7b8744b5d6ae1137ef5006cfe3deb1b96f3246072d20ececa663814"
+      },
+      {
+        "path": "/Users/bgc/Documents/ChatGPT/论文2.0/revision_v3.1_20261109/audit/evidence_diagnostics.py",
+        "exists": true,
+        "sha256": "a43e209c956e2747ddfffa19b07a6d1ca7e8ebf175017dd952995a7312825caa"
+      }
+    ],
+    "source_locator": "qmean by arm, class and 170 features; deletion-count ECDF by arm/class",
+    "evidence_level": "plot-source CSV mapping; prior mask-derived diagnostics",
+    "scope_limit": "Five overlapping splits × three seeds; no independent observations implied."
+  },
+  {
+    "id": "MAIN-151",
+    "kind": "table",
+    "label": "表7 固定 α=0.25 的 A5 双边际对照",
+    "sources": [
+      {
+        "path": "/Users/bgc/Documents/ChatGPT/论文2.0/experiments/aps_a5_20261108/descriptive_summary.json",
+        "exists": true,
+        "sha256": "2ee56b8c66928428e8e2dafde4e852e076d10564b1d4705659309c3cd09f1c82"
+      }
+    ],
+    "source_locator": "results group × C025/A5/C025-A5/A5-B025",
+    "evidence_level": "row-specific numeric check; prediction evidence in methods_audit",
+    "scope_limit": "No historical training-provenance certification."
+  },
+  {
+    "id": "MAIN-158",
+    "kind": "table",
+    "label": "表8 A5停止步数及合法初态敏感性（S1 30%）",
+    "sources": [
+      {
+        "path": "/Users/bgc/Documents/ChatGPT/论文2.0/experiments/aps_a5_sensitivity_20261109/analysis/summary.json",
+        "exists": true,
+        "sha256": "b98d540fd0fe4d14b1697bfb88d7c181799b40cabcf5e950f5d06d0e27f5d2f6"
+      }
+    ],
+    "source_locator": "initial C/D × step 5/20/50 × S1_30 × AP/C_minus_A5/A5_minus_B",
+    "evidence_level": "row-specific numeric check; chain evidence in methods_audit",
+    "scope_limit": "No historical training-provenance certification."
+  },
+  {
+    "id": "MAIN-165",
+    "kind": "table",
+    "label": "表9 固定100迭代流程下的训练样本重抽",
+    "sources": [
+      {
+        "path": "/Users/bgc/Documents/ChatGPT/论文2.0/experiments/aps_training_resample_20261109/descriptive_summary.json",
+        "exists": true,
+        "sha256": "59f93c5c541a77cbb970f0e9a540e2de94891278d2c374953a4c8b44ea04e869"
+      }
+    ],
+    "source_locator": "results kind=contrasts × group × fixed/selected; anchor separate",
+    "evidence_level": "row-specific numeric check plus Stage2 prediction evidence",
+    "scope_limit": "No historical training-provenance certification."
+  },
+  {
+    "id": "MAIN-169",
+    "kind": "figure",
+    "label": "图4 20次训练重抽的α选择频数。C在20次均选零；B分别在3、5、12次选择0.25、0.5、1。频数仅描述同一经验训练池、固定验证集和给定选择规则，不估计工业总体选择概率。",
+    "sources": [
+      {
+        "path": "/Users/bgc/Documents/ChatGPT/论文2.0/revision_v3.1_20261109/audit/selection_frequency.csv",
+        "exists": true,
+        "sha256": "edd0d0c56a56fc30dd28300a52e95c60574c558a4d509dba6052c0ff51e6cab6"
+      },
+      {
+        "path": "/Users/bgc/Documents/ChatGPT/论文2.0/paa_revision_20261109/stage2_v1.0/agents/statistics_recompute.json",
+        "exists": true,
+        "sha256": "9e7b73780363da63239d5d0299cc70cbba8ca6057ea74b4bebe9cb911ecd2671"
+      }
+    ],
+    "source_locator": "alpha 0/.25/.5/1; C counts20/0/0/0 and B0/3/5/12",
+    "evidence_level": "selection-frequency source + Stage2 replay",
+    "scope_limit": "No historical training-provenance certification."
+  },
+  {
+    "id": "MAIN-175",
+    "kind": "table",
+    "label": "表10 独立模拟30种子的固定强度与选择程序差",
+    "sources": [
+      {
+        "path": "/Users/bgc/Documents/ChatGPT/论文2.0/experiments/simulation_expansion_20261108/analysis/secondary_comparisons.csv",
+        "exists": true,
+        "sha256": "cd1b02e52ad25919dc70e6933cf5ac02036501e45dfeea1378c1579eebf3efba"
+      },
+      {
+        "path": "/Users/bgc/Documents/ChatGPT/论文2.0/paa_revision_20261109/stage2_v1.0/agents/statistics_recompute.json",
+        "exists": true,
+        "sha256": "9e7b73780363da63239d5d0299cc70cbba8ca6057ea74b4bebe9cb911ecd2671"
+      }
+    ],
+    "source_locator": "comparison fixed/selected × m, mean/ci95_t/p_holm18",
+    "evidence_level": "every displayed numeric cell checked; separate Stage2 30-seed prediction/statistic audit reused",
+    "scope_limit": "No historical training-provenance certification."
+  },
+  {
+    "id": "MAIN-179",
+    "kind": "figure",
+    "label": "图5 30个独立模拟种子中目标关联变化与C−B的AP差。固定α=0.25与完整选择程序分开绘制，误差区间为各m的名义95%配对种子t区间；不是全局同时带。九点等权均值不表示部署条件的期望效果，跨零也不证明等效。",
+    "sources": [
+      {
+        "path": "/Users/bgc/Documents/ChatGPT/论文2.0/revision_v3.1_20261109/audit/simulation_curve_plot_data.csv",
+        "exists": true,
+        "sha256": "bb4dce6d47f57ceb4db90e4faa74dfb90fb194cac135d656e8fb1fcfe3cccda9"
+      },
+      {
+        "path": "/Users/bgc/Documents/ChatGPT/论文2.0/experiments/simulation_expansion_20261108/analysis/secondary_comparisons.csv",
+        "exists": true,
+        "sha256": "cd1b02e52ad25919dc70e6933cf5ac02036501e45dfeea1378c1579eebf3efba"
+      }
+    ],
+    "source_locator": "fixed/selected m/mean/t CI",
+    "evidence_level": "all numeric plot-source columns compared",
+    "scope_limit": "Pointwise intervals; not simultaneous or equivalence."
+  },
+  {
+    "id": "MAIN-185",
+    "kind": "table",
+    "label": "表11 第二种模拟缺失机制下固定及选择后的配对AP差",
+    "sources": [
+      {
+        "path": "/Users/bgc/Documents/ChatGPT/论文2.0/experiments/simulation_sensitivity_20261109/analysis/secondary_comparisons.csv",
+        "exists": true,
+        "sha256": "a902462e4d01b14abc252e1955926fc7474aaa55fa58b4588248b184290444b3"
+      },
+      {
+        "path": "/Users/bgc/Documents/ChatGPT/论文2.0/paa_revision_20261109/stage2_v1.0/agents/statistics_recompute.json",
+        "exists": true,
+        "sha256": "9e7b73780363da63239d5d0299cc70cbba8ca6057ea74b4bebe9cb911ecd2671"
+      }
+    ],
+    "source_locator": "comparison fixed/selected × m, mean/ci95_t/p_holm18",
+    "evidence_level": "every displayed numeric cell checked; separate Stage2 30-seed prediction/statistic audit reused",
+    "scope_limit": "No historical training-provenance certification."
+  },
+  {
+    "id": "MAIN-187",
+    "kind": "figure",
+    "label": "图6 第二种缺失机制下C−B的九点曲线。缺失概率由标签与始终观测的辅助变量X19共同驱动，按类别校准每列期望缺失率；每个目标m共享同一数据种子的完整目标X/Y和基础随机数。左：固定α=0.25；右：仅经源验证选择α。点为30个独立数据种子的配对AP差均值，误差线为逐点95% t区间，并非同时置信带。该实验是独立第二机制检验，不将其与旧生成器结果差异作因果归因。",
+    "sources": [
+      {
+        "path": "/Users/bgc/Documents/ChatGPT/论文2.0/experiments/simulation_sensitivity_20261109/figures/simulation_second_mechanism_curve_data.csv",
+        "exists": true,
+        "sha256": "5a53b449c718c1dfca9bd13474ccd5f8b468cdd73c1d80f11da4a0fd1f786efd"
+      },
+      {
+        "path": "/Users/bgc/Documents/ChatGPT/论文2.0/experiments/simulation_sensitivity_20261109/plot_results.py",
+        "exists": true,
+        "sha256": "4d2bda268c82f554bb4116b7e24f80cd6d68763b3b7ef12b1db845cd1dfbc814"
+      },
+      {
+        "path": "/Users/bgc/Documents/ChatGPT/论文2.0/experiments/simulation_sensitivity_20261109/analysis/secondary_comparisons.csv",
+        "exists": true,
+        "sha256": "a902462e4d01b14abc252e1955926fc7474aaa55fa58b4588248b184290444b3"
+      }
+    ],
+    "source_locator": "fixed/selected m/mean/t CI/p Holm18",
+    "evidence_level": "all numeric plot-source columns compared",
+    "scope_limit": "Separate 30-seed mechanism; not combined n=60."
+  },
+  {
+    "id": "MAIN-192",
+    "kind": "figure",
+    "label": "图7 SECOM三个滚动未来窗口的排序表现。每个窗标注故障正类数，测试总数及比例见表3，S1 30%先逐压力输入计算AP再平均。连线仅帮助识别配置；三个窗口不是独立重复，不作显著性或跨工厂泛化解释。",
+    "sources": [
+      {
+        "path": "/Users/bgc/Documents/ChatGPT/论文2.0/revision_v3.1_20261109/audit/SECOM_temporal_predictions_recalculated.csv",
+        "exists": true,
+        "sha256": "c3fdda515738e8fc697dc1801c6d61d6967697ccf042e4f8206eaa9f23413b0d"
+      },
+      {
+        "path": "/Users/bgc/Documents/ChatGPT/论文2.0/revision_v3.1_20261109/audit/evidence_diagnostics.py",
+        "exists": true,
+        "sha256": "a43e209c956e2747ddfffa19b07a6d1ca7e8ebf175017dd952995a7312825caa"
+      },
+      {
+        "path": "/Users/bgc/Documents/ChatGPT/论文2.0/paa_revision_20261109/stage4_v1.0/prediction_audit/prediction_recompute.json",
+        "exists": true,
+        "sha256": "6c9f3b59d3c3ddac1d4d578b1ee7d64e49482a2715311e0810e4a12ad97e495d"
+      }
+    ],
+    "source_locator": "window × M3/C025/B025 × S0/S1_30 AP",
+    "evidence_level": "plot-source AP values compared with fresh saved-score audit",
+    "scope_limit": "11/11/17 positives; dependent windows descriptive."
+  },
+  {
+    "id": "MAIN-198",
+    "kind": "table",
+    "label": "表12 液压数据五个工况隔离外折的AP均值",
+    "sources": [
+      {
+        "path": "/Users/bgc/Documents/ChatGPT/论文2.0/paa_revision_20261109/stage4_v1.0/prediction_audit/prediction_recompute.json",
+        "exists": true,
+        "sha256": "6c9f3b59d3c3ddac1d4d578b1ee7d64e49482a2715311e0810e4a12ad97e495d"
+      },
+      {
+        "path": "/Users/bgc/Documents/ChatGPT/论文2.0/experiments/hydraulic_external_20261109/audit_results.json",
+        "exists": true,
+        "sha256": "0645956be6f7719a263514d9223f80ca727aefad7df82092f78f79ed4d4485a9"
+      }
+    ],
+    "source_locator": "hydraulic.mean_ap method × S0/S1_10/S1_30/S2/S3",
+    "evidence_level": "all 50 table AP values checked from saved-score recomputation",
+    "scope_limit": "No historical training-provenance certification."
+  },
+  {
+    "id": "MAIN-200",
+    "kind": "figure",
+    "label": "图8 独立液压数据的描述性结果。左：主要方法在五种测试压力下的五折等权AP均值；右：S1 30%的逐折配对差，横坐标是外折编号而非时间。不同外折测试行互斥、训练行重叠；连线及范围均不表示独立重复置信覆盖。",
+    "sources": [
+      {
+        "path": "/Users/bgc/Documents/ChatGPT/论文2.0/experiments/hydraulic_external_20261109/plot.py",
+        "exists": true,
+        "sha256": "58d5e8f02a3f8e907cbd33f603d4e6f7d5a7c4eae80c760a988722b26aaf869a"
+      },
+      {
+        "path": "/Users/bgc/Documents/ChatGPT/论文2.0/experiments/hydraulic_external_20261109/audit_results.json",
+        "exists": true,
+        "sha256": "0645956be6f7719a263514d9223f80ca727aefad7df82092f78f79ed4d4485a9"
+      },
+      {
+        "path": "/Users/bgc/Documents/ChatGPT/论文2.0/paa_revision_20261109/stage4_v1.0/prediction_audit/prediction_recompute.json",
+        "exists": true,
+        "sha256": "6c9f3b59d3c3ddac1d4d578b1ee7d64e49482a2715311e0810e4a12ad97e495d"
+      }
+    ],
+    "source_locator": "left mean_ap of M3/C_selected/B_selected/M4/MA0/MA_common; right 3 S1_30 paired fold-difference vectors",
+    "evidence_level": "all plotted numeric values fresh recomputed",
+    "scope_limit": "Single rig; artificial missingness; overlapping training folds; lines not independent trend."
+  },
+  {
+    "id": "SUPP-006",
+    "kind": "table",
+    "label": "表A1 历史APS逐划分与评价掩码的AP",
+    "sources": [
+      {
+        "path": "/Users/bgc/Documents/ChatGPT/research/rr/02_原完整复现包/CCMS论文修订完整资料包_2026-11-01_192149/02_本轮代码与结果/results/aps_seed11.npz",
+        "exists": true,
+        "sha256": "11d0f6446e7a9e65dd19804c429d86d02d0c921b077bf52736c65fbba6645465"
+      },
+      {
+        "path": "/Users/bgc/Documents/ChatGPT/research/rr/02_原完整复现包/CCMS论文修订完整资料包_2026-11-01_192149/02_本轮代码与结果/results/aps_seed22.npz",
+        "exists": true,
+        "sha256": "e8ddeb526bea496b540f37c1035fdef89f955d340c0bb80c5740df06bf80ee74"
+      },
+      {
+        "path": "/Users/bgc/Documents/ChatGPT/research/rr/02_原完整复现包/CCMS论文修订完整资料包_2026-11-01_192149/02_本轮代码与结果/results/aps_seed33.npz",
+        "exists": true,
+        "sha256": "a1d8dde8e54ddcc13af93ae0751b647c6853f0557a7cd0ed654811d34a224953"
+      },
+      {
+        "path": "/Users/bgc/Documents/ChatGPT/research/rr/02_原完整复现包/CCMS论文修订完整资料包_2026-11-01_192149/02_本轮代码与结果/results/aps_seed44.npz",
+        "exists": true,
+        "sha256": "03651380961284ae611102df512db518929fb4d85124c172575c2dcfa3c73e1f"
+      },
+      {
+        "path": "/Users/bgc/Documents/ChatGPT/research/rr/02_原完整复现包/CCMS论文修订完整资料包_2026-11-01_192149/02_本轮代码与结果/results/aps_seed55.npz",
+        "exists": true,
+        "sha256": "6d75d6e7133b0ae381a4c02f1a8cbb0b77f150bd980a0880fccd5c4d4ba12d7b"
+      }
+    ],
+    "source_locator": "row dataset/pressure/split/evaluation-mask; M3,C025,B025 and C-B",
+    "evidence_level": "every displayed AP/difference recomputed from saved probabilities",
+    "scope_limit": "No historical training-provenance certification."
+  },
+  {
+    "id": "SUPP-009",
+    "kind": "table",
+    "label": "表A2 历史四种模型配置的五划分结果",
+    "sources": [
+      {
+        "path": "/Users/bgc/Documents/ChatGPT/论文2.0/paa_revision_20261109/stage2_v1.0/sources/supp_blocks.json",
+        "exists": true,
+        "sha256": "9cd12c61390166f5867bbf40e61a1ccf64c18e3b357c741d94bbcb81b7fed91b"
+      },
+      {
+        "path": "/Users/bgc/Documents/ChatGPT/论文2.0/revision_v3.2_20261109/provenance/evidence/run_supplement_recovery_verification.json",
+        "exists": true,
+        "sha256": "8db0c91dbaa606b136769f874365b6cfcd2c3dd2d2f75f796d182d088b43878e"
+      }
+    ],
+    "source_locator": "SUPP-009 historical configuration/seed sensitivity",
+    "evidence_level": "preserved manuscript transcription; exact numeric generator not recovered in this audit",
+    "scope_limit": "Do not claim prediction-level or all-cell independent validation. Nearby robustness_20261031T170405.json has 3 splits and two mask seeds, so is not a verified source of these five-split tables. Historical aggregate-only limitation retained."
+  },
+  {
+    "id": "SUPP-012",
+    "kind": "table",
+    "label": "表A3 历史APS S1 30%条件下模型随机种子的敏感性",
+    "sources": [
+      {
+        "path": "/Users/bgc/Documents/ChatGPT/论文2.0/paa_revision_20261109/stage2_v1.0/sources/supp_blocks.json",
+        "exists": true,
+        "sha256": "9cd12c61390166f5867bbf40e61a1ccf64c18e3b357c741d94bbcb81b7fed91b"
+      },
+      {
+        "path": "/Users/bgc/Documents/ChatGPT/论文2.0/revision_v3.2_20261109/provenance/evidence/run_supplement_recovery_verification.json",
+        "exists": true,
+        "sha256": "8db0c91dbaa606b136769f874365b6cfcd2c3dd2d2f75f796d182d088b43878e"
+      }
+    ],
+    "source_locator": "SUPP-012 historical configuration/seed sensitivity",
+    "evidence_level": "preserved manuscript transcription; exact numeric generator not recovered in this audit",
+    "scope_limit": "Do not claim prediction-level or all-cell independent validation. Nearby robustness_20261031T170405.json has 3 splits and two mask seeds, so is not a verified source of these five-split tables. Historical aggregate-only limitation retained."
+  },
+  {
+    "id": "SUPP-015",
+    "kind": "table",
+    "label": "表A4 历史五种子模拟的九点检验",
+    "sources": [
+      {
+        "path": "/Users/bgc/Documents/ChatGPT/research/new/revision/analysis/r6_simulation_uncertainty.json",
+        "exists": true,
+        "sha256": "e7619fe72c9e500a80c2421c6868794b8dacb1913cc7395c28b96972aed537fb"
+      }
+    ],
+    "source_locator": "nine m, mean delta/t-test/9-test Holm/positive counts",
+    "evidence_level": "historical statistical-summary source located",
+    "scope_limit": "Five historical seeds only; complete original X not recovered; not pooled with either 30-seed experiment."
+  },
+  {
+    "id": "SUPP-022",
+    "kind": "table",
+    "label": "表B1 历史 APS 固定 α=0.25 的平均 AP",
+    "sources": [
+      {
+        "path": "/Users/bgc/Documents/ChatGPT/research/rr/02_原完整复现包/CCMS论文修订完整资料包_2026-11-01_192149/02_本轮代码与结果/results/aps_seed11.npz",
+        "exists": true,
+        "sha256": "11d0f6446e7a9e65dd19804c429d86d02d0c921b077bf52736c65fbba6645465"
+      },
+      {
+        "path": "/Users/bgc/Documents/ChatGPT/research/rr/02_原完整复现包/CCMS论文修订完整资料包_2026-11-01_192149/02_本轮代码与结果/results/aps_seed22.npz",
+        "exists": true,
+        "sha256": "e8ddeb526bea496b540f37c1035fdef89f955d340c0bb80c5740df06bf80ee74"
+      },
+      {
+        "path": "/Users/bgc/Documents/ChatGPT/research/rr/02_原完整复现包/CCMS论文修订完整资料包_2026-11-01_192149/02_本轮代码与结果/results/aps_seed33.npz",
+        "exists": true,
+        "sha256": "a1d8dde8e54ddcc13af93ae0751b647c6853f0557a7cd0ed654811d34a224953"
+      },
+      {
+        "path": "/Users/bgc/Documents/ChatGPT/research/rr/02_原完整复现包/CCMS论文修订完整资料包_2026-11-01_192149/02_本轮代码与结果/results/aps_seed44.npz",
+        "exists": true,
+        "sha256": "03651380961284ae611102df512db518929fb4d85124c172575c2dcfa3c73e1f"
+      },
+      {
+        "path": "/Users/bgc/Documents/ChatGPT/research/rr/02_原完整复现包/CCMS论文修订完整资料包_2026-11-01_192149/02_本轮代码与结果/results/aps_seed55.npz",
+        "exists": true,
+        "sha256": "6d75d6e7133b0ae381a4c02f1a8cbb0b77f150bd980a0880fccd5c4d4ba12d7b"
+      }
+    ],
+    "source_locator": "configuration × validation/test × 5 stresses; AP before averaging masks/splits",
+    "evidence_level": "every displayed AP recomputed",
+    "scope_limit": "No historical training-provenance certification."
+  },
+  {
+    "id": "SUPP-025",
+    "kind": "table",
+    "label": "表B2 历史 APS 条件对比与同时校正",
+    "sources": [
+      {
+        "path": "/Users/bgc/Documents/ChatGPT/论文2.0/paa_revision_20261109/stage4_v1.0/prediction_audit/or3_extracted/CCMS_20k_bootstrap_summary.json",
+        "exists": true,
+        "sha256": "f8c63b7950d8beb90fde1e9ccc802da50d3b6b9a44a5293b4f981f35545d43de"
+      },
+      {
+        "path": "/Users/bgc/Documents/ChatGPT/论文2.0/paa_revision_20261109/stage4_v1.0/prediction_audit/or3_extracted/aps_threeway_draws_20k.npz",
+        "exists": true,
+        "sha256": "128fc693531ecd7fcc5a43e2da45dcc9db26188e71a5bf5d30a3fc6afd19f8a1"
+      }
+    ],
+    "source_locator": "results dataset/stress/pair; sup_t_ci; bonferroni_ci",
+    "evidence_level": "table intervals checked; 24 nominal, 8 Bonferroni, Holm and sup-t recomputed from saved matrices",
+    "scope_limit": "No row bootstrap regenerated here; sup-t cross-validation/test joint coverage not guaranteed; path ratios descriptive."
+  },
+  {
+    "id": "SUPP-027",
+    "kind": "figure",
+    "label": "图B1 APS 在固定 α = 0.25 下的三项对比分解。横轴为平均 AP 差值。从上到下各组为 C − B、C − M3、B − M3。点表示五次划分的等权均值，水平线表示 20,000 次配对重采样的名义 95% 条件区间。",
+    "sources": [
+      {
+        "path": "/Users/bgc/Documents/ChatGPT/论文2.0/paa_revision_20261109/stage4_v1.0/prediction_audit/or3_extracted/01_three_way_decomposition_20k.png",
+        "exists": true,
+        "sha256": "b10271bb6ad1dc1282288b2ee9941ca88a016c5b47ab07d758bead2bbcd4d632"
+      },
+      {
+        "path": "/Users/bgc/Documents/ChatGPT/论文2.0/paa_revision_20261109/stage4_v1.0/prediction_audit/or3_extracted/r13_threeway_20k.json",
+        "exists": true,
+        "sha256": "768f812738d5109aa724fe9c0a26604efd3a175bfbb9da7aacc3f2445381bdfe"
+      },
+      {
+        "path": "/Users/bgc/Documents/ChatGPT/论文2.0/paa_revision_20261109/stage4_v1.0/prediction_audit/or3_extracted/CCMS_20k_bootstrap_summary.json",
+        "exists": true,
+        "sha256": "f8c63b7950d8beb90fde1e9ccc802da50d3b6b9a44a5293b4f981f35545d43de"
+      }
+    ],
+    "source_locator": "24 pair-by-stress mean/nominal intervals",
+    "evidence_level": "OR3 source values rechecked from saved matrix",
+    "scope_limit": "Historical figure source; exact embedded image equality checked separately."
+  },
+  {
+    "id": "SUPP-034",
+    "kind": "table",
+    "label": "表B3 历史四配置的五划分 AP 均值",
+    "sources": [
+      {
+        "path": "/Users/bgc/Documents/ChatGPT/论文2.0/paa_revision_20261109/stage2_v1.0/sources/supp_blocks.json",
+        "exists": true,
+        "sha256": "9cd12c61390166f5867bbf40e61a1ccf64c18e3b357c741d94bbcb81b7fed91b"
+      },
+      {
+        "path": "/Users/bgc/Documents/ChatGPT/论文2.0/revision_v3.2_20261109/provenance/evidence/run_supplement_recovery_verification.json",
+        "exists": true,
+        "sha256": "8db0c91dbaa606b136769f874365b6cfcd2c3dd2d2f75f796d182d088b43878e"
+      }
+    ],
+    "source_locator": "SUPP-034 historical configuration/seed sensitivity",
+    "evidence_level": "preserved manuscript transcription; exact numeric generator not recovered in this audit",
+    "scope_limit": "Do not claim prediction-level or all-cell independent validation. Nearby robustness_20261031T170405.json has 3 splits and two mask seeds, so is not a verified source of these five-split tables. Historical aggregate-only limitation retained."
+  },
+  {
+    "id": "SUPP-037",
+    "kind": "table",
+    "label": "表B4 三种模型的 S1 30% 逐划分差",
+    "sources": [
+      {
+        "path": "/Users/bgc/Documents/ChatGPT/论文2.0/paa_revision_20261109/stage2_v1.0/sources/supp_blocks.json",
+        "exists": true,
+        "sha256": "9cd12c61390166f5867bbf40e61a1ccf64c18e3b357c741d94bbcb81b7fed91b"
+      },
+      {
+        "path": "/Users/bgc/Documents/ChatGPT/论文2.0/revision_v3.2_20261109/provenance/evidence/run_supplement_recovery_verification.json",
+        "exists": true,
+        "sha256": "8db0c91dbaa606b136769f874365b6cfcd2c3dd2d2f75f796d182d088b43878e"
+      }
+    ],
+    "source_locator": "SUPP-037 historical configuration/seed sensitivity",
+    "evidence_level": "preserved manuscript transcription; exact numeric generator not recovered in this audit",
+    "scope_limit": "Do not claim prediction-level or all-cell independent validation. Nearby robustness_20261031T170405.json has 3 splits and two mask seeds, so is not a verified source of these five-split tables. Historical aggregate-only limitation retained."
+  },
+  {
+    "id": "SUPP-046",
+    "kind": "table",
+    "label": "表B5 历史五种子的 AP 与配对差",
+    "sources": [
+      {
+        "path": "/Users/bgc/Documents/ChatGPT/research/new/revision/analysis/r6_simulation_uncertainty.json",
+        "exists": true,
+        "sha256": "e7619fe72c9e500a80c2421c6868794b8dacb1913cc7395c28b96972aed537fb"
+      },
+      {
+        "path": "/Users/bgc/Documents/ChatGPT/research/rr/02_原完整复现包/CCMS论文修订完整资料包_2026-11-01_192149/02_本轮代码与结果/results/simulation_continuous.json",
+        "exists": true,
+        "sha256": "2efe86157f2db77b7376efc81fc1aa295d2f28126f14cb9653b35f90b990be5a"
+      }
+    ],
+    "source_locator": "m-specific five-seed AP, SD, differences and t/Holm",
+    "evidence_level": "historical summary mapping",
+    "scope_limit": "Historical full X provenance missing; five-seed summaries not merged with 30-seed runs."
+  },
+  {
+    "id": "SUPP-049",
+    "kind": "figure",
+    "label": "图B2 九个倍乘系数下目标关联连续变化时的历史五种子平均 AP。（a）固定 α 与基线。（b）仅使用源验证的选择程序。横轴从一致的 1 变化至完全反转的 −1。实验设计仅改变目标缺失关联，固定相同种子的完整目标数据；不同配置的曲线方向不一。历史完整X原件未恢复。阴影表示五个数据种子的 ±1 标准差，ddof = 1，其反映种子间离散程度，阴影重叠不足以判断差异是否存在。",
+    "sources": [
+      {
+        "path": "/Users/bgc/Documents/ChatGPT/research/new/revision/analysis/r6_simulation_uncertainty.json",
+        "exists": true,
+        "sha256": "e7619fe72c9e500a80c2421c6868794b8dacb1913cc7395c28b96972aed537fb"
+      },
+      {
+        "path": "/Users/bgc/Documents/ChatGPT/research/rr/02_原完整复现包/CCMS论文修订完整资料包_2026-11-01_192149/02_本轮代码与结果/results/simulation_continuous.json",
+        "exists": true,
+        "sha256": "2efe86157f2db77b7376efc81fc1aa295d2f28126f14cb9653b35f90b990be5a"
+      }
+    ],
+    "source_locator": "five-seed m by config mean AP",
+    "evidence_level": "historical figure source mapping",
+    "scope_limit": "No recovered full original X; five seeds only."
+  },
+  {
+    "id": "SUPP-055",
+    "kind": "table",
+    "label": "表B6 修正五折程序的保存预测 AP",
+    "sources": [
+      {
+        "path": "/Users/bgc/Documents/ChatGPT/research/rr/02_原完整复现包/CCMS论文修订完整资料包_2026-11-01_192149/02_本轮代码与结果/results/secom_summary.json",
+        "exists": true,
+        "sha256": "d9b160b6841804743362a1b25f9a99aeb26445d7ba94150bdb08f0f53813f95f"
+      },
+      {
+        "path": "/Users/bgc/Documents/ChatGPT/research/rr/02_原完整复现包/CCMS论文修订完整资料包_2026-11-01_192149/02_本轮代码与结果/results/secom_fold0.npz",
+        "exists": true,
+        "sha256": "64713bf21681402938844d1966df00f782799c5d315b9b54f419b223770be4c8"
+      },
+      {
+        "path": "/Users/bgc/Documents/ChatGPT/research/rr/02_原完整复现包/CCMS论文修订完整资料包_2026-11-01_192149/02_本轮代码与结果/results/secom_fold1.npz",
+        "exists": true,
+        "sha256": "3b48a82b26a0cb657e84c7074b89cbe90f3b1190a6774d74d8230ec8639262fd"
+      },
+      {
+        "path": "/Users/bgc/Documents/ChatGPT/research/rr/02_原完整复现包/CCMS论文修订完整资料包_2026-11-01_192149/02_本轮代码与结果/results/secom_fold2.npz",
+        "exists": true,
+        "sha256": "fca223e275fab7365e49bffb9b74dddf7aea873c34cc034672ae839f1312bb70"
+      },
+      {
+        "path": "/Users/bgc/Documents/ChatGPT/research/rr/02_原完整复现包/CCMS论文修订完整资料包_2026-11-01_192149/02_本轮代码与结果/results/secom_fold3.npz",
+        "exists": true,
+        "sha256": "f19517ce8a348fdff47d4d5dedaec13f3a6ef5b676e4f9191dc8b2cfd68831f4"
+      },
+      {
+        "path": "/Users/bgc/Documents/ChatGPT/research/rr/02_原完整复现包/CCMS论文修订完整资料包_2026-11-01_192149/02_本轮代码与结果/results/secom_fold4.npz",
+        "exists": true,
+        "sha256": "89db70eeae89a2716c828b493bffc4337991a889de18722ba633fd789bd3bb81"
+      }
+    ],
+    "source_locator": "per_config; five fold AP and S0 pooled AP",
+    "evidence_level": "all displayed point estimates recomputed from saved predictions",
+    "scope_limit": "No recovered historical 20000-bootstrap interval claim; window experiment remains separate."
+  },
+  {
+    "id": "SUPP-057",
+    "kind": "figure",
+    "label": "图B3 修正 SECOM 程序在五个外层折上的逐折 AP。（a）无扰动条件。（b）额外增加 30% 单元格缺失。每折先对三个训练遮蔽模型的概率取平均，压力条件下再对三个输入的 AP 取平均。连线用于识别跨折的相同配置，折序号无时间含义。",
+    "sources": [
+      {
+        "path": "/Users/bgc/Documents/ChatGPT/research/rr/02_原完整复现包/CCMS论文修订完整资料包_2026-11-01_192149/02_本轮代码与结果/results/secom_summary.json",
+        "exists": true,
+        "sha256": "d9b160b6841804743362a1b25f9a99aeb26445d7ba94150bdb08f0f53813f95f"
+      },
+      {
+        "path": "/Users/bgc/Documents/ChatGPT/论文2.0/paa_revision_20261109/stage4_v1.0/prediction_audit/table_cell_checks.json",
+        "exists": true,
+        "sha256": "5830ba05968fd388e125dff1512d7f72f014a2e1c2fad34b281df6ebccbe0f36"
+      }
+    ],
+    "source_locator": "M3/C025/B025/selected/AP × fold × S0/S1_30",
+    "evidence_level": "five-fold plotted AP values fresh recomputed",
+    "scope_limit": "No statistical coverage claimed from five dependent folds."
+  },
+  {
+    "id": "SUPP-061",
+    "kind": "table",
+    "label": "表C1 材料可用性与解释限制",
+    "sources": [
+      {
+        "path": "/Users/bgc/Documents/ChatGPT/论文2.0/revision_v3.2_20261109/provenance/final_claim_consistency.json",
+        "exists": true,
+        "sha256": "08b633cd822b0f7accc0f6c7a2439539be19688985de4a4d4d924e07c7caf293"
+      },
+      {
+        "path": "/Users/bgc/Documents/ChatGPT/论文2.0/paa_revision_20261109/stage3_v1.0/I_尚未解决的问题及作者确认清单.md",
+        "exists": true,
+        "sha256": "4f3ec6870c2ec5f914e0d0d8a072e3432190f6f6b90747772be1048db515ee14"
+      }
+    ],
+    "source_locator": "material provenance boundaries and confirmed author facts",
+    "evidence_level": "qualitative evidence registry",
+    "scope_limit": "Unknown execution history remains unknown; confirmed Chinese author declarations are not reset."
+  },
+  {
+    "id": "SUPP-067",
+    "kind": "table",
+    "label": "表C2 已有日志中的拟合成本",
+    "sources": [
+      {
+        "path": "/Users/bgc/Documents/ChatGPT/论文2.0/revision_v3.1_20261109/audit/logged_training_cost.csv",
+        "exists": true,
+        "sha256": "db2ec01ee67b9c07eb9b5b17c6eb837467d9e6b4ff47a60c6523a29cb3e05d5d"
+      }
+    ],
+    "source_locator": "method × models/sum/mean/min/max fit seconds",
+    "evidence_level": "logged cost table source",
+    "scope_limit": "Sum of logged fit durations; not independent speed benchmark and peak RSS not recorded."
+  },
+  {
+    "id": "SUPP-070",
+    "kind": "table",
+    "label": "表C3 敏感性模拟与液压实验的实测成本",
+    "sources": [
+      {
+        "path": "/Users/bgc/Documents/ChatGPT/论文2.0/experiments/aps_a5_sensitivity_20261109/analysis/timing_summary.json",
+        "exists": true,
+        "sha256": "6ec567d5670129d02ff8b9475fdc8b52c0dcea9ab3a3c656d21df3404dd94d2d"
+      },
+      {
+        "path": "/Users/bgc/Documents/ChatGPT/论文2.0/experiments/simulation_sensitivity_20261109/analysis/cost_summary.json",
+        "exists": true,
+        "sha256": "19d6af0307e5d84f1763537263416fe00bc60f5f7a9435630b52f9efa07edd42"
+      },
+      {
+        "path": "/Users/bgc/Documents/ChatGPT/论文2.0/experiments/hydraulic_external_20261109/run_results/completion.json",
+        "exists": true,
+        "sha256": "6e9db99477041a61d8d9b0c1f335efa7e301dff829a5844c6e1b31ff5eff9b8e"
+      }
+    ],
+    "source_locator": "run elapsed time, component fit/predict duration, model count and max RSS",
+    "evidence_level": "runtime log mapping",
+    "scope_limit": "Machine/concurrency differences; logged cost is descriptive. See source existence flags for unresolved member paths."
+  },
+  {
+    "id": "SUPP-073",
+    "kind": "table",
+    "label": "表C4 APS可见使用记录的时间线摘要",
+    "sources": [
+      {
+        "path": "/Users/bgc/Documents/ChatGPT/论文2.0/revision_v3.2_20261109/provenance/aps_usage_timeline.csv",
+        "exists": true,
+        "sha256": "1a9cb65c3a9b1f3819bd8413841d97ae9ea8d2b221dff7cd2dba5a9386988198"
+      },
+      {
+        "path": "/Users/bgc/Documents/ChatGPT/论文2.0/revision_v3.2_20261109/provenance/aps_usage_timeline.json",
+        "exists": true,
+        "sha256": "1787210cc565dd97bb17f453b45e3bc617927ad1a91d8c8fa4499385ba4062b8"
+      }
+    ],
+    "source_locator": "date × observed records × evidence scope",
+    "evidence_level": "historical timeline source mapping",
+    "scope_limit": "Absence of other events is not proof no unrecorded use occurred."
+  },
+  {
+    "id": "SUPP-078",
+    "kind": "table",
+    "label": "表D1 相近研究的任务与训练设计",
+    "sources": [
+      {
+        "path": "/Users/bgc/Documents/ChatGPT/论文2.0/paa_revision_20261109/stage2_v1.0/agents/references_review.md",
+        "exists": true,
+        "sha256": "144d453d62cc98b8ff83308708fff3045dcdbf33e5c17400890cf0a31bc63ee3"
+      }
+    ],
+    "source_locator": "23 references; named method scope and absence of matched implementation",
+    "evidence_level": "Stage2 literature audit reused",
+    "scope_limit": "No new external literature review in this numeric audit."
+  },
+  {
+    "id": "SUPP-081",
+    "kind": "table",
+    "label": "表D2 主要符号与实验臂定义",
+    "sources": [
+      {
+        "path": "/Users/bgc/Documents/ChatGPT/论文2.0/paa_revision_20261109/stage2_v1.0/agents/methods_review.md",
+        "exists": true,
+        "sha256": "e304bf6aac471483a82baec81766f6f0ed49bd1568c985ef8e9554a2079eb830"
+      },
+      {
+        "path": "/Users/bgc/Documents/ChatGPT/论文2.0/paa_revision_20261109/stage2_v1.0/agents/statistics_review.md",
+        "exists": true,
+        "sha256": "be543a30fb89155b94732896e28696d0dca6e0a90291c0c58b3a4e793f1f7f58"
+      },
+      {
+        "path": "/Users/bgc/Documents/ChatGPT/论文2.0/paa_revision_20261109/stage3_v1.0/D_论文英文实质性修改稿.md",
+        "exists": true,
+        "sha256": "6226c1c5b57e4bff953ae8400f81bae5901d70c9fafef63633660727bd8ea3e8"
+      }
+    ],
+    "source_locator": "notation and C/B/A3/A4/A5",
+    "evidence_level": "protocol and interpretation audit",
+    "scope_limit": "Definition table; actual parameter audit is in methods_audit; no common CI imposed on heterogeneous units."
+  },
+  {
+    "id": "SUPP-084",
+    "kind": "table",
+    "label": "表D3 压力输入的构造与机制识别边界",
+    "sources": [
+      {
+        "path": "/Users/bgc/Documents/ChatGPT/论文2.0/paa_revision_20261109/stage2_v1.0/agents/methods_review.md",
+        "exists": true,
+        "sha256": "e304bf6aac471483a82baec81766f6f0ed49bd1568c985ef8e9554a2079eb830"
+      },
+      {
+        "path": "/Users/bgc/Documents/ChatGPT/论文2.0/paa_revision_20261109/stage2_v1.0/agents/statistics_review.md",
+        "exists": true,
+        "sha256": "be543a30fb89155b94732896e28696d0dca6e0a90291c0c58b3a4e793f1f7f58"
+      },
+      {
+        "path": "/Users/bgc/Documents/ChatGPT/论文2.0/paa_revision_20261109/stage3_v1.0/D_论文英文实质性修改稿.md",
+        "exists": true,
+        "sha256": "6226c1c5b57e4bff953ae8400f81bae5901d70c9fafef63633660727bd8ea3e8"
+      }
+    ],
+    "source_locator": "S0/S1/S2/S3 pressure construction",
+    "evidence_level": "protocol and interpretation audit",
+    "scope_limit": "Definition table; actual parameter audit is in methods_audit; no common CI imposed on heterogeneous units."
+  },
+  {
+    "id": "SUPP-087",
+    "kind": "table",
+    "label": "表D4 数据划分与评价边界",
+    "sources": [
+      {
+        "path": "/Users/bgc/Documents/ChatGPT/论文2.0/paa_revision_20261109/stage2_v1.0/agents/methods_review.md",
+        "exists": true,
+        "sha256": "e304bf6aac471483a82baec81766f6f0ed49bd1568c985ef8e9554a2079eb830"
+      },
+      {
+        "path": "/Users/bgc/Documents/ChatGPT/论文2.0/paa_revision_20261109/stage2_v1.0/agents/statistics_review.md",
+        "exists": true,
+        "sha256": "be543a30fb89155b94732896e28696d0dca6e0a90291c0c58b3a4e793f1f7f58"
+      },
+      {
+        "path": "/Users/bgc/Documents/ChatGPT/论文2.0/paa_revision_20261109/stage3_v1.0/D_论文英文实质性修改稿.md",
+        "exists": true,
+        "sha256": "6226c1c5b57e4bff953ae8400f81bae5901d70c9fafef63633660727bd8ea3e8"
+      }
+    ],
+    "source_locator": "training/validation/test boundaries",
+    "evidence_level": "protocol and interpretation audit",
+    "scope_limit": "Definition table; actual parameter audit is in methods_audit; no common CI imposed on heterogeneous units."
+  },
+  {
+    "id": "SUPP-089",
+    "kind": "table",
+    "label": "表D5 模型输入表示与缺失信息",
+    "sources": [
+      {
+        "path": "/Users/bgc/Documents/ChatGPT/论文2.0/paa_revision_20261109/stage2_v1.0/agents/methods_review.md",
+        "exists": true,
+        "sha256": "e304bf6aac471483a82baec81766f6f0ed49bd1568c985ef8e9554a2079eb830"
+      },
+      {
+        "path": "/Users/bgc/Documents/ChatGPT/论文2.0/paa_revision_20261109/stage2_v1.0/agents/statistics_review.md",
+        "exists": true,
+        "sha256": "be543a30fb89155b94732896e28696d0dca6e0a90291c0c58b3a4e793f1f7f58"
+      },
+      {
+        "path": "/Users/bgc/Documents/ChatGPT/论文2.0/paa_revision_20261109/stage3_v1.0/D_论文英文实质性修改稿.md",
+        "exists": true,
+        "sha256": "6226c1c5b57e4bff953ae8400f81bae5901d70c9fafef63633660727bd8ea3e8"
+      }
+    ],
+    "source_locator": "M2/M3/M4/MO representations",
+    "evidence_level": "protocol and interpretation audit",
+    "scope_limit": "Definition table; actual parameter audit is in methods_audit; no common CI imposed on heterogeneous units."
+  },
+  {
+    "id": "SUPP-091",
+    "kind": "table",
+    "label": "表D6 不确定性来源与推断单位",
+    "sources": [
+      {
+        "path": "/Users/bgc/Documents/ChatGPT/论文2.0/paa_revision_20261109/stage2_v1.0/agents/methods_review.md",
+        "exists": true,
+        "sha256": "e304bf6aac471483a82baec81766f6f0ed49bd1568c985ef8e9554a2079eb830"
+      },
+      {
+        "path": "/Users/bgc/Documents/ChatGPT/论文2.0/paa_revision_20261109/stage2_v1.0/agents/statistics_review.md",
+        "exists": true,
+        "sha256": "be543a30fb89155b94732896e28696d0dca6e0a90291c0c58b3a4e793f1f7f58"
+      },
+      {
+        "path": "/Users/bgc/Documents/ChatGPT/论文2.0/paa_revision_20261109/stage3_v1.0/D_论文英文实质性修改稿.md",
+        "exists": true,
+        "sha256": "6226c1c5b57e4bff953ae8400f81bae5901d70c9fafef63633660727bd8ea3e8"
+      }
+    ],
+    "source_locator": "uncertainty units",
+    "evidence_level": "protocol and interpretation audit",
+    "scope_limit": "Definition table; actual parameter audit is in methods_audit; no common CI imposed on heterogeneous units."
+  },
+  {
+    "id": "SUPP-104",
+    "kind": "table",
+    "label": "表E1 历史 C 与 B 实际删除分配",
+    "sources": [
+      {
+        "path": "/Users/bgc/Documents/ChatGPT/research/new/revision/analysis/r9_deletion_diagnostics.json",
+        "exists": true,
+        "sha256": "4d29e9a2ac9b65b813ff004a7c0c7541b698bbe187aa394fb4eab526caeb2b08"
+      },
+      {
+        "path": "/Users/bgc/Documents/ChatGPT/research/rr/02_原完整复现包/CCMS论文修订完整资料包_2026-11-01_192149/02_本轮代码与结果/results/aps_reconstruction.json",
+        "exists": true,
+        "sha256": "447101b96aee8aa52214cb5a9b8358c395fd51f9fbb74a815cf6de70de13ac4e"
+      }
+    ],
+    "source_locator": "deletion count and class/column allocation summaries",
+    "evidence_level": "historical diagnostic summary located",
+    "scope_limit": "Not a full fresh mask reconstruction for this historical batch."
+  },
+  {
+    "id": "SUPP-107",
+    "kind": "table",
+    "label": "表E2 类别条件缺失率差的历史描述",
+    "sources": [
+      {
+        "path": "/Users/bgc/Documents/ChatGPT/research/rr/02_原完整复现包/CCMS论文修订完整资料包_2026-11-01_192149/02_本轮代码与结果/results/aps_reconstruction.json",
+        "exists": true,
+        "sha256": "447101b96aee8aa52214cb5a9b8358c395fd51f9fbb74a815cf6de70de13ac4e"
+      }
+    ],
+    "source_locator": "splits[].deletion_diagnostics: gap_before/gap_after and B deleted_by_class_col; 5 split mean/SD",
+    "evidence_level": "rate-gap reconstructed from archived counts and every displayed summary checked",
+    "scope_limit": "Distinct historical batch from MAIN Figure 3."
+  },
+  {
+    "id": "SUPP-112",
+    "kind": "table",
+    "label": "表E3 局部消融与全规模计数匹配 Panel A",
+    "sources": [
+      {
+        "path": "/Users/bgc/Documents/ChatGPT/research/new/revision/analysis/r9_localization_intervals.json",
+        "exists": true,
+        "sha256": "b9ddf43cc54a9a3333128505da754bd0064218789b183db320f1d74313dd3938"
+      }
+    ],
+    "source_locator": "local C-B S0 and S1_30; 1000 draw CI",
+    "evidence_level": "historical local-ablation summary located",
+    "scope_limit": "Intervals conditional, not a full causal class-allocation isolation."
+  },
+  {
+    "id": "SUPP-114",
+    "kind": "table",
+    "label": "表E3 局部消融与全规模计数匹配 Panel B",
+    "sources": [
+      {
+        "path": "/Users/bgc/Documents/ChatGPT/research/new/revision/analysis/r9_arm3_decomposition_intervals.json",
+        "exists": true,
+        "sha256": "39ba900069c0e16f951acee9a43a62d6c26651c8ea3c08ea4aa4da2760460d25"
+      }
+    ],
+    "source_locator": "dataset/stress C-A3 and A3-B; paths and CI",
+    "evidence_level": "historical A3 path summary located",
+    "scope_limit": "95.6%/88.4% are path-dependent descriptive fractions."
+  },
+  {
+    "id": "SUPP-116",
+    "kind": "figure",
+    "label": "图E1 实际删除与条件对比。（a）训练确定的 8 列承担的正类删除比例。（b）删除中正类所占比例，C 为 0.44%，B 为 1.03%。（c）沿 A3 路径的分解，橙色为固定逐列计数的 C − A3 对比，绿色为 A3 − B 对比，黑色短线为 C − B。颜色分量是路径依赖的性能对比，不表示独立机制。 图例中的 class allocation 与 column profile 仅标识两条对比路径。C − A3 还涉及具体单元格、行级删除负担和联合掩码的变化，机制解释应共同考虑这些因素。",
+    "sources": [
+      {
+        "path": "/Users/bgc/Documents/ChatGPT/论文2.0/paa_revision_20261109/stage3_v1.0/assets/figure_E1/provenance.json",
+        "exists": true,
+        "sha256": "bb83aef0f59812435789af3ceefbf347a7fa180a83cd38bbc743cee68b7d7fea"
+      },
+      {
+        "path": "/Users/bgc/Documents/ChatGPT/论文2.0/paa_revision_20261109/stage3_v1.0/assets/figure_E1/r9_deletion_diagnostics.json",
+        "exists": true,
+        "sha256": "4d29e9a2ac9b65b813ff004a7c0c7541b698bbe187aa394fb4eab526caeb2b08"
+      },
+      {
+        "path": "/Users/bgc/Documents/ChatGPT/论文2.0/paa_revision_20261109/stage3_v1.0/assets/figure_E1/r9_arm3_decomposition_intervals.json",
+        "exists": true,
+        "sha256": "39ba900069c0e16f951acee9a43a62d6c26651c8ea3c08ea4aa4da2760460d25"
+      },
+      {
+        "path": "/Users/bgc/Documents/ChatGPT/论文2.0/paa_revision_20261109/stage3_v1.0/assets/figure_E1/regenerate_E1.py",
+        "exists": true,
+        "sha256": "9dffb0c7c99b1fb88edd585f7c11a56affb9091dec4af2c36abe0e1edf916349"
+      }
+    ],
+    "source_locator": "panels a/b deletion summaries; c eight C-A3 and A3-B contrasts",
+    "evidence_level": "Stage3 same-value legend redraw source checked",
+    "scope_limit": "Only contrasts, no pure-mechanism labels; historical summary evidence."
+  },
+  {
+    "id": "SUPP-120",
+    "kind": "table",
+    "label": "表E4 A4 与其它对照的历史描述",
+    "sources": [
+      {
+        "path": "/Users/bgc/Documents/ChatGPT/research/new/revision/analysis/r9_arm3_countmatched.json",
+        "exists": true,
+        "sha256": "b4ef6d93b5853222de3dea0a891214c47fe76a2dfbe0539eb9f6fbd30ddd3e81"
+      }
+    ],
+    "source_locator": "A4-B, A3-A4, A3-B per dataset/stress",
+    "evidence_level": "historical A4 summary located",
+    "scope_limit": "A4 follows B realized column counts; finite conditional repeats not CI."
+  },
+  {
+    "id": "SUPP-125",
+    "kind": "table",
+    "label": "表E5 历史预测在固定告警预算下的召回率",
+    "sources": [
+      {
+        "path": "/Users/bgc/Documents/ChatGPT/research/new/revision/analysis/r15_decision_metrics.json",
+        "exists": true,
+        "sha256": "1ded55aa0626d103b2dfc5dc08aa064a59ebe50c70ea99f350b6afda5913e13d"
+      },
+      {
+        "path": "/Users/bgc/Documents/ChatGPT/论文2.0/paa_revision_20261109/stage4_v1.0/alert_fix",
+        "exists": true,
+        "sha256": null
+      }
+    ],
+    "source_locator": "rho=.01/.02/.05; strict top-K correction in alert_fix",
+    "evidence_level": "separate Stage4 formal corrected estimator audit",
+    "scope_limit": "Original intervals retained only in old/new audit; parent replaces E5."
+  },
+  {
+    "id": "SUPP-132",
+    "kind": "table",
+    "label": "表F1 结果与本地实验归档的对应",
+    "sources": [
+      {
+        "path": "/Users/bgc/Documents/ChatGPT/论文2.0/paa_revision_20261109/stage2_v1.0/sources/supp_blocks.json",
+        "exists": true,
+        "sha256": "9cd12c61390166f5867bbf40e61a1ccf64c18e3b357c741d94bbcb81b7fed91b"
+      }
+    ],
+    "source_locator": "F1 rows to respective experiment directories",
+    "evidence_level": "archive navigation check",
+    "scope_limit": "Local paths are not public reproducibility links."
+  },
+  {
+    "id": "NEW-PROTOCOL",
+    "kind": "table",
+    "label": "新增跨协议矩阵",
+    "sources": [
+      {
+        "path": "/Users/bgc/Documents/ChatGPT/论文2.0/paa_revision_20261109/stage3_v1.0/revision_records.json",
+        "exists": true,
+        "sha256": "1b0310848d63aebc3ea939439cf3b637d00392716585a43042dd8633ea21c20e"
+      },
+      {
+        "path": "/Users/bgc/Documents/ChatGPT/论文2.0/paa_revision_20261109/stage3_v1.0/D_论文英文实质性修改稿.md",
+        "exists": true,
+        "sha256": "6226c1c5b57e4bff953ae8400f81bae5901d70c9fafef63633660727bd8ea3e8"
+      }
+    ],
+    "source_locator": "methods protocol overview, inserted after hydraulic method and before conditional statistics",
+    "evidence_level": "cross-protocol text/parameter mapping",
+    "scope_limit": "Added table does not replace original 39 objects."
+  }
+]

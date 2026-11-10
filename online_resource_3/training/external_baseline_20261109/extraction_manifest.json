@@ -1,0 +1,127 @@
+{
+  "commit": "fbbdd0ca2c9d0d8072f49d82ad35f4391098863f",
+  "definitions": [
+    {
+      "source": "tree.py",
+      "definition": "Node",
+      "line": 8,
+      "end_line": 35,
+      "sha256": "ec3948a254d03022eb0c4769b22034516312b34589b2d7d8958ba061c4d3d12c",
+      "ast_identical": true
+    },
+    {
+      "source": "tree.py",
+      "definition": "count_nodes",
+      "line": 38,
+      "end_line": 43,
+      "sha256": "ea974f7cf2cd023a262b7963b4697eecf8f6fc7e01507b209815f63e82419494",
+      "ast_identical": true
+    },
+    {
+      "source": "tree.py",
+      "definition": "TreeNode",
+      "line": 46,
+      "end_line": 104,
+      "sha256": "e53adb206ad4dc14f90db9701faf67690fb855bcecc34ceec25b59432d5673ca",
+      "ast_identical": true
+    },
+    {
+      "source": "tree.py",
+      "definition": "_populate_node_list",
+      "line": 107,
+      "end_line": 125,
+      "sha256": "6a747ec947449da6985ded291c7c2ae8206097bd6a03bb24a2d1b58b960f8942",
+      "ast_identical": true
+    },
+    {
+      "source": "tree.py",
+      "definition": "convert_to_sklearn_tree",
+      "line": 128,
+      "end_line": 163,
+      "sha256": "272b0a4b0baa58126e60282ba7b67d79edfe686bad8b05730cf530c42c21ee08",
+      "ast_identical": true
+    },
+    {
+      "source": "tree.py",
+      "definition": "ExtendedTree",
+      "line": 166,
+      "end_line": 239,
+      "sha256": "9334c0152c879d518e9c9a2dae5556bfa10da5de3f5441c6ba89b18405cab84b",
+      "ast_identical": true
+    },
+    {
+      "source": "tree.py",
+      "definition": "update_tree_structure",
+      "line": 242,
+      "end_line": 259,
+      "sha256": "0dcf99a7af089ff6ff569b20a000b5a3a9cb01512e39ce5ab94c2b9b2eedc0ba",
+      "ast_identical": true
+    },
+    {
+      "source": "criterion.py",
+      "definition": "entropy",
+      "line": 4,
+      "end_line": 7,
+      "sha256": "9fdaedb2a887ab519afcd05c6999d994381c6493d31902cc3a3f1374ad115334",
+      "ast_identical": true
+    },
+    {
+      "source": "criterion.py",
+      "definition": "info_gain_scorer",
+      "line": 10,
+      "end_line": 14,
+      "sha256": "2847a375b88bec0bdad92ce4fa326196237d494791e7a1a7a7e220b2826ca1b3",
+      "ast_identical": true
+    },
+    {
+      "source": "criterion.py",
+      "definition": "gini_impurity",
+      "line": 17,
+      "end_line": 20,
+      "sha256": "91bf3c1899e9f1ec962eaa67ddbebfc094c671133c698a7fb5b0ce281cb16b88",
+      "ast_identical": true
+    },
+    {
+      "source": "criterion.py",
+      "definition": "gini_scorer",
+      "line": 23,
+      "end_line": 27,
+      "sha256": "53aa85aab95021d031d5a301446c78dc0294bf4ef003b2f3a95e5c148964ba6c",
+      "ast_identical": true
+    },
+    {
+      "source": "missingness_utils.py",
+      "definition": "check_missingness_mask",
+      "line": 18,
+      "end_line": 24,
+      "sha256": "644e7a4b0e4381788ae8d74d56568a7d030bf253e189acd6c95a7d357212b8c0",
+      "ast_identical": true
+    },
+    {
+      "source": "base.py",
+      "definition": "ClassifierMixin",
+      "line": 33,
+      "end_line": 107,
+      "sha256": "1814dd8306d30e5fd7c0b3157291b2302a0a671ad220fd96018b88ee3777aefd",
+      "ast_identical": true
+    },
+    {
+      "source": "base.py",
+      "definition": "BaseMADT",
+      "line": 170,
+      "end_line": 497,
+      "sha256": "34bc50b2eabaa8f21c380dfcaa90ea6d6631960331fea65b61eb29120d419c6b",
+      "ast_identical": true
+    },
+    {
+      "source": "classification.py",
+      "definition": "MADTClassifier",
+      "line": 394,
+      "end_line": 495,
+      "sha256": "0aea3963c6a9a1b26d6e3aa7f82aea8161cf03d284a39d4f6dc279ce36b9ab78",
+      "ast_identical": true
+    }
+  ],
+  "generated_sha256": "495d483ff486dfe52c4d76196650bcc3e149140dd514ecf49d023704d699a1ff",
+  "changes": "Only imports/module layout; all extracted scientific definitions are AST-identical to author source. No model logic changes."
+}

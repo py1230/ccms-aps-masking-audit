@@ -1,0 +1,10 @@
+{"status": "passed", "unit": "aps_rerun", "arrays_checked": 17, "scope": "Exact public archived score, label and index arrays for the named original unit."}
+{"status": "passed", "unit": "aps_rerun_matched", "arrays_checked": 17, "scope": "Exact public archived score, label and index arrays for the named original unit."}
+{"status": "passed", "unit": "aps_channels", "arrays_checked": 17, "scope": "Exact public archived score, label and index arrays for the named original unit."}
+{"status": "passed", "unit": "aps_resample", "arrays_checked": 17, "scope": "Exact public archived score, label and index arrays for the named original unit."}
+{"status": "passed", "unit": "aps_a5", "arrays_checked": 15, "scope": "Exact public archived score, label and index arrays for the named original unit."}
+{"status": "passed", "unit": "aps_a5_sensitivity", "arrays_checked": 45, "scope": "Exact public archived score, label and index arrays for the named original unit."}
+{"status": "passed", "unit": "simulation_continuous", "arrays_checked": 135, "scope": "Exact public archived score, label and index arrays for the named original unit."}
+{"status": "passed", "unit": "simulation_feature_dependent", "arrays_checked": 135, "scope": "Exact public archived score, label and index arrays for the named original unit."}
+{"status": "passed", "unit": "secom_temporal", "arrays_checked": 206, "scope": "Exact public archived score, label and index arrays for the named original unit."}
+{"status": "passed", "unit": "hydraulic", "arrays_checked": 463, "scope": "Exact public archived score, label and index arrays for the named original unit."}

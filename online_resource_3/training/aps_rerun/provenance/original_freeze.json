@@ -1,0 +1,203 @@
+{
+  "frozen_utc": "2026-11-08T12:03:42.592404+00:00",
+  "historical_results_previously_seen": true,
+  "new_full_model_run_started": false,
+  "smoke_only_completed": true,
+  "files": {
+    "run_aps.py": {
+      "path": "/Users/bgc/Documents/ChatGPT/论文2.0/experiments/aps_rerun_20261108/run_aps.py",
+      "sha256": "2078fe12d270ed90026ad50d8f3c9ba186e1071cc1dc1e1257a7740bf94d2b3a",
+      "bytes": 14630
+    },
+    "verify_results.py": {
+      "path": "/Users/bgc/Documents/ChatGPT/论文2.0/experiments/aps_rerun_20261108/verify_results.py",
+      "sha256": "8de43811aaa07d3bc8b532949c8b5d4a2ff09aa8bc8492b71b51130a6ab4c449",
+      "bytes": 24657
+    },
+    "PROTOCOL.md": {
+      "path": "/Users/bgc/Documents/ChatGPT/论文2.0/experiments/aps_rerun_20261108/PROTOCOL.md",
+      "sha256": "665f7a4249ad050e2193ae989965405dd81fd9204e80d08a45a0472db51ab314",
+      "bytes": 5886
+    },
+    "config.json": {
+      "path": "/Users/bgc/Documents/ChatGPT/论文2.0/experiments/aps_rerun_20261108/config.json",
+      "sha256": "097def9d4854656a47ffe455159abbb0bfe10e4bd433c046b674996449005f0a",
+      "bytes": 1761
+    },
+    "split_indices.npz": {
+      "path": "/Users/bgc/Documents/ChatGPT/论文2.0/experiments/aps_rerun_20261108/split_indices.npz",
+      "sha256": "8659dfa51d496382637b55b4ef8b99abe284b5d0c4dd218d3c4ffa98ad91473f",
+      "bytes": 462929
+    },
+    "historical_sources.json": {
+      "path": "/Users/bgc/Documents/ChatGPT/论文2.0/experiments/aps_rerun_20261108/historical_sources.json",
+      "sha256": "45e5c76c21bce2e6bd8d746af0caa0243749e58e5b9b0d2c0a116569f4d5aa0a",
+      "bytes": 6782
+    },
+    "environment_packages.txt": {
+      "path": "/Users/bgc/Documents/ChatGPT/论文2.0/experiments/aps_rerun_20261108/environment_packages.txt",
+      "sha256": "7a372e178e733149c1a7c0769a779ff65f1030ab85686cc04bf8b897e9cd1f87",
+      "bytes": 7532
+    },
+    "audit/runner_code_review.md": {
+      "path": "/Users/bgc/Documents/ChatGPT/论文2.0/experiments/aps_rerun_20261108/audit/runner_code_review.md",
+      "sha256": "3e32814ddda09a079a329221a8259378bc9c8e4945015b152b31543cba6d58c7",
+      "bytes": 1429
+    },
+    "source/pipeline.py": {
+      "path": "/Users/bgc/Documents/ChatGPT/论文2.0/experiments/aps_rerun_20261108/source/pipeline.py",
+      "sha256": "45cb6f629e0126f3afd8b1bec4b4b4fb290d0a6888c0c1957cd2202cc0a3a26a",
+      "bytes": 5367
+    },
+    "source/audit_metrics.py": {
+      "path": "/Users/bgc/Documents/ChatGPT/论文2.0/experiments/aps_rerun_20261108/source/audit_metrics.py",
+      "sha256": "9d66c8c09af59ccd15ec5f98b1320ed44fbd90299f8ed8f7e37dffdf66266f0c",
+      "bytes": 4084
+    },
+    "source/aps_io.py": {
+      "path": "/Users/bgc/Documents/ChatGPT/论文2.0/experiments/aps_rerun_20261108/source/aps_io.py",
+      "sha256": "787558c6badffb88d3badefc87b454bafd443bdf411714eeecabc325e8bb3f6f",
+      "bytes": 6786
+    },
+    "source/ccms.py": {
+      "path": "/Users/bgc/Documents/ChatGPT/论文2.0/experiments/aps_rerun_20261108/source/ccms.py",
+      "sha256": "2aa211e6ac688c7b1687a1946c30b780a94a3d856a9d0cb59504c0e2554511c2",
+      "bytes": 6952
+    },
+    "historical/arm4_seed22.npz": {
+      "path": "/Users/bgc/Documents/ChatGPT/论文2.0/experiments/aps_rerun_20261108/historical/arm4_seed22.npz",
+      "sha256": "1e82ad064cb9e5e6309445ac46d87ceb4203a7a62797f6a8e7220038bb12f03d",
+      "bytes": 2414316
+    },
+    "historical/aps_reconstruction.json": {
+      "path": "/Users/bgc/Documents/ChatGPT/论文2.0/experiments/aps_rerun_20261108/historical/aps_reconstruction.json",
+      "sha256": "447101b96aee8aa52214cb5a9b8358c395fd51f9fbb74a815cf6de70de13ac4e",
+      "bytes": 644990
+    },
+    "historical/arm3_seed44.npz": {
+      "path": "/Users/bgc/Documents/ChatGPT/论文2.0/experiments/aps_rerun_20261108/historical/arm3_seed44.npz",
+      "sha256": "e977bd784c064a8237a29dfeb896062f65d1144b9fc36a4fc86bc38ae44d4406",
+      "bytes": 3439006
+    },
+    "historical/aps_testset_20261031T145423.json": {
+      "path": "/Users/bgc/Documents/ChatGPT/论文2.0/experiments/aps_rerun_20261108/historical/aps_testset_20261031T145423.json",
+      "sha256": "645066547bc751deeeb2ce4e342f6deddaed5308a5ae4784c6f989c915cf403c",
+      "bytes": 324471
+    },
+    "historical/run_aps_formal.py": {
+      "path": "/Users/bgc/Documents/ChatGPT/论文2.0/experiments/aps_rerun_20261108/historical/run_aps_formal.py",
+      "sha256": "a2f9eee5046d8e806cfbd7a24db0b6038bff2c728ef6c39553970ab1937325c0",
+      "bytes": 9099
+    },
+    "historical/run_arm3_countmatched.py": {
+      "path": "/Users/bgc/Documents/ChatGPT/论文2.0/experiments/aps_rerun_20261108/historical/run_arm3_countmatched.py",
+      "sha256": "6a3146bae0200331bc05260a891385ca406d17fe959e8dabd4e004a86a367455",
+      "bytes": 40278
+    },
+    "historical/arm4_seed33.npz": {
+      "path": "/Users/bgc/Documents/ChatGPT/论文2.0/experiments/aps_rerun_20261108/historical/arm4_seed33.npz",
+      "sha256": "e8c19191b30c10221fef56502c831d8ccbf4aac2cc7439dfa6d716f0c30fe3f3",
+      "bytes": 2544542
+    },
+    "historical/arm3_seed55.npz": {
+      "path": "/Users/bgc/Documents/ChatGPT/论文2.0/experiments/aps_rerun_20261108/historical/arm3_seed55.npz",
+      "sha256": "bec0b04656b8ffe8a40ba787562e758938e024d565ea068e5121d9b9922ddae0",
+      "bytes": 4116159
+    },
+    "historical/aps_formal_20261031T142351.json": {
+      "path": "/Users/bgc/Documents/ChatGPT/论文2.0/experiments/aps_rerun_20261108/historical/aps_formal_20261031T142351.json",
+      "sha256": "d9343936a322c4a5f364d06f15730ed5c06b69757ef911328d29fb6eb791a444",
+      "bytes": 659402
+    },
+    "historical/arm4_seed55.npz": {
+      "path": "/Users/bgc/Documents/ChatGPT/论文2.0/experiments/aps_rerun_20261108/historical/arm4_seed55.npz",
+      "sha256": "4427c1081d5c68eb7c689d0eaca4228fcb0d03f747c36c9d55f4612598b08395",
+      "bytes": 2488038
+    },
+    "historical/run_aps_testset.py": {
+      "path": "/Users/bgc/Documents/ChatGPT/论文2.0/experiments/aps_rerun_20261108/historical/run_aps_testset.py",
+      "sha256": "ccd134addedbde6864eefcf3bcb475f86c52efe2150bba928f9c6a4716724793",
+      "bytes": 7168
+    },
+    "historical/arm3_seed33.npz": {
+      "path": "/Users/bgc/Documents/ChatGPT/论文2.0/experiments/aps_rerun_20261108/historical/arm3_seed33.npz",
+      "sha256": "ee0b30e9587f67dfb436272ac580ef4b70dc155a9dff4cefcbb2ea1e517735cf",
+      "bytes": 4973824
+    },
+    "historical/run_cb_firstlook.py": {
+      "path": "/Users/bgc/Documents/ChatGPT/论文2.0/experiments/aps_rerun_20261108/historical/run_cb_firstlook.py",
+      "sha256": "682912992b664996431c9b54c545002e793694680a99fcbf2f12a44c87152809",
+      "bytes": 13675
+    },
+    "historical/arm4_seed44.npz": {
+      "path": "/Users/bgc/Documents/ChatGPT/论文2.0/experiments/aps_rerun_20261108/historical/arm4_seed44.npz",
+      "sha256": "61ef095890e912aab431b49a118182a05c781c0da51abaf6eb32bbed559ea82e",
+      "bytes": 1816706
+    },
+    "historical/arm3_seed22.npz": {
+      "path": "/Users/bgc/Documents/ChatGPT/论文2.0/experiments/aps_rerun_20261108/historical/arm3_seed22.npz",
+      "sha256": "ba22fc092024328016fa42105fcfa919da3d5eb2773e1ea9e6283c5a7f4e73a0",
+      "bytes": 4557940
+    },
+    "historical/aps_seed11.npz": {
+      "path": "/Users/bgc/Documents/ChatGPT/论文2.0/experiments/aps_rerun_20261108/historical/aps_seed11.npz",
+      "sha256": "11d0f6446e7a9e65dd19804c429d86d02d0c921b077bf52736c65fbba6645465",
+      "bytes": 6499890
+    },
+    "historical/run_supplement.py": {
+      "path": "/Users/bgc/Documents/ChatGPT/论文2.0/experiments/aps_rerun_20261108/historical/run_supplement.py",
+      "sha256": "e68bb0f7a05a55d129c66048414b6c4b4aed8d52f98a4a2b5ebfa27fa9fb104a",
+      "bytes": 10310
+    },
+    "historical/arm3_seed11.npz": {
+      "path": "/Users/bgc/Documents/ChatGPT/论文2.0/experiments/aps_rerun_20261108/historical/arm3_seed11.npz",
+      "sha256": "e807d4a919956716b52428e404ecce0660f03083d0c5fbd9b67f01b801151223",
+      "bytes": 4462351
+    },
+    "historical/aps_seed22.npz": {
+      "path": "/Users/bgc/Documents/ChatGPT/论文2.0/experiments/aps_rerun_20261108/historical/aps_seed22.npz",
+      "sha256": "e8ddeb526bea496b540f37c1035fdef89f955d340c0bb80c5740df06bf80ee74",
+      "bytes": 6834012
+    },
+    "historical/r9_arm3_fidelity.json": {
+      "path": "/Users/bgc/Documents/ChatGPT/论文2.0/experiments/aps_rerun_20261108/historical/r9_arm3_fidelity.json",
+      "sha256": "8265f510f65e9f3a7144f73043058cc35c18be00326a88027c0554d37f17dd88",
+      "bytes": 1638
+    },
+    "historical/aps_seed33.npz": {
+      "path": "/Users/bgc/Documents/ChatGPT/论文2.0/experiments/aps_rerun_20261108/historical/aps_seed33.npz",
+      "sha256": "a1d8dde8e54ddcc13af93ae0751b647c6853f0557a7cd0ed654811d34a224953",
+      "bytes": 7016138
+    },
+    "historical/r9_arm3_train_report.json": {
+      "path": "/Users/bgc/Documents/ChatGPT/论文2.0/experiments/aps_rerun_20261108/historical/r9_arm3_train_report.json",
+      "sha256": "9188b674bc6d782be1019ecff1c29a1193d5138970d266410a787f08f29b4629",
+      "bytes": 110034
+    },
+    "historical/aps_seed55.npz": {
+      "path": "/Users/bgc/Documents/ChatGPT/论文2.0/experiments/aps_rerun_20261108/historical/aps_seed55.npz",
+      "sha256": "6d75d6e7133b0ae381a4c02f1a8cbb0b77f150bd980a0880fccd5c4d4ba12d7b",
+      "bytes": 5270322
+    },
+    "historical/arm4_seed11.npz": {
+      "path": "/Users/bgc/Documents/ChatGPT/论文2.0/experiments/aps_rerun_20261108/historical/arm4_seed11.npz",
+      "sha256": "4ad5fa360d1a863c65e6504c0e30ab241cc5fc849db47adfc6d9d29ebc0af00e",
+      "bytes": 2251606
+    },
+    "historical/aps_seed44.npz": {
+      "path": "/Users/bgc/Documents/ChatGPT/论文2.0/experiments/aps_rerun_20261108/historical/aps_seed44.npz",
+      "sha256": "03651380961284ae611102df512db518929fb4d85124c172575c2dcfa3c73e1f",
+      "bytes": 4378347
+    },
+    "aps_failure_training_set.csv": {
+      "path": "/Users/bgc/Documents/ChatGPT/论文2.0/data/raw/aps/aps_failure_training_set.csv",
+      "sha256": "bb484302e3a3a1c8ef5e1f0129c4dc7cbd58f350867f95b575461ca21ab6b9da",
+      "bytes": 44669194
+    },
+    "aps_failure_test_set.csv": {
+      "path": "/Users/bgc/Documents/ChatGPT/论文2.0/data/raw/aps/aps_failure_test_set.csv",
+      "sha256": "2cdf6f7661c7b4c63333c93cdec36a3a82350176b604a2312cf82799fb2712f3",
+      "bytes": 11943558
+    }
+  }
+}

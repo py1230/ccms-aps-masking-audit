@@ -1,0 +1,53 @@
+{
+  "status": "passed",
+  "note": "Independent check against archived validation predictions and direct budget/mask formula; no additional model fits.",
+  "runner_sha256": "8724438315f6d02bb58ee94541c23502b597212c1e30a90a7e7678f9d8c3c056",
+  "config_sha256": "fae76cf18e8eb9dc2eabb1c2d276029ea9c43d7ae3557a29bddb9f4ddc27d49b",
+  "seeds": [
+    {
+      "seed": 501,
+      "indices_equal": true,
+      "M3_matrix_equal": true,
+      "M4_matrix_equal": true,
+      "all_C_B_masks_formula_equal": true,
+      "selection_exact": true,
+      "maximum_expected_budget_error": 6.980371836107224e-11
+    },
+    {
+      "seed": 502,
+      "indices_equal": true,
+      "M3_matrix_equal": true,
+      "M4_matrix_equal": true,
+      "all_C_B_masks_formula_equal": true,
+      "selection_exact": true,
+      "maximum_expected_budget_error": 1.4483703125733882e-10
+    },
+    {
+      "seed": 503,
+      "indices_equal": true,
+      "M3_matrix_equal": true,
+      "M4_matrix_equal": true,
+      "all_C_B_masks_formula_equal": true,
+      "selection_exact": true,
+      "maximum_expected_budget_error": 9.458744898438454e-11
+    },
+    {
+      "seed": 504,
+      "indices_equal": true,
+      "M3_matrix_equal": true,
+      "M4_matrix_equal": true,
+      "all_C_B_masks_formula_equal": true,
+      "selection_exact": true,
+      "maximum_expected_budget_error": 1.1482370609883219e-10
+    },
+    {
+      "seed": 505,
+      "indices_equal": true,
+      "M3_matrix_equal": true,
+      "M4_matrix_equal": true,
+      "all_C_B_masks_formula_equal": true,
+      "selection_exact": true,
+      "maximum_expected_budget_error": 1.248281478183344e-10
+    }
+  ]
+}

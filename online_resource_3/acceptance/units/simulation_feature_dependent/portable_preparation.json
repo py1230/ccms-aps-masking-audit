@@ -1,0 +1,9 @@
+{
+  "family": "simulation_feature_dependent",
+  "unit_mode": true,
+  "changes": {
+    "execution_schedule": "one prespecified original unit; no observations or model iterations reduced"
+  },
+  "source_template": "training/simulation_feature_dependent",
+  "original_config_sha256": "72a339a5440f371c206dd02b7359c8580ef1f79433e5d2d33af0d752a1683673"
+}

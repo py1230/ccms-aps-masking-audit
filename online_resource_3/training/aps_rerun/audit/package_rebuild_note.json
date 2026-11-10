@@ -1,0 +1,5 @@
+{
+  "first_archive_payload_verification": "passed",
+  "first_archive_sha256": "db06aec1bc060075b95cb80f0d5ba96133246020a8551e02826ecf0a37d1012c",
+  "reason": "Rebuild excludes packaging process logs, which change after manifest creation. Scientific outputs unchanged."
+}

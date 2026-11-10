@@ -1,0 +1,81 @@
+{
+  "verification": {
+    "python": "3.12.14",
+    "numpy": "2.3.5"
+  },
+  "historical_training_snapshots": {
+    "aps_rerun": {
+      "python": "3.12.15",
+      "numpy": "2.5.4",
+      "pandas": "3.1.0",
+      "sklearn": "1.9.1",
+      "scipy": "1.18.1",
+      "joblib": "1.6.0",
+      "profile": "matched primary"
+    },
+    "aps_channels": {
+      "python": "3.12.15",
+      "numpy": "2.5.4",
+      "sklearn": "1.9.1"
+    },
+    "aps_resample": {
+      "python": "3.12.15",
+      "numpy": "2.5.4",
+      "sklearn": "1.9.1"
+    },
+    "aps_a5": {
+      "python": "3.12.15",
+      "numpy": "2.5.4",
+      "sklearn": "1.9.1"
+    },
+    "aps_a5_sensitivity": {
+      "python": "3.12.15",
+      "numpy": "2.5.4",
+      "sklearn": "1.9.1"
+    },
+    "simulation_continuous": {
+      "python": "3.12.15",
+      "numpy": "2.5.4",
+      "sklearn": "1.9.1",
+      "scipy": "1.18.1",
+      "joblib": "1.6.0"
+    },
+    "simulation_feature_dependent": {
+      "python": "3.12.15",
+      "numpy": "2.5.4",
+      "sklearn": "1.9.1",
+      "scipy": "1.18.1",
+      "joblib": "1.6.0"
+    },
+    "secom_temporal": {
+      "python": "3.13.9",
+      "numpy": "2.3.5",
+      "pandas": "2.3.3",
+      "sklearn": "1.7.2",
+      "scipy": "1.16.3",
+      "joblib": "1.5.2"
+    },
+    "hydraulic": {
+      "python": "3.12.15",
+      "numpy": "1.26.4",
+      "scipy": "1.13.1",
+      "sklearn": "1.5.2",
+      "joblib": "1.4.2"
+    },
+    "aps_rerun_first": {
+      "python": "3.13.9",
+      "numpy": "2.3.5",
+      "pandas": "2.3.3",
+      "sklearn": "1.7.2",
+      "scipy": "1.16.3",
+      "joblib": "1.5.2"
+    }
+  },
+  "meaning": "Distinct observed environments; numerical identity is not guaranteed across versions.",
+  "fresh_acceptance_environments": {
+    "main_requirements": "requirements-training-main.txt",
+    "legacy_requirements": "requirements-training-legacy.txt",
+    "hydraulic_requirements": "requirements-training-hydraulic.txt",
+    "evidence": "acceptance/acceptance_summary.json"
+  }
+}

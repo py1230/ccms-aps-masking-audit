@@ -1,0 +1,8 @@
+{
+  "status": "failed_before_freeze",
+  "cause": "Matched Python environment has no pip; python -m pip freeze returned code 1",
+  "formal_data_generated": false,
+  "freeze_written": false,
+  "resolution": "Use importlib.metadata.distributions inventory; preserve environment and repeat smoke to bind modified freeze_run.py",
+  "followup_check_failed_reason": "freeze.json absent after failed freeze; no formal run launched"
+}

@@ -1,0 +1,29 @@
+{
+  "status": "passed",
+  "scope": "30 new formal seeds",
+  "counts": {
+    "seeds": 30,
+    "models_reloaded": 600,
+    "single_prediction_arrays": 7800,
+    "ensemble_prediction_arrays": 3900,
+    "ap_values": 3900,
+    "selections": 60,
+    "training_masks": 600,
+    "file_hashes": 2670
+  },
+  "errors": {
+    "prediction_max_abs": 0.0,
+    "ensemble_max_abs": 0.0,
+    "ap_max_abs": 2.220446049250313e-16
+  },
+  "statistics": {
+    "independent_ap_inputs": true,
+    "all_18_comparisons": true,
+    "shared_bootstrap_draws": 20000,
+    "primary_and_secondary_intervals": true,
+    "holm_family_size": 18
+  },
+  "verifier_sha256": "3858ada933ac4204538f6524f9e3da7e9542f922d110766ba4ee620df6c720c5",
+  "timestamp_utc": "2026-11-09T04:35:49.539853+00:00",
+  "limit": "Separate numerical implementation adapted and executed in the same session; verifier does not import runner or analysis; not an independent team replication or historical provenance proof"
+}

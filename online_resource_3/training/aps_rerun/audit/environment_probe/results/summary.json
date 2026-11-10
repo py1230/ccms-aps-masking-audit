@@ -1,0 +1,99 @@
+{
+  "status": "complete",
+  "n_fits": 4,
+  "n_comparison_arrays": 52,
+  "by_config": {
+    "M3": {
+      "n_prediction_arrays": 26,
+      "n_match_historical_at_1e12": 26,
+      "max_abs_prediction_difference_historical": 0.0,
+      "max_abs_prediction_difference_main": 0.9208693851772657,
+      "max_abs_ap_difference_historical": 0.0,
+      "max_abs_ap_difference_main": 0.08170784522377555
+    },
+    "C025": {
+      "n_prediction_arrays": 26,
+      "n_match_historical_at_1e12": 26,
+      "max_abs_prediction_difference_historical": 0.0,
+      "max_abs_prediction_difference_main": 0.6040396077434312,
+      "max_abs_ap_difference_historical": 0.0,
+      "max_abs_ap_difference_main": 0.11045433626771373
+    }
+  },
+  "fit_records": [
+    {
+      "tag": "M3",
+      "fit_seconds": 3.598856708005769,
+      "n_iter": 58,
+      "do_early_stopping": true,
+      "max_reload_prediction_error": 0.0,
+      "model_sha256": "d716391439725cca0f062635fa8955fe88b489c795684b83b80efc3b1789e99f"
+    },
+    {
+      "tag": "C025_seed9107",
+      "fit_seconds": 4.098394790984457,
+      "n_iter": 69,
+      "do_early_stopping": true,
+      "max_reload_prediction_error": 0.0,
+      "model_sha256": "b65e1a3f34e696f3f96d625e56df0f7c6e0bf8134ce5d00b8caef6f189a9ec45"
+    },
+    {
+      "tag": "C025_seed9108",
+      "fit_seconds": 4.442410084011499,
+      "n_iter": 74,
+      "do_early_stopping": true,
+      "max_reload_prediction_error": 0.0,
+      "model_sha256": "504d1c37a50654d99325eaf4afdf8b6764cbbc51923944d1b7ba812cadc41009"
+    },
+    {
+      "tag": "C025_seed9109",
+      "fit_seconds": 4.882866999978432,
+      "n_iter": 80,
+      "do_early_stopping": true,
+      "max_reload_prediction_error": 0.0,
+      "model_sha256": "dd696ef5c3e7fa5b97e3f76f9609e061f76f0eda8e9e3bb5500c47688dd7bc50"
+    }
+  ],
+  "masks_equal_main": [
+    {
+      "tag": "C025_seed9107",
+      "cellwise_equal_to_main": true,
+      "deleted": 219403
+    },
+    {
+      "tag": "C025_seed9108",
+      "cellwise_equal_to_main": true,
+      "deleted": 218986
+    },
+    {
+      "tag": "C025_seed9109",
+      "cellwise_equal_to_main": true,
+      "deleted": 218769
+    }
+  ],
+  "medians_equal_main": true,
+  "wall_seconds": 36.65479383399361,
+  "finished_utc": "2026-11-08T12:15:27.018120+00:00",
+  "environment": {
+    "python": "3.12.15",
+    "executable": "/Users/bgc/Documents/ChatGPT/research/AI论文研究资料包_2026-10-28/ccms_execution/.venv/bin/python",
+    "numpy": "2.5.4",
+    "pandas": "3.1.0",
+    "sklearn": "1.9.1",
+    "scipy": "1.18.1",
+    "joblib": "1.6.0",
+    "platform": "macOS-27.2-arm64-arm-64bit",
+    "threads": 2,
+    "threadpool_info": [
+      {
+        "user_api": "openmp",
+        "internal_api": "openmp",
+        "num_threads": 2,
+        "prefix": "libomp",
+        "filepath": "/Users/bgc/Documents/ChatGPT/research/AI论文研究资料包_2026-10-28/ccms_execution/.venv/lib/python3.12/site-packages/sklearn/.dylibs/libomp.dylib",
+        "version": null
+      }
+    ]
+  },
+  "scope": "split11 M3 and C025 only; joint software environment comparison, no individual-library attribution or historical training provenance claim"
+}

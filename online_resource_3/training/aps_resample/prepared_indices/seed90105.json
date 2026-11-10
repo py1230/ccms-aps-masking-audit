@@ -1,0 +1,41 @@
+{
+  "unit": "seed90105",
+  "seed": 90105,
+  "rng_states": {
+    "before": {
+      "bit_generator": "PCG64",
+      "state": {
+        "state": 82217870747227577015547647525276835329,
+        "inc": 142043308698207969527310078952190357079
+      },
+      "has_uint32": 0,
+      "uinteger": 0
+    },
+    "before_permutation": {
+      "bit_generator": "PCG64",
+      "state": {
+        "state": 218730267460233736242885584767392832996,
+        "inc": 142043308698207969527310078952190357079
+      },
+      "has_uint32": 1,
+      "uinteger": 572627186
+    },
+    "after": {
+      "bit_generator": "PCG64",
+      "state": {
+        "state": 250609352860322119488747810585296211121,
+        "inc": 142043308698207969527310078952190357079
+      },
+      "has_uint32": 0,
+      "uinteger": 3832557721
+    }
+  },
+  "unique_rows": 26491,
+  "duplicate_occurrences": 15509,
+  "class_counts": [
+    41300,
+    700
+  ],
+  "rows_sha256": "ba397dfa50d6014d20772cedf115c547790de69530a3006390b79d291f5a0af1",
+  "multiplicity_sha256": "3a74994d8e7d6ad3c0614cf6340075e66270056af2077cd125e764ca0d1a2306"
+}

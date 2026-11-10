@@ -1,0 +1,11 @@
+{
+  "family": "aps_channels",
+  "unit_mode": true,
+  "changes": {
+    "train_csv": "relocated verified raw input",
+    "test_csv": "relocated verified raw input",
+    "execution_schedule": "one prespecified original unit; no observations or model iterations reduced"
+  },
+  "source_template": "training/aps_channels",
+  "original_config_sha256": "ccf3a3ceda2982077a3a1a19ee3d2522b1458e2de83e5f464a166de473231d38"
+}

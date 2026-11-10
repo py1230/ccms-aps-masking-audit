@@ -1,0 +1,82 @@
+{
+  "11": {
+    "train_equal": true,
+    "val_equal": true,
+    "train_rows": 42000,
+    "val_rows": 9000,
+    "calib_rows": 9000,
+    "positives": {
+      "train": 700,
+      "val": 150,
+      "calib": 150
+    },
+    "zip_sha_matches_local": true,
+    "A3_indices_equal": true,
+    "prediction_keys": 78,
+    "holdout_complete": true
+  },
+  "22": {
+    "train_equal": true,
+    "val_equal": true,
+    "train_rows": 42000,
+    "val_rows": 9000,
+    "calib_rows": 9000,
+    "positives": {
+      "train": 700,
+      "val": 150,
+      "calib": 150
+    },
+    "zip_sha_matches_local": true,
+    "A3_indices_equal": true,
+    "prediction_keys": 78,
+    "holdout_complete": true
+  },
+  "33": {
+    "train_equal": true,
+    "val_equal": true,
+    "train_rows": 42000,
+    "val_rows": 9000,
+    "calib_rows": 9000,
+    "positives": {
+      "train": 700,
+      "val": 150,
+      "calib": 150
+    },
+    "zip_sha_matches_local": true,
+    "A3_indices_equal": true,
+    "prediction_keys": 78,
+    "holdout_complete": true
+  },
+  "44": {
+    "train_equal": true,
+    "val_equal": true,
+    "train_rows": 42000,
+    "val_rows": 9000,
+    "calib_rows": 9000,
+    "positives": {
+      "train": 700,
+      "val": 150,
+      "calib": 150
+    },
+    "zip_sha_matches_local": true,
+    "A3_indices_equal": true,
+    "prediction_keys": 78,
+    "holdout_complete": true
+  },
+  "55": {
+    "train_equal": true,
+    "val_equal": true,
+    "train_rows": 42000,
+    "val_rows": 9000,
+    "calib_rows": 9000,
+    "positives": {
+      "train": 700,
+      "val": 150,
+      "calib": 150
+    },
+    "zip_sha_matches_local": true,
+    "A3_indices_equal": true,
+    "prediction_keys": 78,
+    "holdout_complete": true
+  }
+}

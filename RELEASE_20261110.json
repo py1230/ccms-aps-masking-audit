@@ -1,0 +1,11 @@
+{
+  "version": "2026-11-10",
+  "resource_path": "online_resource_3",
+  "payload_files": 910,
+  "payload_bytes": 253559832,
+  "sha256_manifest": "111519ce874426b6667325f749cca5e1b4415a6e10e85c488fc71494cf8732d7",
+  "self_owned_software_license": "MIT",
+  "acceptance": "online_resource_3/acceptance/acceptance_summary.json",
+  "accepted_original_units": 10,
+  "primary_experiment_families": 9
+}

@@ -1,0 +1,43 @@
+{
+  "split_seed": 11,
+  "mask_seeds": [
+    9107,
+    9108,
+    9109
+  ],
+  "alpha": 0.25,
+  "model_params": {
+    "categorical_features": "from_dtype",
+    "class_weight": null,
+    "early_stopping": "auto",
+    "interaction_cst": null,
+    "l2_regularization": 0.0,
+    "learning_rate": 0.1,
+    "loss": "log_loss",
+    "max_bins": 255,
+    "max_depth": null,
+    "max_features": 1.0,
+    "max_iter": 100,
+    "max_leaf_nodes": 31,
+    "min_samples_leaf": 20,
+    "monotonic_cst": null,
+    "n_iter_no_change": 10,
+    "random_state": 2026,
+    "scoring": "loss",
+    "tol": 1e-07,
+    "validation_fraction": 0.1,
+    "verbose": 0,
+    "warm_start": false
+  },
+  "train_csv": "/Users/bgc/Documents/ChatGPT/论文2.0/data/raw/aps/aps_failure_training_set.csv",
+  "test_csv": "/Users/bgc/Documents/ChatGPT/论文2.0/data/raw/aps/aps_failure_test_set.csv",
+  "prediction_atol": 1e-12,
+  "ap_atol": 1e-12,
+  "n_fits": 4,
+  "expected_environment": {
+    "python": "3.12.15",
+    "numpy": "2.5.4",
+    "sklearn": "1.9.1"
+  },
+  "scope": "post-outcome bounded diagnostic; no parameter adaptation"
+}

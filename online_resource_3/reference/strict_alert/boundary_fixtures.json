@@ -1,0 +1,111 @@
+{
+  "status": "passed",
+  "fixtures": [
+    {
+      "name": "positive_boundary",
+      "weights": [
+        1,
+        4,
+        2
+      ],
+      "labels": [
+        0,
+        1,
+        0
+      ],
+      "K": 3,
+      "TP": 2,
+      "alerts": 3
+    },
+    {
+      "name": "negative_boundary",
+      "weights": [
+        1,
+        4,
+        2
+      ],
+      "labels": [
+        1,
+        0,
+        1
+      ],
+      "K": 3,
+      "TP": 1,
+      "alerts": 3
+    },
+    {
+      "name": "zero_weights",
+      "weights": [
+        0,
+        0,
+        4,
+        1
+      ],
+      "labels": [
+        1,
+        1,
+        0,
+        1
+      ],
+      "K": 2,
+      "TP": 0,
+      "alerts": 2
+    },
+    {
+      "name": "all_rows",
+      "weights": [
+        1,
+        2,
+        3
+      ],
+      "labels": [
+        1,
+        0,
+        1
+      ],
+      "K": 6,
+      "TP": 4,
+      "alerts": 6
+    },
+    {
+      "name": "one_alert",
+      "weights": [
+        4,
+        2
+      ],
+      "labels": [
+        1,
+        0
+      ],
+      "K": 1,
+      "TP": 1,
+      "alerts": 1
+    },
+    {
+      "name": "mixed_label_tie",
+      "scores": [
+        0.9,
+        0.9,
+        0.8
+      ],
+      "labels": [
+        1,
+        0,
+        1
+      ],
+      "weights": [
+        3,
+        2,
+        1
+      ],
+      "stable_order": [
+        0,
+        1,
+        2
+      ],
+      "K": 4,
+      "TP": 3,
+      "alerts": 4
+    }
+  ]
+}

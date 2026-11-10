@@ -1,0 +1,9 @@
+{
+  "python": "3.12.15",
+  "executable": "/Users/bgc/Documents/ChatGPT/research/AI论文研究资料包_2026-10-28/ccms_execution/.venv/bin/python",
+  "numpy": "2.5.4",
+  "sklearn": "1.9.1",
+  "pandas": "3.1.0",
+  "scipy": "1.18.1",
+  "joblib": "1.6.0"
+}

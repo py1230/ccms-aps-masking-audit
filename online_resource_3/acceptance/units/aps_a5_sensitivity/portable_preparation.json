@@ -1,0 +1,10 @@
+{
+  "family": "aps_a5_sensitivity",
+  "unit_mode": true,
+  "changes": {
+    "execution_schedule": "one prespecified original unit; no observations or model iterations reduced"
+  },
+  "source_template": "training/aps_a5_sensitivity",
+  "aps_environment": null,
+  "original_config_sha256": "619ada5a91ca4f8b99064bb7d786ac1c28e103ae87d162ba3c3215767eb1b8e1"
+}

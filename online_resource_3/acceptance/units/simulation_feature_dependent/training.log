@@ -1,0 +1,45 @@
+{"timestamp_utc": "2026-11-10T04:25:04.518111+00:00", "event": "started", "data_seed": 701, "pid": 4499, "smoke": false, "config_sha256": "f81a20f0b35482bab6d072ee2d91d2781ad7d6d5afd8e805d79c84e51329ad8f"}
+{"timestamp_utc": "2026-11-10T04:25:04.758662+00:00", "event": "fit_started", "data_seed": 701, "tag": "M3"}
+{"timestamp_utc": "2026-11-10T04:25:05.150788+00:00", "event": "fit_completed", "data_seed": 701, "tag": "M3", "seconds": 0.3921170234680176}
+{"timestamp_utc": "2026-11-10T04:25:05.151109+00:00", "event": "fit_started", "data_seed": 701, "tag": "M4"}
+{"timestamp_utc": "2026-11-10T04:25:05.408606+00:00", "event": "fit_completed", "data_seed": 701, "tag": "M4", "seconds": 0.2574958801269531}
+{"timestamp_utc": "2026-11-10T04:25:05.408703+00:00", "event": "fit_started", "data_seed": 701, "tag": "C025_seed9107"}
+{"timestamp_utc": "2026-11-10T04:25:05.713921+00:00", "event": "fit_completed", "data_seed": 701, "tag": "C025_seed9107", "seconds": 0.30521488189697266}
+{"timestamp_utc": "2026-11-10T04:25:05.714028+00:00", "event": "fit_started", "data_seed": 701, "tag": "C025_seed9108"}
+{"timestamp_utc": "2026-11-10T04:25:06.023678+00:00", "event": "fit_completed", "data_seed": 701, "tag": "C025_seed9108", "seconds": 0.3096489906311035}
+{"timestamp_utc": "2026-11-10T04:25:06.023781+00:00", "event": "fit_started", "data_seed": 701, "tag": "C025_seed9109"}
+{"timestamp_utc": "2026-11-10T04:25:06.374280+00:00", "event": "fit_completed", "data_seed": 701, "tag": "C025_seed9109", "seconds": 0.3504977226257324}
+{"timestamp_utc": "2026-11-10T04:25:06.374376+00:00", "event": "fit_started", "data_seed": 701, "tag": "B025_seed9107"}
+{"timestamp_utc": "2026-11-10T04:25:06.681376+00:00", "event": "fit_completed", "data_seed": 701, "tag": "B025_seed9107", "seconds": 0.30699896812438965}
+{"timestamp_utc": "2026-11-10T04:25:06.681474+00:00", "event": "fit_started", "data_seed": 701, "tag": "B025_seed9108"}
+{"timestamp_utc": "2026-11-10T04:25:06.991274+00:00", "event": "fit_completed", "data_seed": 701, "tag": "B025_seed9108", "seconds": 0.309798002243042}
+{"timestamp_utc": "2026-11-10T04:25:06.991383+00:00", "event": "fit_started", "data_seed": 701, "tag": "B025_seed9109"}
+{"timestamp_utc": "2026-11-10T04:25:07.296661+00:00", "event": "fit_completed", "data_seed": 701, "tag": "B025_seed9109", "seconds": 0.30527687072753906}
+{"timestamp_utc": "2026-11-10T04:25:07.296775+00:00", "event": "fit_started", "data_seed": 701, "tag": "C050_seed9107"}
+{"timestamp_utc": "2026-11-10T04:25:07.620857+00:00", "event": "fit_completed", "data_seed": 701, "tag": "C050_seed9107", "seconds": 0.324080228805542}
+{"timestamp_utc": "2026-11-10T04:25:07.620965+00:00", "event": "fit_started", "data_seed": 701, "tag": "C050_seed9108"}
+{"timestamp_utc": "2026-11-10T04:25:07.960067+00:00", "event": "fit_completed", "data_seed": 701, "tag": "C050_seed9108", "seconds": 0.3390989303588867}
+{"timestamp_utc": "2026-11-10T04:25:07.960240+00:00", "event": "fit_started", "data_seed": 701, "tag": "C050_seed9109"}
+{"timestamp_utc": "2026-11-10T04:25:08.254678+00:00", "event": "fit_completed", "data_seed": 701, "tag": "C050_seed9109", "seconds": 0.2944366931915283}
+{"timestamp_utc": "2026-11-10T04:25:08.254781+00:00", "event": "fit_started", "data_seed": 701, "tag": "B050_seed9107"}
+{"timestamp_utc": "2026-11-10T04:25:08.550620+00:00", "event": "fit_completed", "data_seed": 701, "tag": "B050_seed9107", "seconds": 0.2958359718322754}
+{"timestamp_utc": "2026-11-10T04:25:08.550779+00:00", "event": "fit_started", "data_seed": 701, "tag": "B050_seed9108"}
+{"timestamp_utc": "2026-11-10T04:25:08.957755+00:00", "event": "fit_completed", "data_seed": 701, "tag": "B050_seed9108", "seconds": 0.4069697856903076}
+{"timestamp_utc": "2026-11-10T04:25:08.957865+00:00", "event": "fit_started", "data_seed": 701, "tag": "B050_seed9109"}
+{"timestamp_utc": "2026-11-10T04:25:09.263218+00:00", "event": "fit_completed", "data_seed": 701, "tag": "B050_seed9109", "seconds": 0.30535197257995605}
+{"timestamp_utc": "2026-11-10T04:25:09.263317+00:00", "event": "fit_started", "data_seed": 701, "tag": "C100_seed9107"}
+{"timestamp_utc": "2026-11-10T04:25:09.552824+00:00", "event": "fit_completed", "data_seed": 701, "tag": "C100_seed9107", "seconds": 0.2895009517669678}
+{"timestamp_utc": "2026-11-10T04:25:09.552928+00:00", "event": "fit_started", "data_seed": 701, "tag": "C100_seed9108"}
+{"timestamp_utc": "2026-11-10T04:25:09.837047+00:00", "event": "fit_completed", "data_seed": 701, "tag": "C100_seed9108", "seconds": 0.2841150760650635}
+{"timestamp_utc": "2026-11-10T04:25:09.837187+00:00", "event": "fit_started", "data_seed": 701, "tag": "C100_seed9109"}
+{"timestamp_utc": "2026-11-10T04:25:10.226917+00:00", "event": "fit_completed", "data_seed": 701, "tag": "C100_seed9109", "seconds": 0.3897206783294678}
+{"timestamp_utc": "2026-11-10T04:25:10.227134+00:00", "event": "fit_started", "data_seed": 701, "tag": "B100_seed9107"}
+{"timestamp_utc": "2026-11-10T04:25:10.718620+00:00", "event": "fit_completed", "data_seed": 701, "tag": "B100_seed9107", "seconds": 0.4914851188659668}
+{"timestamp_utc": "2026-11-10T04:25:10.718722+00:00", "event": "fit_started", "data_seed": 701, "tag": "B100_seed9108"}
+{"timestamp_utc": "2026-11-10T04:25:11.038408+00:00", "event": "fit_completed", "data_seed": 701, "tag": "B100_seed9108", "seconds": 0.31968188285827637}
+{"timestamp_utc": "2026-11-10T04:25:11.038550+00:00", "event": "fit_started", "data_seed": 701, "tag": "B100_seed9109"}
+{"timestamp_utc": "2026-11-10T04:25:11.379316+00:00", "event": "fit_completed", "data_seed": 701, "tag": "B100_seed9109", "seconds": 0.34076499938964844}
+{"timestamp_utc": "2026-11-10T04:25:11.398487+00:00", "event": "selection_saved", "data_seed": 701, "selection_sha256": "c60dc3eb3e749aa78f583f33f256014a1112b673f9c2f49a2311988a682b7016", "chosen": {"C": 0, "B": 0}}
+{"timestamp_utc": "2026-11-10T04:25:11.554980+00:00", "event": "target_prediction_started", "data_seed": 701}
+{"timestamp_utc": "2026-11-10T04:25:12.892184+00:00", "event": "complete", "data_seed": 701, "fits_completed": 20, "seconds": 8.374114990234375}
+{"status": "complete", "family": "simulation_feature_dependent", "unit_mode": true, "work_directory": "/Users/bgc/Documents/ChatGPT/\u8bba\u65872.0/submission_ready_20261110/reproducibility/acceptance/simulation_feature_dependent/simulation_feature_dependent"}

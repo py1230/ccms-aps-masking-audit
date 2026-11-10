@@ -1,0 +1,35 @@
+{
+  "frozen_at_utc": "2026-11-08T10:26:55.572861+00:00",
+  "model_results_seen": false,
+  "known_at_freeze": "prior manuscript and temporal label-count feasibility only",
+  "files": {
+    "protocol": {
+      "path": "/Users/bgc/Documents/ChatGPT/论文2.0/revision_v2.4_20261108/experiments/secom_temporal_20261108/PROTOCOL.md",
+      "sha256": "25eebafe10724383e38e25ccb1a58cf31ef8b8a24e47a6ed7764cfc0eb18a566"
+    },
+    "config": {
+      "path": "/Users/bgc/Documents/ChatGPT/论文2.0/revision_v2.4_20261108/experiments/secom_temporal_20261108/config.json",
+      "sha256": "1e7fa301081015d8f18dcb61c85577d6976e707a645f4b8a96e72859e06e5748"
+    },
+    "runner": {
+      "path": "/Users/bgc/Documents/ChatGPT/论文2.0/revision_v2.4_20261108/experiments/secom_temporal_20261108/run_temporal.py",
+      "sha256": "4908424eb9adc9495596a923873e37dcd3382b2d5e14fbd9d0c6079c8b381175"
+    },
+    "operator": {
+      "path": "/Users/bgc/Documents/ChatGPT/论文2.0/revision_v2.4_20261108/experiments/secom_temporal_20261108/source/ccms.py",
+      "sha256": "2aa211e6ac688c7b1687a1946c30b780a94a3d856a9d0cb59504c0e2554511c2"
+    },
+    "indices": {
+      "path": "/Users/bgc/Documents/ChatGPT/论文2.0/revision_v2.4_20261108/experiments/secom_temporal_20261108/split_indices.npz",
+      "sha256": "f2fbf69fe0ee087f33a4453cb479fdb91ba1abb628ae61f8ad9157fb3e5bf3e0"
+    },
+    "data": {
+      "path": "/Users/bgc/Documents/ChatGPT/论文2.0/data/raw/secom/secom.data",
+      "sha256": "20f0e7ee434f7dcbae0eea9ffff009a2b57f42d6b0dc9a5bd4f00782c0a3374c"
+    },
+    "labels": {
+      "path": "/Users/bgc/Documents/ChatGPT/论文2.0/data/raw/secom/secom_labels.data",
+      "sha256": "126884cf453705c9e61a903fe906f0665a3b45ce3639e621edc5c93c89627e03"
+    }
+  }
+}

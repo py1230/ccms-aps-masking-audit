@@ -1,0 +1,14 @@
+[
+  {
+    "path": "/Users/bgc/Documents/ChatGPT/\u8bba\u65872.0/data/raw/aps/aps_failure_training_set.csv",
+    "current_sha256": "bb484302e3a3a1c8ef5e1f0129c4dc7cbd58f350867f95b575461ca21ab6b9da",
+    "previous_frozen_sha256": "bb484302e3a3a1c8ef5e1f0129c4dc7cbd58f350867f95b575461ca21ab6b9da",
+    "equal": true
+  },
+  {
+    "path": "/Users/bgc/Documents/ChatGPT/\u8bba\u65872.0/data/raw/aps/aps_failure_test_set.csv",
+    "current_sha256": "2cdf6f7661c7b4c63333c93cdec36a3a82350176b604a2312cf82799fb2712f3",
+    "previous_frozen_sha256": "2cdf6f7661c7b4c63333c93cdec36a3a82350176b604a2312cf82799fb2712f3",
+    "equal": true
+  }
+]

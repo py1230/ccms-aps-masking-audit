@@ -1,0 +1,86 @@
+{
+  "timestamp_utc": "2026-11-08T12:54:12.585536+00:00",
+  "scope": "this retrospective execution only, not preregistration",
+  "files": {
+    "config.json": {
+      "path": "config.json",
+      "sha256": "ccf3a3ceda2982077a3a1a19ee3d2522b1458e2de83e5f464a166de473231d38",
+      "size_bytes": 2822
+    },
+    "PROTOCOL.md": {
+      "path": "PROTOCOL.md",
+      "sha256": "a29f1de95b816075c02a261c4f866ebedf112d36b8e2620d0c174283f50a80f7",
+      "size_bytes": 5036
+    },
+    "split_indices.npz": {
+      "path": "split_indices.npz",
+      "sha256": "8659dfa51d496382637b55b4ef8b99abe284b5d0c4dd218d3c4ffa98ad91473f",
+      "size_bytes": 462929
+    },
+    "run_channels.py": {
+      "path": "run_channels.py",
+      "sha256": "ab6e31c1e1ac8e452151fd0315dbb5b776d5db453bc1910fd98b9d3741ff1a91",
+      "size_bytes": 14187
+    },
+    "freeze_run.py": {
+      "path": "freeze_run.py",
+      "sha256": "70cb4f6d11da8cb3f06c0bd76479264ea20e47d49b982c638410224b7cb462e7",
+      "size_bytes": 1747
+    },
+    "launch_channels.py": {
+      "path": "launch_channels.py",
+      "sha256": "732f4a13da2fe6080e753104268af21c16cec88d57a48d9ead9cb43809c1fa30",
+      "size_bytes": 1634
+    },
+    "audit/source_copy_check.json": {
+      "path": "audit/source_copy_check.json",
+      "sha256": "86c28897a613e15e434d590d2f08b06468edf718a8146d6e7f34178318493d8b",
+      "size_bytes": 1524
+    },
+    "audit/runner_code_review.md": {
+      "path": "audit/runner_code_review.md",
+      "sha256": "a0460af58e151b168dd5dc7d814c2eb1a3b17d6ed3c33fd258c13674d3e0b905",
+      "size_bytes": 3543
+    },
+    "source/pipeline.py": {
+      "path": "source/pipeline.py",
+      "sha256": "45cb6f629e0126f3afd8b1bec4b4b4fb290d0a6888c0c1957cd2202cc0a3a26a",
+      "size_bytes": 5367
+    },
+    "source/audit_metrics.py": {
+      "path": "source/audit_metrics.py",
+      "sha256": "9d66c8c09af59ccd15ec5f98b1320ed44fbd90299f8ed8f7e37dffdf66266f0c",
+      "size_bytes": 4084
+    },
+    "source/aps_io.py": {
+      "path": "source/aps_io.py",
+      "sha256": "787558c6badffb88d3badefc87b454bafd443bdf411714eeecabc325e8bb3f6f",
+      "size_bytes": 6786
+    },
+    "source/ccms.py": {
+      "path": "source/ccms.py",
+      "sha256": "2aa211e6ac688c7b1687a1946c30b780a94a3d856a9d0cb59504c0e2554511c2",
+      "size_bytes": 6952
+    },
+    "historical/run_cb_firstlook.py": {
+      "path": "historical/run_cb_firstlook.py",
+      "sha256": "682912992b664996431c9b54c545002e793694680a99fcbf2f12a44c87152809",
+      "size_bytes": 13675
+    },
+    "/Users/bgc/Documents/ChatGPT/论文2.0/data/raw/aps/aps_failure_training_set.csv": {
+      "path": "/Users/bgc/Documents/ChatGPT/论文2.0/data/raw/aps/aps_failure_training_set.csv",
+      "sha256": "bb484302e3a3a1c8ef5e1f0129c4dc7cbd58f350867f95b575461ca21ab6b9da",
+      "size_bytes": 44669194
+    },
+    "/Users/bgc/Documents/ChatGPT/论文2.0/data/raw/aps/aps_failure_test_set.csv": {
+      "path": "/Users/bgc/Documents/ChatGPT/论文2.0/data/raw/aps/aps_failure_test_set.csv",
+      "sha256": "2cdf6f7661c7b4c63333c93cdec36a3a82350176b604a2312cf82799fb2712f3",
+      "size_bytes": 11943558
+    },
+    "environment_packages.txt": {
+      "path": "environment_packages.txt",
+      "sha256": "06ff612ef93260fb13ad5bd3d770b34a8f09061fe3aa3c73cbe423fabe0d6d09"
+    }
+  },
+  "expected_models": 855
+}

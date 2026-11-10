@@ -1,0 +1,46 @@
+{
+  "timestamp_utc": "2026-11-10T04:27:21.879103+00:00",
+  "files": {
+    "PROTOCOL.md": {
+      "path": "/Users/bgc/Documents/ChatGPT/论文2.0/submission_ready_20261110/reproducibility/acceptance/secom_temporal/secom_temporal/PROTOCOL.md",
+      "sha256": "25eebafe10724383e38e25ccb1a58cf31ef8b8a24e47a6ed7764cfc0eb18a566"
+    },
+    "code_review.md": {
+      "path": "/Users/bgc/Documents/ChatGPT/论文2.0/submission_ready_20261110/reproducibility/acceptance/secom_temporal/secom_temporal/code_review.md",
+      "sha256": "c003ef760a8b0924381fd90eedcc2e452149484cabc066455fb8b274dd984e7c"
+    },
+    "config.json": {
+      "path": "/Users/bgc/Documents/ChatGPT/论文2.0/submission_ready_20261110/reproducibility/acceptance/secom_temporal/secom_temporal/config.json",
+      "sha256": "dfbb557f5281f63c288e78a6a28889b3aaaca06ed381bb54299056ddef70f291"
+    },
+    "environment_packages.txt": {
+      "path": "/Users/bgc/Documents/ChatGPT/论文2.0/submission_ready_20261110/reproducibility/acceptance/secom_temporal/secom_temporal/environment_packages.txt",
+      "sha256": "7dcff72660d9b57a5767a25d7c39dca5f4f779cc2f62c9b917550772b344355f"
+    },
+    "portable_preparation.json": {
+      "path": "/Users/bgc/Documents/ChatGPT/论文2.0/submission_ready_20261110/reproducibility/acceptance/secom_temporal/secom_temporal/portable_preparation.json",
+      "sha256": "2342dab2f84aade4b439ce7e29757f3c0d6a078c859207ac8341b6c723491e9c"
+    },
+    "provenance/original_freeze.json": {
+      "path": "/Users/bgc/Documents/ChatGPT/论文2.0/submission_ready_20261110/reproducibility/acceptance/secom_temporal/secom_temporal/provenance/original_freeze.json",
+      "sha256": "805b6e02c9eea2e9e49128ec9b28cd6b24dd9951f70dd054d1a57602187eb496"
+    },
+    "run_temporal.py": {
+      "path": "/Users/bgc/Documents/ChatGPT/论文2.0/submission_ready_20261110/reproducibility/acceptance/secom_temporal/secom_temporal/run_temporal.py",
+      "sha256": "2c33661ca8091d80be9e2365e8340d7c7d4a16ffc00dc94aa6c71aca24a837ee"
+    },
+    "source/ccms.py": {
+      "path": "/Users/bgc/Documents/ChatGPT/论文2.0/submission_ready_20261110/reproducibility/acceptance/secom_temporal/secom_temporal/source/ccms.py",
+      "sha256": "2aa211e6ac688c7b1687a1946c30b780a94a3d856a9d0cb59504c0e2554511c2"
+    },
+    "split_indices.npz": {
+      "path": "/Users/bgc/Documents/ChatGPT/论文2.0/submission_ready_20261110/reproducibility/acceptance/secom_temporal/secom_temporal/split_indices.npz",
+      "sha256": "f2fbf69fe0ee087f33a4453cb479fdb91ba1abb628ae61f8ad9157fb3e5bf3e0"
+    },
+    "verify_results.py": {
+      "path": "/Users/bgc/Documents/ChatGPT/论文2.0/submission_ready_20261110/reproducibility/acceptance/secom_temporal/secom_temporal/verify_results.py",
+      "sha256": "9655db5fcacc8db8b71af6a7de430e6ed85af080c27161b18714137e1b3c3281"
+    }
+  },
+  "scope": "Fresh portable execution inputs before fitting. Historical research and results were already known. This receipt is not historical provenance."
+}

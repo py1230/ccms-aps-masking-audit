@@ -1,0 +1,197 @@
+{
+  "status": "passed",
+  "completed_date": "2026-11-10",
+  "timezone": "Asia/Shanghai",
+  "primary_training_families": 9,
+  "accepted_units_including_first_APS_profile": 10,
+  "accepted_training_fits": 211,
+  "additional_hydraulic_receipt_debugging_fits": 39,
+  "total_new_training_fits_this_completion": 250,
+  "total_compared_npz_files": 747,
+  "total_compared_arrays": 7355,
+  "maximum_absolute_array_error": 0.0,
+  "all_selection_and_metric_scientific_fields_exact": true,
+  "environments": {
+    "main": {
+      "python": "3.12.15",
+      "platform": "macOS-27.2-arm64-arm-64bit",
+      "packages": {
+        "numpy": "2.5.4",
+        "pandas": "3.1.0",
+        "scikit-learn": "1.9.1",
+        "scipy": "1.18.1",
+        "joblib": "1.6.0",
+        "threadpoolctl": "3.7.0"
+      }
+    },
+    "legacy": {
+      "python": "3.13.9",
+      "platform": "macOS-27.2-arm64-arm-64bit-Mach-O",
+      "packages": {
+        "numpy": "2.3.5",
+        "pandas": "2.3.3",
+        "scikit-learn": "1.7.2",
+        "scipy": "1.16.3",
+        "joblib": "1.5.2",
+        "threadpoolctl": "3.6.0"
+      }
+    },
+    "hydraulic": {
+      "python": "3.12.15",
+      "platform": "macOS-27.2-arm64-arm-64bit",
+      "packages": {
+        "numpy": "1.26.4",
+        "pandas": "2.2.3",
+        "scikit-learn": "1.5.2",
+        "scipy": "1.13.1",
+        "joblib": "1.4.2",
+        "threadpoolctl": "3.6.0"
+      }
+    }
+  },
+  "units": [
+    {
+      "family_or_profile": "aps_rerun",
+      "unit": "first-environment APS diagnostic",
+      "fits": 25,
+      "status": "passed",
+      "compared_npz_files": 104,
+      "compared_arrays": 1196,
+      "maximum_absolute_error": 0.0,
+      "selection_and_metric_checks": 2,
+      "scope": "One full-size original prespecified unit with full candidate collection and original model settings."
+    },
+    {
+      "family_or_profile": "aps_rerun_matched",
+      "unit": "primary historical-matched APS",
+      "fits": 25,
+      "status": "passed",
+      "compared_npz_files": 104,
+      "compared_arrays": 1196,
+      "maximum_absolute_error": 0.0,
+      "selection_and_metric_checks": 2,
+      "scope": "One full-size original prespecified unit with full candidate collection and original model settings."
+    },
+    {
+      "family_or_profile": "aps_channels",
+      "unit": "M3 repeat1 split11",
+      "fits": 19,
+      "status": "passed",
+      "compared_npz_files": 80,
+      "compared_arrays": 903,
+      "maximum_absolute_error": 0.0,
+      "selection_and_metric_checks": 2,
+      "scope": "One full-size original prespecified unit with full candidate collection and original model settings."
+    },
+    {
+      "family_or_profile": "aps_resample",
+      "unit": "independent anchor",
+      "fits": 19,
+      "status": "passed",
+      "compared_npz_files": 78,
+      "compared_arrays": 606,
+      "maximum_absolute_error": 0.0,
+      "selection_and_metric_checks": 2,
+      "scope": "One full-size original prespecified unit with full candidate collection and original model settings."
+    },
+    {
+      "family_or_profile": "aps_a5",
+      "unit": "split11 randomization1 all3references",
+      "fits": 3,
+      "status": "passed",
+      "compared_npz_files": 13,
+      "compared_arrays": 81,
+      "maximum_absolute_error": 0.0,
+      "selection_and_metric_checks": 1,
+      "scope": "One full-size original prespecified unit with full candidate collection and original model settings."
+    },
+    {
+      "family_or_profile": "aps_a5_sensitivity",
+      "unit": "split11 C initial repeat1 5E all3references",
+      "fits": 3,
+      "status": "passed",
+      "compared_npz_files": 15,
+      "compared_arrays": 75,
+      "maximum_absolute_error": 0.0,
+      "selection_and_metric_checks": 0,
+      "scope": "One full-size original prespecified unit with full candidate collection and original model settings."
+    },
+    {
+      "family_or_profile": "simulation_continuous",
+      "unit": "original data seed601",
+      "fits": 20,
+      "status": "passed",
+      "compared_npz_files": 64,
+      "compared_arrays": 630,
+      "maximum_absolute_error": 0.0,
+      "selection_and_metric_checks": 2,
+      "scope": "One full-size original prespecified unit with full candidate collection and original model settings."
+    },
+    {
+      "family_or_profile": "simulation_feature_dependent",
+      "unit": "original data seed701",
+      "fits": 20,
+      "status": "passed",
+      "compared_npz_files": 64,
+      "compared_arrays": 630,
+      "maximum_absolute_error": 0.0,
+      "selection_and_metric_checks": 2,
+      "scope": "One full-size original prespecified unit with full candidate collection and original model settings."
+    },
+    {
+      "family_or_profile": "secom_temporal",
+      "unit": "window1 selection+past-datarefit",
+      "fits": 38,
+      "status": "passed",
+      "compared_npz_files": 40,
+      "compared_arrays": 256,
+      "maximum_absolute_error": 0.0,
+      "selection_and_metric_checks": 3,
+      "scope": "One full-size original prespecified unit with full candidate collection and original model settings."
+    },
+    {
+      "family_or_profile": "hydraulic",
+      "unit": "fold1 fullcandidatecollection",
+      "fits": 39,
+      "status": "passed",
+      "compared_npz_files": 185,
+      "compared_arrays": 1782,
+      "maximum_absolute_error": 0.0,
+      "selection_and_metric_checks": 1,
+      "scope": "One full-size original prespecified unit with full candidate collection and original model settings."
+    }
+  ],
+  "fresh_downloaded_verified_raw_members": 24,
+  "fresh_statistical_replays": {
+    "strict_alert": {
+      "status": "passed",
+      "draws": 1000,
+      "overall_interval_pairs": 48,
+      "per_split_interval_pairs": 240,
+      "independent_components_checked": 600000
+    },
+    "AP": {
+      "draws": 1000,
+      "passed": true,
+      "maximum_differences": {
+        "delta_mean": 0.0,
+        "ci95": 0.0,
+        "per_split_delta": 0.0,
+        "per_split_ci95": 0.0,
+        "draws": 0.0
+      }
+    }
+  },
+  "failures_and_repairs": [
+    {
+      "issue": "Hydraulic first fresh-environment preparation failed before fitting because pandas was absent from dependency list.",
+      "repair": "Added original pandas2.2.3 dependency and installed it in the new environment. Failed directory retained outside distribution."
+    },
+    {
+      "issue": "Hydraulic initial unit receipt used original195-fit study count and omitted schedule hash.",
+      "repair": "Bound execution_schedule.json into the freeze, derived actual39-fit expectation, and reran the entire39-model fold. Both runs numerically match original saved outputs."
+    }
+  ],
+  "coverage_limit": "All nine portable full-family schedules are supplied. Fresh acceptance executes the explicitly listed original units, not every historical fit. M2/MO channel repeats and other splits/seeds are supported by the unchanged source and complete inputs but were not all newly retrained during this acceptance. Agreement does not authenticate historical training events.",
+  "historical_records": "Recovered scalar AP aggregation284cells verified separately. Dataset role and model-seed metadata limits remain in historical_recovery/RECOVERY_SCOPE.md."
+}

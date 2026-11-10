@@ -1,0 +1,8 @@
+{"timestamp": "2026-11-10T04:35:26.955497+00:00", "event": "chain_complete", "split": 11, "ref": 19107, "initial": "C", "repeat": 1, "elapsed_seconds": 10.76330820802832}
+{"timestamp": "2026-11-10T04:35:34.071034+00:00", "event": "chain_complete", "split": 11, "ref": 19108, "initial": "C", "repeat": 1, "elapsed_seconds": 17.879147958010435}
+{"timestamp": "2026-11-10T04:35:39.645308+00:00", "event": "chain_complete", "split": 11, "ref": 19109, "initial": "C", "repeat": 1, "elapsed_seconds": 23.453546125034336}
+{"timestamp": "2026-11-10T04:36:06.247896+00:00", "event": "fit_complete", "fits": 1, "split": 11, "initial": "C", "rep": 1, "step": 5, "reference": 19107, "fit_seconds": 18.747623917006422, "peak_rss_bytes": 625967104, "elapsed_seconds": 24.98195545899216}
+{"timestamp": "2026-11-10T04:36:16.835357+00:00", "event": "fit_complete", "fits": 2, "split": 11, "initial": "C", "rep": 1, "step": 5, "reference": 19108, "fit_seconds": 6.971176291001029, "peak_rss_bytes": 625967104, "elapsed_seconds": 35.56951904197922}
+{"timestamp": "2026-11-10T04:36:30.353818+00:00", "event": "fit_complete", "fits": 3, "split": 11, "initial": "C", "rep": 1, "step": 5, "reference": 19109, "fit_seconds": 10.071852041000966, "peak_rss_bytes": 654065664, "elapsed_seconds": 49.088112249970436}
+{"timestamp": "2026-11-10T04:36:30.355291+00:00", "event": "complete", "fits": 3}
+{"status": "complete", "family": "aps_a5_sensitivity", "unit_mode": true, "work_directory": "/Users/bgc/Documents/ChatGPT/\u8bba\u65872.0/submission_ready_20261110/reproducibility/acceptance/aps_a5_sensitivity/aps_a5_sensitivity"}

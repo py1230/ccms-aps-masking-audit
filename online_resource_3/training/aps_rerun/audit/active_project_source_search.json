@@ -1,0 +1,67 @@
+{
+  "created_utc": "2026-11-08T12:15:49.230486+00:00",
+  "status": "complete_bounded_search",
+  "active_project": "/Users/bgc/Documents/ChatGPT/research/AI论文研究资料包_2026-10-28/ccms_execution",
+  "search_roots": [
+    "/Users/bgc/Documents/ChatGPT/research/AI论文研究资料包_2026-10-28",
+    "/Users/bgc/Documents/ChatGPT/research/new",
+    "/Users/bgc/Documents/ChatGPT/research/rr",
+    "/Users/bgc/Documents/ChatGPT/research/paper-readings"
+  ],
+  "scope_reason": "Active project parent and its immediately adjacent research working directories only; no whole-machine search. Data/reading neighbors included only in exact-filename enumeration.",
+  "excluded_directories": [
+    ".venv",
+    "site-packages",
+    ".git"
+  ],
+  "method": "rg --files --hidden --no-ignore with exact basename filters, then SHA-256 of matching files only; no ZIP/archive expansion",
+  "command": [
+    "rg",
+    "--files",
+    "--hidden",
+    "--no-ignore",
+    "-g",
+    "!**/.venv/**",
+    "-g",
+    "!**/site-packages/**",
+    "-g",
+    "!**/.git/**",
+    "-g",
+    "run_supplement.py",
+    "-g",
+    "protocol_v2_冻结_2026-10-31.md",
+    "/Users/bgc/Documents/ChatGPT/research/AI论文研究资料包_2026-10-28",
+    "/Users/bgc/Documents/ChatGPT/research/new",
+    "/Users/bgc/Documents/ChatGPT/research/rr",
+    "/Users/bgc/Documents/ChatGPT/research/paper-readings"
+  ],
+  "targets": {
+    "run_supplement.py": "90b0fc35f4b122809b6ebb90ce7f461120a45eeef451518d019d8aaf331439d7",
+    "protocol_v2_冻结_2026-10-31.md": "95f90d409d8d9cb1899aed623f02eee5a40300b41e6320e5d62de51e51de7352"
+  },
+  "candidate_count": 2,
+  "matching_candidates": 0,
+  "candidates": [
+    {
+      "path": "/Users/bgc/Documents/ChatGPT/research/rr/02_原完整复现包/CCMS论文修订完整资料包_2026-11-01_192149/02_本轮代码与结果/scripts/run_supplement.py",
+      "name": "run_supplement.py",
+      "bytes": 10310,
+      "sha256": "e68bb0f7a05a55d129c66048414b6c4b4aed8d52f98a4a2b5ebfa27fa9fb104a",
+      "expected_sha256": "90b0fc35f4b122809b6ebb90ce7f461120a45eeef451518d019d8aaf331439d7",
+      "match": false
+    },
+    {
+      "path": "/Users/bgc/Documents/ChatGPT/research/rr/02_原完整复现包/CCMS论文修订完整资料包_2026-11-01_192149/03_原始项目归档/CCMS核查_2026-10-31/protocol/protocol_v2_冻结_2026-10-31.md",
+      "name": "protocol_v2_冻结_2026-10-31.md",
+      "bytes": 4010,
+      "sha256": "88481a04127a0ae98be9fdcab8df92feb68fd0af022e4754036cd2ab788622cb",
+      "expected_sha256": "95f90d409d8d9cb1899aed623f02eee5a40300b41e6320e5d62de51e51de7352",
+      "match": false
+    }
+  ],
+  "limitations": [
+    "Only exact filenames in the declared roots were checked.",
+    "Not found in this bounded search does not mean the original never existed.",
+    "An available old software environment does not establish provenance of historical files."
+  ]
+}

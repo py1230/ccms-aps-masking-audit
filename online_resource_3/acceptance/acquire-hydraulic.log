@@ -1,0 +1,7 @@
+{
+  "dataset": "hydraulic",
+  "url": "https://archive.ics.uci.edu/static/public/447/condition%2Bmonitoring%2Bof%2Bhydraulic%2Bsystems.zip",
+  "action": "download",
+  "license_notice": "Read DATA_ACCESS.md and preserve all original notices."
+}
+Verified 20 data members. No model fitting was performed.

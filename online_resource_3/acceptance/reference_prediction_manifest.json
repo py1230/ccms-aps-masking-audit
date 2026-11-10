@@ -1,0 +1,184 @@
+{
+  "aps_rerun": [
+    {
+      "work_relative": "run_results/split11/ensemble_predictions.npz",
+      "package_relative": "acceptance/reference_predictions/aps_rerun/run_results/split11/ensemble_predictions.npz",
+      "sha256": "3ce7549b9afe594bfb9b759c21c3c42724ff53075b2c571bdd09cb8fd8dd9b72",
+      "original_archive_relative": "experiments/aps_rerun_20261108/run_results/split11/ensemble_predictions.npz",
+      "array_names": [
+        "train_rows",
+        "val_rows",
+        "test_rows",
+        "y_val",
+        "y_test",
+        "M3__test__S0",
+        "M3__test__S1_30_101",
+        "M3__test__S1_30_202",
+        "M3__test__S1_30_303",
+        "C025__test__S0",
+        "C025__test__S1_30_101",
+        "C025__test__S1_30_202",
+        "C025__test__S1_30_303",
+        "B025__test__S0",
+        "B025__test__S1_30_101",
+        "B025__test__S1_30_202",
+        "B025__test__S1_30_303"
+      ],
+      "original_full_file_sha256": "540ad19bcd4f2d656c81db65deb07760c4cc0f45b37c01913a0c4a72581bec08",
+      "scope": "Compact original BASE/C025/B025 test S0 and all three S1_30 inputs plus labels/indices. Full original-unit NPZ comparisons remain in array_and_selection_comparison.json."
+    }
+  ],
+  "aps_rerun_matched": [
+    {
+      "work_relative": "run_results/split11/ensemble_predictions.npz",
+      "package_relative": "acceptance/reference_predictions/aps_rerun_matched/run_results/split11/ensemble_predictions.npz",
+      "sha256": "4b92111422f7173570f1aba2aae48468a097fda51e896df886afe3ef787491a5",
+      "original_archive_relative": "experiments/aps_rerun_20261108/environment_matched_run/run_results/split11/ensemble_predictions.npz",
+      "array_names": [
+        "train_rows",
+        "val_rows",
+        "test_rows",
+        "y_val",
+        "y_test",
+        "M3__test__S0",
+        "M3__test__S1_30_101",
+        "M3__test__S1_30_202",
+        "M3__test__S1_30_303",
+        "C025__test__S0",
+        "C025__test__S1_30_101",
+        "C025__test__S1_30_202",
+        "C025__test__S1_30_303",
+        "B025__test__S0",
+        "B025__test__S1_30_101",
+        "B025__test__S1_30_202",
+        "B025__test__S1_30_303"
+      ],
+      "original_full_file_sha256": "98b32ed29ad7c189d9530dfbd18a07ccd627741ee47e037aa172a271e3c2941d",
+      "scope": "Compact original BASE/C025/B025 test S0 and all three S1_30 inputs plus labels/indices. Full original-unit NPZ comparisons remain in array_and_selection_comparison.json."
+    }
+  ],
+  "aps_channels": [
+    {
+      "work_relative": "run_results/M3/rep1/split11/ensemble_predictions.npz",
+      "package_relative": "acceptance/reference_predictions/aps_channels/run_results/M3/rep1/split11/ensemble_predictions.npz",
+      "sha256": "6e0040eecf8e8b8597970ab165059afce6cec62d33a67a49e78c5890a76aef70",
+      "original_archive_relative": "experiments/aps_channels_repeats_20261108/run_results/M3/rep1/split11/ensemble_predictions.npz",
+      "array_names": [
+        "train_rows",
+        "val_rows",
+        "test_rows",
+        "y_val",
+        "y_test",
+        "BASE__test__S0",
+        "BASE__test__S1_30_101",
+        "BASE__test__S1_30_202",
+        "BASE__test__S1_30_303",
+        "C025__test__S0",
+        "C025__test__S1_30_101",
+        "C025__test__S1_30_202",
+        "C025__test__S1_30_303",
+        "B025__test__S0",
+        "B025__test__S1_30_101",
+        "B025__test__S1_30_202",
+        "B025__test__S1_30_303"
+      ],
+      "original_full_file_sha256": "18df24f03e5cb93f17031f52614f2c921722af3e5b5554affb195ccd4eb5af36",
+      "scope": "Compact original BASE/C025/B025 test S0 and all three S1_30 inputs plus labels/indices. Full original-unit NPZ comparisons remain in array_and_selection_comparison.json."
+    }
+  ],
+  "aps_resample": [
+    {
+      "work_relative": "units/anchor/ensemble_predictions.npz",
+      "package_relative": "acceptance/reference_predictions/aps_resample/units/anchor/ensemble_predictions.npz",
+      "sha256": "cb4037a786051f84ad437e02350384d70cd240e730b620cf79c2310e59bca6b4",
+      "original_archive_relative": "experiments/aps_training_resample_20261109/units/anchor/ensemble_predictions.npz",
+      "array_names": [
+        "y_val",
+        "y_test",
+        "train_rows",
+        "val_rows",
+        "test_rows",
+        "BASE__test__S0",
+        "BASE__test__S1_30_101",
+        "BASE__test__S1_30_202",
+        "BASE__test__S1_30_303",
+        "C025__test__S0",
+        "C025__test__S1_30_101",
+        "C025__test__S1_30_202",
+        "C025__test__S1_30_303",
+        "B025__test__S0",
+        "B025__test__S1_30_101",
+        "B025__test__S1_30_202",
+        "B025__test__S1_30_303"
+      ],
+      "original_full_file_sha256": "8f5d165270405f6d1a101d41a8f6f1b90c4b4efde7e9f9aeeda26f2a8bb4aee1",
+      "scope": "Compact original BASE/C025/B025 test S0 and all three S1_30 inputs plus labels/indices. Full original-unit NPZ comparisons remain in array_and_selection_comparison.json."
+    }
+  ],
+  "aps_a5": [
+    {
+      "work_relative": "run_results/split11/rep1/ensemble_predictions.npz",
+      "package_relative": "acceptance/reference_predictions/aps_a5/run_results/split11/rep1/ensemble_predictions.npz",
+      "sha256": "832621e11272fe1f8f810dde7ef930b3a407e1d57e0884f62f4446f32df5e680",
+      "original_archive_relative": "experiments/aps_a5_20261108/run_results/split11/rep1/ensemble_predictions.npz"
+    }
+  ],
+  "aps_a5_sensitivity": [
+    {
+      "work_relative": "run_results/split11/C/rep1/5E/predictions_ref19107.npz",
+      "package_relative": "acceptance/reference_predictions/aps_a5_sensitivity/run_results/split11/C/rep1/5E/predictions_ref19107.npz",
+      "sha256": "8a3f63f753dd25b8c39b377b118eff99a367f8225f3c00f50c28acd39c9260a9",
+      "original_archive_relative": "experiments/aps_a5_sensitivity_20261109/run_results/split11/C/rep1/5E/predictions_ref19107.npz"
+    },
+    {
+      "work_relative": "run_results/split11/C/rep1/5E/predictions_ref19108.npz",
+      "package_relative": "acceptance/reference_predictions/aps_a5_sensitivity/run_results/split11/C/rep1/5E/predictions_ref19108.npz",
+      "sha256": "243e2286d04fa6057092d107ecbd8ed7ff3919b4342c584108304ea87bdab72f",
+      "original_archive_relative": "experiments/aps_a5_sensitivity_20261109/run_results/split11/C/rep1/5E/predictions_ref19108.npz"
+    },
+    {
+      "work_relative": "run_results/split11/C/rep1/5E/predictions_ref19109.npz",
+      "package_relative": "acceptance/reference_predictions/aps_a5_sensitivity/run_results/split11/C/rep1/5E/predictions_ref19109.npz",
+      "sha256": "1f8cb1a06f340e907c21bd5b5a652dc9b8bd5532cd2273ad9093ef98146bd3d1",
+      "original_archive_relative": "experiments/aps_a5_sensitivity_20261109/run_results/split11/C/rep1/5E/predictions_ref19109.npz"
+    }
+  ],
+  "simulation_continuous": [
+    {
+      "work_relative": "run_results/seed601/ensemble_predictions.npz",
+      "package_relative": "acceptance/reference_predictions/simulation_continuous/run_results/seed601/ensemble_predictions.npz",
+      "sha256": "3e2f14602863ad98032ecf33204f71b06a39690a1df5f7e20899b78831ed52bf",
+      "original_archive_relative": "experiments/simulation_expansion_20261108/run_results/seed601/ensemble_predictions.npz"
+    }
+  ],
+  "simulation_feature_dependent": [
+    {
+      "work_relative": "run_results/seed701/ensemble_predictions.npz",
+      "package_relative": "acceptance/reference_predictions/simulation_feature_dependent/run_results/seed701/ensemble_predictions.npz",
+      "sha256": "0974daef8329d53e4009dc2706ae2a3632babf8fd0004917012f418f50732a11",
+      "original_archive_relative": "experiments/simulation_sensitivity_20261109/run_results/seed701/ensemble_predictions.npz"
+    }
+  ],
+  "secom_temporal": [
+    {
+      "work_relative": "run_results/window1/selection/predictions.npz",
+      "package_relative": "acceptance/reference_predictions/secom_temporal/run_results/window1/selection/predictions.npz",
+      "sha256": "e440bb0a24d542e189273ca2edb42bd137eb016773bc24dc5771cd3d9649c386",
+      "original_archive_relative": "revision_v2.4_20261108/experiments/secom_temporal_20261108/run_results/window1/selection/predictions.npz"
+    },
+    {
+      "work_relative": "run_results/window1/refit_test/predictions.npz",
+      "package_relative": "acceptance/reference_predictions/secom_temporal/run_results/window1/refit_test/predictions.npz",
+      "sha256": "6eb10d7ac2a0e617a523b536dab9a9122ab665455b052efca9bf1598f37fc2ad",
+      "original_archive_relative": "revision_v2.4_20261108/experiments/secom_temporal_20261108/run_results/window1/refit_test/predictions.npz"
+    }
+  ],
+  "hydraulic": [
+    {
+      "work_relative": "run_results/fold1/ensemble_predictions.npz",
+      "package_relative": "acceptance/reference_predictions/hydraulic/run_results/fold1/ensemble_predictions.npz",
+      "sha256": "c868401a5b316ca1e0b620524b097d23458436d3f237b94a5ace6beeeb61c3ec",
+      "original_archive_relative": "experiments/hydraulic_external_20261109/run_results/fold1/ensemble_predictions.npz"
+    }
+  ]
+}

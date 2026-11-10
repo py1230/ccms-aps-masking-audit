@@ -1,0 +1,17 @@
+{
+  "decision": "retain original pilot settings unchanged",
+  "attempts_per_edge": 20,
+  "checkpoints_per_edge": [
+    0,
+    1,
+    2,
+    5,
+    10,
+    20
+  ],
+  "minimum_relocated_fraction": 0.5,
+  "pilot_seconds": 2.6662383750081062,
+  "pilot_seed": 811291070,
+  "pilot_scope": "one mask split11 C025_seed19107 rep0; no fitting or performance evaluated",
+  "reason": "20E feasible, 88.43% edges relocated, exact margins and forbidden-cell checks pass. Finite-step law, no mixing claim; 75 chains all retained."
+}

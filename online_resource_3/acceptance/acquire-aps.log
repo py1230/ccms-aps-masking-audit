@@ -1,0 +1,7 @@
+{
+  "dataset": "aps",
+  "url": "https://archive.ics.uci.edu/static/public/421/aps%2Bfailure%2Bat%2Bscania%2Btrucks.zip",
+  "action": "download",
+  "license_notice": "Read DATA_ACCESS.md and preserve all original notices."
+}
+Verified 2 data members. No model fitting was performed.

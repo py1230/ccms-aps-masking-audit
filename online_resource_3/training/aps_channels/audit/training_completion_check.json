@@ -1,0 +1,26 @@
+{
+  "status": "passed",
+  "channels": {
+    "M2": {
+      "status": "complete",
+      "models": 285,
+      "wall_seconds": 1533.9813154580188,
+      "stderr_bytes": 0
+    },
+    "M3": {
+      "status": "complete",
+      "models": 285,
+      "wall_seconds": 2412.870950208977,
+      "stderr_bytes": 0
+    },
+    "MO": {
+      "status": "complete",
+      "models": 285,
+      "wall_seconds": 1573.3386020410107,
+      "stderr_bytes": 0
+    }
+  },
+  "formal_models": 855,
+  "smoke_models": 3,
+  "frozen_files_unchanged": 16
+}

@@ -1,0 +1,63 @@
+{
+  "design": "Full APS repetition in runtime versions matching historical records; scientific configuration identical to first 1.7.2 rerun",
+  "split_seeds": [
+    11
+  ],
+  "train_mask_seeds": [
+    9107,
+    9108,
+    9109
+  ],
+  "alphas": [
+    0,
+    0.25,
+    0.5,
+    1.0
+  ],
+  "train_csv": "/Users/bgc/Documents/ChatGPT/论文2.0/submission_ready_20261110/reproducibility/acceptance/aps_rerun_matched/aps_rerun/raw_data/aps_failure_training_set.csv",
+  "test_csv": "/Users/bgc/Documents/ChatGPT/论文2.0/submission_ready_20261110/reproducibility/acceptance/aps_rerun_matched/aps_rerun/raw_data/aps_failure_test_set.csv",
+  "model_params": {
+    "categorical_features": "from_dtype",
+    "class_weight": null,
+    "early_stopping": "auto",
+    "interaction_cst": null,
+    "l2_regularization": 0.0,
+    "learning_rate": 0.1,
+    "loss": "log_loss",
+    "max_bins": 255,
+    "max_depth": null,
+    "max_features": 1.0,
+    "max_iter": 100,
+    "max_leaf_nodes": 31,
+    "min_samples_leaf": 20,
+    "monotonic_cst": null,
+    "n_iter_no_change": 10,
+    "random_state": 2026,
+    "scoring": "loss",
+    "tol": 1e-07,
+    "validation_fraction": 0.1,
+    "verbose": 0,
+    "warm_start": false
+  },
+  "tolerances": {
+    "prediction_atol": 1e-12,
+    "ap_atol": 1e-12,
+    "selection_tie_atol": 0.0,
+    "budget_atol": 1e-08
+  },
+  "s0_tolerance": 0.01,
+  "selection_conditions": [
+    "S0",
+    "S1_10_101",
+    "S1_10_202",
+    "S1_10_303"
+  ],
+  "historical_ap_comparison_tolerance": 1e-12,
+  "expected_models": 25,
+  "reserve_usage": "unused in this rerun; historical usage unconfirmed",
+  "a3_seed_formula": "mask_seed*1000+7",
+  "a4_seed_formula": "mask_seed*1000+11",
+  "fit_after_selection": false,
+  "diagnostic_expected_col_definition": "unconditional C/B expected column deletion budget for all nonzero arms; A3/A4 condition on paired realized counts, stored as reference_col_counts",
+  "threads": 2
+}

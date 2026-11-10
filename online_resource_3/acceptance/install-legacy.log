@@ -1,0 +1,37 @@
+Collecting numpy==2.3.5
+  Downloading numpy-2.3.5-cp313-cp313-macosx_14_0_arm64.whl.metadata (62 kB)
+Collecting pandas==2.3.3
+  Downloading pandas-2.3.3-cp313-cp313-macosx_11_0_arm64.whl.metadata (91 kB)
+Collecting scikit-learn==1.7.2
+  Downloading scikit_learn-1.7.2-cp313-cp313-macosx_12_0_arm64.whl.metadata (11 kB)
+Collecting scipy==1.16.3
+  Downloading scipy-1.16.3-cp313-cp313-macosx_14_0_arm64.whl.metadata (62 kB)
+Collecting joblib==1.5.2
+  Downloading joblib-1.5.2-py3-none-any.whl.metadata (5.6 kB)
+Collecting threadpoolctl==3.6.0
+  Downloading threadpoolctl-3.6.0-py3-none-any.whl.metadata (13 kB)
+Collecting python-dateutil>=2.8.2 (from pandas==2.3.3)
+  Using cached python_dateutil-4.0.0-py3-none-any.whl.metadata (7.3 kB)
+Collecting pytz>=2020.1 (from pandas==2.3.3)
+  Downloading pytz-2026.6-py2.py3-none-any.whl.metadata (22 kB)
+Collecting tzdata>=2022.7 (from pandas==2.3.3)
+  Using cached tzdata-2026.6-py2.py3-none-any.whl.metadata (1.4 kB)
+Downloading numpy-2.3.5-cp313-cp313-macosx_14_0_arm64.whl (5.1 MB)
+   ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 5.1/5.1 MB 350.7 kB/s  0:00:16
+Downloading pandas-2.3.3-cp313-cp313-macosx_11_0_arm64.whl (10.7 MB)
+   ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 10.7/10.7 MB 812.1 kB/s  0:00:13
+Downloading scikit_learn-1.7.2-cp313-cp313-macosx_12_0_arm64.whl (8.6 MB)
+   ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 8.6/8.6 MB 1.1 MB/s  0:00:07
+Downloading scipy-1.16.3-cp313-cp313-macosx_14_0_arm64.whl (20.9 MB)
+   ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 20.9/20.9 MB 1.4 MB/s  0:00:15
+Downloading joblib-1.5.2-py3-none-any.whl (308 kB)
+Using cached threadpoolctl-3.6.0-py3-none-any.whl (18 kB)
+Using cached python_dateutil-4.0.0-py3-none-any.whl (92 kB)
+Downloading pytz-2026.6-py2.py3-none-any.whl (506 kB)
+Using cached tzdata-2026.6-py2.py3-none-any.whl (348 kB)
+Installing collected packages: pytz, tzdata, threadpoolctl, numpy, joblib, scipy, python-dateutil, scikit-learn, pandas
+
+Successfully installed joblib-1.5.2 numpy-2.3.5 pandas-2.3.3 python-dateutil-4.0.0 pytz-2026.6 scikit-learn-1.7.2 scipy-1.16.3 threadpoolctl-3.6.0 tzdata-2026.6
+
+[notice] A new release of pip is available: 25.2 -> 26.3
+[notice] To update, run: /Users/bgc/Documents/ChatGPT/论文2.0/submission_ready_20261110/reproducibility/.venv-legacy/bin/python -m pip install --upgrade pip

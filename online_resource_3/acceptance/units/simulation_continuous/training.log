@@ -1,0 +1,45 @@
+{"timestamp_utc": "2026-11-10T04:23:46.188672+00:00", "event": "started", "data_seed": 601, "pid": 3974, "smoke": false, "config_sha256": "7e8206f8c02cd92680124ecbac44270cd31d0e32ba0f12ca3d8c3ea16225c23c"}
+{"timestamp_utc": "2026-11-10T04:23:46.368512+00:00", "event": "fit_started", "data_seed": 601, "tag": "M3"}
+{"timestamp_utc": "2026-11-10T04:23:46.683885+00:00", "event": "fit_completed", "data_seed": 601, "tag": "M3", "seconds": 0.3153722286224365}
+{"timestamp_utc": "2026-11-10T04:23:46.683995+00:00", "event": "fit_started", "data_seed": 601, "tag": "M4"}
+{"timestamp_utc": "2026-11-10T04:23:46.925152+00:00", "event": "fit_completed", "data_seed": 601, "tag": "M4", "seconds": 0.24115586280822754}
+{"timestamp_utc": "2026-11-10T04:23:46.925251+00:00", "event": "fit_started", "data_seed": 601, "tag": "C025_seed9107"}
+{"timestamp_utc": "2026-11-10T04:23:47.216121+00:00", "event": "fit_completed", "data_seed": 601, "tag": "C025_seed9107", "seconds": 0.29086804389953613}
+{"timestamp_utc": "2026-11-10T04:23:47.216215+00:00", "event": "fit_started", "data_seed": 601, "tag": "C025_seed9108"}
+{"timestamp_utc": "2026-11-10T04:23:47.497685+00:00", "event": "fit_completed", "data_seed": 601, "tag": "C025_seed9108", "seconds": 0.28147006034851074}
+{"timestamp_utc": "2026-11-10T04:23:47.497790+00:00", "event": "fit_started", "data_seed": 601, "tag": "C025_seed9109"}
+{"timestamp_utc": "2026-11-10T04:23:47.781264+00:00", "event": "fit_completed", "data_seed": 601, "tag": "C025_seed9109", "seconds": 0.2834742069244385}
+{"timestamp_utc": "2026-11-10T04:23:47.781368+00:00", "event": "fit_started", "data_seed": 601, "tag": "B025_seed9107"}
+{"timestamp_utc": "2026-11-10T04:23:48.071511+00:00", "event": "fit_completed", "data_seed": 601, "tag": "B025_seed9107", "seconds": 0.29014086723327637}
+{"timestamp_utc": "2026-11-10T04:23:48.071621+00:00", "event": "fit_started", "data_seed": 601, "tag": "B025_seed9108"}
+{"timestamp_utc": "2026-11-10T04:23:48.365795+00:00", "event": "fit_completed", "data_seed": 601, "tag": "B025_seed9108", "seconds": 0.294173002243042}
+{"timestamp_utc": "2026-11-10T04:23:48.365897+00:00", "event": "fit_started", "data_seed": 601, "tag": "B025_seed9109"}
+{"timestamp_utc": "2026-11-10T04:23:48.652221+00:00", "event": "fit_completed", "data_seed": 601, "tag": "B025_seed9109", "seconds": 0.28632187843322754}
+{"timestamp_utc": "2026-11-10T04:23:48.652318+00:00", "event": "fit_started", "data_seed": 601, "tag": "C050_seed9107"}
+{"timestamp_utc": "2026-11-10T04:23:48.952032+00:00", "event": "fit_completed", "data_seed": 601, "tag": "C050_seed9107", "seconds": 0.2997128963470459}
+{"timestamp_utc": "2026-11-10T04:23:48.952130+00:00", "event": "fit_started", "data_seed": 601, "tag": "C050_seed9108"}
+{"timestamp_utc": "2026-11-10T04:23:49.235143+00:00", "event": "fit_completed", "data_seed": 601, "tag": "C050_seed9108", "seconds": 0.28300905227661133}
+{"timestamp_utc": "2026-11-10T04:23:49.235236+00:00", "event": "fit_started", "data_seed": 601, "tag": "C050_seed9109"}
+{"timestamp_utc": "2026-11-10T04:23:49.530078+00:00", "event": "fit_completed", "data_seed": 601, "tag": "C050_seed9109", "seconds": 0.29483914375305176}
+{"timestamp_utc": "2026-11-10T04:23:49.530226+00:00", "event": "fit_started", "data_seed": 601, "tag": "B050_seed9107"}
+{"timestamp_utc": "2026-11-10T04:23:49.819912+00:00", "event": "fit_completed", "data_seed": 601, "tag": "B050_seed9107", "seconds": 0.2896850109100342}
+{"timestamp_utc": "2026-11-10T04:23:49.820005+00:00", "event": "fit_started", "data_seed": 601, "tag": "B050_seed9108"}
+{"timestamp_utc": "2026-11-10T04:23:50.096448+00:00", "event": "fit_completed", "data_seed": 601, "tag": "B050_seed9108", "seconds": 0.2764420509338379}
+{"timestamp_utc": "2026-11-10T04:23:50.096539+00:00", "event": "fit_started", "data_seed": 601, "tag": "B050_seed9109"}
+{"timestamp_utc": "2026-11-10T04:23:50.373091+00:00", "event": "fit_completed", "data_seed": 601, "tag": "B050_seed9109", "seconds": 0.2765510082244873}
+{"timestamp_utc": "2026-11-10T04:23:50.373180+00:00", "event": "fit_started", "data_seed": 601, "tag": "C100_seed9107"}
+{"timestamp_utc": "2026-11-10T04:23:50.641050+00:00", "event": "fit_completed", "data_seed": 601, "tag": "C100_seed9107", "seconds": 0.2678680419921875}
+{"timestamp_utc": "2026-11-10T04:23:50.641143+00:00", "event": "fit_started", "data_seed": 601, "tag": "C100_seed9108"}
+{"timestamp_utc": "2026-11-10T04:23:50.903063+00:00", "event": "fit_completed", "data_seed": 601, "tag": "C100_seed9108", "seconds": 0.2619187831878662}
+{"timestamp_utc": "2026-11-10T04:23:50.903185+00:00", "event": "fit_started", "data_seed": 601, "tag": "C100_seed9109"}
+{"timestamp_utc": "2026-11-10T04:23:51.168606+00:00", "event": "fit_completed", "data_seed": 601, "tag": "C100_seed9109", "seconds": 0.26541996002197266}
+{"timestamp_utc": "2026-11-10T04:23:51.168729+00:00", "event": "fit_started", "data_seed": 601, "tag": "B100_seed9107"}
+{"timestamp_utc": "2026-11-10T04:23:51.431697+00:00", "event": "fit_completed", "data_seed": 601, "tag": "B100_seed9107", "seconds": 0.2629671096801758}
+{"timestamp_utc": "2026-11-10T04:23:51.431790+00:00", "event": "fit_started", "data_seed": 601, "tag": "B100_seed9108"}
+{"timestamp_utc": "2026-11-10T04:23:51.696598+00:00", "event": "fit_completed", "data_seed": 601, "tag": "B100_seed9108", "seconds": 0.2648019790649414}
+{"timestamp_utc": "2026-11-10T04:23:51.696709+00:00", "event": "fit_started", "data_seed": 601, "tag": "B100_seed9109"}
+{"timestamp_utc": "2026-11-10T04:23:51.962785+00:00", "event": "fit_completed", "data_seed": 601, "tag": "B100_seed9109", "seconds": 0.26607584953308105}
+{"timestamp_utc": "2026-11-10T04:23:51.979899+00:00", "event": "selection_saved", "data_seed": 601, "selection_sha256": "0799f79be752d537dd999a85a7f5ac86a1420b509d49bd2be5bf7f33cd43043c", "chosen": {"C": 0, "B": 0.25}}
+{"timestamp_utc": "2026-11-10T04:23:52.022603+00:00", "event": "target_prediction_started", "data_seed": 601}
+{"timestamp_utc": "2026-11-10T04:23:53.123360+00:00", "event": "complete", "data_seed": 601, "fits_completed": 20, "seconds": 6.934736013412476}
+{"status": "complete", "family": "simulation_continuous", "unit_mode": true, "work_directory": "/Users/bgc/Documents/ChatGPT/\u8bba\u65872.0/submission_ready_20261110/reproducibility/acceptance/simulation_continuous/simulation_continuous"}

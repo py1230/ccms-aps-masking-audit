@@ -1,0 +1,11 @@
+{
+  "family": "secom_temporal",
+  "unit_mode": true,
+  "changes": {
+    "data_path": "relocated verified raw input",
+    "label_path": "relocated verified raw input",
+    "execution_schedule": "one prespecified original unit; no observations or model iterations reduced"
+  },
+  "source_template": "training/secom_temporal",
+  "original_config_sha256": "1e7fa301081015d8f18dcb61c85577d6976e707a645f4b8a96e72859e06e5748"
+}

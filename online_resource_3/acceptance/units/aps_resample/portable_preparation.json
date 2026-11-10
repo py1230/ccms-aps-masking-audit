@@ -1,0 +1,9 @@
+{
+  "family": "aps_resample",
+  "unit_mode": true,
+  "changes": {
+    "execution_schedule": "one prespecified original unit; no observations or model iterations reduced"
+  },
+  "source_template": "training/aps_resample",
+  "original_config_sha256": "6522ed33aec1344bbff654aa983095f9b9ebfbd1dcac1f79c1f413692a91adeb"
+}

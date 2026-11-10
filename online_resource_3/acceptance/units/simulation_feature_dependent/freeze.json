@@ -1,0 +1,32 @@
+{
+  "timestamp_utc": "2026-11-10T04:25:04.433670+00:00",
+  "files": {
+    "PROTOCOL.md": "8fb5433a63005683f1f3101e37a88ef41ef0214965148286fba7a2c281e60660",
+    "README.md": "61166f1d4e7fa6a8a23e4f678f0af69ae0567d5d63e052ffc3f59dc0df2364c9",
+    "analyze_results.py": "f9d0e27129444f19fc0315812e24ac981fd5d63519666c40127dbc4935dfc4fb",
+    "audit/boundary_check.json": "6f82b5d4dacdb3140562bca5c1e3dba7621bc95fddf93bc3bd35d1982ade5005",
+    "audit/figure_visual_review.json": "f0ee8f8ec87e3f9b232fa043391dfd7f16ba00d8694a1c6ef0802ee983a18f27",
+    "audit/independent_verification.json": "1d187f9512fb3b219fa9ed982e2e4ff332a1b559002398df61e558f777722825",
+    "audit/smoke_independent_verification.json": "1fe23243d71e49dbf9c2356bc79345d296f32ee7bb20b3039c45344265ad3303",
+    "audit/source_provenance.json": "b4b484ef0a968f50a5ebee48da892df71a5249a39622e74af4ef89af9e479aa5",
+    "build_archive_manifest.py": "0110aec50ccecf42bf050c369bffa6fb5d393adfc06510d318c90ce2f3c3d7d0",
+    "config.json": "f81a20f0b35482bab6d072ee2d91d2781ad7d6d5afd8e805d79c84e51329ad8f",
+    "environment_packages.txt": "06ff612ef93260fb13ad5bd3d770b34a8f09061fe3aa3c73cbe423fabe0d6d09",
+    "export_generation_probabilities.py": "c52e0ca7dbd5dc4c694ee502a6160cff7f9a7810b3355c3a2d77d9662f2d66c1",
+    "freeze_run.py": "2d208ac0b4cdbb528d41f3b02587e4b95ff729f018c91a0908811eab5600c741",
+    "launch_simulation.py": "76ab13f45f58da2cfb9a06869cade817cebbe4ab268563c88e3befd369494982",
+    "plot_results.py": "4d2bda268c82f554bb4116b7e24f80cd6d68763b3b7ef12b1db845cd1dfbc814",
+    "portable_preparation.json": "0b4d7c59545ff206883883434d4b67a6c0e6fe736664f71c1888a23eeedf1b58",
+    "prepare.py": "f4d7f2c7de78b4b2723823f921d6b4827d909985ab3503e21efe32191569eb98",
+    "provenance/original_freeze.json": "d5c8f2873f49499b916e564df2c00d6b7914adc68716b561c30b5434d05768b0",
+    "report_results.py": "23c1edcd7af0deef6dc36acc1478e9d8f9a84535331dd9d57150dca8e9db441c",
+    "run_simulation.py": "cc41572bd321e5018810617b2bc53243bdba279faca21d3fa366f55f28c6a635",
+    "source/audit_metrics.py": "9d66c8c09af59ccd15ec5f98b1320ed44fbd90299f8ed8f7e37dffdf66266f0c",
+    "source/ccms.py": "2aa211e6ac688c7b1687a1946c30b780a94a3d856a9d0cb59504c0e2554511c2",
+    "source/pipeline.py": "45cb6f629e0126f3afd8b1bec4b4b4fb290d0a6888c0c1957cd2202cc0a3a26a",
+    "source/sim_nuisance.py": "de9345f5ff238c0de63794fce2e8f31c8129756595498dd06213e42d9179f6cb",
+    "verify_results.py": "3858ada933ac4204538f6524f9e3da7e9542f922d110766ba4ee620df6c720c5",
+    "第二模拟机制实验报告.md": "fcc0b978030d391c6913cf79e0918dfc9b153e85089286673e2f1386fafec329"
+  },
+  "scope": "Fresh portable execution inputs before fitting. Historical research and results were already known. This receipt is not historical provenance."
+}

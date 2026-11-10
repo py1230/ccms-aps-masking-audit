@@ -1,0 +1,7 @@
+{
+  "status": "passed",
+  "science_changes": [],
+  "copied_training_code_identical": true,
+  "no_results_or_freeze_copied": true,
+  "stdout": "{\"prepared\": \"/private/var/folders/d5/yql1djcn749dbdq_jk1bs9yr0000gn/T/aps_channels_portable_dumnorxz/repeat\", \"trained\": false, \"next\": \"Use the documented matching environment, run --smoke, freeze_run.py, --check, then launch_channels.py\"}\n"
+}

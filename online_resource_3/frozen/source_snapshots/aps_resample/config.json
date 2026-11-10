@@ -1,0 +1,113 @@
+{
+  "design": "stratified original-training-ID bootstrap, fixed validation/test, no internal early stopping",
+  "split": 11,
+  "bootstrap_seeds": [
+    90101,
+    90102,
+    90103,
+    90104,
+    90105,
+    90106,
+    90107,
+    90108,
+    90109,
+    90110,
+    90111,
+    90112,
+    90113,
+    90114,
+    90115,
+    90116,
+    90117,
+    90118,
+    90119,
+    90120
+  ],
+  "alphas": [
+    0,
+    0.25,
+    0.5,
+    1.0
+  ],
+  "mask_seeds": [
+    19107,
+    19108,
+    19109
+  ],
+  "model_params": {
+    "categorical_features": "from_dtype",
+    "class_weight": null,
+    "early_stopping": false,
+    "interaction_cst": null,
+    "l2_regularization": 0.0,
+    "learning_rate": 0.1,
+    "loss": "log_loss",
+    "max_bins": 255,
+    "max_depth": null,
+    "max_features": 1.0,
+    "max_iter": 100,
+    "max_leaf_nodes": 31,
+    "min_samples_leaf": 20,
+    "monotonic_cst": null,
+    "n_iter_no_change": 10,
+    "random_state": 2026,
+    "scoring": "loss",
+    "tol": 1e-07,
+    "validation_fraction": 0.1,
+    "verbose": 0,
+    "warm_start": false
+  },
+  "input_environment": {
+    "python": "3.12.15",
+    "numpy": "2.5.4",
+    "sklearn": "1.9.1"
+  },
+  "threads": 2,
+  "max_unit_seconds": 7200,
+  "expected_fits": 399,
+  "fits_per_unit": 19,
+  "bootstrap_repeats": 20,
+  "anchor_separate": true,
+  "s0_tolerance": 0.01,
+  "train_class_counts": [
+    41300,
+    700
+  ],
+  "val_class_counts": [
+    8850,
+    150
+  ],
+  "test_class_counts": [
+    15625,
+    375
+  ],
+  "bootstrap_algorithm": "rng.default_rng(seed); choice(train_rows[y==0],41300,replace=True); choice(train_rows[y==1],700,replace=True); concatenate in class order; rng.permutation(concatenation)",
+  "primary": "selected_C minus selected_B, official test S1_30; descriptive bootstrap mean/SD/min/max",
+  "key_secondary": "fixed C025 minus B025, test S1_30",
+  "statistics": "20 empirical training-bootstrap repeats only; descriptive mean/sampleSD/min/max, no p/CI; anchor excluded from repeats",
+  "scope": "fixed empirical split11, class counts, external validation/test, model/mask seeds; no population, cluster, test-sample or deployment inference",
+  "refit_after_selection": false,
+  "selection_conditions": [
+    "S0",
+    "S1_10_101",
+    "S1_10_202",
+    "S1_10_303"
+  ],
+  "test_conditions": [
+    "S0",
+    "S1_10_101",
+    "S1_10_202",
+    "S1_10_303",
+    "S1_30_101",
+    "S1_30_202",
+    "S1_30_303",
+    "S2_1101",
+    "S2_1202",
+    "S2_1303",
+    "S3_2101",
+    "S3_2202",
+    "S3_2303"
+  ],
+  "array_hash": "SHA256(dtype.str UTF8 + compact JSON list(shape) UTF8 + C order bytes)",
+  "scientific_stop": "all 399 formal fits and independent verification; no effect-adaptive expansion"
+}

@@ -1,0 +1,61 @@
+{
+  "created_utc": "2026-11-08T12:21:28.185261+00:00",
+  "run_dir": "/Users/bgc/Documents/ChatGPT/论文2.0/experiments/aps_rerun_20261108",
+  "python": "3.13.9",
+  "executable": "/opt/anaconda3/bin/python",
+  "numpy": "2.3.5",
+  "pandas": "2.3.3",
+  "sklearn": "1.7.2",
+  "parser_sha256": "787558c6badffb88d3badefc87b454bafd443bdf411714eeecabc325e8bb3f6f",
+  "canonicalization": "X little-endian float64 C-order with NaN bits 0x7ff8000000000000; y little-endian int64; columns UTF-8 compact JSON; shape/dtype included in array hashes",
+  "datasets": {
+    "train": {
+      "raw_path": "/Users/bgc/Documents/ChatGPT/论文2.0/data/raw/aps/aps_failure_training_set.csv",
+      "raw_sha256": "bb484302e3a3a1c8ef5e1f0129c4dc7cbd58f350867f95b575461ca21ab6b9da",
+      "X": {
+        "shape": [
+          60000,
+          170
+        ],
+        "dtype": "<f8",
+        "sha256": "40565fc544933afde2cdbb708e676fb076428a01a221b5ff290b71778dc55fdb"
+      },
+      "y": {
+        "shape": [
+          60000
+        ],
+        "dtype": "<i8",
+        "sha256": "de13b6bb3ee958f24bd460a73324807890895b4eeecdedf0475e07f372528f68"
+      },
+      "feature_names_sha256": "2b1c88711d39ed2aa6e92d56d6a1bbe9537e201e0b644fa1374f80ad96a9540c",
+      "feature_count": 170,
+      "n_missing": 850015,
+      "positive_count": 1000,
+      "header_line_index": 20
+    },
+    "test": {
+      "raw_path": "/Users/bgc/Documents/ChatGPT/论文2.0/data/raw/aps/aps_failure_test_set.csv",
+      "raw_sha256": "2cdf6f7661c7b4c63333c93cdec36a3a82350176b604a2312cf82799fb2712f3",
+      "X": {
+        "shape": [
+          16000,
+          170
+        ],
+        "dtype": "<f8",
+        "sha256": "a6e117cbf714075bd1f35ae38b0495973acd43e9ad90207215dde6d75c23af99"
+      },
+      "y": {
+        "shape": [
+          16000
+        ],
+        "dtype": "<i8",
+        "sha256": "48be304b6567d37f775663955f52c03eaab39098f5a90ba154e2c1593e795ef5"
+      },
+      "feature_names_sha256": "2b1c88711d39ed2aa6e92d56d6a1bbe9537e201e0b644fa1374f80ad96a9540c",
+      "feature_count": 170,
+      "n_missing": 228680,
+      "positive_count": 375,
+      "header_line_index": 20
+    }
+  }
+}
