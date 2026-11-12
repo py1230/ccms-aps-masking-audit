@@ -1,0 +1,62 @@
+{
+ "frozen_at": "2026-10-31 14:10:21",
+ "python": "3.12.3",
+ "n_files": 39,
+ "combined_digest": "f56d3db2abd37189f1c5df78ec6773d56a91a314b1eaeec01c130ad8f658cd55",
+ "files": {
+  "src/aps_io.py": "787558c6badffb88d3badefc87b454bafd443bdf411714eeecabc325e8bb3f6f",
+  "src/audit_metrics.py": "9d66c8c09af59ccd15ec5f98b1320ed44fbd90299f8ed8f7e37dffdf66266f0c",
+  "src/ccms.py": "2aa211e6ac688c7b1687a1946c30b780a94a3d856a9d0cb59504c0e2554511c2",
+  "src/pipeline.py": "45cb6f629e0126f3afd8b1bec4b4b4fb290d0a6888c0c1957cd2202cc0a3a26a",
+  "src/run_audit.py": "cfde92a4c03dd6ff8ccbafbc5f7412e8be2268809ecb0b1f0f077c93ef96562b",
+  "src/secom_io.py": "3f9529bde2b69cb9a33bba0647d5f13a589dfd8fc71e1c2ffc2f48b151a0dcf0",
+  "scripts/aps_profile.py": "eb7d0d3c84890a5e3228862750d53afc36ac754faef15d339b850d244dd18afb",
+  "scripts/audit_ai4i_extra.py": "8ef90b73f0af46de0e5fbddf6f648228e3016cec079c359fad436203f19988ef",
+  "scripts/check_doc_numbers.py": "0ebb672b32684fcb59865ff45d22e6830286a8fa2378eb38bc823f871915fe32",
+  "scripts/diag_cb_collapse.py": "87c839d73efe92affbb967e520f30fc57c06953f834a7301a2039bed22658990",
+  "scripts/diag_flags_only.py": "06423c3196c6eef8576b7297a4c7d1120aab15646c3d93122b373929b2e7fdc6",
+  "scripts/diag_leakage.py": "4a1a6ba7b1e08790a151eb557d51d920e77a1f8bb556d03c7798c50fb0eb97fd",
+  "scripts/diag_polarity.py": "d1d2f85c1626007d6d5e7ed30039a6cd93d0c846b98c8dbbb58a932b55e17ae2",
+  "scripts/diag_ties.py": "0a21e635787abdb8a3aeac9b73c8db40fe89e856be6611641686f99ee78a0346",
+  "scripts/freeze_protocol.py": "e1596af26c82061ddf817b4e0d080a63ff8175230dcf08c690d496db699a1175",
+  "scripts/make_cb_tables.py": "906d656381e25a1d7079c7c868c826629fac809aac375a283e1010e05faceb0e",
+  "scripts/mutation_check.py": "8a210565c602e2cbe0c271c656e94d58523b076c3e8158154c0122af96c8fafb",
+  "scripts/run_all_tests.py": "0edd9a507bc8a66e5ef0d577904a5cbcd18fdbe8c1f393e31c08f7233fe9c758",
+  "scripts/run_aps_formal.py": "a2f9eee5046d8e806cfbd7a24db0b6038bff2c728ef6c39553970ab1937325c0",
+  "scripts/run_aps_pilot.py": "0ff27ff865fac9c130c3a6e59fa59d310185ebd6ebcdf2115033adb4d4030a25",
+  "scripts/run_cb_firstlook.py": "682912992b664996431c9b54c545002e793694680a99fcbf2f12a44c87152809",
+  "scripts/run_secom_pilot.py": "0f769a85bc7eedc3bdaa81885a893e16f2aa80442fde42c4652385be0a344cbc",
+  "scripts/sim_nuisance.py": "de9345f5ff238c0de63794fce2e8f31c8129756595498dd06213e42d9179f6cb",
+  "scripts/sim_regimes_extra.py": "cedaa510a502de35ccc314f5c83885c1db3136e885bc4caab19d47e09c1e374c",
+  "scripts/small_matrix_check.py": "834b534b49bd8f765855c2d2ac67dc6f8bb4849648b7e2ae6ad7bf3a71632e64",
+  "scripts/summarize_cb_firstlook.py": "345c6ff9aba46b123b64c2ac9a25a7fbae42ed924bf23662fa34637660a01c0c",
+  "protocol/protocol_v2_冻结_2026-10-31.md": "95f90d409d8d9cb1899aed623f02eee5a40300b41e6320e5d62de51e51de7352",
+  "protocol/protocol_v2_草案_2026-10-31.md": "846f4db2833c49e3606edf5e1f63127e3448b307ec876542aebde54ab7f77fcd",
+  "protocol/探索性协议_P1_CB首轮_2026-10-31.md": "0fa8eb571bf2db1f31862ce62baaed6a812f6b68504942190b48611911abbd76",
+  "protocol/探索性协议_P2_受控模拟_2026-10-31.md": "9c16b8a223a61d23871914165a0d62725767f4ef79f8d850ec501ade4d552eb4",
+  "protocol/探索性协议_P2_附录A_减弱与联合反例_2026-10-31.md": "10d231333a953e9483c96ef5b80440eba239f3b3a5447b31f6b4baefe33183d7",
+  "tests/test_aps_io.py": "3f672ad778780f32fa169adb9fbc8574b8504f20520a2e9b0e85af1885fd27b4",
+  "tests/test_audit_metrics.py": "7c242a63ffb0b1dee913f9b2ce0c5440c384a6e799134225144c794e5e3a3aaf",
+  "tests/test_cb_firstlook.py": "94ae515c97ec45d15d39077256f99ced46dae442f5025e45381e108a060d7232",
+  "tests/test_ccms.py": "cfd107d55aa3927e718ccf6a3c595be77aec7ab63128072cb05d07901631939f",
+  "tests/test_pipeline.py": "604b009199ccd5fe0988a58ae9a5641f6e6d6b222f1f167b85109350a3565c29",
+  "tests/test_run_audit.py": "05f4c24cb5e67b6dbdf52b9be8c38c92e6385b90657b085b278f27fa443daf36",
+  "tests/test_secom_io.py": "abc59cdd70f06a5143a0f8c11db432bfad36072e789aaf2c1267a3604ee064e9",
+  "tests/test_sim_regimes.py": "11a8285e4bde2942ff715cb8a0d4cfe445acecfdf378aaf4e4b22fbe0185b6ef"
+ },
+ "data": {
+  "/home/user/workspace/默认项目/aps_failure_training_set.csv": {
+   "sha256": "bb484302e3a3a1c8ef5e1f0129c4dc7cbd58f350867f95b575461ca21ab6b9da",
+   "bytes": 44669194
+  },
+  "/home/user/workspace/默认项目/data/secom/secom.data": {
+   "sha256": "20f0e7ee434f7dcbae0eea9ffff009a2b57f42d6b0dc9a5bd4f00782c0a3374c",
+   "bytes": 5389983
+  },
+  "/home/user/workspace/默认项目/data/secom/secom_labels.data": {
+   "sha256": "126884cf453705c9e61a903fe906f0665a3b45ce3639e621edc5c93c89627e03",
+   "bytes": 40638
+  }
+ },
+ "note": "冻结后任何改动写入 deviations.md；正式运行引用本记录的时间戳与 digest。"
+}

@@ -1,0 +1,28 @@
+{
+  "status": "FAIL",
+  "checks": [],
+  "cells": [],
+  "splits": [],
+  "environment": {
+    "python": "3.12.15",
+    "numpy": "2.5.4",
+    "pandas": "3.1.0",
+    "sklearn": "1.9.1",
+    "joblib": "1.6.0",
+    "platform": "macOS-27.2-arm64-arm-64bit",
+    "script_sha256": "5518c7f566e46fd536e218046814a30cc227016592a5767a2c0965efabd6e581"
+  },
+  "manifest_payloads_verified": 119,
+  "historical_command": {
+    "transcript_characters": 1879,
+    "runner_bytes": 1811,
+    "prefix_characters": 500,
+    "heredoc_and_prefix_match": true,
+    "raw_chat_projection_included": false,
+    "background_launch": true,
+    "exit_code_scope": "launcher shell only; Python training exit status not established"
+  },
+  "error": "ValueError: M3 matrix hash",
+  "wall_seconds": 1.338,
+  "generated_at_utc": "2026-11-12T10:53:50Z"
+}

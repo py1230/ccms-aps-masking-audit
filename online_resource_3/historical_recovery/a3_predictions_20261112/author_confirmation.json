@@ -1,0 +1,10 @@
+{
+  "date": "2026-11-12",
+  "statement_source": "explicit user/author confirmation in current Codex chat",
+  "statement": "逐样本预测 CSV（27万行）为补表 A3 实验原件。SECOM 20,000次 Bootstrap 根据重跑的数据。",
+  "a3_original_path": "/Users/bgc/Downloads/逐样本预测 CSV(270,000 行).csv",
+  "a3_sha256": "61f2290707ac98b09a9d2ea55e66040eda30a0b08e8b03f0ad37ed12473383e0",
+  "classification": "historical original prediction file, identified by author",
+  "verification": "30 groups, source-row mappings, labels and AP values independently checked; original execution environment not independently authenticated",
+  "secom_classification": "new 2026-11-12 conditional bootstrap reanalysis; not original 20261108 execution"
+}

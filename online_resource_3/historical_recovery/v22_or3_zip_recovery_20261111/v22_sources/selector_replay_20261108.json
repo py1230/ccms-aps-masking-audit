@@ -1,0 +1,480 @@
+{
+  "title": "APS alpha-selection rule replay from archived candidate validation scores",
+  "source": "ESM_2/08_repro_bundle/02_本轮代码与结果/results/archive_audit.json",
+  "source_sha256": "ee3d2993378af0088413a379560e8a1a263809b83f008bbade481632dba6c0fd",
+  "selection_rule": {
+    "feasibility": "candidate S0 AP loss <= 0.01 relative to alpha=0 baseline",
+    "objective": "maximize the worst AP across the four validation inputs",
+    "tie_break": "choose smaller alpha"
+  },
+  "n_split_arm_checks": 10,
+  "all_replays_match_archive": true,
+  "selected_alpha_by_arm": {
+    "C": [
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0
+    ],
+    "B": [
+      0.25,
+      1.0,
+      0.5,
+      0.5,
+      0.5
+    ]
+  },
+  "mean_selected_test_S1_30_AP": {
+    "C": 0.7098864479785,
+    "B": 0.7661051957235476
+  },
+  "records": [
+    {
+      "seed": 11,
+      "arm": "C",
+      "replayed_alpha": 0.0,
+      "archived_alpha": 0.0,
+      "replayed_cfg": "M3",
+      "archived_cfg": "M3",
+      "eligibility_checks": [
+        {
+          "alpha": 0.0,
+          "replayed_eligible": true,
+          "archived_eligible": true,
+          "matches": true,
+          "s0_ap": 0.8557402694656034,
+          "worst4_ap": 0.7759583495621102
+        },
+        {
+          "alpha": 0.25,
+          "replayed_eligible": true,
+          "archived_eligible": true,
+          "matches": true,
+          "s0_ap": 0.8503545168298839,
+          "worst4_ap": 0.6449578852405288
+        },
+        {
+          "alpha": 0.5,
+          "replayed_eligible": false,
+          "archived_eligible": false,
+          "matches": true,
+          "s0_ap": 0.7662079552770015,
+          "worst4_ap": 0.4286669051680642
+        },
+        {
+          "alpha": 1.0,
+          "replayed_eligible": false,
+          "archived_eligible": false,
+          "matches": true,
+          "s0_ap": 0.14251733971482103,
+          "worst4_ap": 0.14251733971482103
+        }
+      ],
+      "matches": true,
+      "selected_test_S1_30_AP": 0.7106492037980235
+    },
+    {
+      "seed": 11,
+      "arm": "B",
+      "replayed_alpha": 0.25,
+      "archived_alpha": 0.25,
+      "replayed_cfg": "B025",
+      "archived_cfg": "B025",
+      "eligibility_checks": [
+        {
+          "alpha": 0.0,
+          "replayed_eligible": true,
+          "archived_eligible": true,
+          "matches": true,
+          "s0_ap": 0.8557402694656034,
+          "worst4_ap": 0.7759583495621102
+        },
+        {
+          "alpha": 0.25,
+          "replayed_eligible": true,
+          "archived_eligible": true,
+          "matches": true,
+          "s0_ap": 0.8625163409136797,
+          "worst4_ap": 0.804261405628586
+        },
+        {
+          "alpha": 0.5,
+          "replayed_eligible": true,
+          "archived_eligible": true,
+          "matches": true,
+          "s0_ap": 0.8499461489579545,
+          "worst4_ap": 0.7923119198105897
+        },
+        {
+          "alpha": 1.0,
+          "replayed_eligible": true,
+          "archived_eligible": true,
+          "matches": true,
+          "s0_ap": 0.8461341010226764,
+          "worst4_ap": 0.7787816272618067
+        }
+      ],
+      "matches": true,
+      "selected_test_S1_30_AP": 0.7607636325499776
+    },
+    {
+      "seed": 22,
+      "arm": "C",
+      "replayed_alpha": 0.0,
+      "archived_alpha": 0.0,
+      "replayed_cfg": "M3",
+      "archived_cfg": "M3",
+      "eligibility_checks": [
+        {
+          "alpha": 0.0,
+          "replayed_eligible": true,
+          "archived_eligible": true,
+          "matches": true,
+          "s0_ap": 0.8480872957064106,
+          "worst4_ap": 0.7682655366005344
+        },
+        {
+          "alpha": 0.25,
+          "replayed_eligible": true,
+          "archived_eligible": true,
+          "matches": true,
+          "s0_ap": 0.840267120334615,
+          "worst4_ap": 0.6277913909640572
+        },
+        {
+          "alpha": 0.5,
+          "replayed_eligible": false,
+          "archived_eligible": false,
+          "matches": true,
+          "s0_ap": 0.7378336714717805,
+          "worst4_ap": 0.3572765391733338
+        },
+        {
+          "alpha": 1.0,
+          "replayed_eligible": false,
+          "archived_eligible": false,
+          "matches": true,
+          "s0_ap": 0.0645751752473821,
+          "worst4_ap": 0.0645751752473821
+        }
+      ],
+      "matches": true,
+      "selected_test_S1_30_AP": 0.688811764468502
+    },
+    {
+      "seed": 22,
+      "arm": "B",
+      "replayed_alpha": 1.0,
+      "archived_alpha": 1.0,
+      "replayed_cfg": "B100",
+      "archived_cfg": "B100",
+      "eligibility_checks": [
+        {
+          "alpha": 0.0,
+          "replayed_eligible": true,
+          "archived_eligible": true,
+          "matches": true,
+          "s0_ap": 0.8480872957064106,
+          "worst4_ap": 0.7682655366005344
+        },
+        {
+          "alpha": 0.25,
+          "replayed_eligible": true,
+          "archived_eligible": true,
+          "matches": true,
+          "s0_ap": 0.8537097828062845,
+          "worst4_ap": 0.7781946839360612
+        },
+        {
+          "alpha": 0.5,
+          "replayed_eligible": true,
+          "archived_eligible": true,
+          "matches": true,
+          "s0_ap": 0.8451288370428581,
+          "worst4_ap": 0.781335481632945
+        },
+        {
+          "alpha": 1.0,
+          "replayed_eligible": true,
+          "archived_eligible": true,
+          "matches": true,
+          "s0_ap": 0.84556128276101,
+          "worst4_ap": 0.8035727120676899
+        }
+      ],
+      "matches": true,
+      "selected_test_S1_30_AP": 0.7814283622871843
+    },
+    {
+      "seed": 33,
+      "arm": "C",
+      "replayed_alpha": 0.0,
+      "archived_alpha": 0.0,
+      "replayed_cfg": "M3",
+      "archived_cfg": "M3",
+      "eligibility_checks": [
+        {
+          "alpha": 0.0,
+          "replayed_eligible": true,
+          "archived_eligible": true,
+          "matches": true,
+          "s0_ap": 0.8587426654629515,
+          "worst4_ap": 0.7908856602166204
+        },
+        {
+          "alpha": 0.25,
+          "replayed_eligible": true,
+          "archived_eligible": true,
+          "matches": true,
+          "s0_ap": 0.8782900355879707,
+          "worst4_ap": 0.642029513024264
+        },
+        {
+          "alpha": 0.5,
+          "replayed_eligible": false,
+          "archived_eligible": false,
+          "matches": true,
+          "s0_ap": 0.8363061127833922,
+          "worst4_ap": 0.46799676037924853
+        },
+        {
+          "alpha": 1.0,
+          "replayed_eligible": false,
+          "archived_eligible": false,
+          "matches": true,
+          "s0_ap": 0.033035992075109814,
+          "worst4_ap": 0.033035992075109814
+        }
+      ],
+      "matches": true,
+      "selected_test_S1_30_AP": 0.7407593961164659
+    },
+    {
+      "seed": 33,
+      "arm": "B",
+      "replayed_alpha": 0.5,
+      "archived_alpha": 0.5,
+      "replayed_cfg": "B050",
+      "archived_cfg": "B050",
+      "eligibility_checks": [
+        {
+          "alpha": 0.0,
+          "replayed_eligible": true,
+          "archived_eligible": true,
+          "matches": true,
+          "s0_ap": 0.8587426654629515,
+          "worst4_ap": 0.7908856602166204
+        },
+        {
+          "alpha": 0.25,
+          "replayed_eligible": true,
+          "archived_eligible": true,
+          "matches": true,
+          "s0_ap": 0.8866743127183234,
+          "worst4_ap": 0.8180732138043657
+        },
+        {
+          "alpha": 0.5,
+          "replayed_eligible": true,
+          "archived_eligible": true,
+          "matches": true,
+          "s0_ap": 0.8843999510791356,
+          "worst4_ap": 0.8256074428464288
+        },
+        {
+          "alpha": 1.0,
+          "replayed_eligible": true,
+          "archived_eligible": true,
+          "matches": true,
+          "s0_ap": 0.8816090695991976,
+          "worst4_ap": 0.8130749548793452
+        }
+      ],
+      "matches": true,
+      "selected_test_S1_30_AP": 0.7675874749535577
+    },
+    {
+      "seed": 44,
+      "arm": "C",
+      "replayed_alpha": 0.0,
+      "archived_alpha": 0.0,
+      "replayed_cfg": "M3",
+      "archived_cfg": "M3",
+      "eligibility_checks": [
+        {
+          "alpha": 0.0,
+          "replayed_eligible": true,
+          "archived_eligible": true,
+          "matches": true,
+          "s0_ap": 0.8510784478282416,
+          "worst4_ap": 0.7775753620728876
+        },
+        {
+          "alpha": 0.25,
+          "replayed_eligible": true,
+          "archived_eligible": true,
+          "matches": true,
+          "s0_ap": 0.863284010938684,
+          "worst4_ap": 0.6921923461193128
+        },
+        {
+          "alpha": 0.5,
+          "replayed_eligible": false,
+          "archived_eligible": false,
+          "matches": true,
+          "s0_ap": 0.8007539586820402,
+          "worst4_ap": 0.45601266636432025
+        },
+        {
+          "alpha": 1.0,
+          "replayed_eligible": false,
+          "archived_eligible": false,
+          "matches": true,
+          "s0_ap": 0.1365197554046542,
+          "worst4_ap": 0.1365197554046542
+        }
+      ],
+      "matches": true,
+      "selected_test_S1_30_AP": 0.7160080221480731
+    },
+    {
+      "seed": 44,
+      "arm": "B",
+      "replayed_alpha": 0.5,
+      "archived_alpha": 0.5,
+      "replayed_cfg": "B050",
+      "archived_cfg": "B050",
+      "eligibility_checks": [
+        {
+          "alpha": 0.0,
+          "replayed_eligible": true,
+          "archived_eligible": true,
+          "matches": true,
+          "s0_ap": 0.8510784478282416,
+          "worst4_ap": 0.7775753620728876
+        },
+        {
+          "alpha": 0.25,
+          "replayed_eligible": true,
+          "archived_eligible": true,
+          "matches": true,
+          "s0_ap": 0.8711377481915465,
+          "worst4_ap": 0.8043801771428515
+        },
+        {
+          "alpha": 0.5,
+          "replayed_eligible": true,
+          "archived_eligible": true,
+          "matches": true,
+          "s0_ap": 0.872150524817494,
+          "worst4_ap": 0.8170607114907344
+        },
+        {
+          "alpha": 1.0,
+          "replayed_eligible": true,
+          "archived_eligible": true,
+          "matches": true,
+          "s0_ap": 0.8544498394599813,
+          "worst4_ap": 0.7886800328721448
+        }
+      ],
+      "matches": true,
+      "selected_test_S1_30_AP": 0.757502356386983
+    },
+    {
+      "seed": 55,
+      "arm": "C",
+      "replayed_alpha": 0.0,
+      "archived_alpha": 0.0,
+      "replayed_cfg": "M3",
+      "archived_cfg": "M3",
+      "eligibility_checks": [
+        {
+          "alpha": 0.0,
+          "replayed_eligible": true,
+          "archived_eligible": true,
+          "matches": true,
+          "s0_ap": 0.895063030458099,
+          "worst4_ap": 0.8219898024970305
+        },
+        {
+          "alpha": 0.25,
+          "replayed_eligible": true,
+          "archived_eligible": true,
+          "matches": true,
+          "s0_ap": 0.892926414398751,
+          "worst4_ap": 0.6170857850797008
+        },
+        {
+          "alpha": 0.5,
+          "replayed_eligible": false,
+          "archived_eligible": false,
+          "matches": true,
+          "s0_ap": 0.8149988453583303,
+          "worst4_ap": 0.4080063832595724
+        },
+        {
+          "alpha": 1.0,
+          "replayed_eligible": false,
+          "archived_eligible": false,
+          "matches": true,
+          "s0_ap": 0.21682246636663002,
+          "worst4_ap": 0.21475589689501604
+        }
+      ],
+      "matches": true,
+      "selected_test_S1_30_AP": 0.6932038533614356
+    },
+    {
+      "seed": 55,
+      "arm": "B",
+      "replayed_alpha": 0.5,
+      "archived_alpha": 0.5,
+      "replayed_cfg": "B050",
+      "archived_cfg": "B050",
+      "eligibility_checks": [
+        {
+          "alpha": 0.0,
+          "replayed_eligible": true,
+          "archived_eligible": true,
+          "matches": true,
+          "s0_ap": 0.895063030458099,
+          "worst4_ap": 0.8219898024970305
+        },
+        {
+          "alpha": 0.25,
+          "replayed_eligible": true,
+          "archived_eligible": true,
+          "matches": true,
+          "s0_ap": 0.8977844394006226,
+          "worst4_ap": 0.8390563444938608
+        },
+        {
+          "alpha": 0.5,
+          "replayed_eligible": true,
+          "archived_eligible": true,
+          "matches": true,
+          "s0_ap": 0.9022474792132145,
+          "worst4_ap": 0.8542017583969405
+        },
+        {
+          "alpha": 1.0,
+          "replayed_eligible": true,
+          "archived_eligible": true,
+          "matches": true,
+          "s0_ap": 0.8968748328795527,
+          "worst4_ap": 0.8382530134031043
+        }
+      ],
+      "matches": true,
+      "selected_test_S1_30_AP": 0.7632441524400354
+    }
+  ],
+  "limitations": [
+    "This replays the selection rule using archived per-candidate AP summaries.",
+    "It does not recompute candidate AP values from raw per-sample predictions for alpha=0.5 and alpha=1.0.",
+    "The archived per-sample APS prediction arrays contain M3, C(0.25), and B(0.25), not all alpha candidates.",
+    "The official test metrics are read only after the validation-based choice and are not used by the selection rule."
+  ]
+}

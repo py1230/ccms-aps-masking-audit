@@ -1,0 +1,44 @@
+{
+  "captured_at": "2026-11-01T19:21:49.698706+08:00",
+  "meaning": "打包时只读快照；原实验时的环境字段仍以02/results中的environment为准",
+  "research": {
+    "python": "3.12.15",
+    "executable": "/Users/bgc/Documents/ChatGPT/research/AI论文研究资料包_2026-10-28/ccms_execution/.venv/bin/python",
+    "platform": "macOS-26.5.1-arm64-arm-64bit",
+    "packages": {
+      "scikit-learn": "1.9.1",
+      "cloudpickle": "3.1.2",
+      "narwhals": "2.28.0",
+      "joblib": "1.6.0",
+      "pandas": "3.1.0",
+      "numpy": "2.5.4",
+      "tzdata": "2026.6",
+      "threadpoolctl": "3.7.0",
+      "python-dateutil": "3.0.0",
+      "six": "1.17.0",
+      "scipy": "1.18.1"
+    }
+  },
+  "document_runtime": {
+    "python": "3.12.14",
+    "executable": "/Users/bgc/.cache/codex-runtimes/codex-primary-runtime/dependencies/python/bin/python3",
+    "packages": {
+      "python-docx": "1.2.0",
+      "Pillow": "12.3.0",
+      "lxml": "6.1.1",
+      "numpy": "2.3.5",
+      "pdf2image": "1.17.0"
+    }
+  },
+  "plot_addons": {
+    "source": "figures/provenance.json plus packaging-time metadata",
+    "packages": {
+      "kiwisolver": "1.5.1",
+      "contourpy": "1.4.0",
+      "matplotlib": "3.11.2",
+      "cycler": "0.12.1",
+      "fonttools": "4.68.0",
+      "pyparsing": "3.3.3"
+    }
+  }
+}

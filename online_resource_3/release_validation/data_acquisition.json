@@ -1,0 +1,14 @@
+{
+  "official_url": "https://archive.ics.uci.edu/static/public/421/aps%2Bfailure%2Bat%2Bscania%2Btrucks.zip",
+  "network_check": "Connection and partial download succeeded; full live download stopped after slow transfer. Full network acquisition not validated in this session.",
+  "local_original_restore": {
+    "url": "https://archive.ics.uci.edu/static/public/421/aps%2Bfailure%2Bat%2Bscania%2Btrucks.zip",
+    "destination": "/Users/bgc/Documents/ChatGPT/\u8bba\u65872.0/PAA\u516c\u5f00\u590d\u73b0\u66f4\u65b0_20261112/staging/online_resource_3/reproduction/a3_model_seed_verification_20261112/received/03_\u672c\u6b21\u4e8b\u540e\u91cd\u5efa\u4e0e\u6838\u9a8c/data/aps_failure_training_set.csv",
+    "sha256": "bb484302e3a3a1c8ef5e1f0129c4dc7cbd58f350867f95b575461ca21ab6b9da",
+    "citation": "APS Failure at Scania Trucks (2016), DOI 10.24432/C51S51",
+    "notice": "Original Scania GPL v3-or-later header retained; see DATA_ACCESS.md",
+    "status": "PASS_ACQUIRED",
+    "bytes": 44669194
+  },
+  "altered_source_rejected": true
+}

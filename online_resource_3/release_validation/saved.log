@@ -1,0 +1,20 @@
+{
+  "status": "passed",
+  "training_performed": false,
+  "source_fingerprints": 153,
+  "AP_nominal_intervals": 24,
+  "AP_Bonferroni_intervals": 8,
+  "Holm_family_size": 8,
+  "historical_sup_t_recomputed": true,
+  "sup_t_joint_coverage_established": false,
+  "alert_overall_interval_pairs": 48,
+  "alert_split_interval_pairs": 240,
+  "shared_weight_class_checks": 6,
+  "boundary_fixtures": 6,
+  "max_abs_numeric_error": 4.440892098500626e-16,
+  "environment": {
+    "python": "3.12.15",
+    "numpy": "2.5.4"
+  },
+  "scope": "Statistics recomputed from saved matrices; no training provenance or independent training claim."
+}

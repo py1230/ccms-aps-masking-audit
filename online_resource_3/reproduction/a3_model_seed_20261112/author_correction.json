@@ -1,0 +1,11 @@
+{
+  "date": "2026-11-12",
+  "author_reply": "按新证据更正为 11 月 12 日复现件（建议）",
+  "classification": "A3 reproduction output dated 2026-11-12, not original historical per-sample output",
+  "previous_author_statement": "逐样本预测 CSV（27万行）为补表 A3 实验原件",
+  "supersedes_previous_identity_statement": true,
+  "evidence": "The same CSV bytes occur in the supplied A3_repro_2026-11-12 output; the runner, environment and summary explicitly identify this new run.",
+  "csv_sha256": "61f2290707ac98b09a9d2ea55e66040eda30a0b08e8b03f0ad37ed12473383e0",
+  "source_zip_sha256": "526599113467ae2af58da922bcf9bdee07fc97a45f252fa6ed4152c058128b28",
+  "historical_originals": "Historical runner, log, 30 scalar AP JSON files and supplied terminal receipts are separate from new reproduction artifacts."
+}

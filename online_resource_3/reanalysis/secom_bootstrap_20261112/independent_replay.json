@@ -1,0 +1,337 @@
+{
+  "identity": "independent deterministic replay of saved counts; no new bootstrap draws",
+  "manifest": [
+    {
+      "path": "./00-intake.md",
+      "pass": true
+    },
+    {
+      "path": "./01-schema.md",
+      "pass": true
+    },
+    {
+      "path": "./03-metrics.md",
+      "pass": true
+    },
+    {
+      "path": "./05-rework-log.md",
+      "pass": true
+    },
+    {
+      "path": "./README.md",
+      "pass": true
+    },
+    {
+      "path": "./exports/secom_boot20k_draws.npz",
+      "pass": true
+    },
+    {
+      "path": "./exports/secom_boot20k_environment.json",
+      "pass": true
+    },
+    {
+      "path": "./exports/secom_boot20k_resample_counts.npz",
+      "pass": true
+    },
+    {
+      "path": "./exports/secom_boot20k_summary.json",
+      "pass": true
+    },
+    {
+      "path": "./exports/secom_boot20k_validation.json",
+      "pass": true
+    },
+    {
+      "path": "./findings.md",
+      "pass": true
+    },
+    {
+      "path": "./logs/execution_receipt.json",
+      "pass": true
+    },
+    {
+      "path": "./logs/harness_receipt/harness_launch.json",
+      "pass": true
+    },
+    {
+      "path": "./logs/harness_receipt/harness_meta.json",
+      "pass": true
+    },
+    {
+      "path": "./logs/harness_receipt/harness_process.json",
+      "pass": true
+    },
+    {
+      "path": "./logs/harness_receipt/harness_status.json",
+      "pass": true
+    },
+    {
+      "path": "./logs/harness_receipt/harness_terminal_output.txt",
+      "pass": true
+    },
+    {
+      "path": "./logs/run.log",
+      "pass": true
+    },
+    {
+      "path": "./logs/wrapper.out",
+      "pass": true
+    },
+    {
+      "path": "./scripts/run_secom_boot20k.py",
+      "pass": true
+    },
+    {
+      "path": "./scripts/run_with_receipt.sh",
+      "pass": true
+    }
+  ],
+  "inputs": [
+    {
+      "fold": 0,
+      "sha256": "64713bf21681402938844d1966df00f782799c5d315b9b54f419b223770be4c8",
+      "match_declared": true
+    },
+    {
+      "fold": 1,
+      "sha256": "3b48a82b26a0cb657e84c7074b89cbe90f3b1190a6774d74d8230ec8639262fd",
+      "match_declared": true
+    },
+    {
+      "fold": 2,
+      "sha256": "fca223e275fab7365e49bffb9b74dddf7aea873c34cc034672ae839f1312bb70",
+      "match_declared": true
+    },
+    {
+      "fold": 3,
+      "sha256": "f19517ce8a348fdff47d4d5dedaec13f3a6ef5b676e4f9191dc8b2cfd68831f4",
+      "match_declared": true
+    },
+    {
+      "fold": 4,
+      "sha256": "89db70eeae89a2716c828b493bffc4337991a889de18722ba633fd789bd3bb81",
+      "match_declared": true
+    }
+  ],
+  "fold_counts": [
+    {
+      "fold": 0,
+      "shape": [
+        20000,
+        314
+      ],
+      "dtype": "uint16",
+      "positive_count": 21,
+      "nonnegative_integer": true,
+      "row_counts_preserved": true,
+      "class_counts_preserved": true
+    },
+    {
+      "fold": 1,
+      "shape": [
+        20000,
+        314
+      ],
+      "dtype": "uint16",
+      "positive_count": 21,
+      "nonnegative_integer": true,
+      "row_counts_preserved": true,
+      "class_counts_preserved": true
+    },
+    {
+      "fold": 2,
+      "shape": [
+        20000,
+        314
+      ],
+      "dtype": "uint16",
+      "positive_count": 21,
+      "nonnegative_integer": true,
+      "row_counts_preserved": true,
+      "class_counts_preserved": true
+    },
+    {
+      "fold": 3,
+      "shape": [
+        20000,
+        313
+      ],
+      "dtype": "uint16",
+      "positive_count": 21,
+      "nonnegative_integer": true,
+      "row_counts_preserved": true,
+      "class_counts_preserved": true
+    },
+    {
+      "fold": 4,
+      "shape": [
+        20000,
+        312
+      ],
+      "dtype": "uint16",
+      "positive_count": 20,
+      "nonnegative_integer": true,
+      "row_counts_preserved": true,
+      "class_counts_preserved": true
+    }
+  ],
+  "cells": {
+    "fixed_C-B__S0": {
+      "folds": [
+        {
+          "fold": 0,
+          "max_abs_draw_difference": 0.0,
+          "point_abs_difference": 0.0
+        },
+        {
+          "fold": 1,
+          "max_abs_draw_difference": 0.0,
+          "point_abs_difference": 0.0
+        },
+        {
+          "fold": 2,
+          "max_abs_draw_difference": 0.0,
+          "point_abs_difference": 5.551115123125783e-17
+        },
+        {
+          "fold": 3,
+          "max_abs_draw_difference": 0.0,
+          "point_abs_difference": 5.551115123125783e-17
+        },
+        {
+          "fold": 4,
+          "max_abs_draw_difference": 0.0,
+          "point_abs_difference": 5.551115123125783e-17
+        }
+      ],
+      "delta_mean": 0.011271591012675625,
+      "ci95_from_draws": [
+        -0.012829169209460329,
+        0.030606208835857945
+      ],
+      "ci_max_abs_difference": 0.0,
+      "first1000_ci_max_abs_difference": 0.0,
+      "ci_includes_zero": true
+    },
+    "fixed_C-B__S1_30": {
+      "folds": [
+        {
+          "fold": 0,
+          "max_abs_draw_difference": 0.0,
+          "point_abs_difference": 3.469446951953614e-18
+        },
+        {
+          "fold": 1,
+          "max_abs_draw_difference": 0.0,
+          "point_abs_difference": 5.204170427930421e-18
+        },
+        {
+          "fold": 2,
+          "max_abs_draw_difference": 0.0,
+          "point_abs_difference": 3.642919299551295e-17
+        },
+        {
+          "fold": 3,
+          "max_abs_draw_difference": 0.0,
+          "point_abs_difference": 1.3877787807814457e-17
+        },
+        {
+          "fold": 4,
+          "max_abs_draw_difference": 0.0,
+          "point_abs_difference": 2.7755575615628914e-17
+        }
+      ],
+      "delta_mean": 0.003075506264094163,
+      "ci95_from_draws": [
+        -0.01089326717500779,
+        0.019855637451631727
+      ],
+      "ci_max_abs_difference": 0.0,
+      "first1000_ci_max_abs_difference": 0.0,
+      "ci_includes_zero": true
+    },
+    "selected_C-B__S0": {
+      "folds": [
+        {
+          "fold": 0,
+          "max_abs_draw_difference": 0.0,
+          "point_abs_difference": 0.0
+        },
+        {
+          "fold": 1,
+          "max_abs_draw_difference": 0.0,
+          "point_abs_difference": 2.7755575615628914e-17
+        },
+        {
+          "fold": 2,
+          "max_abs_draw_difference": 0.0,
+          "point_abs_difference": 2.7755575615628914e-17
+        },
+        {
+          "fold": 3,
+          "max_abs_draw_difference": 0.0,
+          "point_abs_difference": 0.0
+        },
+        {
+          "fold": 4,
+          "max_abs_draw_difference": 0.0,
+          "point_abs_difference": 2.7755575615628914e-17
+        }
+      ],
+      "delta_mean": -0.004358220428483567,
+      "ci95_from_draws": [
+        -0.028410206302670993,
+        0.0201351484283689
+      ],
+      "ci_max_abs_difference": 0.0,
+      "first1000_ci_max_abs_difference": 0.0,
+      "ci_includes_zero": true
+    },
+    "selected_C-B__S1_30": {
+      "folds": [
+        {
+          "fold": 0,
+          "max_abs_draw_difference": 0.0,
+          "point_abs_difference": 8.673617379884035e-18
+        },
+        {
+          "fold": 1,
+          "max_abs_draw_difference": 0.0,
+          "point_abs_difference": 1.8431436932253575e-17
+        },
+        {
+          "fold": 2,
+          "max_abs_draw_difference": 0.0,
+          "point_abs_difference": 2.7755575615628914e-17
+        },
+        {
+          "fold": 3,
+          "max_abs_draw_difference": 0.0,
+          "point_abs_difference": 4.553649124439119e-18
+        },
+        {
+          "fold": 4,
+          "max_abs_draw_difference": 0.0,
+          "point_abs_difference": 2.7755575615628914e-17
+        }
+      ],
+      "delta_mean": -0.010198967393441625,
+      "ci95_from_draws": [
+        -0.023841335508857607,
+        0.0028933365570792493
+      ],
+      "ci_max_abs_difference": 0.0,
+      "first1000_ci_max_abs_difference": 0.0,
+      "ci_includes_zero": true
+    }
+  },
+  "receipt_checks": {
+    "script_sha256": true,
+    "wrapper_sha256": true,
+    "log_sha256": true,
+    "exit_code_zero": true,
+    "environment_script_sha256": true
+  },
+  "max_abs_draw_difference": 0.0,
+  "all_pass": true
+}

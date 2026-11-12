@@ -1,0 +1,25 @@
+{
+ "identity": "本次重跑（re-run, 2026-11-12）；不是 2026-11-08 那批 20,000 次的原件，原件在云电脑上不存在",
+ "python": "3.12.3",
+ "numpy": "2.5.1",
+ "sklearn": "1.9.0",
+ "platform": "Linux-4.19.0-gvisor-x86_64-with-glibc2.39",
+ "machine": "x86_64",
+ "cpu_count": 2,
+ "script": "/home/user/workspace/默认项目/data-analysis/secom_bootstrap_20k_2026-11-12/scripts/run_secom_boot20k.py",
+ "script_sha256": "174c74e5b9aaf8aa05d5af4a8640258ed1725cf3c4dbb0cdc7ee9cdd64a5e59f",
+ "numpy_random_note": "随机流只在本文件记录的 Python/numpy 版本内复现；跨 numpy 版本未测试，不作跨版本逐位一致保证",
+ "command": "python3 scripts/run_secom_boot20k.py（由 scripts/run_with_receipt.sh 调用）",
+ "cwd": "/home/user/workspace/默认项目/data-analysis/secom_bootstrap_20k_2026-11-12",
+ "params": {
+  "n_boot": 20000,
+  "n_validate": 1000,
+  "base_seed": 20261101,
+  "cells": [
+   "fixed_C-B",
+   "selected_C-B"
+  ]
+ },
+ "started_at": "2026-11-12T07:09:58Z",
+ "ended_at": "2026-11-12T07:10:42Z"
+}

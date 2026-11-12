@@ -1,0 +1,20 @@
+# 同上消息，block 124（30 条跑完后汇总标准差 / C-B 差值）
+# 工具调用 title：汇总种子离散度
+
+cd /home/user/workspace/默认项目/新增实验_2026-11-05 && tail -3 seed.log; ls results_seed | wc -l; python3 - <<'EOF'
+import json, glob, numpy as np
+recs=[json.load(open(p)) for p in glob.glob("results_seed/*.json")]
+if len(recs)==30:
+    for arm in "CB":
+        per={}
+        for s in (11,22,33,44,55):
+            v=[r["ap"] for r in recs if r["arm"]==arm and r["split"]==s]
+            per[s]=(np.mean(v), np.std(v, ddof=1))
+        print(arm, {k:(round(m,4), round(sd,4)) for k,(m,sd) in per.items()})
+    d=[]
+    for s in (11,22,33,44,55):
+        c=np.mean([r["ap"] for r in recs if r["arm"]=="C" and r["split"]==s])
+        b=np.mean([r["ap"] for r in recs if r["arm"]=="B" and r["split"]==s])
+        d.append(c-b)
+    print("C-B per split:", [round(x,4) for x in d], "mean %.4f"%np.mean(d), "sd %.4f"%np.std(d,ddof=1))
+EOF

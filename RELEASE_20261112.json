@@ -1,0 +1,11 @@
+{
+  "edition": "2026-11-12",
+  "base_commit": "c757fec4e9e029146441d1e7b5bed20433599d01",
+  "resource": "online_resource_3",
+  "payload_files_including_manifest": 1278,
+  "payload_manifest_sha256": "ddf8f9e313a452bf17bd794be7a098c04bd7b1c9aca09edbed25fc8d017d2fe4",
+  "source_submission_zip_sha256": "96a1f8ce71976b4080de461d1b848c193dd00dd92465616fda3b6e479ee10184",
+  "external_data": "APS training CSV acquired from UCI with the preserved SHA-256 before A3 replay",
+  "checks": "online_resource_3/release_validation/summary.json",
+  "scope": "30 saved A3 model replays; 400000 saved SECOM differences; no new training or draws; prior 211-fit acceptance unchanged"
+}

@@ -1,0 +1,18 @@
+[
+  {
+    "path_from_historical_recovery": "recovered/historical_dependencies/src/aps_io.py",
+    "sha256": "787558c6badffb88d3badefc87b454bafd443bdf411714eeecabc325e8bb3f6f"
+  },
+  {
+    "path_from_historical_recovery": "recovered/historical_dependencies/src/ccms.py",
+    "sha256": "2aa211e6ac688c7b1687a1946c30b780a94a3d856a9d0cb59504c0e2554511c2"
+  },
+  {
+    "path_from_historical_recovery": "recovered/historical_dependencies/src/pipeline.py",
+    "sha256": "45cb6f629e0126f3afd8b1bec4b4b4fb290d0a6888c0c1957cd2202cc0a3a26a"
+  },
+  {
+    "path_from_historical_recovery": "recovered/historical_dependencies/scripts/run_cb_firstlook.py",
+    "sha256": "682912992b664996431c9b54c545002e793694680a99fcbf2f12a44c87152809"
+  }
+]

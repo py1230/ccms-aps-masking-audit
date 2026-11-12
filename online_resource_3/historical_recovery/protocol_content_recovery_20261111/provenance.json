@@ -1,0 +1,67 @@
+{
+  "date": "2026-11-11",
+  "archive_sha256": "c303ccce5cfd62571356abce8c95fd5a4eca35f49404f5aff48e9741e6c1b585",
+  "source_files": [
+    {
+      "file": "protocol_v2_冻结_2026-10-31.95f90d40.md",
+      "sha256": "95f90d409d8d9cb1899aed623f02eee5a40300b41e6320e5d62de51e51de7352",
+      "received_member": "原件补件_2026-11-11/01_冻结协议95f90d40重建/protocol_v2_冻结_2026-10-31.95f90d40.md"
+    },
+    {
+      "file": "simulation_continuous.json",
+      "sha256": "2efe86157f2db77b7376efc81fc1aa295d2f28126f14cb9653b35f90b990be5a",
+      "received_member": "原件补件_2026-11-11/02_SECOM_bootstrap与重采样矩阵/simulation_continuous.json"
+    },
+    {
+      "file": "secom_fold4.npz",
+      "sha256": "89db70eeae89a2716c828b493bffc4337991a889de18722ba633fd789bd3bb81",
+      "received_member": "原件补件_2026-11-11/02_SECOM_bootstrap与重采样矩阵/secom_fold4.npz"
+    },
+    {
+      "file": "secom_fold0.npz",
+      "sha256": "64713bf21681402938844d1966df00f782799c5d315b9b54f419b223770be4c8",
+      "received_member": "原件补件_2026-11-11/02_SECOM_bootstrap与重采样矩阵/secom_fold0.npz"
+    },
+    {
+      "file": "secom_fold3.npz",
+      "sha256": "f19517ce8a348fdff47d4d5dedaec13f3a6ef5b676e4f9191dc8b2cfd68831f4",
+      "received_member": "原件补件_2026-11-11/02_SECOM_bootstrap与重采样矩阵/secom_fold3.npz"
+    },
+    {
+      "file": "secom_oof.npz",
+      "sha256": "de3cd6b16ffa7c1c4f58f6ab91f7bc6d566a9f452f054103bf18165b51712869",
+      "received_member": "原件补件_2026-11-11/02_SECOM_bootstrap与重采样矩阵/secom_oof.npz"
+    },
+    {
+      "file": "secom_summary.json",
+      "sha256": "d9b160b6841804743362a1b25f9a99aeb26445d7ba94150bdb08f0f53813f95f",
+      "received_member": "原件补件_2026-11-11/02_SECOM_bootstrap与重采样矩阵/secom_summary.json"
+    },
+    {
+      "file": "secom_fold1.npz",
+      "sha256": "3b48a82b26a0cb657e84c7074b89cbe90f3b1190a6774d74d8230ec8639262fd",
+      "received_member": "原件补件_2026-11-11/02_SECOM_bootstrap与重采样矩阵/secom_fold1.npz"
+    },
+    {
+      "file": "r9_arm3_bootstrap_draws.npz",
+      "sha256": "b037b5f804c2fcde5e4b1f350cd378cecf610c68bcfa70bd3dab31cce8243147",
+      "received_member": "原件补件_2026-11-11/02_SECOM_bootstrap与重采样矩阵/r9_arm3_bootstrap_draws.npz"
+    },
+    {
+      "file": "secom_fold2.npz",
+      "sha256": "fca223e275fab7365e49bffb9b74dddf7aea873c34cc034672ae839f1312bb70",
+      "received_member": "原件补件_2026-11-11/02_SECOM_bootstrap与重采样矩阵/secom_fold2.npz"
+    }
+  ],
+  "restoration_reported_from": {
+    "conversation": "afadf67d-aa15-44bd-bcc9-6f956621191d",
+    "message": "0ec1bf02-7375-4ff1-ab79-a37714f8e7ed",
+    "blocks": [
+      3,
+      13,
+      19
+    ],
+    "raw_chat_export_supplied": false
+  },
+  "scope": "Restored protocol bytes match a pre-existing frozen target hash; this does not authenticate all historical execution events."
+}

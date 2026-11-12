@@ -1,0 +1,38 @@
+{
+  "record_type": "2026-11-11 static extraction from recovered code; not an original runtime configuration",
+  "input_basename": "aps_failure_training_set.csv",
+  "split_seeds": [
+    11,
+    22,
+    33,
+    44,
+    55
+  ],
+  "stratified": true,
+  "train_partition": "train",
+  "evaluation_partition": "val",
+  "default_partition_sizes": [
+    42000,
+    9000,
+    9000
+  ],
+  "alpha": 0.25,
+  "arms": [
+    "C",
+    "B"
+  ],
+  "training_mask_seed": 9107,
+  "model_seeds": [
+    2026,
+    2027,
+    2028
+  ],
+  "evaluation_key": "S1_30_101",
+  "evaluation_mask_seed": 101,
+  "evaluation_missingness_probability_on_observed_cells": 0.3,
+  "preprocessing": "MedianImputer fitted on Xtr; imputed values concatenated with post-masking missing flags",
+  "model_factory": "pipeline._make_model(ms): HistGradientBoostingClassifier(random_state=int(ms)); other settings are library defaults",
+  "historical_runtime_versions": null,
+  "prediction_model_mask_index_files_in_recovery": false,
+  "scope": "Auxiliary within-split validation sensitivity, not independent datasets, not core inference."
+}

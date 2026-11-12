@@ -1,0 +1,7 @@
+[load] X=(60000, 170) pos=1000 cols=170 sha=bb484302e3a3
+[rebuild] s11: native=127800 added=420331 merged=548131 m3=(9000, 340) sha=5289ecdc03d6
+[rebuild] s22: native=126519 added=420819 merged=547338 m3=(9000, 340) sha=3bab433020b2
+[rebuild] s33: native=127295 added=420431 merged=547726 m3=(9000, 340) sha=c80a01cd426d
+[rebuild] s44: native=125770 added=421066 merged=546836 m3=(9000, 340) sha=daeca76d5dbc
+[rebuild] s55: native=127579 added=420355 merged=547934 m3=(9000, 340) sha=ba26cbc2e091
+[done] /home/user/workspace/默认项目/A3_来源资料与复现核验_2026-11-12/03_本次事后重建与核验/rebuilt in 3.9s

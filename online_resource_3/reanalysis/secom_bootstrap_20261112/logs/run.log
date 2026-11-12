@@ -1,0 +1,59 @@
+[smoke] |wap - sklearn AP| = 0.000e+00
+[counts] fold0 draw 0/20000
+[counts] fold0 draw 5000/20000
+[counts] fold0 draw 10000/20000
+[counts] fold0 draw 15000/20000
+[counts] fold0 done, n=314, pos=21, max_count=9
+[counts] fold1 draw 0/20000
+[counts] fold1 draw 5000/20000
+[counts] fold1 draw 10000/20000
+[counts] fold1 draw 15000/20000
+[counts] fold1 done, n=314, pos=21, max_count=10
+[counts] fold2 draw 0/20000
+[counts] fold2 draw 5000/20000
+[counts] fold2 draw 10000/20000
+[counts] fold2 draw 15000/20000
+[counts] fold2 done, n=314, pos=21, max_count=9
+[counts] fold3 draw 0/20000
+[counts] fold3 draw 5000/20000
+[counts] fold3 draw 10000/20000
+[counts] fold3 draw 15000/20000
+[counts] fold3 done, n=313, pos=21, max_count=9
+[counts] fold4 draw 0/20000
+[counts] fold4 draw 5000/20000
+[counts] fold4 draw 10000/20000
+[counts] fold4 draw 15000/20000
+[counts] fold4 done, n=312, pos=20, max_count=10
+[counts] saved (7s)
+[draws] fixed_C-B S0 fold0 done (8s)
+[draws] fixed_C-B S0 fold1 done (9s)
+[draws] fixed_C-B S0 fold2 done (10s)
+[draws] fixed_C-B S0 fold3 done (11s)
+[draws] fixed_C-B S0 fold4 done (12s)
+[validate] fixed_C-B S0: dmean_diff=0.00e+00 ci_diff=0.00e+00 pass=True
+[draws] fixed_C-B S1_30 fold0 done (14s)
+[draws] fixed_C-B S1_30 fold1 done (17s)
+[draws] fixed_C-B S1_30 fold2 done (20s)
+[draws] fixed_C-B S1_30 fold3 done (23s)
+[draws] fixed_C-B S1_30 fold4 done (26s)
+[validate] fixed_C-B S1_30: dmean_diff=0.00e+00 ci_diff=0.00e+00 pass=True
+[draws] selected_C-B S0 fold0 done (27s)
+[draws] selected_C-B S0 fold1 done (28s)
+[draws] selected_C-B S0 fold2 done (29s)
+[draws] selected_C-B S0 fold3 done (30s)
+[draws] selected_C-B S0 fold4 done (31s)
+[validate] selected_C-B S0: dmean_diff=0.00e+00 ci_diff=0.00e+00 pass=True
+[draws] selected_C-B S1_30 fold0 done (33s)
+[draws] selected_C-B S1_30 fold1 done (36s)
+[draws] selected_C-B S1_30 fold2 done (39s)
+[draws] selected_C-B S1_30 fold3 done (42s)
+[draws] selected_C-B S1_30 fold4 done (45s)
+[validate] selected_C-B S1_30: dmean_diff=0.00e+00 ci_diff=0.00e+00 pass=True
+
+===== 结果（本次重跑，20,000 次）=====
+fixed_C-B      S0     delta=+0.011272 ci95=[-0.012829,+0.030606] P(<0)=0.1993
+fixed_C-B      S1_30  delta=+0.003076 ci95=[-0.010893,+0.019856] P(<0)=0.2833
+selected_C-B   S0     delta=-0.004358 ci95=[-0.028410,+0.020135] P(<0)=0.6363
+selected_C-B   S1_30  delta=-0.010199 ci95=[-0.023841,+0.002893] P(<0)=0.9326
+
+ALL_DONE wall=44.9s

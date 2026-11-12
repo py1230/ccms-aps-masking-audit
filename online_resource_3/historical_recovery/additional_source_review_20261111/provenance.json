@@ -1,0 +1,98 @@
+{
+  "review_date": "2026-11-11",
+  "received_archive_name": "原件恢复_2026-11-11.zip",
+  "received_archive_sha256": "13ceb8680046c9fa6f8bd680a303a9d29638bb01ee02b9472df8aba2c9cbd0b2",
+  "received_regular_files": 17,
+  "received_manifest_entries": 16,
+  "received_manifest_all_match": true,
+  "source_files": [
+    {
+      "path": "02_SECOM_bootstrap与结果/run_r6_sim.py",
+      "sha256": "3cf07dfe1c43f326f206c8afc22e098fae2070189f539f92dcf90d714daa0dfc",
+      "bytes": 9764,
+      "existing_local_match": "/Users/bgc/Documents/ChatGPT/research/new/revision/analysis/run_r6_sim.py"
+    },
+    {
+      "path": "02_SECOM_bootstrap与结果/run_secom_formal.py",
+      "sha256": "f0e9aa781d54453a6a8ec2ec17809ee2410b9b8c9396fbb2af604eb529bf1ceb",
+      "bytes": 9211,
+      "existing_local_match": "/Users/bgc/Documents/ChatGPT/research/rr/02_原完整复现包/CCMS论文修订完整资料包_2026-11-01_192149/03_原始项目归档/CCMS核查_2026-10-31/scripts/run_secom_formal.py"
+    },
+    {
+      "path": "02_SECOM_bootstrap与结果/SECOM正式五折结果_2026-10-31.md",
+      "sha256": "04a04da7d4045a9f87fc4d79f56bf3ff714bb0ed4766c19090b041530838a662",
+      "bytes": 3913,
+      "existing_local_match": "/Users/bgc/Documents/ChatGPT/research/rr/02_原完整复现包/CCMS论文修订完整资料包_2026-11-01_192149/03_原始项目归档/CCMS核查_2026-10-31/SECOM正式五折结果_2026-10-31.md"
+    },
+    {
+      "path": "02_SECOM_bootstrap与结果/secom_pilot_20261031T134846.json",
+      "sha256": "47b68fb1175889e22ea37b4d7d6d63aab0427d529a882a12cb03073e4267e7da",
+      "bytes": 35129,
+      "existing_local_match": "/Users/bgc/Documents/ChatGPT/research/rr/02_原完整复现包/CCMS论文修订完整资料包_2026-11-01_192149/03_原始项目归档/CCMS核查_2026-10-31/records/secom_pilot_20261031T134846.json"
+    },
+    {
+      "path": "02_SECOM_bootstrap与结果/run_secom_pilot.py",
+      "sha256": "0f769a85bc7eedc3bdaa81885a893e16f2aa80442fde42c4652385be0a344cbc",
+      "bytes": 6639,
+      "existing_local_match": "/Users/bgc/Documents/ChatGPT/research/rr/02_原完整复现包/CCMS论文修订完整资料包_2026-11-01_192149/03_原始项目归档/CCMS核查_2026-10-31/scripts/run_secom_pilot.py"
+    },
+    {
+      "path": "02_SECOM_bootstrap与结果/secom_formal_20261031T145429.json",
+      "sha256": "c920ff6608713275fc27b84f8a97f5c15d5cd00bf97c80b2706cf047d63291c0",
+      "bytes": 55960,
+      "existing_local_match": "/Users/bgc/Documents/ChatGPT/research/rr/02_原完整复现包/CCMS论文修订完整资料包_2026-11-01_192149/03_原始项目归档/CCMS核查_2026-10-31/records/secom_formal_20261031T145429.json"
+    },
+    {
+      "path": "02_SECOM_bootstrap与结果/r6_simulation_uncertainty.json",
+      "sha256": "e7619fe72c9e500a80c2421c6868794b8dacb1913cc7395c28b96972aed537fb",
+      "bytes": 88399,
+      "existing_local_match": "/Users/bgc/Documents/ChatGPT/论文2.0/paa_revision_20261109/stage6_v1.0/figures/source/FigB2_source_data.json"
+    },
+    {
+      "path": "03_环境记录/05_环境快照.json",
+      "sha256": "dec0cc281bb2f232620f4254d6d7f35d022af3f102a50f1b71b08716331ac134",
+      "bytes": 1312,
+      "existing_local_match": "/Users/bgc/Documents/ChatGPT/research/rr/02_原完整复现包/CCMS论文修订完整资料包_2026-11-01_192149/05_操作记录与改进建议/05_环境快照.json"
+    },
+    {
+      "path": "01_冻结协议/protocol_v2_草案_2026-10-31.md",
+      "sha256": "846f4db2833c49e3606edf5e1f63127e3448b307ec876542aebde54ab7f77fcd",
+      "bytes": 4572,
+      "existing_local_match": "/Users/bgc/Documents/ChatGPT/research/rr/02_原完整复现包/CCMS论文修订完整资料包_2026-11-01_192149/03_原始项目归档/CCMS核查_2026-10-31/protocol/protocol_v2_草案_2026-10-31.md"
+    },
+    {
+      "path": "01_冻结协议/deviations.md",
+      "sha256": "9dd54fbd63d4e0c6a274d1e3b15eb2a3006461ae1ed95211fd404a33098b43f9",
+      "bytes": 1909,
+      "existing_local_match": "/Users/bgc/Documents/ChatGPT/research/rr/02_原完整复现包/CCMS论文修订完整资料包_2026-11-01_192149/03_原始项目归档/CCMS核查_2026-10-31/protocol/deviations.md"
+    },
+    {
+      "path": "01_冻结协议/protocol_v2_freeze_20261031T141021.json",
+      "sha256": "393ed48f9914999aa5318df5813b0ca437eb9cc16a6a23ebf8aa15024e23266f",
+      "bytes": 4750,
+      "existing_local_match": "/Users/bgc/Documents/ChatGPT/research/rr/02_原完整复现包/CCMS论文修订完整资料包_2026-11-01_192149/03_原始项目归档/CCMS核查_2026-10-31/records/protocol_v2_freeze_20261031T141021.json"
+    },
+    {
+      "path": "01_冻结协议/protocol_v2_冻结_2026-10-31.md",
+      "sha256": "88481a04127a0ae98be9fdcab8df92feb68fd0af022e4754036cd2ab788622cb",
+      "bytes": 4010,
+      "existing_local_match": "/Users/bgc/Documents/ChatGPT/research/rr/02_原完整复现包/CCMS论文修订完整资料包_2026-11-01_192149/03_原始项目归档/CCMS核查_2026-10-31/protocol/protocol_v2_冻结_2026-10-31.md"
+    }
+  ],
+  "existing_a3_files": {
+    "run_seed_dispersion.py": "826f85bafbc3c1364fd2cbb2b1272d18ffa62b0de635d4ff8001df1ab5e1d832",
+    "seed.log": "cd8f1bcc4a2691ffc68cf3180b9ecb9b6c0675883d5ecb36d1b64b5f90df5de1"
+  },
+  "scope": "Additional preserved historical source records, not recovered missing target originals or a new accepted training workflow",
+  "source_commentary_corrections": [
+    "No write calls in the A3 runner do not prove that separate runtime tools, wrappers or other locations never saved artifacts.",
+    "The 2026-11-01 packaging snapshot is not a receipt for the later A3 run.",
+    "A retained freeze protocol differs from its recorded hash. The exact missing bytes, reason and chronology of divergence remain unresolved.",
+    "The included 20,000-replicate file is a five-seed simulation analysis. It does not establish that a separately reported SECOM 20,000-replicate analysis never existed.",
+    "Earlier local evidence records author confirmations and a separate ChatGPT delivery trail. The new archive does not supersede those records.",
+    "The older extracted title-page text is not the current author declaration or AI-use disclosure. It is retained only in the internal received-source archive."
+  ],
+  "historical_gaps_closed": false,
+  "training_executed": false,
+  "remote_runtime_authenticated": false
+}

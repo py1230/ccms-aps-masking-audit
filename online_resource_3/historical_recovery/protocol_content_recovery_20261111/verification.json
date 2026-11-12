@@ -1,0 +1,26 @@
+{
+  "status": "passed",
+  "source_file_checks": 10,
+  "restored_protocol_matches_frozen_hash": true,
+  "differing_protocol_lines": 2,
+  "substantive_protocol_text_identical_between_two_files": true,
+  "chat_export_independently_checked": false,
+  "SECOM_rows": 1567,
+  "SECOM_positives": 104,
+  "fold_to_oof_prediction_arrays_equal": 350,
+  "SECOM_AP_scalar_checks": 84,
+  "SECOM_AP_max_error": 8.326672684688674e-17,
+  "SECOM_summary_bootstrap_count": 1000,
+  "r9_draw_arrays": 50,
+  "r9_draws_per_array": 1000,
+  "r9_decomposition_max_error": 5.551115123125783e-17,
+  "R6_input_hash_matches": true,
+  "new_training": 0,
+  "new_bootstrap_resamples": 0,
+  "remaining_gaps": [
+    "A3 runtime/prediction/model/mask/index originals",
+    "SECOM historical 20,000-draw originals",
+    "two historical target ZIPs",
+    "unprovided current author facts"
+  ]
+}

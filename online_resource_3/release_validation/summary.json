@@ -1,0 +1,64 @@
+{
+  "scope": "saved-result checks and launcher input validation; no new classifier fits or bootstrap draws",
+  "checks": [
+    {
+      "check": "a3",
+      "exit_code": 0,
+      "command": [
+        "python",
+        "reproduction/a3_model_seed_verification_20261112/verify_complete.py",
+        "--out",
+        "/Users/bgc/Documents/ChatGPT/\u8bba\u65872.0/PAA\u516c\u5f00\u590d\u73b0\u66f4\u65b0_20261112/staging/online_resource_3/release_validation/a3_replay.json"
+      ]
+    },
+    {
+      "check": "secom",
+      "exit_code": 0,
+      "command": [
+        "python",
+        "reanalysis/secom_bootstrap_20261112/verify_saved_counts.py",
+        "--out",
+        "/Users/bgc/Documents/ChatGPT/\u8bba\u65872.0/PAA\u516c\u5f00\u590d\u73b0\u66f4\u65b0_20261112/staging/online_resource_3/release_validation/secom_replay.json"
+      ]
+    },
+    {
+      "check": "saved",
+      "exit_code": 0,
+      "command": [
+        "python",
+        "scripts/verify_saved_results.py"
+      ]
+    },
+    {
+      "check": "tables",
+      "exit_code": 0,
+      "command": [
+        "python",
+        "historical_recovery/verify_historical_tables.py",
+        "--table-only"
+      ]
+    },
+    {
+      "check": "a3_plan",
+      "exit_code": 0,
+      "command": [
+        "python",
+        "scripts/run_nov12.py",
+        "a3",
+        "--output",
+        "outputs/publication_a3_fresh"
+      ]
+    },
+    {
+      "check": "secom_plan",
+      "exit_code": 0,
+      "command": [
+        "python",
+        "scripts/run_nov12.py",
+        "secom",
+        "--output",
+        "outputs/publication_secom_fresh"
+      ]
+    }
+  ]
+}

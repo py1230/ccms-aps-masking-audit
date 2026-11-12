@@ -1,0 +1,15 @@
+{
+  "recovery_date": "2026-11-11",
+  "source_zip_name": "历史A3原文件恢复.zip",
+  "source_zip_sha256": "17be6ea530fced78b48832ffb6435b8b7ca77eda2480af2fb2e19923705fabf9",
+  "source_kind": "User-supplied export from the original platform; original remote session not independently accessed in this local update.",
+  "reported_conversation_id": "785ac274-8ea6-430a-8bb6-d4c7b3deb560",
+  "reported_assistant_message_id": "6464de21-56b3-469b-9c19-a78aad3f9381",
+  "creation_command_block": 121,
+  "terminal_id": "bg_9f8d59e842f8",
+  "terminal_started_at_utc": "2026-11-04T18:30:01Z",
+  "runner_sha256": "826f85bafbc3c1364fd2cbb2b1272d18ffa62b0de635d4ff8001df1ab5e1d832",
+  "runner_modified": false,
+  "training_executed_during_update": false,
+  "source_note_corrections": "See RECOVERY_NOTE.md. The original export is preserved verbatim, including its explanatory errors."
+}

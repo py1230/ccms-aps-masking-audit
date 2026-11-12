@@ -1,0 +1,30 @@
+{
+ "identity": "本次事后重建与核验（2026-11-12）",
+ "entry": "bash 03_本次事后重建与核验/scripts/run_verification.sh",
+ "steps": [
+  "rebuild_a3_supplement.py -> rebuilt/",
+  "verify_a3_models.py -> verify_out/verification.json",
+  "make_report.py -> verify_out/核验报告.md"
+ ],
+ "exit_code": 0,
+ "exit_code_source": "outer shell captured $? of each python3 step",
+ "cwd": "/home/user/workspace/默认项目/A3_来源资料与复现核验_2026-11-12/03_本次事后重建与核验",
+ "hostname": "afe0fcc90e13",
+ "user": "user",
+ "started_at_utc": "2026-11-12T10:27:09Z",
+ "ended_at_utc": "2026-11-12T10:27:22Z",
+ "wall_seconds_os": 13,
+ "python": "3.12.3",
+ "platform": "Linux-4.19.0-gvisor-x86_64-with-glibc2.39",
+ "logs": {
+  "rebuild.log": {
+   "sha256": "d42621929ebd742b2f4f82b323e542c843d89e1da7c89dcabd471e67a924c408",
+   "bytes": 627
+  },
+  "verify.log": {
+   "sha256": "648abdf8e2e6bd6782047f742ad1ae195864f2c85af7102f7af77fe185b12bb6",
+   "bytes": 3853
+  }
+ },
+ "note": "回执由外层包装器在全部步骤结束后写；不代表科学结论成立。"
+}

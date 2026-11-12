@@ -1,0 +1,83 @@
+{
+  "split": 11,
+  "cells": [
+    {
+      "split": 11,
+      "arm": "C",
+      "model_seed": 2026,
+      "ap": 0.461184996450304,
+      "recorded_ap": 0.461184996450304,
+      "bit_equal": true,
+      "abs_diff": 0.0,
+      "seconds": 5.69,
+      "mask_sha256": "75c9b753ba995c3985b72a9d0e553613f6510fdc08f5984fcf4ebb8273335f40",
+      "model_file": "model_s11_C_2026.joblib",
+      "model_sha256": "1f243ef3d14b6ef935cceb261ba8b448bff985494c4481b8807d41038f1c234d"
+    },
+    {
+      "split": 11,
+      "arm": "C",
+      "model_seed": 2027,
+      "ap": 0.5212742990878673,
+      "recorded_ap": 0.5212742990878673,
+      "bit_equal": true,
+      "abs_diff": 0.0,
+      "seconds": 8.27,
+      "mask_sha256": "75c9b753ba995c3985b72a9d0e553613f6510fdc08f5984fcf4ebb8273335f40",
+      "model_file": "model_s11_C_2027.joblib",
+      "model_sha256": "4db772335740aaa471f9cfa8a7b88cc0c2179d0714a5c4379f1578389982c6c1"
+    },
+    {
+      "split": 11,
+      "arm": "C",
+      "model_seed": 2028,
+      "ap": 0.49743087450352247,
+      "recorded_ap": 0.49743087450352247,
+      "bit_equal": true,
+      "abs_diff": 0.0,
+      "seconds": 5.64,
+      "mask_sha256": "75c9b753ba995c3985b72a9d0e553613f6510fdc08f5984fcf4ebb8273335f40",
+      "model_file": "model_s11_C_2028.joblib",
+      "model_sha256": "987c40fe20858044a91d196757717ff805fe52b5fc386c4702e82fef693e8e10"
+    },
+    {
+      "split": 11,
+      "arm": "B",
+      "model_seed": 2026,
+      "ap": 0.5973711533983862,
+      "recorded_ap": 0.5973711533983862,
+      "bit_equal": true,
+      "abs_diff": 0.0,
+      "seconds": 4.94,
+      "mask_sha256": "d04da1fab6fd4eeb98cfd8f62e8913b330553546c27b1b9b3070550b15acb468",
+      "model_file": "model_s11_B_2026.joblib",
+      "model_sha256": "3f1e44b47d5082e17764379e6967d9fd48fbd389594cbad25dae5fa90ac38789"
+    },
+    {
+      "split": 11,
+      "arm": "B",
+      "model_seed": 2027,
+      "ap": 0.5988625864275126,
+      "recorded_ap": 0.5988625864275126,
+      "bit_equal": true,
+      "abs_diff": 0.0,
+      "seconds": 4.34,
+      "mask_sha256": "d04da1fab6fd4eeb98cfd8f62e8913b330553546c27b1b9b3070550b15acb468",
+      "model_file": "model_s11_B_2027.joblib",
+      "model_sha256": "3a4b3e7e3646c209c32b05f79952fb8148f68e00b4470d9252f7601ab5e4a075"
+    },
+    {
+      "split": 11,
+      "arm": "B",
+      "model_seed": 2028,
+      "ap": 0.5665012295878264,
+      "recorded_ap": 0.5665012295878264,
+      "bit_equal": true,
+      "abs_diff": 0.0,
+      "seconds": 3.15,
+      "mask_sha256": "d04da1fab6fd4eeb98cfd8f62e8913b330553546c27b1b9b3070550b15acb468",
+      "model_file": "model_s11_B_2028.joblib",
+      "model_sha256": "615d0cd43958ed55ac6c6f04f69165920f8c841fb1a69d43dea81edf41c1fb43"
+    }
+  ]
+}

@@ -1,0 +1,94 @@
+{
+  "status": "passed",
+  "archive_checks": [
+    {
+      "file": "CCMS_v2.2_复核脚本与结果.zip",
+      "sha256": "a99cdec7b7582b5d9464ab57b927e88253de4869d8d4f1a16634c5129a16a4e2",
+      "bytes": 45407,
+      "members": 9,
+      "manifest_matches": 8
+    },
+    {
+      "file": "CCMS_Online_Resource_3_v2.1_路径修订版.zip",
+      "sha256": "a207d8bc98f11320ad9bff5fdefc2347e90e6af927bd27fc16d9bcc826637f0d",
+      "bytes": 18081470,
+      "members": 8,
+      "manifest_matches": 7
+    }
+  ],
+  "archive_manifest_matches": 15,
+  "SECOM_source_hashes_matched": 5,
+  "SECOM_point_scalar_checks": 24,
+  "SECOM_point_max_error": 8.326672684688674e-17,
+  "SECOM_stored_results": [
+    {
+      "condition": "S0",
+      "pair": "fixed_alpha_0.25",
+      "point_difference": 0.011271591012675658,
+      "stored_interval_not_recomputed": [
+        -0.012835956621758772,
+        0.03124674814792699
+      ]
+    },
+    {
+      "condition": "S0",
+      "pair": "validation_selected",
+      "point_difference": -0.004358220428483573,
+      "stored_interval_not_recomputed": [
+        -0.02824107375187475,
+        0.019566533414058722
+      ]
+    },
+    {
+      "condition": "S1_30",
+      "pair": "fixed_alpha_0.25",
+      "point_difference": 0.00307550626409413,
+      "stored_interval_not_recomputed": [
+        -0.010692444459369687,
+        0.019871532095494502
+      ]
+    },
+    {
+      "condition": "S1_30",
+      "pair": "validation_selected",
+      "point_difference": -0.010198967393441621,
+      "stored_interval_not_recomputed": [
+        -0.023593201635269838,
+        0.0029281765141769924
+      ]
+    }
+  ],
+  "script_defaults": {
+    "--n-boot": 20000,
+    "--seed": 20261108
+  },
+  "persistent_data_write_calls": [
+    [
+      "write_text",
+      237
+    ]
+  ],
+  "OR3_identical_members": [
+    "01_three_way_decomposition_20k.pdf",
+    "01_three_way_decomposition_20k.png",
+    "CCMS_20k_bootstrap_summary.json",
+    "aps_threeway_draws_20k.npz"
+  ],
+  "OR3_changed_members": [
+    "README_Online_Resource_3.md",
+    "SHA256SUMS_Online_Resource_3.txt",
+    "r13_threeway_20k.json",
+    "reproduce_bootstrap_20k.py"
+  ],
+  "OR3_JSON_changes_only_six_source_paths": true,
+  "OR3_script_executable_AST_identical_after_module_docstring_removed": true,
+  "SECOM_draw_intervals_independently_recomputed": false,
+  "SECOM_historical_execution_authenticated": false,
+  "new_training": 0,
+  "new_bootstrap_draws": 0,
+  "remaining_gaps": [
+    "A3 runtime/prediction/model/mask/index originals",
+    "SECOM 20,000-draw arrays/weights/indices, independent execution logs and historical runtime evidence",
+    "unprovided current author facts"
+  ]
+}

@@ -1,0 +1,20 @@
+{
+  "status": "passed",
+  "preserved_source_files": 12,
+  "freeze_protocol_matches_recorded_hash": false,
+  "secom_bootstrap_replicates": 1000,
+  "secom_comparison_records": 27,
+  "simulation_bootstrap_replicates": 20000,
+  "simulation_data_seeds": [
+    501,
+    502,
+    503,
+    504,
+    505
+  ],
+  "snapshot_scope": "2026-11-01 packaging snapshot, not an A3 runtime receipt",
+  "existing_a3_runner_and_log_identical": true,
+  "historical_gaps_closed": false,
+  "training_executed": false,
+  "bootstrap_recomputed": false
+}

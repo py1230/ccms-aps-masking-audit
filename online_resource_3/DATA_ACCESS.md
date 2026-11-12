@@ -1,14 +1,14 @@
 # Data acquisition and notices
 
-The package contains saved labels, row indices and model scores for conditional reanalysis, not the raw measured feature matrices. Obtain raw data from the original repositories. These source pages were checked on 9 November 2026; live files and notices may change. Preserve each dataset's accompanying documentation and cite its dataset DOI.
+The package contains saved labels, row indices and scores. The original 12 November A3 delivery included the unchanged APS training CSV under `reproduction/a3_model_seed_verification_20261112/received/03_本次事后重建与核验/data/`. This large upstream file is omitted from the public payload and retrieved with `python scripts/prepare_a3_data.py --download`, using the preserved original fingerprint. Copyright (c) 2016 Scania CV AB; its original GPL v3-or-later header is retained and `licenses/GPL-3.0.txt` supplies the license text. Cite APS Failure at Scania Trucks (2016), UCI Machine Learning Repository, DOI 10.24432/C51S51. Other raw feature matrices are acquired separately. The APS source page was rechecked on 12 November 2026; the other source notices below were checked on 9 November. Live files and notices may change.
 
 | Dataset | Authoritative page and DOI | Notices observed |
 |---|---|---|
-| APS Failure at Scania Trucks | [UCI 421](https://archive.ics.uci.edu/dataset/421/aps+failure+at+scania+trucks), [10.24432/C51S51](https://doi.org/10.24432/C51S51) | The current page labels the dataset CC BY 4.0; the same page also retains Scania's original GPL v3-or-later notice. Both are recorded here; this candidate does not resolve their relationship or redistribute the raw data. |
+| APS Failure at Scania Trucks | [UCI 421](https://archive.ics.uci.edu/dataset/421/aps+failure+at+scania+trucks), [10.24432/C51S51](https://doi.org/10.24432/C51S51) | The current page labels the dataset CC BY 4.0; the same page also retains Scania's original GPL v3-or-later notice. Both notices are retained; the acquired unchanged training CSV carries the original Scania notice. The software MIT grant does not relicense this dataset. |
 | SECOM | [UCI 179](https://archive.ics.uci.edu/dataset/179/secom), [10.24432/C54305](https://doi.org/10.24432/C54305) | Current UCI licence: CC BY 4.0. Creators: Michael McCann and Adrian Johnston. |
 | Condition monitoring of hydraulic systems | [UCI 447](https://archive.ics.uci.edu/dataset/447/condition+monitoring+of+hydraulic+systems), [10.24432/C5CW21](https://doi.org/10.24432/C5CW21) | Current UCI licence: CC BY 4.0. Cite the original dataset and retain its notices. |
 
-The applicable [CC BY 4.0 text](https://creativecommons.org/licenses/by/4.0/) describes attribution requirements. No author-selected software licence has been inferred from a dataset licence. Rights and attribution review is a remaining public-release step.
+The applicable [CC BY 4.0 text](https://creativecommons.org/licenses/by/4.0/) describes attribution requirements. No author-selected software licence has been inferred from a dataset licence. Dataset notices remain separate from the author-owned software MIT grant. The GPL text was obtained from https://www.gnu.org/licenses/gpl-3.0.txt.
 
 Inspect the acquisition plan without any network operation:
 

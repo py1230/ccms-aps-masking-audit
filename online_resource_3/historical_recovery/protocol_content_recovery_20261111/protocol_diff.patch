@@ -1,0 +1,12 @@
+--- 95f90d40
++++ 88481a04
+@@ -49,7 +49,7 @@
+ ## 7 冻结清单
+ 
+ - [x] 五项决定确认（2026-10-31，作者回复「按推荐」）
+-- [ ] `src/`、`scripts/`、`protocol/` 的 sha256 入册（由 `scripts/freeze_protocol.py` 生成）
+-- [ ] 数据 sha256 与划分种子入册
++- [x] `src/`、`scripts/`、`protocol/` 的 sha256 入册（`records/protocol_v2_freeze_20261031T141021.json`，39 个文件，combined `f56d3db2abd37189`）
++- [x] 数据 sha256 与划分种子入册（APS `bb484302…`、SECOM `20f0e7ee…` / `126884cf…`；APS 划分种子 11/22/33/44/55）
+ - [x] 运行矩阵与输出字段定义
+ - [ ] 官方测试集使用时机确认（数据未在本机，待补）

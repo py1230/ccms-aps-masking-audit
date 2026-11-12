@@ -79,3 +79,7 @@ The package retains compact original ensemble and selection/refit prediction arr
 ```
 
 The other unit keys are listed by `--help` and `acceptance/reference_prediction_manifest.json`. The retained first-environment APS diagnostic uses key `aps_rerun`. Exact comparisons use the corresponding matching environment. The checker loads only non-pickled NPZ arrays, verifies the reference fingerprint and fails on any differing dtype, shape or value.
+
+## Historical A3 source recovery
+
+The 11 November addendum under `historical_recovery/model_seed_recovery_20261111/` preserves a separate original runner with cloud paths. It is not a tenth portable or fresh-environment-accepted family. Use its standard-library verifier for artifact/log checks. A3 historical runtime and prediction-level recovery remain incomplete; see the addendum note before attempting any new training.

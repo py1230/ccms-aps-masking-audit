@@ -1,0 +1,401 @@
+{
+  "status": "PASS_WITH_PROVENANCE_LIMITATIONS",
+  "checks": [],
+  "cells": [
+    {
+      "split": 11,
+      "arm": "C",
+      "model_seed": 2026,
+      "max_probability_difference": 4.336808689942018e-19,
+      "AP": 0.461184996450304,
+      "historical_AP": 0.461184996450304,
+      "AP_difference": 0.0,
+      "all_sample_mapping_verified": true
+    },
+    {
+      "split": 11,
+      "arm": "C",
+      "model_seed": 2027,
+      "max_probability_difference": 3.3881317890172014e-21,
+      "AP": 0.5212742990878673,
+      "historical_AP": 0.5212742990878673,
+      "AP_difference": 0.0,
+      "all_sample_mapping_verified": true
+    },
+    {
+      "split": 11,
+      "arm": "C",
+      "model_seed": 2028,
+      "max_probability_difference": 2.7755575615628914e-17,
+      "AP": 0.49743087450352247,
+      "historical_AP": 0.49743087450352247,
+      "AP_difference": 0.0,
+      "all_sample_mapping_verified": true
+    },
+    {
+      "split": 11,
+      "arm": "B",
+      "model_seed": 2026,
+      "max_probability_difference": 4.336808689942018e-19,
+      "AP": 0.5973711533983862,
+      "historical_AP": 0.5973711533983862,
+      "AP_difference": 0.0,
+      "all_sample_mapping_verified": true
+    },
+    {
+      "split": 11,
+      "arm": "B",
+      "model_seed": 2027,
+      "max_probability_difference": 2.168404344971009e-19,
+      "AP": 0.5988625864275126,
+      "historical_AP": 0.5988625864275126,
+      "AP_difference": 0.0,
+      "all_sample_mapping_verified": true
+    },
+    {
+      "split": 11,
+      "arm": "B",
+      "model_seed": 2028,
+      "max_probability_difference": 8.673617379884035e-19,
+      "AP": 0.5665012295878264,
+      "historical_AP": 0.5665012295878264,
+      "AP_difference": 0.0,
+      "all_sample_mapping_verified": true
+    },
+    {
+      "split": 22,
+      "arm": "C",
+      "model_seed": 2026,
+      "max_probability_difference": 1.3552527156068805e-20,
+      "AP": 0.49122470377785893,
+      "historical_AP": 0.49122470377785893,
+      "AP_difference": 0.0,
+      "all_sample_mapping_verified": true
+    },
+    {
+      "split": 22,
+      "arm": "C",
+      "model_seed": 2027,
+      "max_probability_difference": 1.3877787807814457e-17,
+      "AP": 0.449204177165968,
+      "historical_AP": 0.449204177165968,
+      "AP_difference": 0.0,
+      "all_sample_mapping_verified": true
+    },
+    {
+      "split": 22,
+      "arm": "C",
+      "model_seed": 2028,
+      "max_probability_difference": 8.673617379884035e-19,
+      "AP": 0.49725570407366937,
+      "historical_AP": 0.49725570407366937,
+      "AP_difference": 0.0,
+      "all_sample_mapping_verified": true
+    },
+    {
+      "split": 22,
+      "arm": "B",
+      "model_seed": 2026,
+      "max_probability_difference": 1.0842021724855044e-19,
+      "AP": 0.5082853251268181,
+      "historical_AP": 0.5082853251268181,
+      "AP_difference": 0.0,
+      "all_sample_mapping_verified": true
+    },
+    {
+      "split": 22,
+      "arm": "B",
+      "model_seed": 2027,
+      "max_probability_difference": 6.938893903907228e-18,
+      "AP": 0.6350744757784259,
+      "historical_AP": 0.6350744757784259,
+      "AP_difference": 0.0,
+      "all_sample_mapping_verified": true
+    },
+    {
+      "split": 22,
+      "arm": "B",
+      "model_seed": 2028,
+      "max_probability_difference": 1.734723475976807e-18,
+      "AP": 0.6778194470972109,
+      "historical_AP": 0.6778194470972109,
+      "AP_difference": 0.0,
+      "all_sample_mapping_verified": true
+    },
+    {
+      "split": 33,
+      "arm": "C",
+      "model_seed": 2026,
+      "max_probability_difference": 8.673617379884035e-19,
+      "AP": 0.46967077385206096,
+      "historical_AP": 0.46967077385206096,
+      "AP_difference": 0.0,
+      "all_sample_mapping_verified": true
+    },
+    {
+      "split": 33,
+      "arm": "C",
+      "model_seed": 2027,
+      "max_probability_difference": 6.938893903907228e-18,
+      "AP": 0.44244799115674094,
+      "historical_AP": 0.44244799115674094,
+      "AP_difference": 0.0,
+      "all_sample_mapping_verified": true
+    },
+    {
+      "split": 33,
+      "arm": "C",
+      "model_seed": 2028,
+      "max_probability_difference": 4.336808689942018e-19,
+      "AP": 0.4894530346530054,
+      "historical_AP": 0.4894530346530054,
+      "AP_difference": 0.0,
+      "all_sample_mapping_verified": true
+    },
+    {
+      "split": 33,
+      "arm": "B",
+      "model_seed": 2026,
+      "max_probability_difference": 1.3877787807814457e-17,
+      "AP": 0.6423265283600053,
+      "historical_AP": 0.6423265283600053,
+      "AP_difference": 0.0,
+      "all_sample_mapping_verified": true
+    },
+    {
+      "split": 33,
+      "arm": "B",
+      "model_seed": 2027,
+      "max_probability_difference": 8.673617379884035e-19,
+      "AP": 0.6211694536873323,
+      "historical_AP": 0.6211694536873323,
+      "AP_difference": 0.0,
+      "all_sample_mapping_verified": true
+    },
+    {
+      "split": 33,
+      "arm": "B",
+      "model_seed": 2028,
+      "max_probability_difference": 6.938893903907228e-18,
+      "AP": 0.5585414098918229,
+      "historical_AP": 0.5585414098918229,
+      "AP_difference": 0.0,
+      "all_sample_mapping_verified": true
+    },
+    {
+      "split": 44,
+      "arm": "C",
+      "model_seed": 2026,
+      "max_probability_difference": 2.168404344971009e-19,
+      "AP": 0.6009092258689542,
+      "historical_AP": 0.6009092258689542,
+      "AP_difference": 0.0,
+      "all_sample_mapping_verified": true
+    },
+    {
+      "split": 44,
+      "arm": "C",
+      "model_seed": 2027,
+      "max_probability_difference": 2.710505431213761e-20,
+      "AP": 0.5866283371890736,
+      "historical_AP": 0.5866283371890736,
+      "AP_difference": 0.0,
+      "all_sample_mapping_verified": true
+    },
+    {
+      "split": 44,
+      "arm": "C",
+      "model_seed": 2028,
+      "max_probability_difference": 2.168404344971009e-19,
+      "AP": 0.5341719188841711,
+      "historical_AP": 0.5341719188841711,
+      "AP_difference": 0.0,
+      "all_sample_mapping_verified": true
+    },
+    {
+      "split": 44,
+      "arm": "B",
+      "model_seed": 2026,
+      "max_probability_difference": 1.1102230246251565e-16,
+      "AP": 0.7121267711850653,
+      "historical_AP": 0.7121267711850653,
+      "AP_difference": 0.0,
+      "all_sample_mapping_verified": true
+    },
+    {
+      "split": 44,
+      "arm": "B",
+      "model_seed": 2027,
+      "max_probability_difference": 1.0842021724855044e-19,
+      "AP": 0.7321001492989349,
+      "historical_AP": 0.7321001492989349,
+      "AP_difference": 0.0,
+      "all_sample_mapping_verified": true
+    },
+    {
+      "split": 44,
+      "arm": "B",
+      "model_seed": 2028,
+      "max_probability_difference": 4.336808689942018e-19,
+      "AP": 0.6651798580967729,
+      "historical_AP": 0.6651798580967729,
+      "AP_difference": 0.0,
+      "all_sample_mapping_verified": true
+    },
+    {
+      "split": 55,
+      "arm": "C",
+      "model_seed": 2026,
+      "max_probability_difference": 5.551115123125783e-17,
+      "AP": 0.42624758724627676,
+      "historical_AP": 0.42624758724627676,
+      "AP_difference": 0.0,
+      "all_sample_mapping_verified": true
+    },
+    {
+      "split": 55,
+      "arm": "C",
+      "model_seed": 2027,
+      "max_probability_difference": 1.3552527156068805e-20,
+      "AP": 0.4743452516874623,
+      "historical_AP": 0.4743452516874623,
+      "AP_difference": 0.0,
+      "all_sample_mapping_verified": true
+    },
+    {
+      "split": 55,
+      "arm": "C",
+      "model_seed": 2028,
+      "max_probability_difference": 2.168404344971009e-19,
+      "AP": 0.46431320425339423,
+      "historical_AP": 0.46431320425339423,
+      "AP_difference": 0.0,
+      "all_sample_mapping_verified": true
+    },
+    {
+      "split": 55,
+      "arm": "B",
+      "model_seed": 2026,
+      "max_probability_difference": 5.551115123125783e-17,
+      "AP": 0.6348485771994183,
+      "historical_AP": 0.6348485771994183,
+      "AP_difference": 0.0,
+      "all_sample_mapping_verified": true
+    },
+    {
+      "split": 55,
+      "arm": "B",
+      "model_seed": 2027,
+      "max_probability_difference": 3.469446951953614e-18,
+      "AP": 0.6714099783580169,
+      "historical_AP": 0.6714099783580169,
+      "AP_difference": 0.0,
+      "all_sample_mapping_verified": true
+    },
+    {
+      "split": 55,
+      "arm": "B",
+      "model_seed": 2028,
+      "max_probability_difference": 2.7755575615628914e-17,
+      "AP": 0.6569654528191059,
+      "historical_AP": 0.6569654528191059,
+      "AP_difference": 0.0,
+      "all_sample_mapping_verified": true
+    }
+  ],
+  "splits": [
+    {
+      "split": 11,
+      "evaluation_masks_verified": 3,
+      "training_masks_verified": 2,
+      "imputer_verified": true,
+      "M3_sha256": "5289ecdc03d6f89bcf1d483aed831c1c27fed3dbfc808cca2bfd5b590b00fd10",
+      "shape": [
+        9000,
+        340
+      ]
+    },
+    {
+      "split": 22,
+      "evaluation_masks_verified": 3,
+      "training_masks_verified": 2,
+      "imputer_verified": true,
+      "M3_sha256": "3bab433020b2e0fbe6f2600c1e8203ae0e880418ec2c819cae494f17b9fde834",
+      "shape": [
+        9000,
+        340
+      ]
+    },
+    {
+      "split": 33,
+      "evaluation_masks_verified": 3,
+      "training_masks_verified": 2,
+      "imputer_verified": true,
+      "M3_sha256": "c80a01cd426da685a7b32744b9cb479fb8566a5d85065e99d5656920f78a1649",
+      "shape": [
+        9000,
+        340
+      ]
+    },
+    {
+      "split": 44,
+      "evaluation_masks_verified": 3,
+      "training_masks_verified": 2,
+      "imputer_verified": true,
+      "M3_sha256": "daeca76d5dbcd5630e598a9efd3a3a2f04527d549af2d398a7672331fe04edde",
+      "shape": [
+        9000,
+        340
+      ]
+    },
+    {
+      "split": 55,
+      "evaluation_masks_verified": 3,
+      "training_masks_verified": 2,
+      "imputer_verified": true,
+      "M3_sha256": "ba26cbc2e091d07dc43dec6caf18816777161a7916be644bbae299b9af26fb72",
+      "shape": [
+        9000,
+        340
+      ]
+    }
+  ],
+  "environment": {
+    "python": "3.12.15",
+    "numpy": "2.5.4",
+    "pandas": "3.1.0",
+    "sklearn": "1.9.1",
+    "joblib": "1.6.0",
+    "platform": "macOS-27.2-arm64-arm-64bit",
+    "script_sha256": "5518c7f566e46fd536e218046814a30cc227016592a5767a2c0965efabd6e581"
+  },
+  "manifest_payloads_verified": 119,
+  "historical_command": {
+    "transcript_characters": 1879,
+    "runner_bytes": 1811,
+    "prefix_characters": 500,
+    "heredoc_and_prefix_match": true,
+    "raw_chat_projection_included": false,
+    "background_launch": true,
+    "exit_code_scope": "launcher shell only; Python training exit status not established"
+  },
+  "warnings": [
+    "Trying to unpickle estimator HistGradientBoostingClassifier from version 1.9.0 when using version 1.9.1. This might lead to breaking code or invalid results. Use at your own risk. For more info please refer to:\nhttps://scikit-learn.org/stable/model_persistence.html#security-maintainability-limitations",
+    "Trying to unpickle estimator LabelEncoder from version 1.9.0 when using version 1.9.1. This might lead to breaking code or invalid results. Use at your own risk. For more info please refer to:\nhttps://scikit-learn.org/stable/model_persistence.html#security-maintainability-limitations",
+    "Trying to unpickle estimator _BinMapper from version 1.9.0 when using version 1.9.1. This might lead to breaking code or invalid results. Use at your own risk. For more info please refer to:\nhttps://scikit-learn.org/stable/model_persistence.html#security-maintainability-limitations"
+  ],
+  "model_inference_replayed": 30,
+  "training_fits": 0,
+  "prediction_rows": 270000,
+  "max_probability_difference": 1.1102230246251565e-16,
+  "max_AP_difference": 0.0,
+  "limits": [
+    "Historical fitted models/masks/probabilities/effective environment remain unavailable.",
+    "Evaluation masks and imputers are post hoc reconstructions.",
+    "Prediction agreement does not prove uniqueness or identity of unavailable historical inputs.",
+    "Historical command is a supplied transcription; raw conversation projection is absent.",
+    "This is model replay in the recorded local runtime, not historical training authentication."
+  ],
+  "wall_seconds": 4.043,
+  "generated_at_utc": "2026-11-12T10:53:12Z"
+}

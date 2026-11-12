@@ -1,0 +1,83 @@
+{
+  "split": 22,
+  "cells": [
+    {
+      "split": 22,
+      "arm": "C",
+      "model_seed": 2026,
+      "ap": 0.49122470377785893,
+      "recorded_ap": 0.49122470377785893,
+      "bit_equal": true,
+      "abs_diff": 0.0,
+      "seconds": 7.43,
+      "mask_sha256": "db903e2bc3f98c169a183925bfb5eae5622b937d6bfaddba8f9703c5d3aa165b",
+      "model_file": "model_s22_C_2026.joblib",
+      "model_sha256": "f5b1f85e146a7f4083fb79356b9c8d84b95b1e25ef1250f475bd969a27e1a0a2"
+    },
+    {
+      "split": 22,
+      "arm": "C",
+      "model_seed": 2027,
+      "ap": 0.449204177165968,
+      "recorded_ap": 0.449204177165968,
+      "bit_equal": true,
+      "abs_diff": 0.0,
+      "seconds": 4.78,
+      "mask_sha256": "db903e2bc3f98c169a183925bfb5eae5622b937d6bfaddba8f9703c5d3aa165b",
+      "model_file": "model_s22_C_2027.joblib",
+      "model_sha256": "2d5dfcafbe829ec0bd66c04fbdfd7eee83212d775a46580ba0886c8f56a87365"
+    },
+    {
+      "split": 22,
+      "arm": "C",
+      "model_seed": 2028,
+      "ap": 0.49725570407366937,
+      "recorded_ap": 0.49725570407366937,
+      "bit_equal": true,
+      "abs_diff": 0.0,
+      "seconds": 6.53,
+      "mask_sha256": "db903e2bc3f98c169a183925bfb5eae5622b937d6bfaddba8f9703c5d3aa165b",
+      "model_file": "model_s22_C_2028.joblib",
+      "model_sha256": "8dce92ad834ac4d4307068728a83467541f19b80270b166856261f238531bd88"
+    },
+    {
+      "split": 22,
+      "arm": "B",
+      "model_seed": 2026,
+      "ap": 0.5082853251268181,
+      "recorded_ap": 0.5082853251268181,
+      "bit_equal": true,
+      "abs_diff": 0.0,
+      "seconds": 3.96,
+      "mask_sha256": "6fe7592e277a1b49cd6612e27aaba3ba768369f087329032c6d25c5e393de430",
+      "model_file": "model_s22_B_2026.joblib",
+      "model_sha256": "ef1b8f0202c584bdef53be43c26b4187e92f68d5baf0c60c5694c3b974918bab"
+    },
+    {
+      "split": 22,
+      "arm": "B",
+      "model_seed": 2027,
+      "ap": 0.6350744757784259,
+      "recorded_ap": 0.6350744757784259,
+      "bit_equal": true,
+      "abs_diff": 0.0,
+      "seconds": 4.9,
+      "mask_sha256": "6fe7592e277a1b49cd6612e27aaba3ba768369f087329032c6d25c5e393de430",
+      "model_file": "model_s22_B_2027.joblib",
+      "model_sha256": "b30c1f4d12281e9f429fd48ea8b61e29c353136681856a49a8a182c308148b7b"
+    },
+    {
+      "split": 22,
+      "arm": "B",
+      "model_seed": 2028,
+      "ap": 0.6778194470972109,
+      "recorded_ap": 0.6778194470972109,
+      "bit_equal": true,
+      "abs_diff": 0.0,
+      "seconds": 6.56,
+      "mask_sha256": "6fe7592e277a1b49cd6612e27aaba3ba768369f087329032c6d25c5e393de430",
+      "model_file": "model_s22_B_2028.joblib",
+      "model_sha256": "b6f877becf7e430f01e9210bfcd46cfcf951b669d51031637fb306939761bf56"
+    }
+  ]
+}

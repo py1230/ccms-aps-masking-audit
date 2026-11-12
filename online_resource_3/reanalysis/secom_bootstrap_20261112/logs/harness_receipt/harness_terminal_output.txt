@@ -1,0 +1,3 @@
+EXIT:0
+receipt: /home/user/workspace/默认项目/data-analysis/secom_bootstrap_20k_2026-11-12/logs/execution_receipt.json
+OUTER_EXIT:0

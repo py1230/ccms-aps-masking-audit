@@ -1,0 +1,65 @@
+{
+  "date": "2026-11-11",
+  "source_folder": "/Users/bgc/Documents/ChatGPT/论文2.0/原ChatGPT历史ZIP查找_20261111",
+  "source_codex_chat": "01a1cb11-08ff-7242-b403-5edbe2460f08",
+  "source_chatgpt_conversation": "6af01783-1d8c-83e8-a7f6-ff86af09c2f3",
+  "historical_delivery_message": "d4ab7acc-392d-4a87-87d8-8105d3d36f5c",
+  "reexport_message": "6856441a-71c6-4d5c-8d69-867bdf7cc969",
+  "supplementary_search_reply": "d404c29a-36a0-42b6-891c-bb90eaab466d",
+  "archives": [
+    {
+      "file": "CCMS_v2.2_复核脚本与结果.zip",
+      "sha256": "a99cdec7b7582b5d9464ab57b927e88253de4869d8d4f1a16634c5129a16a4e2",
+      "bytes": 45407,
+      "members": 9,
+      "manifest_matches": 8
+    },
+    {
+      "file": "CCMS_Online_Resource_3_v2.1_路径修订版.zip",
+      "sha256": "a207d8bc98f11320ad9bff5fdefc2347e90e6af927bd27fc16d9bcc826637f0d",
+      "bytes": 18081470,
+      "members": 8,
+      "manifest_matches": 7
+    }
+  ],
+  "extracted_v22_members": [
+    {
+      "file": "AUDIT_NOTE_2026-11-08.md",
+      "sha256": "0ba71785aa89bc872568ed1df287aca24426f8f00ce4fdf098bba2819494bc7a"
+    },
+    {
+      "file": "README.md",
+      "sha256": "4d9da49c2a20689d4273cb58412ff9a01128da2897d532229dc56b1a63d5e589"
+    },
+    {
+      "file": "SHA256SUMS.txt",
+      "sha256": "63fa375493430715a86a3e3aba41640681e1f07eb06ad61fb44062b0f4868a87"
+    },
+    {
+      "file": "r15_decision_metrics_recomputed_20261108.json",
+      "sha256": "498a376a6972a0705a64ee139bb6ac59b54ad4adcc7e5a6a66c3693c20ea42ec"
+    },
+    {
+      "file": "replay_selector_from_archived_scores.py",
+      "sha256": "8a432d6d5c40cd09df2280e8f2e3f637390b2e831541328d7b5a08bf680e9837"
+    },
+    {
+      "file": "run_r15_decision_replay.py",
+      "sha256": "a59833e6c9b070d494a2affa747516988a68d3cd308d54a33762e065cc751496"
+    },
+    {
+      "file": "secom_bootstrap_20k_20261108.json",
+      "sha256": "07f58ea6e6d43db9e3f206233d4762a2e002a6913acada16015bf3443eebad15"
+    },
+    {
+      "file": "secom_bootstrap_recompute_20261108.py",
+      "sha256": "26ef23acf5f754d5c542205d9d25259c6436e45a4381c641a48d13e456679986"
+    },
+    {
+      "file": "selector_replay_20261108.json",
+      "sha256": "0852cb4272a0114b70387c50a9279f7f1ebc12372137e3e83d8137cacfdab8f7"
+    }
+  ],
+  "scope": "Original ZIP byte identity and saved-point verification; no new training/resampling or complete historical execution certification",
+  "cloud_search_scope": "Reported by original conversation; cloud execution records were not independently exported in this integration"
+}

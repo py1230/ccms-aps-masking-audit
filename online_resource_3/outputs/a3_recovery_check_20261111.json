@@ -1,0 +1,12 @@
+{
+  "status": "passed",
+  "training_performed": false,
+  "original_export_files": 43,
+  "original_manifest_checks": 42,
+  "AP_records_matching_prior_archive": 30,
+  "log_rows_matching_AP": 30,
+  "runner_matches_creation_command": true,
+  "dependency_fingerprint_checks": 4,
+  "scope": "Artifact and scalar-log consistency only; no prediction-level AP recomputation or historical training reproduction.",
+  "runtime_versions_recovered": false
+}

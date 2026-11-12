@@ -1,0 +1,15 @@
+# 同上消息，block 138（把脚本、日志、results_seed 并入 ESM_2.zip 重新打包）
+# 工具调用 title：把种子实验并入 ESM_2
+
+set -e; cd /home/user/workspace/默认项目/_paa_build && python3 - <<'EOF'
+import pathlib
+p = pathlib.Path("SI_README.txt"); s = p.read_text()
+s = s.replace("""new_experiments_2026-11-05/ The four robustness checks of Appendix B: scripts,
+                            run log, 140 per-fit JSON records, summary tables.""",
+"""new_experiments_2026-11-05/ The robustness checks of Appendix B: scripts, run
+                            logs, 140 per-fit JSON records for the four arms,
+                            30 records for the model-seed check
+                            (results_seed/), and the summary tables.""")
+p.write_text(s); print("si ok:", "results_seed" in s)
+EOF
+cp SI_README.txt /tmp/esm2b/ESM_2/SI_README.txt; cp run_seed_dispersion.py seed.log /tmp/esm2b/ESM_2/new_experiments_2026-11-05/ 2>/dev/null || true; cp -r /home/user/workspace/默认项目/新增实验_2026-11-05/results_seed /tmp/esm2b/ESM_2/new_experiments_2026-11-05/; cd /tmp/esm2b && rm -f ESM_2.zip && zip -q -r -9 ESM_2.zip ESM_2 && ls -lh ESM_2.zip && find ESM_2 -type f | wc -l

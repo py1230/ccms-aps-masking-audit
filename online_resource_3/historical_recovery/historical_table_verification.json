@@ -2575,7 +2575,7 @@
   "archive": {},
   "remaining_limits": [
     "Saved JSONs contain scalar AP values, without per-sample predictions or saved fitted models for these historical supplementary runs.",
-    "The separate historical model-seed training script is absent from the recovered archive; its 30 recorded AP values are present.",
+    "The separately recovered model-seed runner and log specify validation and mask settings; historical runtime versions and per-sample prediction files remain unavailable. See model_seed_recovery_20261111/RECOVERY_NOTE.md.",
     "The four-configuration runner retains original absolute Linux paths and missing runtime version details.",
     "Recalculation and file fingerprints do not authenticate historical training events or establish new confirmatory evidence."
   ]

@@ -1,0 +1,249 @@
+{
+  "all_pass": true,
+  "sha256": "61f2290707ac98b09a9d2ea55e66040eda30a0b08e8b03f0ad37ed12473383e0",
+  "rows": 270000,
+  "groups": [
+    {
+      "split": 11,
+      "arm": "B",
+      "model_seed": 2026,
+      "ap": 0.5973711533983862,
+      "historical_ap": 0.5973711533983862,
+      "abs_difference": 0.0
+    },
+    {
+      "split": 11,
+      "arm": "B",
+      "model_seed": 2027,
+      "ap": 0.5988625864275127,
+      "historical_ap": 0.5988625864275126,
+      "abs_difference": 1.1102230246251565e-16
+    },
+    {
+      "split": 11,
+      "arm": "B",
+      "model_seed": 2028,
+      "ap": 0.5665012295878264,
+      "historical_ap": 0.5665012295878264,
+      "abs_difference": 0.0
+    },
+    {
+      "split": 11,
+      "arm": "C",
+      "model_seed": 2026,
+      "ap": 0.46118499645030414,
+      "historical_ap": 0.461184996450304,
+      "abs_difference": 1.6653345369377348e-16
+    },
+    {
+      "split": 11,
+      "arm": "C",
+      "model_seed": 2027,
+      "ap": 0.5212742990878673,
+      "historical_ap": 0.5212742990878673,
+      "abs_difference": 0.0
+    },
+    {
+      "split": 11,
+      "arm": "C",
+      "model_seed": 2028,
+      "ap": 0.49743087450352247,
+      "historical_ap": 0.49743087450352247,
+      "abs_difference": 0.0
+    },
+    {
+      "split": 22,
+      "arm": "B",
+      "model_seed": 2026,
+      "ap": 0.508285325126818,
+      "historical_ap": 0.5082853251268181,
+      "abs_difference": 1.1102230246251565e-16
+    },
+    {
+      "split": 22,
+      "arm": "B",
+      "model_seed": 2027,
+      "ap": 0.635074475778426,
+      "historical_ap": 0.6350744757784259,
+      "abs_difference": 1.1102230246251565e-16
+    },
+    {
+      "split": 22,
+      "arm": "B",
+      "model_seed": 2028,
+      "ap": 0.677819447097211,
+      "historical_ap": 0.6778194470972109,
+      "abs_difference": 1.1102230246251565e-16
+    },
+    {
+      "split": 22,
+      "arm": "C",
+      "model_seed": 2026,
+      "ap": 0.49122470377785904,
+      "historical_ap": 0.49122470377785893,
+      "abs_difference": 1.1102230246251565e-16
+    },
+    {
+      "split": 22,
+      "arm": "C",
+      "model_seed": 2027,
+      "ap": 0.4492041771659681,
+      "historical_ap": 0.449204177165968,
+      "abs_difference": 1.1102230246251565e-16
+    },
+    {
+      "split": 22,
+      "arm": "C",
+      "model_seed": 2028,
+      "ap": 0.4972557040736694,
+      "historical_ap": 0.49725570407366937,
+      "abs_difference": 5.551115123125783e-17
+    },
+    {
+      "split": 33,
+      "arm": "B",
+      "model_seed": 2026,
+      "ap": 0.6423265283600055,
+      "historical_ap": 0.6423265283600053,
+      "abs_difference": 2.220446049250313e-16
+    },
+    {
+      "split": 33,
+      "arm": "B",
+      "model_seed": 2027,
+      "ap": 0.6211694536873323,
+      "historical_ap": 0.6211694536873323,
+      "abs_difference": 0.0
+    },
+    {
+      "split": 33,
+      "arm": "B",
+      "model_seed": 2028,
+      "ap": 0.558541409891823,
+      "historical_ap": 0.5585414098918229,
+      "abs_difference": 1.1102230246251565e-16
+    },
+    {
+      "split": 33,
+      "arm": "C",
+      "model_seed": 2026,
+      "ap": 0.46967077385206096,
+      "historical_ap": 0.46967077385206096,
+      "abs_difference": 0.0
+    },
+    {
+      "split": 33,
+      "arm": "C",
+      "model_seed": 2027,
+      "ap": 0.4424479911567408,
+      "historical_ap": 0.44244799115674094,
+      "abs_difference": 1.1102230246251565e-16
+    },
+    {
+      "split": 33,
+      "arm": "C",
+      "model_seed": 2028,
+      "ap": 0.48945303465300544,
+      "historical_ap": 0.4894530346530054,
+      "abs_difference": 5.551115123125783e-17
+    },
+    {
+      "split": 44,
+      "arm": "B",
+      "model_seed": 2026,
+      "ap": 0.7121267711850654,
+      "historical_ap": 0.7121267711850653,
+      "abs_difference": 1.1102230246251565e-16
+    },
+    {
+      "split": 44,
+      "arm": "B",
+      "model_seed": 2027,
+      "ap": 0.7321001492989349,
+      "historical_ap": 0.7321001492989349,
+      "abs_difference": 0.0
+    },
+    {
+      "split": 44,
+      "arm": "B",
+      "model_seed": 2028,
+      "ap": 0.665179858096773,
+      "historical_ap": 0.6651798580967729,
+      "abs_difference": 1.1102230246251565e-16
+    },
+    {
+      "split": 44,
+      "arm": "C",
+      "model_seed": 2026,
+      "ap": 0.6009092258689543,
+      "historical_ap": 0.6009092258689542,
+      "abs_difference": 1.1102230246251565e-16
+    },
+    {
+      "split": 44,
+      "arm": "C",
+      "model_seed": 2027,
+      "ap": 0.5866283371890736,
+      "historical_ap": 0.5866283371890736,
+      "abs_difference": 0.0
+    },
+    {
+      "split": 44,
+      "arm": "C",
+      "model_seed": 2028,
+      "ap": 0.5341719188841711,
+      "historical_ap": 0.5341719188841711,
+      "abs_difference": 0.0
+    },
+    {
+      "split": 55,
+      "arm": "B",
+      "model_seed": 2026,
+      "ap": 0.6348485771994183,
+      "historical_ap": 0.6348485771994183,
+      "abs_difference": 0.0
+    },
+    {
+      "split": 55,
+      "arm": "B",
+      "model_seed": 2027,
+      "ap": 0.6714099783580169,
+      "historical_ap": 0.6714099783580169,
+      "abs_difference": 0.0
+    },
+    {
+      "split": 55,
+      "arm": "B",
+      "model_seed": 2028,
+      "ap": 0.6569654528191059,
+      "historical_ap": 0.6569654528191059,
+      "abs_difference": 0.0
+    },
+    {
+      "split": 55,
+      "arm": "C",
+      "model_seed": 2026,
+      "ap": 0.42624758724627687,
+      "historical_ap": 0.42624758724627676,
+      "abs_difference": 1.1102230246251565e-16
+    },
+    {
+      "split": 55,
+      "arm": "C",
+      "model_seed": 2027,
+      "ap": 0.47434525168746244,
+      "historical_ap": 0.4743452516874623,
+      "abs_difference": 1.6653345369377348e-16
+    },
+    {
+      "split": 55,
+      "arm": "C",
+      "model_seed": 2028,
+      "ap": 0.4643132042533942,
+      "historical_ap": 0.46431320425339423,
+      "abs_difference": 5.551115123125783e-17
+    }
+  ],
+  "max_abs_ap_difference": 2.220446049250313e-16,
+  "provenance": "2026-11-12 reproduction output. Earlier author identification as a historical original was explicitly corrected; numerical checks remain valid."
+}

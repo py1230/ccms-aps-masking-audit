@@ -1,0 +1,36 @@
+[load] X=(60000, 170) pos=1000 sha=bb484302e3a3
+[csv] rows=270000
+[verify] s11 C 2026: dP_npz=0.000e+00 dP_csv=1.110e-16 AP=0.461184996450304 hist=0.461184996450304 equal=True
+[verify] s11 C 2027: dP_npz=0.000e+00 dP_csv=1.110e-16 AP=0.5212742990878673 hist=0.5212742990878673 equal=True
+[verify] s11 C 2028: dP_npz=0.000e+00 dP_csv=1.110e-16 AP=0.49743087450352247 hist=0.49743087450352247 equal=True
+[verify] s11 B 2026: dP_npz=0.000e+00 dP_csv=1.110e-16 AP=0.5973711533983862 hist=0.5973711533983862 equal=True
+[verify] s11 B 2027: dP_npz=0.000e+00 dP_csv=1.110e-16 AP=0.5988625864275126 hist=0.5988625864275126 equal=True
+[verify] s11 B 2028: dP_npz=0.000e+00 dP_csv=1.110e-16 AP=0.5665012295878264 hist=0.5665012295878264 equal=True
+[verify] s22 C 2026: dP_npz=0.000e+00 dP_csv=1.110e-16 AP=0.49122470377785893 hist=0.49122470377785893 equal=True
+[verify] s22 C 2027: dP_npz=0.000e+00 dP_csv=1.110e-16 AP=0.449204177165968 hist=0.449204177165968 equal=True
+[verify] s22 C 2028: dP_npz=0.000e+00 dP_csv=1.110e-16 AP=0.49725570407366937 hist=0.49725570407366937 equal=True
+[verify] s22 B 2026: dP_npz=0.000e+00 dP_csv=1.110e-16 AP=0.5082853251268181 hist=0.5082853251268181 equal=True
+[verify] s22 B 2027: dP_npz=0.000e+00 dP_csv=1.110e-16 AP=0.6350744757784259 hist=0.6350744757784259 equal=True
+[verify] s22 B 2028: dP_npz=0.000e+00 dP_csv=1.110e-16 AP=0.6778194470972109 hist=0.6778194470972109 equal=True
+[verify] s33 C 2026: dP_npz=0.000e+00 dP_csv=1.110e-16 AP=0.46967077385206096 hist=0.46967077385206096 equal=True
+[verify] s33 C 2027: dP_npz=0.000e+00 dP_csv=1.110e-16 AP=0.44244799115674094 hist=0.44244799115674094 equal=True
+[verify] s33 C 2028: dP_npz=0.000e+00 dP_csv=1.110e-16 AP=0.4894530346530054 hist=0.4894530346530054 equal=True
+[verify] s33 B 2026: dP_npz=0.000e+00 dP_csv=1.110e-16 AP=0.6423265283600053 hist=0.6423265283600053 equal=True
+[verify] s33 B 2027: dP_npz=0.000e+00 dP_csv=1.110e-16 AP=0.6211694536873323 hist=0.6211694536873323 equal=True
+[verify] s33 B 2028: dP_npz=0.000e+00 dP_csv=1.110e-16 AP=0.5585414098918229 hist=0.5585414098918229 equal=True
+[verify] s44 C 2026: dP_npz=0.000e+00 dP_csv=1.110e-16 AP=0.6009092258689542 hist=0.6009092258689542 equal=True
+[verify] s44 C 2027: dP_npz=0.000e+00 dP_csv=1.110e-16 AP=0.5866283371890736 hist=0.5866283371890736 equal=True
+[verify] s44 C 2028: dP_npz=0.000e+00 dP_csv=1.110e-16 AP=0.5341719188841711 hist=0.5341719188841711 equal=True
+[verify] s44 B 2026: dP_npz=0.000e+00 dP_csv=1.110e-16 AP=0.7121267711850653 hist=0.7121267711850653 equal=True
+[verify] s44 B 2027: dP_npz=0.000e+00 dP_csv=1.110e-16 AP=0.7321001492989349 hist=0.7321001492989349 equal=True
+[verify] s44 B 2028: dP_npz=0.000e+00 dP_csv=1.110e-16 AP=0.6651798580967729 hist=0.6651798580967729 equal=True
+[verify] s55 C 2026: dP_npz=0.000e+00 dP_csv=1.110e-16 AP=0.42624758724627676 hist=0.42624758724627676 equal=True
+[verify] s55 C 2027: dP_npz=0.000e+00 dP_csv=1.110e-16 AP=0.4743452516874623 hist=0.4743452516874623 equal=True
+[verify] s55 C 2028: dP_npz=0.000e+00 dP_csv=1.110e-16 AP=0.46431320425339423 hist=0.46431320425339423 equal=True
+[verify] s55 B 2026: dP_npz=0.000e+00 dP_csv=1.110e-16 AP=0.6348485771994183 hist=0.6348485771994183 equal=True
+[verify] s55 B 2027: dP_npz=0.000e+00 dP_csv=1.110e-16 AP=0.6714099783580169 hist=0.6714099783580169 equal=True
+[verify] s55 B 2028: dP_npz=0.000e+00 dP_csv=1.110e-16 AP=0.6569654528191059 hist=0.6569654528191059 equal=True
+
+[summary] max|ΔP| vs npz = 0.000e+00; vs csv = 1.110e-16; max|ΔAP| vs history = 0.000e+00; equal 30/30; mapping_ok=True
+[done] /home/user/workspace/默认项目/A3_来源资料与复现核验_2026-11-12/03_本次事后重建与核验/verify_out/verification.json in 4.7s
+[report] /home/user/workspace/默认项目/A3_来源资料与复现核验_2026-11-12/03_本次事后重建与核验/verify_out/核验报告.md

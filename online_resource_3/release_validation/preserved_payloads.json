@@ -1,0 +1,15 @@
+{
+  "original_zip_sha256": "96a1f8ce71976b4080de461d1b848c193dd00dd92465616fda3b6e479ee10184",
+  "original_files_preserved_byte_for_byte": 1257,
+  "externally_acquired_payloads": [
+    "reproduction/a3_model_seed_verification_20261112/received/03_\u672c\u6b21\u4e8b\u540e\u91cd\u5efa\u4e0e\u6838\u9a8c/data/aps_failure_training_set.csv"
+  ],
+  "changed_current_guides": [
+    "CURRENT_STATUS_20261112.md",
+    "DATA_ACCESS.md",
+    "LICENSE_NOTICE.md",
+    "README.md",
+    "SHA256SUMS.txt",
+    "reproduction/a3_model_seed_verification_20261112/README.md"
+  ]
+}

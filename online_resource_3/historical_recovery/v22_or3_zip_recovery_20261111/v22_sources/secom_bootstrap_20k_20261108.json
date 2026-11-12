@@ -1,0 +1,205 @@
+{
+  "title": "SECOM conditional bootstrap recomputation from archived predictions",
+  "generated_date": "2026-11-08",
+  "data_level": "saved outer-fold predictions; no raw feature data or retraining",
+  "protocol": {
+    "outer_folds": 5,
+    "fold_unit": "outer test fold retained as a stratum",
+    "within_fold_sampling": "positive and negative rows separately sampled with replacement, preserving fold-specific class counts",
+    "paired_weights": "same sampled row-count weights used for C/B and all S1_30 evaluation-mask repeats within a fold",
+    "S1_30_aggregation": "AP computed per evaluation-mask repeat, then averaged within fold",
+    "estimand": "unweighted mean of five outer-fold AP differences",
+    "bootstrap_replicates": 20000,
+    "random_seed": 20261108,
+    "limitations": [
+      "conditional on archived fitted models, training masks, and saved predictions",
+      "does not include model retraining, training-sample resampling, or alpha reselection",
+      "does not model dependence induced by overlapping outer training sets",
+      "does not establish equivalence when a confidence interval includes zero"
+    ]
+  },
+  "fold_partition": {
+    "n_test_rows_total": 1567,
+    "n_unique_test_rows": 1567,
+    "n_rows": 1567,
+    "fold_test_sizes": [
+      314,
+      314,
+      314,
+      313,
+      312
+    ],
+    "fold_positive_counts": [
+      21,
+      21,
+      21,
+      21,
+      20
+    ]
+  },
+  "source_files": [
+    {
+      "path": "ESM_2/08_repro_bundle/02_本轮代码与结果/results/secom_fold0.npz",
+      "n_bytes": 276792,
+      "sha256": "64713bf21681402938844d1966df00f782799c5d315b9b54f419b223770be4c8"
+    },
+    {
+      "path": "ESM_2/08_repro_bundle/02_本轮代码与结果/results/secom_fold1.npz",
+      "n_bytes": 277014,
+      "sha256": "3b48a82b26a0cb657e84c7074b89cbe90f3b1190a6774d74d8230ec8639262fd"
+    },
+    {
+      "path": "ESM_2/08_repro_bundle/02_本轮代码与结果/results/secom_fold2.npz",
+      "n_bytes": 276460,
+      "sha256": "fca223e275fab7365e49bffb9b74dddf7aea873c34cc034672ae839f1312bb70"
+    },
+    {
+      "path": "ESM_2/08_repro_bundle/02_本轮代码与结果/results/secom_fold3.npz",
+      "n_bytes": 276200,
+      "sha256": "f19517ce8a348fdff47d4d5dedaec13f3a6ef5b676e4f9191dc8b2cfd68831f4"
+    },
+    {
+      "path": "ESM_2/08_repro_bundle/02_本轮代码与结果/results/secom_fold4.npz",
+      "n_bytes": 275924,
+      "sha256": "89db70eeae89a2716c828b493bffc4337991a889de18722ba633fd789bd3bb81"
+    }
+  ],
+  "archived_point_estimate_checks": {
+    "S0/fixed_alpha_0.25": {
+      "archived_delta_mean": 0.011271591012675625,
+      "recomputed_delta_mean": 0.011271591012675625,
+      "absolute_difference": 0.0
+    },
+    "S0/validation_selected": {
+      "archived_delta_mean": -0.004358220428483567,
+      "recomputed_delta_mean": -0.004358220428483567,
+      "absolute_difference": 0.0
+    },
+    "S1_30/fixed_alpha_0.25": {
+      "archived_delta_mean": 0.003075506264094163,
+      "recomputed_delta_mean": 0.003075506264094163,
+      "absolute_difference": 0.0
+    },
+    "S1_30/validation_selected": {
+      "archived_delta_mean": -0.010198967393441625,
+      "recomputed_delta_mean": -0.010198967393441616,
+      "absolute_difference": 8.673617379884035e-18
+    }
+  },
+  "point_estimates": {
+    "S0": {
+      "fixed_alpha_0.25": {
+        "delta_mean": 0.011271591012675625,
+        "per_fold_delta": [
+          -0.0031315439404398238,
+          0.013913749816294396,
+          -0.00547338619919388,
+          0.03069324166521087,
+          0.020355893721506563
+        ]
+      },
+      "validation_selected": {
+        "delta_mean": -0.004358220428483567,
+        "per_fold_delta": [
+          -0.000997785783020344,
+          -0.007253878787374907,
+          0.002488170963180575,
+          0.006174914976590923,
+          -0.02220252351179408
+        ]
+      }
+    },
+    "S1_30": {
+      "fixed_alpha_0.25": {
+        "delta_mean": 0.003075506264094163,
+        "per_fold_delta": [
+          0.013618929912091737,
+          0.015261017171462304,
+          -0.008893895450706207,
+          0.01003036404481955,
+          -0.014638884357196569
+        ]
+      },
+      "validation_selected": {
+        "delta_mean": -0.010198967393441616,
+        "per_fold_delta": [
+          -0.013872014683250777,
+          -0.0015168488486835552,
+          -0.003808627730529701,
+          -0.0011419109219737433,
+          -0.030655434782770302
+        ]
+      }
+    }
+  },
+  "bootstrap_results": {
+    "fixed_alpha_0.25/S0": {
+      "delta_mean": 0.011271591012675625,
+      "per_fold_delta": [
+        -0.0031315439404398238,
+        0.013913749816294396,
+        -0.00547338619919388,
+        0.03069324166521087,
+        0.020355893721506563
+      ],
+      "ci95_percentile": [
+        -0.012835956621758772,
+        0.03124674814792699
+      ],
+      "bootstrap_sd": 0.011094218669476208,
+      "n_bootstrap": 20000,
+      "seed": 20261108
+    },
+    "fixed_alpha_0.25/S1_30": {
+      "delta_mean": 0.003075506264094163,
+      "per_fold_delta": [
+        0.013618929912091737,
+        0.015261017171462304,
+        -0.008893895450706207,
+        0.01003036404481955,
+        -0.014638884357196569
+      ],
+      "ci95_percentile": [
+        -0.010692444459369687,
+        0.019871532095494502
+      ],
+      "bootstrap_sd": 0.007698265317557718,
+      "n_bootstrap": 20000,
+      "seed": 20261108
+    },
+    "validation_selected/S0": {
+      "delta_mean": -0.004358220428483567,
+      "per_fold_delta": [
+        -0.000997785783020344,
+        -0.007253878787374907,
+        0.002488170963180575,
+        0.006174914976590923,
+        -0.02220252351179408
+      ],
+      "ci95_percentile": [
+        -0.02824107375187475,
+        0.019566533414058722
+      ],
+      "bootstrap_sd": 0.012158219400384626,
+      "n_bootstrap": 20000,
+      "seed": 20261108
+    },
+    "validation_selected/S1_30": {
+      "delta_mean": -0.010198967393441616,
+      "per_fold_delta": [
+        -0.013872014683250777,
+        -0.0015168488486835552,
+        -0.003808627730529701,
+        -0.0011419109219737433,
+        -0.030655434782770302
+      ],
+      "ci95_percentile": [
+        -0.023593201635269838,
+        0.0029281765141769924
+      ],
+      "bootstrap_sd": 0.006802174977373367,
+      "n_bootstrap": 20000,
+      "seed": 20261108
+    }
+  }
+}

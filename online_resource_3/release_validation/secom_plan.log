@@ -1,0 +1,25 @@
+{
+  "workflow": "secom",
+  "identity": "fresh execution of preserved November 12 algorithm; not a recovered historical run",
+  "generator": "reanalysis/secom_bootstrap_20261112/scripts/run_secom_boot20k.py",
+  "generator_sha256": "174c74e5b9aaf8aa05d5af4a8640258ed1725cf3c4dbb0cdc7ee9cdd64a5e59f",
+  "launcher_sha256": "808c5e8dbe47698e9e92c8a4af3124a8389a6e58258563d84cf98713261fe846",
+  "assignments": {
+    "ROOT": "/Users/bgc/Documents/ChatGPT/论文2.0/PAA公开复现更新_20261112/staging/online_resource_3/outputs/publication_secom_fresh",
+    "INPUT": "/Users/bgc/Documents/ChatGPT/论文2.0/PAA公开复现更新_20261112/staging/online_resource_3/historical_recovery/protocol_content_recovery_20261111/sources",
+    "OUT": "/Users/bgc/Documents/ChatGPT/论文2.0/PAA公开复现更新_20261112/staging/online_resource_3/outputs/publication_secom_fresh/exports",
+    "LOGS": "/Users/bgc/Documents/ChatGPT/论文2.0/PAA公开复现更新_20261112/staging/online_resource_3/outputs/publication_secom_fresh/logs"
+  },
+  "path_literal_replacements": 0,
+  "inputs": {
+    "historical_recovery/protocol_content_recovery_20261111/sources/secom_fold0.npz": "64713bf21681402938844d1966df00f782799c5d315b9b54f419b223770be4c8",
+    "historical_recovery/protocol_content_recovery_20261111/sources/secom_fold1.npz": "3b48a82b26a0cb657e84c7074b89cbe90f3b1190a6774d74d8230ec8639262fd",
+    "historical_recovery/protocol_content_recovery_20261111/sources/secom_fold2.npz": "fca223e275fab7365e49bffb9b74dddf7aea873c34cc034672ae839f1312bb70",
+    "historical_recovery/protocol_content_recovery_20261111/sources/secom_fold3.npz": "f19517ce8a348fdff47d4d5dedaec13f3a6ef5b676e4f9191dc8b2cfd68831f4",
+    "historical_recovery/protocol_content_recovery_20261111/sources/secom_fold4.npz": "89db70eeae89a2716c828b493bffc4337991a889de18722ba633fd789bd3bb81",
+    "historical_recovery/protocol_content_recovery_20261111/sources/secom_summary.json": "d9b160b6841804743362a1b25f9a99aeb26445d7ba94150bdb08f0f53813f95f"
+  },
+  "execute": false,
+  "scope": "20000 new conditional bootstrap draws; no classifier fitting",
+  "notice": "Generator-native metadata retains original wording. This launcher receipt governs the identity of this fresh run; global historical-absence claims are not established."
+}

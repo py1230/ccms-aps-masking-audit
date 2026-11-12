@@ -1,0 +1,14 @@
+{
+  "ap": 0.461184996450304,
+  "recorded": 0.461184996450304,
+  "abs_diff": 0.0,
+  "bit_equal": true,
+  "n_train": 42000,
+  "n_val": 9000,
+  "pos_train": 700,
+  "pos_val": 150,
+  "mask_deleted_cells": 219403,
+  "mask_seed": 9107,
+  "alpha_first": 0.0,
+  "sklearn": "1.9.0"
+}

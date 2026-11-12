@@ -1,0 +1,6 @@
+terminal_id=bg_9f8d59e842f8
+conversation_id=785ac274-8ea6-430a-8bb6-d4c7b3deb560
+started_at=2026-11-04T18:30:01Z
+title=后台跑训练种子离散度
+timeout_ms=3600000
+meta内嵌command长度=500（被截断到260字符，完整命令见 block121）
